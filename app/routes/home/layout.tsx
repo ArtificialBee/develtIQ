@@ -1,21 +1,10 @@
 import { Outlet } from "react-router";
-import { BasicNavbar, type NavLink } from "~/components/BasicNavbar";
-
-const navLinks: NavLink[] = [
-  {
-    label: "Dobrodošli",
-    href: "/home",
-  },
-  {
-    label: "KPI - Praćenje performansi",
-    href: "/home/kpi",
-  },
-];
 
 export default function HomeLayout() {
+  // The app's sections (Dobrodošli, KPI) are in the side rail now, so the page gets
+  // the whole height. Home and KPI fit it; nothing here scrolls.
   return (
-    <div className="w-full">
-      <BasicNavbar links={navLinks} />
+    <div className="h-full w-full">
       <Outlet />
     </div>
   );

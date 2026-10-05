@@ -1,0 +1,849 @@
+{
+ "months": [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "Maj",
+  "Jun",
+  "Jul",
+  "Avg",
+  "Sep"
+ ],
+ "target": 100,
+ "businessIndex": [
+  74,
+  69,
+  83,
+  91,
+  79,
+  96,
+  105,
+  94,
+  90
+ ],
+ "pulseNotes": [
+  "Početna vrijednost — kombinovani efekat kašnjenja u obradi predmeta u Protokolu i sporog popunjavanja radnih mjesta u Kadrovskoj.",
+  "Pad nastavljen — vrijeme naplate potraživanja u Finansijama poraslo, a broj nestašica u Skladištu dostigao vrhunac kvartala.",
+  "Oporavak započet uvođenjem raspoređivanja radnih naloga po zonama — kraće vrijeme putovanja ekipa na terenu.",
+  "Oporavak nastavljen — obuka za novu klasifikacionu šemu u Protokolu i automatski podsjetnici za naplatu u Finansijama počinju da daju rezultate.",
+  "Privremeni nazadak — sezonski rast broja predmeta u Protokolu premašio kapacitet referenata, a nestašice u Skladištu ponovo porasle.",
+  "Snažan oporavak — bar-kod skeniranje prošireno na dodatna skladišta, a stopa završetka radnih naloga u roku dostigla cilj.",
+  "Najbolji mjesec — poklapa se sa uvođenjem digitalnih čeklista za radne naloge i padom fluktuacije zaposlenih nakon mjera zadržavanja.",
+  "Blagi pad nakon vrhunca — tačnost budžetskog predviđanja u Finansijama i dalje odstupa za manje sektore, usporavajući ukupni napredak.",
+  "Stabilizacija u zoni upozorenja — Skladište i Protokol i dalje nose najveći dio zaostatka, dok Kadrovska i Radni nalozi premašuju plan."
+ ],
+ "moduleNames": {
+  "protocol": "Protokol",
+  "hr": "Kadrovska",
+  "finance": "Finansije",
+  "skladiste": "Skladište",
+  "nalozi": "Radni nalozi"
+ },
+ "monitoredModules": [
+  "protocol",
+  "hr",
+  "finance",
+  "skladiste",
+  "nalozi"
+ ],
+ "kpis": [
+  {
+   "key": "protocol-turnaround",
+   "moduleKey": "protocol",
+   "metricLabel": "Prosječno vrijeme obrade predmeta",
+   "unit": "dana",
+   "direction": "lower-is-better",
+   "target": 5,
+   "decimals": 1,
+   "narrative": "Kasni za planom 1,1 dan — ručno prosljeđivanje između pisarnice i zaduženog referenta predmeta je glavno usko grlo.",
+   "drivers": [
+    {
+     "label": "Ručno prosljeđivanje predmeta",
+     "detail": "Predmeti se i dalje prosljeđuju od pisarnice do referenata putem štampanog obrasca za raspoređivanje prije nego što se po njima može postupiti.",
+     "impact": "blocking",
+     "owner": "Tim pisarnice"
+    },
+    {
+     "label": "Zastoj u redu za potpisivanje",
+     "detail": "Finalizirani akti čekaju u zajedničkom redu na jednog od tri ovlaštena potpisnika.",
+     "impact": "blocking",
+     "owner": "Potpisnici (3 osobe)"
+    },
+    {
+     "label": "Broj predmeta veći za 9% na godišnjem nivou",
+     "detail": "Više novoprimljenih predmeta ove godine bez odgovarajućeg povećanja broja referenata.",
+     "impact": "contributing"
+    }
+   ],
+   "actual": [
+    6.9,
+    6.6,
+    6.8,
+    6.5,
+    6.6,
+    6.2,
+    6.4,
+    6.1,
+    6.1
+   ]
+  },
+  {
+   "key": "protocol-ontime",
+   "moduleKey": "protocol",
+   "metricLabel": "Stopa rješavanja u roku",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 90,
+   "decimals": 1,
+   "narrative": "5 procentnih poena ispod cilja od 90% — prati kašnjenje u obradi predmeta opisano iznad.",
+   "drivers": [
+    {
+     "label": "Ručno praćenje rokova",
+     "detail": "Rokovi se prate u zajedničkoj tabeli umjesto u kalendaru aplikacije, pa se predmeti pod rizikom kasno uočavaju.",
+     "impact": "blocking",
+     "owner": "Proces rokova i obavještenja"
+    },
+    {
+     "label": "Novo pravilo trijaže predmeta",
+     "detail": "Predmeti označeni kao 'hitno' pri prijemu sada zaobilaze opšti red — prvi podaci pokazuju brže rješavanje za tu grupu.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    80.4,
+    80.1,
+    81.9,
+    81.6,
+    83,
+    82.4,
+    84.1,
+    84,
+    85.2
+   ]
+  },
+  {
+   "key": "hr-ttf",
+   "moduleKey": "hr",
+   "metricLabel": "Vrijeme popune radnog mjesta",
+   "unit": "dana",
+   "direction": "lower-is-better",
+   "target": 21,
+   "decimals": 0,
+   "narrative": "6 dana iza cilja od 21 dan — zakazivanje intervjua sa rukovodiocima je najveće pojedinačno kašnjenje.",
+   "drivers": [
+    {
+     "label": "Zastoj u zakazivanju intervjua",
+     "detail": "Kandidati često čekaju 4-5 radnih dana na prvi intervju jer rukovodioci ne rezervišu termine za razgovore.",
+     "impact": "blocking",
+     "owner": "Rukovodioci sektora"
+    },
+    {
+     "label": "Dvostepeno odobravanje ponude",
+     "detail": "Svaka ponuda zahtijeva saglasnost i šefa sektora i HR business partnera prije slanja.",
+     "impact": "blocking",
+     "owner": "Lanac odobravanja kompenzacija"
+    },
+    {
+     "label": "Novi program preporuka",
+     "detail": "Program preporuka pokrenut u drugom kvartalu skraćuje fazu traženja kandidata za sve veći broj zapošljavanja.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    32,
+    31,
+    32,
+    30,
+    30,
+    28,
+    29,
+    27,
+    27
+   ]
+  },
+  {
+   "key": "hr-turnover",
+   "moduleKey": "hr",
+   "metricLabel": "Fluktuacija zaposlenih",
+   "unit": "%",
+   "direction": "lower-is-better",
+   "target": 8,
+   "decimals": 1,
+   "narrative": "Ispred plana sa 7,7% — mjere zadržavanja zaposlenih uvedene početkom godine daju rezultate.",
+   "drivers": [
+    {
+     "label": "Program individualnih razgovora",
+     "detail": "Obavezni mjesečni razgovori uvedeni u januaru povezani su sa manjim brojem ranih odlazaka.",
+     "impact": "positive",
+     "owner": "Tim za ljude i kulturu"
+    },
+    {
+     "label": "Fleksibilna zamjena smjena",
+     "detail": "Radnici u smjenskom radu sada mogu zamijeniti smjenu direktno u aplikaciji umjesto podnošenja zahtjeva.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    11.2,
+    10.3,
+    10.5,
+    9.6,
+    9.5,
+    8.5,
+    8.6,
+    7.8,
+    7.7
+   ]
+  },
+  {
+   "key": "finance-invoice",
+   "moduleKey": "finance",
+   "metricLabel": "Vrijeme obrade faktura",
+   "unit": "dana",
+   "direction": "lower-is-better",
+   "target": 3,
+   "decimals": 1,
+   "narrative": "Kasni za planom 1,1 dan — fakture i dalje prolaze kroz ručni korak odobravanja prije plaćanja.",
+   "drivers": [
+    {
+     "label": "Ručno usmjeravanje odobrenja",
+     "detail": "Fakture iznad 500 KM zahtijevaju štampani obrazac odobrenja potpisan od šefa sektora prije ulaska u isplatu.",
+     "impact": "blocking",
+     "owner": "Proces odobravanja plaćanja"
+    },
+    {
+     "label": "Nepotpuni podaci o dobavljačima",
+     "detail": "Nedostajući bankovni podaci na novijim dobavljačima vraćaju dio faktura na ispravku.",
+     "impact": "contributing",
+     "owner": "Prijem dobavljača"
+    }
+   ],
+   "actual": [
+    5.3,
+    4.9,
+    5.1,
+    4.7,
+    4.8,
+    4.3,
+    4.5,
+    4.1,
+    4.1
+   ]
+  },
+  {
+   "key": "finance-dso",
+   "moduleKey": "finance",
+   "metricLabel": "Prosječno vrijeme naplate potraživanja",
+   "unit": "dana",
+   "direction": "lower-is-better",
+   "target": 30,
+   "decimals": 1,
+   "narrative": "3,7 dana preko cilja od 30 dana — manja grupa kupaca iz javnog sektora plaća po sporijem ciklusu od ostatka portfelja.",
+   "drivers": [
+    {
+     "label": "Ciklusi plaćanja javnog sektora",
+     "detail": "Nekoliko institucionalnih kupaca plaća po internom ciklusu od 45 dana, bez obzira na rok na fakturi.",
+     "impact": "blocking",
+     "owner": "Ključni kupci — javni sektor"
+    },
+    {
+     "label": "Automatski podsjetnici za plaćanje",
+     "detail": "Podsjetnici uvedeni u drugom kvartalu već su skratili prosjek sa 36 na 33,7 dana.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    38.3,
+    37,
+    37.4,
+    36.1,
+    36.2,
+    34.6,
+    34.9,
+    33.7,
+    33.7
+   ]
+  },
+  {
+   "key": "skladiste-accuracy",
+   "moduleKey": "skladiste",
+   "metricLabel": "Tačnost zaliha",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 98,
+   "decimals": 1,
+   "narrative": "Neznatno ispod cilja od 98% — najveći dio odstupanja potiče od dvije najprometnije lokacije u Depou 1.",
+   "drivers": [
+    {
+     "label": "Popis zaliha zaobilazi najprometnije artikle",
+     "detail": "Trenutni raspored popisa daje prednost policama sa sporim obrtom; najprometnije lokacije u Depou 1 rjeđe se popisuju.",
+     "impact": "blocking",
+     "owner": "Tim skladišta Depo 1"
+    },
+    {
+     "label": "Uvođenje bar-kod skeniranja",
+     "detail": "Ručni skeneri su zamijenili ručni unos u dva od četiri skladišta ove godine.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    94.6,
+    94.6,
+    95.2,
+    95.2,
+    95.7,
+    95.6,
+    96.2,
+    96.2,
+    96.7
+   ]
+  },
+  {
+   "key": "skladiste-stockouts",
+   "moduleKey": "skladiste",
+   "metricLabel": "Broj slučajeva nestašice",
+   "unit": "/ mjesec",
+   "direction": "lower-is-better",
+   "target": 2,
+   "decimals": 0,
+   "narrative": "50% iznad cilja sa 3 slučaja ovog mjeseca — narudžbe dopune se pokreću preblizu minimalnom pragu.",
+   "drivers": [
+    {
+     "label": "Prenizak prag za dopunu zaliha",
+     "detail": "Tačke ponovne narudžbe postavljene su za sporiji obim prodaje i nisu revidirane otkad je potražnja porasla.",
+     "impact": "blocking",
+     "owner": "Vlasnik šifrarnika pragova"
+    },
+    {
+     "label": "Produženo vrijeme isporuke dobavljača",
+     "detail": "Prosječno vrijeme isporuke poraslo je sa 5 na 8 dana ove godine, bez prilagođavanja tačke ponovne narudžbe.",
+     "impact": "blocking",
+     "owner": "Nabavka"
+    },
+    {
+     "label": "Rast prodaje opreme",
+     "detail": "Potražnja sa prodajne strane premašuje trenutni plan popunjavanja zaliha (vidjeti Poslovni uvidi).",
+     "impact": "contributing"
+    }
+   ],
+   "actual": [
+    6,
+    5,
+    6,
+    5,
+    5,
+    4,
+    4,
+    3,
+    3
+   ]
+  },
+  {
+   "key": "nalozi-ontime",
+   "moduleKey": "nalozi",
+   "metricLabel": "Stopa završetka u roku",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 92,
+   "decimals": 1,
+   "narrative": "Ispred plana sa 93,2% — raspoređivanje po zonama drži ekipe bliže sljedećem poslu.",
+   "drivers": [
+    {
+     "label": "Raspoređivanje po zonama",
+     "detail": "Radni nalozi se sada dodjeljuju po geografskoj zoni umjesto po redoslijedu prijave, čime se skraćuje vrijeme vožnje između poslova.",
+     "impact": "positive",
+     "owner": "Proces raspoređivanja"
+    },
+    {
+     "label": "Standardizovane liste provjere",
+     "detail": "Digitalne liste provjere smanjile su broj ponovljenih poziva koji su ranije probijali rok završetka.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    82.4,
+    82.7,
+    85.5,
+    85.8,
+    88.1,
+    88,
+    90.6,
+    91.1,
+    93.2
+   ]
+  },
+  {
+   "key": "nalozi-cycle",
+   "moduleKey": "nalozi",
+   "metricLabel": "Prosječno vrijeme izvršenja radnog naloga",
+   "unit": "dana",
+   "direction": "lower-is-better",
+   "target": 4,
+   "decimals": 1,
+   "narrative": "0,6 dana preko cilja — dostupnost materijala je glavni razlog produženog trajanja posla.",
+   "drivers": [
+    {
+     "label": "Kasno pripremljen materijal",
+     "detail": "Materijal za radni nalog se često izdvaja iz zalihe tek po dolasku ekipe na teren, umjesto dan ranije.",
+     "impact": "blocking",
+     "owner": "Proces pripreme materijala za naloge"
+    },
+    {
+     "label": "Raspoređivanje po zonama",
+     "detail": "Ista promjena rutiranja koja pomaže stopi završetka u roku skraćuje i prosječno vrijeme putovanja.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    5.7,
+    5.3,
+    5.5,
+    5.2,
+    5.2,
+    4.8,
+    4.9,
+    4.6,
+    4.6
+   ]
+  },
+  {
+   "key": "protocol-classification",
+   "moduleKey": "protocol",
+   "metricLabel": "Tačnost klasifikacije predmeta",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 95,
+   "decimals": 1,
+   "narrative": "3,5 procentna poena ispod cilja od 95% — nova klasifikaciona šema još nije u potpunosti usvojena u svim sektorima.",
+   "drivers": [
+    {
+     "label": "Nedosljedna primjena nove šifarske šeme",
+     "detail": "Dio referenata i dalje koristi staru klasifikacionu šemu za pojedine tipove predmeta, što stvara nesklad pri izvještavanju.",
+     "impact": "blocking",
+     "owner": "Šifrarnici klasifikacije"
+    },
+    {
+     "label": "Obuka za novu šemu klasifikacije",
+     "detail": "Radionice održane u augustu već pokazuju poboljšanje tačnosti kod novoprimljenih predmeta.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    88.2,
+    88.2,
+    89.2,
+    89.2,
+    90,
+    89.8,
+    90.8,
+    90.9,
+    91.6
+   ]
+  },
+  {
+   "key": "hr-satisfaction",
+   "moduleKey": "hr",
+   "metricLabel": "Zadovoljstvo zaposlenih",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 80,
+   "decimals": 1,
+   "narrative": "Ispred plana sa 82% — istraživanje pokazuje snažan pozitivan pomak nakon uvođenja fleksibilnog rada.",
+   "drivers": [
+    {
+     "label": "Fleksibilno radno vrijeme",
+     "detail": "Mogućnost prilagođavanja početka radnog dana uvedena u martu dosljedno se ističe kao najcjenjenija promjena.",
+     "impact": "positive",
+     "owner": "Tim za ljude i kulturu"
+    },
+    {
+     "label": "Kvartalni anonimni upitnik",
+     "detail": "Redovno prikupljanje povratnih informacija omogućava brže reagovanje na manje probleme prije nego što eskaliraju.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    74.2,
+    74.6,
+    76.4,
+    76.8,
+    78.3,
+    78.5,
+    80.2,
+    80.7,
+    82.1
+   ]
+  },
+  {
+   "key": "finance-automation",
+   "moduleKey": "finance",
+   "metricLabel": "Udio automatizovanih plaćanja",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 75,
+   "decimals": 1,
+   "narrative": "11 procentnih poena ispod cilja od 75% — veći dio plaćanja prema manjim dobavljačima još se unosi ručno.",
+   "drivers": [
+    {
+     "label": "Manji dobavljači nisu integrisani",
+     "detail": "Automatizovan tok plaćanja pokriva samo dobavljače povezane s elektronskom razmjenom faktura; ostali se unose ručno.",
+     "impact": "blocking",
+     "owner": "Integracije s dobavljačima"
+    },
+    {
+     "label": "Odobravanje van sistema",
+     "detail": "Dio odobrenja se i dalje potvrđuje putem e-maila prije unosa u sistem plaćanja.",
+     "impact": "contributing"
+    }
+   ],
+   "actual": [
+    55.3,
+    55.7,
+    57.8,
+    58.2,
+    59.9,
+    60,
+    62,
+    62.5,
+    64.2
+   ]
+  },
+  {
+   "key": "skladiste-shipping-accuracy",
+   "moduleKey": "skladiste",
+   "metricLabel": "Tačnost otpreme",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 99,
+   "decimals": 1,
+   "narrative": "1,2 procentna poena ispod cilja od 99% — najviše grešaka bilježi se kod porudžbi sa više stavki.",
+   "drivers": [
+    {
+     "label": "Ručna provjera višestavčanih pošiljki",
+     "detail": "Provjera prije otpreme radi se vizuelno bez skeniranja svake stavke, pa se greške najčešće dešavaju kod većih porudžbi.",
+     "impact": "blocking",
+     "owner": "Tim za otpremu"
+    },
+    {
+     "label": "Dvostruka provjera za pošiljke javnom sektoru",
+     "detail": "Uveden dodatni korak provjere za institucionalne kupce smanjio je reklamacije u toj grupi na gotovo nulu.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    96.1,
+    96,
+    96.7,
+    96.6,
+    97.1,
+    96.9,
+    97.4,
+    97.4,
+    97.9
+   ]
+  },
+  {
+   "key": "nalozi-first-time-fix",
+   "moduleKey": "nalozi",
+   "metricLabel": "Stopa popravke iz prve posjete",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 88,
+   "decimals": 1,
+   "narrative": "Ispred plana sa 89,5% — bolja priprema materijala prije polaska na teren smanjuje broj ponovnih izlazaka.",
+   "drivers": [
+    {
+     "label": "Provjera dostupnosti dijelova prije polaska",
+     "detail": "Sistem sada upozorava tehničara ako nedostaje standardni dio za tip kvara prije nego što napusti skladište.",
+     "impact": "positive",
+     "owner": "Proces pripreme materijala za naloge"
+    },
+    {
+     "label": "Iskusniji tehničari raspoređeni na složenije naloge",
+     "detail": "Bolje uparivanje složenosti naloga sa iskustvom tehničara smanjuje broj slučajeva kada je potreban drugi izlazak.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    79.2,
+    80,
+    82.1,
+    82.8,
+    84.6,
+    85.1,
+    87.1,
+    87.9,
+    89.6
+   ]
+  },
+  {
+   "key": "protocol-no-complaint",
+   "moduleKey": "protocol",
+   "metricLabel": "Udio predmeta riješenih bez reklamacije",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 96,
+   "decimals": 1,
+   "narrative": "2,5 procentna poena ispod cilja od 96% — najviše reklamacija dolazi na predmete obrađene van standardnog roka.",
+   "drivers": [
+    {
+     "label": "Reklamacije prate kašnjenje u obradi",
+     "detail": "Predmeti koji premaše planirano vrijeme obrade imaju višestruko veću stopu naknadnih reklamacija.",
+     "impact": "blocking",
+     "owner": "Proces kontrole kvaliteta obrade"
+    },
+    {
+     "label": "Standardizovan obrazac odgovora na reklamaciju",
+     "detail": "Uveden u julu, obrazac skraćuje vrijeme rješavanja reklamacije i smanjuje broj eskalacija.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    90.2,
+    90.2,
+    91.2,
+    91.2,
+    92,
+    91.8,
+    92.8,
+    92.9,
+    93.6
+   ]
+  },
+  {
+   "key": "hr-promotion",
+   "moduleKey": "hr",
+   "metricLabel": "Stopa internih promocija",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 18,
+   "decimals": 1,
+   "narrative": "Ispred plana sa 19,5% — jasno definisane karijerne staze u dva najveća sektora ubrzale su interno napredovanje.",
+   "drivers": [
+    {
+     "label": "Definisane karijerne staze",
+     "detail": "Jasni kriterijumi napredovanja uvedeni u sektorima prodaje i operacija povećali su broj internih prijava na otvorene pozicije.",
+     "impact": "positive",
+     "owner": "Tim za ljude i kulturu"
+    },
+    {
+     "label": "Program mentorstva",
+     "detail": "Zaposlenici uključeni u program mentorstva napreduju u prosjeku brže od ostatka kompanije.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    14.2,
+    14.3,
+    15.8,
+    15.9,
+    17.1,
+    17,
+    18.3,
+    18.5,
+    19.6
+   ]
+  },
+  {
+   "key": "finance-forecast-accuracy",
+   "moduleKey": "finance",
+   "metricLabel": "Tačnost budžetskog predviđanja",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 92,
+   "decimals": 1,
+   "narrative": "4,5 procentnih poena ispod cilja od 92% — prognoze za manje sektore i dalje odstupaju više nego za velike stavke.",
+   "drivers": [
+    {
+     "label": "Prognoza manjih sektora rađena paušalno",
+     "detail": "Manji sektori dobijaju procijenjeni budžet baziran na prošlogodišnjim brojkama umjesto na tekućim projekcijama.",
+     "impact": "blocking",
+     "owner": "Proces budžetiranja"
+    },
+    {
+     "label": "Kašnjenje ulaznih podataka iz operativnih sektora",
+     "detail": "Operativni podaci za tekući mjesec često stižu poslije roka za finalizaciju prognoze.",
+     "impact": "contributing"
+    }
+   ],
+   "actual": [
+    84.2,
+    84.1,
+    85.3,
+    85.2,
+    86.1,
+    85.7,
+    86.8,
+    86.8,
+    87.6
+   ]
+  },
+  {
+   "key": "skladiste-returns",
+   "moduleKey": "skladiste",
+   "metricLabel": "Stopa vraćene robe",
+   "unit": "%",
+   "direction": "lower-is-better",
+   "target": 3,
+   "decimals": 1,
+   "narrative": "0,4 procentna poena preko cilja od 3% — najveći dio povrata odnosi se na pogrešno kompletirane porudžbe.",
+   "drivers": [
+    {
+     "label": "Pogrešno kompletirane porudžbe",
+     "detail": "Ručno kompletiranje porudžbi sa više stavki i dalje je glavni izvor grešaka koje rezultiraju povratom.",
+     "impact": "blocking",
+     "owner": "Tim za otpremu"
+    },
+    {
+     "label": "Anketa razloga povrata",
+     "detail": "Novo obavezno bilježenje razloga povrata pomaže da se greške brže identifikuju i isprave u izvoru.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    4.5,
+    4.1,
+    4.3,
+    4,
+    4,
+    3.6,
+    3.7,
+    3.4,
+    3.4
+   ]
+  },
+  {
+   "key": "nalozi-safety",
+   "moduleKey": "nalozi",
+   "metricLabel": "Stopa poštovanja sigurnosnih procedura",
+   "unit": "%",
+   "direction": "higher-is-better",
+   "target": 97,
+   "decimals": 1,
+   "narrative": "Ispred plana sa 97,8% — obavezne dnevne provjere opreme prije izlaska na teren daju rezultate.",
+   "drivers": [
+    {
+     "label": "Obavezna dnevna provjera opreme",
+     "detail": "Digitalna checklist provjera opreme prije svakog izlaska uvedena je u aprilu i bilježi se za svaki nalog.",
+     "impact": "positive",
+     "owner": "Proces sigurnosti na radu"
+    },
+    {
+     "label": "Kraća obuka za osvježavanje znanja",
+     "detail": "Mjesečne kratke radionice o sigurnosnim procedurama drže temu aktuelnom bez opterećenja rasporeda.",
+     "impact": "positive"
+    }
+   ],
+   "actual": [
+    93.2,
+    93.3,
+    94.5,
+    94.7,
+    95.6,
+    95.6,
+    96.8,
+    97,
+    97.9
+   ]
+  }
+ ],
+ "volumes": [
+  {
+   "moduleKey": "protocol",
+   "label": "Obrađeni predmeti",
+   "monthly": [
+    431,
+    415,
+    463,
+    447,
+    480,
+    456,
+    498,
+    488,
+    517
+   ],
+   "annualTarget": 6200
+  },
+  {
+   "moduleKey": "hr",
+   "label": "Obrađeni kadrovski zahtjevi",
+   "monthly": [
+    184,
+    175,
+    201,
+    192,
+    210,
+    196,
+    219,
+    213,
+    229
+   ],
+   "annualTarget": 2650
+  },
+  {
+   "moduleKey": "finance",
+   "label": "Obrađene fakture",
+   "monthly": [
+    984,
+    948,
+    1051,
+    1015,
+    1086,
+    1030,
+    1121,
+    1097,
+    1160
+   ],
+   "annualTarget": 13800
+  },
+  {
+   "moduleKey": "skladiste",
+   "label": "Obrađene skladišne transakcije",
+   "monthly": [
+    2892,
+    2782,
+    3092,
+    2982,
+    3196,
+    3026,
+    3300,
+    3226,
+    3416
+   ],
+   "annualTarget": 40500
+  },
+  {
+   "moduleKey": "nalozi",
+   "label": "Završeni radni nalozi",
+   "monthly": [
+    320,
+    306,
+    341,
+    327,
+    351,
+    330,
+    361,
+    351,
+    372
+   ],
+   "annualTarget": 4450
+  }
+ ],
+ "totalVolume": {
+  "moduleKey": "all",
+  "label": "Ukupna obrada (svi moduli)",
+  "monthly": [
+   4811,
+   4626,
+   5148,
+   4963,
+   5323,
+   5038,
+   5499,
+   5375,
+   5694
+  ],
+  "annualTarget": 67600
+ }
+}

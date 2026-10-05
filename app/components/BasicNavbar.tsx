@@ -106,8 +106,9 @@ export const BasicNavbar = ({
         id={menuId}
         className={`${
           isMenuOpen
-            ? "translate-x-0 opacity-100 z-20 visible"
-            : "translate-x-[200px] opacity-0 z-[-1] invisible"
+            ? "translate-y-0 opacity-100 z-20 visible"
+            : // Slides up, not sideways: a closed menu pushed off to the right made phone screens scroll sideways.
+              "-translate-y-[5px] opacity-0 z-[-1] invisible"
         } md:hidden bg-[#3B9DF8] p-4 text-center absolute top-[60px] dark:bg-slate-700 right-0 w-full sm:w-[300px] rounded-md transition-all duration-300`}
       >
         <form

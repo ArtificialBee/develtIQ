@@ -1,6 +1,8 @@
 import { useId, useState } from "react";
 import type { ReactNode } from "react";
 import { FaChevronDown } from "react-icons/fa6";
+import { Card } from "~/components/Card";
+import { CARD_TITLE } from "~/lib/ui";
 
 export interface AccordionItem {
   id?: string;
@@ -47,10 +49,7 @@ const Accordion = ({
         const panelId = `${baseId}-panel-${index}`;
 
         return (
-          <article
-            key={item.id}
-            className="border dark:border-slate-700 border-[#e5eaf2] rounded-xl p-3"
-          >
+          <Card as="article" key={item.id} className="p-5">
             <h3>
               <button
                 type="button"
@@ -60,9 +59,7 @@ const Accordion = ({
                 className="flex gap-2 cursor-pointer items-center justify-between w-full text-left"
                 onClick={() => item.id && toggle(item.id)}
               >
-                <span className="text-white font-[600] text-[1.2rem]">
-                  {item.title}
-                </span>
+                <span className={CARD_TITLE}>{item.title}</span>
                 <FaChevronDown
                   aria-hidden
                   className={`shrink-0 text-[1.2rem] dark:text-slate-600 transition-all duration-300 ${
@@ -77,17 +74,18 @@ const Accordion = ({
               id={panelId}
               role="region"
               aria-labelledby={buttonId}
-              className={`grid transition-all duration-300 overflow-hidden ease-in-out ${
+              // The side and bottom padding gives the shadows of cards inside room, so they are not cut off.
+              className={`grid -mx-2 px-2 transition-all duration-300 overflow-hidden ease-in-out ${
                 isOpen
-                  ? "grid-rows-[1fr] opacity-100 mt-4"
+                  ? "grid-rows-[1fr] opacity-100 mt-2"
                   : "grid-rows-[0fr] opacity-0 invisible"
               }`}
             >
-              <div className="text-[#424242] dark:text-[#abc2d3] text-[0.9rem] overflow-hidden">
+              <div className="-mx-2 overflow-hidden px-2 pt-2 pb-3 text-[#424242] dark:text-[#abc2d3] text-[0.9rem]">
                 {item.content}
               </div>
             </div>
-          </article>
+          </Card>
         );
       })}
     </div>

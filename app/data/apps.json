@@ -1,0 +1,3595 @@
+{
+ "apps": [
+  {
+   "key": "home",
+   "label": "Početna",
+   "path": "/home",
+   "icon": "House",
+   "sections": []
+  },
+  {
+   "key": "moj-prostor",
+   "label": "Moj planer",
+   "path": "/moj-planer",
+   "icon": "UserRound",
+   "sections": [
+    {
+     "key": "pregled",
+     "label": "Pregled",
+     "path": "/moj-planer/pregled",
+     "icon": null,
+     "children": []
+    },
+    {
+     "key": "email",
+     "label": "Email",
+     "path": "/moj-planer/email",
+     "icon": null,
+     "children": []
+    },
+    {
+     "key": "kalendar",
+     "label": "Kalendar",
+     "path": "/moj-planer/kalendar",
+     "icon": null,
+     "children": []
+    },
+    {
+     "key": "zadaci",
+     "label": "Zadaci",
+     "path": "/moj-planer/zadaci",
+     "icon": null,
+     "children": []
+    },
+    {
+     "key": "obavjestenja",
+     "label": "Obavještenja",
+     "path": "/moj-planer/obavjestenja",
+     "icon": null,
+     "children": []
+    },
+    {
+     "key": "biljeske",
+     "label": "Bilješke",
+     "path": "/moj-planer/biljeske",
+     "icon": null,
+     "children": []
+    },
+    {
+     "key": "dokumenti",
+     "label": "Dokumenti",
+     "path": "/moj-planer/dokumenti",
+     "icon": null,
+     "children": []
+    },
+    {
+     "key": "moji-podaci",
+     "label": "Moji podaci",
+     "path": "/moj-planer/moji-podaci",
+     "icon": null,
+     "children": []
+    }
+   ]
+  },
+  {
+   "key": "protocol",
+   "label": "Protokol",
+   "path": "/protocol",
+   "icon": "BookOpen",
+   "sections": [
+    {
+     "key": "pisarnica",
+     "label": "Pisarnica",
+     "path": "/protocol/prijem",
+     "icon": "Mailbox",
+     "children": [
+      {
+       "key": "prijem",
+       "label": "Prijem",
+       "path": "/protocol/prijem",
+       "description": "Prijemna knjiga ulazne pošte",
+       "icon": "Mailbox"
+      },
+      {
+       "key": "dostava",
+       "label": "Interna dostava",
+       "path": "/protocol/dostava",
+       "description": "Dostavna knjiga — predaja spisa službama",
+       "icon": "ArrowLeftRight"
+      },
+      {
+       "key": "otprema",
+       "label": "Otprema",
+       "path": "/protocol/otprema",
+       "description": "Knjiga otpreme izlazne pošte",
+       "icon": "Send"
+      }
+     ]
+    },
+    {
+     "key": "predmeti",
+     "label": "Predmeti",
+     "path": "/protocol/predmeti",
+     "icon": "FolderOpen",
+     "children": [
+      {
+       "key": "svi",
+       "label": "Svi predmeti",
+       "path": "/protocol/predmeti",
+       "description": "Po službama — eksterni i interni predmeti",
+       "icon": "FolderOpen"
+      },
+      {
+       "key": "inbox",
+       "label": "Moji predmeti",
+       "path": "/protocol/inbox",
+       "description": "Predmeti koji čekaju mene",
+       "icon": "Inbox"
+      },
+      {
+       "key": "zahtjevi",
+       "label": "Interni zahtjevi",
+       "path": "/protocol/zahtjevi",
+       "description": "Nabavka, stipendija — kroz lanac odobravanja",
+       "icon": "Workflow"
+      }
+     ]
+    },
+    {
+     "key": "potpis",
+     "label": "Potpis",
+     "path": "/protocol/potpis",
+     "icon": "PenLine",
+     "children": []
+    },
+    {
+     "key": "arhiva",
+     "label": "Arhiva",
+     "path": "/protocol/arhiva/knjiga",
+     "icon": "Archive",
+     "children": [
+      {
+       "key": "knjiga",
+       "label": "Arhivska knjiga",
+       "path": "/protocol/arhiva/knjiga",
+       "description": "Predmeti predani u arhivu",
+       "icon": "BookMarked"
+      },
+      {
+       "key": "kutije",
+       "label": "Kutije",
+       "path": "/protocol/arhiva/kutije",
+       "description": "Depo › Regal › Raf › Kutija",
+       "icon": "Boxes"
+      },
+      {
+       "key": "revers",
+       "label": "Revers spisa",
+       "path": "/protocol/arhiva/revers",
+       "description": "Spisi izdati iz arhive",
+       "icon": "FileOutput"
+      },
+      {
+       "key": "izlucivanje",
+       "label": "Izlučivanje",
+       "path": "/protocol/arhiva/izlucivanje",
+       "description": "Spisi kojima je istekao rok čuvanja",
+       "icon": "FileX"
+      }
+     ]
+    },
+    {
+     "key": "rokovi",
+     "label": "Rokovi",
+     "path": "/protocol/rokovi",
+     "icon": "CalendarClock",
+     "children": [
+      {
+       "key": "kalendar",
+       "label": "Svi rokovi",
+       "path": "/protocol/rokovi",
+       "description": "Rokovi iz predmeta, akata, otpreme i arhive",
+       "icon": "CalendarClock"
+      },
+      {
+       "key": "obavijesti",
+       "label": "Obavijesti",
+       "path": "/protocol/obavijesti",
+       "description": "Podsjetnici i eskalacije za mene",
+       "icon": "Bell"
+      }
+     ]
+    },
+    {
+     "key": "sifrarnici",
+     "label": "Šifrarnici",
+     "path": "/protocol/sifrarnici/klasifikacija",
+     "icon": "ListTree",
+     "children": [
+      {
+       "key": "klasifikacija",
+       "label": "Klasifikacija",
+       "path": "/protocol/sifrarnici/klasifikacija",
+       "description": "Klase, boje omota i rokovi čuvanja",
+       "icon": "FolderTree"
+      },
+      {
+       "key": "organizacija",
+       "label": "Organizacija i ovlaštenja",
+       "path": "/protocol/sifrarnici/organizacija",
+       "description": "Struktura, matrica ovlaštenja i delegacije",
+       "icon": "Network"
+      },
+      {
+       "key": "tokovi",
+       "label": "Tokovi obrade",
+       "path": "/protocol/sifrarnici/tokovi",
+       "description": "Faze kroz koje predmet prolazi",
+       "icon": "Workflow"
+      },
+      {
+       "key": "lanci",
+       "label": "Lanci odobravanja",
+       "path": "/protocol/sifrarnici/lanci",
+       "description": "Etape odobravanja i ko ih radi",
+       "icon": "Route"
+      },
+      {
+       "key": "kanali",
+       "label": "Kanali prijema",
+       "path": "/protocol/sifrarnici/kanali",
+       "description": "Šalter, pošta, e-mail, portal, telefon",
+       "icon": "Waypoints"
+      },
+      {
+       "key": "aplikacije",
+       "label": "Aplikacije",
+       "path": "/protocol/sifrarnici/aplikacije",
+       "description": "Moduli koji primaju poštu",
+       "icon": "Blocks"
+      }
+     ]
+    },
+    {
+     "key": "nadzor",
+     "label": "Nadzor",
+     "path": "/protocol/nadzor/revizija",
+     "icon": "ShieldCheck",
+     "children": [
+      {
+       "key": "revizija",
+       "label": "Revizijski trag",
+       "path": "/protocol/nadzor/revizija",
+       "description": "Ko je šta uradio i kada",
+       "icon": "RotateCcwClock"
+      },
+      {
+       "key": "zastita",
+       "label": "Zaštita podataka",
+       "path": "/protocol/nadzor/zastita",
+       "description": "Evidencija obrada, zahtjevi lica, incidenti",
+       "icon": "ShieldHalf"
+      },
+      {
+       "key": "bez-veze",
+       "label": "Bez veze",
+       "path": "/protocol/nadzor/bez-veze",
+       "description": "Protokolisano, a nije vezano za drugi modul",
+       "icon": "Unlink"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "hr",
+   "label": "Ljudski resursi",
+   "path": "/hr",
+   "icon": "Users",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/hr/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "zaposlenici",
+     "label": "Zaposlenici",
+     "path": "/hr/zaposlenici",
+     "icon": "Users",
+     "children": []
+    },
+    {
+     "key": "organizacija",
+     "label": "Organizacija",
+     "path": "/hr/organizacija/sektori",
+     "icon": "Network",
+     "children": [
+      {
+       "key": "sektori",
+       "label": "Sektori",
+       "path": "/hr/organizacija/sektori",
+       "description": "Upravljanje organizacionim sektorima",
+       "icon": "Network"
+      },
+      {
+       "key": "radna-mjesta",
+       "label": "Radna mjesta",
+       "path": "/hr/organizacija/radna-mjesta",
+       "description": "Katalog radnih mjesta u organizaciji",
+       "icon": "Briefcase"
+      },
+      {
+       "key": "radne-lokacije",
+       "label": "Radne lokacije",
+       "path": "/hr/organizacija/radne-lokacije",
+       "description": "Pregled i upravljanje radnim lokacijama",
+       "icon": "MapPin"
+      }
+     ]
+    },
+    {
+     "key": "radni-odnos",
+     "label": "Radni odnos",
+     "path": "/hr/radni-odnos/konkursi",
+     "icon": "FilePenLine",
+     "children": [
+      {
+       "key": "konkursi",
+       "label": "Konkursi",
+       "path": "/hr/radni-odnos/konkursi",
+       "description": "Vođenje konkursa za zapošljavanje",
+       "icon": "Megaphone"
+      },
+      {
+       "key": "ugovori",
+       "label": "Ugovori o radu",
+       "path": "/hr/radni-odnos/ugovori",
+       "description": "Registar ugovora o radu zaposlenika",
+       "icon": "FileCheckCorner"
+      },
+      {
+       "key": "onboarding",
+       "label": "Onboarding",
+       "path": "/hr/radni-odnos/onboarding",
+       "description": "Praćenje onboarding zadataka novih zaposlenika",
+       "icon": "ClipboardCheck"
+      },
+      {
+       "key": "promjene",
+       "label": "Promjene radnog odnosa",
+       "path": "/hr/radni-odnos/promjene",
+       "description": "Evidencija promjena radnog odnosa zaposlenika",
+       "icon": "ArrowLeftRight"
+      },
+      {
+       "key": "offboarding",
+       "label": "Offboarding",
+       "path": "/hr/radni-odnos/offboarding",
+       "description": "Praćenje prestanka radnog odnosa i primopredaje",
+       "icon": "LogOut"
+      }
+     ]
+    },
+    {
+     "key": "odsustva",
+     "label": "Odsustva",
+     "path": "/hr/odsustva/godisnji-odmor",
+     "icon": "CalendarOff",
+     "children": [
+      {
+       "key": "godisnji-odmor",
+       "label": "Godišnji odmor",
+       "path": "/hr/odsustva/godisnji-odmor",
+       "description": "Pregled prava na godišnji odmor po zaposleniku",
+       "icon": "TreePalm"
+      },
+      {
+       "key": "plan-godisnjih",
+       "label": "Plan godišnjih",
+       "path": "/hr/odsustva/plan-godisnjih",
+       "description": "Planiranje pokrivenosti godišnjih odmora",
+       "icon": "CalendarRange"
+      },
+      {
+       "key": "zahtjevi",
+       "label": "Zahtjevi za odsustvo",
+       "path": "/hr/odsustva/zahtjevi",
+       "description": "Obrada zahtjeva za odsustvo zaposlenika",
+       "icon": "CalendarPlus"
+      },
+      {
+       "key": "moji-zahtjevi",
+       "label": "Moji zahtjevi",
+       "path": "/hr/odsustva/moji-zahtjevi",
+       "description": "Podnošenje i pregled vlastitih zahtjeva za odsustvo",
+       "icon": "User"
+      }
+     ]
+    },
+    {
+     "key": "raspored",
+     "label": "Raspored",
+     "path": "/hr/raspored/smjene",
+     "icon": "CalendarClock",
+     "children": [
+      {
+       "key": "smjene",
+       "label": "Raspored smjena",
+       "path": "/hr/raspored/smjene",
+       "description": "Kreiranje i pregled rasporeda smjena",
+       "icon": "CalendarDays"
+      },
+      {
+       "key": "moj-raspored",
+       "label": "Moj raspored",
+       "path": "/hr/raspored/moj-raspored",
+       "description": "Pregled vlastitih smjena i dežurstava",
+       "icon": "User"
+      }
+     ]
+    },
+    {
+     "key": "sigurnost",
+     "label": "Sigurnost i razvoj",
+     "path": "/hr/sigurnost/znr",
+     "icon": "ShieldCheck",
+     "children": [
+      {
+       "key": "znr",
+       "label": "Zaštita na radu",
+       "path": "/hr/sigurnost/znr",
+       "description": "Ljekarski pregledi, provjera znanja i obuka zaštite od požara",
+       "icon": "HardHat"
+      },
+      {
+       "key": "licence",
+       "label": "Licence i certifikati",
+       "path": "/hr/sigurnost/licence",
+       "description": "Licence koje traže radna mjesta i rokovi obnove",
+       "icon": "Award"
+      },
+      {
+       "key": "ucinak",
+       "label": "Radni učinak",
+       "path": "/hr/sigurnost/ucinak",
+       "description": "Mjesečna ocjena rada i povećanje plaće",
+       "icon": "TrendingUp"
+      }
+     ]
+    },
+    {
+     "key": "dosje",
+     "label": "Kadrovski dosje",
+     "path": "/hr/dosje/registar",
+     "icon": "FolderOpen",
+     "children": [
+      {
+       "key": "registar",
+       "label": "Registar dosjea",
+       "path": "/hr/dosje/registar",
+       "description": "Pregled personalnih dosjea zaposlenika",
+       "icon": "FolderOpen"
+      },
+      {
+       "key": "zahtjevi-promjene",
+       "label": "Zahtjevi za promjenu podataka",
+       "path": "/hr/dosje/zahtjevi-promjene",
+       "description": "Promjene adrese, telefona, računa i kontakta koje su zaposleni poslali iz Moj planera",
+       "icon": "UserCog"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/hr/izvjestaji",
+     "icon": "ChartColumn",
+     "children": []
+    }
+   ]
+  },
+  {
+   "key": "planiranje",
+   "label": "Planiranje",
+   "path": "/planiranje",
+   "icon": "Target",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/planiranje/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "ciklusi",
+     "label": "Planski ciklusi",
+     "path": "/planiranje/ciklusi",
+     "icon": "CalendarDays",
+     "children": []
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/planiranje/izvjestaji",
+     "icon": "ChartColumn",
+     "children": []
+    },
+    {
+     "key": "parametri",
+     "label": "Parametri planiranja",
+     "path": "/planiranje/parametri",
+     "icon": "SlidersHorizontal",
+     "children": []
+    },
+    {
+     "key": "planske-pozicije",
+     "label": "Planske pozicije",
+     "path": "/planiranje/planske-pozicije",
+     "icon": "Target",
+     "children": []
+    }
+   ]
+  },
+  {
+   "key": "finance",
+   "label": "Finansije",
+   "path": "/finance",
+   "icon": "Banknote",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/finance/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "glavna-knjiga",
+     "label": "Glavna knjiga",
+     "path": "/finance/glavna-knjiga/nalozi",
+     "icon": "BookOpen",
+     "children": [
+      {
+       "key": "nalozi",
+       "label": "Nalozi za knjiženje",
+       "path": "/finance/glavna-knjiga/nalozi",
+       "description": "Temeljnice: ručna knjiženja, storna i ispravke",
+       "icon": "FilePen"
+      },
+      {
+       "key": "ponavljajuca",
+       "label": "Ponavljajuća knjiženja",
+       "path": "/finance/glavna-knjiga/ponavljajuca",
+       "description": "Šabloni koji se knjiže svaki mjesec: zakupi, pretplate, rate",
+       "icon": "Repeat"
+      },
+      {
+       "key": "razgranicenja",
+       "label": "Vremenska razgraničenja",
+       "path": "/finance/glavna-knjiga/razgranicenja",
+       "description": "Unaprijed plaćeni troškovi i obračunati, a nefakturisani iznosi",
+       "icon": "CalendarRange"
+      },
+      {
+       "key": "prijenosi",
+       "label": "Prijenosi iz aplikacija",
+       "path": "/finance/glavna-knjiga/prijenosi",
+       "description": "Knjiženja koja šalju skladište, stalna sredstva, plate i nabavke",
+       "icon": "Inbox"
+      },
+      {
+       "key": "dnevnik",
+       "label": "Dnevnik knjiženja",
+       "path": "/finance/glavna-knjiga/dnevnik",
+       "description": "Sve proknjižene stavke redom kako su nastale",
+       "icon": "ScrollText"
+      },
+      {
+       "key": "kartice-konta",
+       "label": "Kartice konta",
+       "path": "/finance/glavna-knjiga/kartice-konta",
+       "description": "Promet i saldo jednog konta, s vezom na izvorni dokument",
+       "icon": "BookMarked"
+      },
+      {
+       "key": "bruto-bilans",
+       "label": "Bruto bilans",
+       "path": "/finance/glavna-knjiga/bruto-bilans",
+       "description": "Promet i saldo svih konta za period",
+       "icon": "Scale"
+      }
+     ]
+    },
+    {
+     "key": "obaveze",
+     "label": "Obaveze",
+     "path": "/finance/obaveze/ulazne-fakture",
+     "icon": "Receipt",
+     "children": [
+      {
+       "key": "ulazne-fakture",
+       "label": "Ulazne fakture",
+       "path": "/finance/obaveze/ulazne-fakture",
+       "description": "Prijem, kontiranje i knjiženje faktura dobavljača",
+       "icon": "FileInput"
+      },
+      {
+       "key": "likvidatura",
+       "label": "Likvidatura",
+       "path": "/finance/obaveze/likvidatura",
+       "description": "Provjera i odobrenje faktura za plaćanje po potpisnim limitima",
+       "icon": "Stamp"
+      },
+      {
+       "key": "avansi",
+       "label": "Avansi dobavljačima",
+       "path": "/finance/obaveze/avansi",
+       "description": "Plaćeni avansi i njihovo zatvaranje konačnom fakturom",
+       "icon": "Wallet"
+      },
+      {
+       "key": "knjizna-odobrenja",
+       "label": "Knjižna odobrenja i terećenja",
+       "path": "/finance/obaveze/knjizna-odobrenja",
+       "description": "Umanjenja i dodatna zaduženja od dobavljača",
+       "icon": "FileMinus"
+      },
+      {
+       "key": "putni-nalozi",
+       "label": "Putni nalozi i akontacije",
+       "path": "/finance/obaveze/putni-nalozi",
+       "description": "Službena putovanja, dnevnice i obračun akontacija",
+       "icon": "Plane"
+      },
+      {
+       "key": "prijedlog-placanja",
+       "label": "Prijedlog plaćanja",
+       "path": "/finance/obaveze/prijedlog-placanja",
+       "description": "Dospjele obaveze predložene za sljedeće plaćanje",
+       "icon": "Send"
+      },
+      {
+       "key": "kartice",
+       "label": "Kartice dobavljača",
+       "path": "/finance/obaveze/kartice",
+       "description": "Otvorene stavke i promet po dobavljaču",
+       "icon": "ListChecks"
+      },
+      {
+       "key": "starosna-struktura",
+       "label": "Starosna struktura",
+       "path": "/finance/obaveze/starosna-struktura",
+       "description": "Obaveze po danima kašnjenja",
+       "icon": "Hourglass"
+      }
+     ]
+    },
+    {
+     "key": "potrazivanja",
+     "label": "Potraživanja",
+     "path": "/finance/potrazivanja/izlazne-fakture",
+     "icon": "HandCoins",
+     "children": [
+      {
+       "key": "izlazne-fakture",
+       "label": "Izlazne fakture",
+       "path": "/finance/potrazivanja/izlazne-fakture",
+       "description": "Fakturisanje kupcima i knjiženje prihoda",
+       "icon": "FileOutput"
+      },
+      {
+       "key": "avansi",
+       "label": "Predračuni i avansi",
+       "path": "/finance/potrazivanja/avansi",
+       "description": "Avansni računi kupcima i njihovo zatvaranje konačnom fakturom",
+       "icon": "CircleDollarSign"
+      },
+      {
+       "key": "knjizna-odobrenja",
+       "label": "Knjižna odobrenja kupcima",
+       "path": "/finance/potrazivanja/knjizna-odobrenja",
+       "description": "Popusti, povrati i ispravke izdatih faktura",
+       "icon": "FileMinus"
+      },
+      {
+       "key": "kartice",
+       "label": "Kartice kupaca",
+       "path": "/finance/potrazivanja/kartice",
+       "description": "Otvorene stavke i promet po kupcu",
+       "icon": "ListChecks"
+      },
+      {
+       "key": "opomene",
+       "label": "Opomene",
+       "path": "/finance/potrazivanja/opomene",
+       "description": "Podsjetnici i opomene za dospjela potraživanja",
+       "icon": "BellRing"
+      },
+      {
+       "key": "kreditni-limiti",
+       "label": "Kreditni limiti",
+       "path": "/finance/potrazivanja/kreditni-limiti",
+       "description": "Koliko kupac smije dugovati prije blokade isporuke",
+       "icon": "ShieldCheck"
+      },
+      {
+       "key": "sporna",
+       "label": "Sporna potraživanja",
+       "path": "/finance/potrazivanja/sporna",
+       "description": "Utuženja, ispravke vrijednosti i otpisi",
+       "icon": "Gavel"
+      },
+      {
+       "key": "starosna-struktura",
+       "label": "Starosna struktura",
+       "path": "/finance/potrazivanja/starosna-struktura",
+       "description": "Potraživanja po danima kašnjenja",
+       "icon": "Hourglass"
+      }
+     ]
+    },
+    {
+     "key": "banka-blagajna",
+     "label": "Banka i blagajna",
+     "path": "/finance/banka-blagajna/racuni",
+     "icon": "Landmark",
+     "children": [
+      {
+       "key": "racuni",
+       "label": "Bankovni računi",
+       "path": "/finance/banka-blagajna/racuni",
+       "description": "Računi po bankama i valutama, s ovlaštenim potpisnicima",
+       "icon": "Landmark"
+      },
+      {
+       "key": "izvodi",
+       "label": "Izvodi",
+       "path": "/finance/banka-blagajna/izvodi",
+       "description": "Uvoz izvoda i automatsko zatvaranje otvorenih stavki",
+       "icon": "FileDown"
+      },
+      {
+       "key": "nalozi-za-placanje",
+       "label": "Nalozi za plaćanje",
+       "path": "/finance/banka-blagajna/nalozi-za-placanje",
+       "description": "Paketi naloga za banku: priprema, potpis i slanje",
+       "icon": "Banknote"
+      },
+      {
+       "key": "blagajna",
+       "label": "Blagajna",
+       "path": "/finance/banka-blagajna/blagajna",
+       "description": "Gotovinske uplate i isplate, blagajnički dnevnik",
+       "icon": "Coins"
+      },
+      {
+       "key": "kompenzacije",
+       "label": "Kompenzacije i cesije",
+       "path": "/finance/banka-blagajna/kompenzacije",
+       "description": "Prebijanje međusobnih dugovanja i prijenos potraživanja",
+       "icon": "Shuffle"
+      },
+      {
+       "key": "likvidnost",
+       "label": "Likvidnost",
+       "path": "/finance/banka-blagajna/likvidnost",
+       "description": "Očekivani prilivi i odlivi po danima i sedmicama",
+       "icon": "TrendingUp"
+      },
+      {
+       "key": "krediti-garancije",
+       "label": "Krediti i garancije",
+       "path": "/finance/banka-blagajna/krediti-garancije",
+       "description": "Kreditne linije, otplatni planovi i bankovne garancije",
+       "icon": "Vault"
+      }
+     ]
+    },
+    {
+     "key": "porezi",
+     "label": "Porezi",
+     "path": "/finance/porezi/kuf",
+     "icon": "Percent",
+     "children": [
+      {
+       "key": "kuf",
+       "label": "KUF",
+       "path": "/finance/porezi/kuf",
+       "description": "Knjiga ulaznih faktura za PDV",
+       "icon": "FileSpreadsheet"
+      },
+      {
+       "key": "kif",
+       "label": "KIF",
+       "path": "/finance/porezi/kif",
+       "description": "Knjiga izlaznih faktura za PDV",
+       "icon": "FileSpreadsheet"
+      },
+      {
+       "key": "pdv-prijava",
+       "label": "PDV prijava",
+       "path": "/finance/porezi/pdv-prijava",
+       "description": "Mjesečna prijava prema UIO: priprema, kontrola i predaja",
+       "icon": "FileText"
+      },
+      {
+       "key": "porez-po-odbitku",
+       "label": "Porez po odbitku",
+       "path": "/finance/porezi/porez-po-odbitku",
+       "description": "Porez na isplate nerezidentima",
+       "icon": "BadgePercent"
+      },
+      {
+       "key": "porez-na-dobit",
+       "label": "Porez na dobit",
+       "path": "/finance/porezi/porez-na-dobit",
+       "description": "Poreski bilans i godišnja prijava poreza na dobit",
+       "icon": "Calculator"
+      }
+     ]
+    },
+    {
+     "key": "kontroling",
+     "label": "Kontroling",
+     "path": "/finance/kontroling/profitni-centri",
+     "icon": "ChartPie",
+     "children": [
+      {
+       "key": "profitni-centri",
+       "label": "Profitni centri",
+       "path": "/finance/kontroling/profitni-centri",
+       "description": "Dijelovi poslovanja koji se prate po prihodu i rezultatu",
+       "icon": "Target"
+      },
+      {
+       "key": "projekti",
+       "label": "Projekti i nosioci troškova",
+       "path": "/finance/kontroling/projekti",
+       "description": "Troškovi i prihodi po projektu, ugovoru ili investiciji",
+       "icon": "FolderKanban"
+      },
+      {
+       "key": "raspodjela",
+       "label": "Raspodjela troškova",
+       "path": "/finance/kontroling/raspodjela",
+       "description": "Ključevi i obračun raspodjele zajedničkih troškova",
+       "icon": "Split"
+      },
+      {
+       "key": "plan-ostvarenje",
+       "label": "Plan i ostvarenje",
+       "path": "/finance/kontroling/plan-ostvarenje",
+       "description": "Budžet iz Planiranja naspram proknjiženog",
+       "icon": "ChartColumn"
+      },
+      {
+       "key": "profitabilnost",
+       "label": "Profitabilnost",
+       "path": "/finance/kontroling/profitabilnost",
+       "description": "Marža po kupcu, proizvodu i profitnom centru",
+       "icon": "ChartPie"
+      }
+     ]
+    },
+    {
+     "key": "zatvaranje",
+     "label": "Zatvaranje",
+     "path": "/finance/zatvaranje/kalendar",
+     "icon": "CalendarCheck",
+     "children": [
+      {
+       "key": "kalendar",
+       "label": "Kalendar zatvaranja",
+       "path": "/finance/zatvaranje/kalendar",
+       "description": "Koraci mjesečnog zatvaranja, odgovorni i rokovi",
+       "icon": "CalendarClock"
+      },
+      {
+       "key": "periodi",
+       "label": "Obračunski periodi",
+       "path": "/finance/zatvaranje/periodi",
+       "description": "Otvaranje i zaključavanje perioda po pravnom licu",
+       "icon": "Lock"
+      },
+      {
+       "key": "kursne-razlike",
+       "label": "Kursne razlike",
+       "path": "/finance/zatvaranje/kursne-razlike",
+       "description": "Revalorizacija stavki u stranoj valuti na kraju perioda",
+       "icon": "Globe"
+      },
+      {
+       "key": "uskladjivanja",
+       "label": "Usklađivanja",
+       "path": "/finance/zatvaranje/uskladjivanja",
+       "description": "Pomoćne knjige, banke i IOS s partnerima naspram glavne knjige",
+       "icon": "CheckCheck"
+      },
+      {
+       "key": "medjukompanijske",
+       "label": "Međukompanijske transakcije",
+       "path": "/finance/zatvaranje/medjukompanijske",
+       "description": "Usklađivanje i eliminacija prometa unutar grupe",
+       "icon": "ArrowLeftRight"
+      },
+      {
+       "key": "konsolidacija",
+       "label": "Konsolidacija",
+       "path": "/finance/zatvaranje/konsolidacija",
+       "description": "Konsolidovani izvještaji grupe",
+       "icon": "Network"
+      },
+      {
+       "key": "godisnji-zakljucak",
+       "label": "Godišnji zaključak",
+       "path": "/finance/zatvaranje/godisnji-zakljucak",
+       "description": "Zaključna knjiženja i prenos početnog stanja",
+       "icon": "Layers"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/finance/izvjestaji/bilans-stanja",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "bilans-stanja",
+       "label": "Bilans stanja",
+       "path": "/finance/izvjestaji/bilans-stanja",
+       "description": "Imovina, obaveze i kapital na dan",
+       "icon": "TableProperties"
+      },
+      {
+       "key": "bilans-uspjeha",
+       "label": "Bilans uspjeha",
+       "path": "/finance/izvjestaji/bilans-uspjeha",
+       "description": "Prihodi, rashodi i rezultat za period",
+       "icon": "ChartColumn"
+      },
+      {
+       "key": "novcani-tokovi",
+       "label": "Novčani tokovi",
+       "path": "/finance/izvjestaji/novcani-tokovi",
+       "description": "Novac iz poslovnih, investicionih i finansijskih aktivnosti",
+       "icon": "TrendingUp"
+      },
+      {
+       "key": "promjene-kapitala",
+       "label": "Promjene na kapitalu",
+       "path": "/finance/izvjestaji/promjene-kapitala",
+       "description": "Kretanje kapitala tokom godine",
+       "icon": "Layers"
+      },
+      {
+       "key": "pokazatelji",
+       "label": "Finansijski pokazatelji",
+       "path": "/finance/izvjestaji/pokazatelji",
+       "description": "Likvidnost, zaduženost, rentabilnost i obrt",
+       "icon": "Gauge"
+      },
+      {
+       "key": "uprava",
+       "label": "Izvještaj za upravu",
+       "path": "/finance/izvjestaji/uprava",
+       "description": "Mjesečni paket rezultata s komentarima",
+       "icon": "Presentation"
+      },
+      {
+       "key": "zakonski",
+       "label": "Zakonski izvještaji",
+       "path": "/finance/izvjestaji/zakonski",
+       "description": "Godišnji obrasci za FIA / APIF i statistiku",
+       "icon": "FileText"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/finance/postavke/pravila-knjizenja",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "pravila-knjizenja",
+       "label": "Pravila knjiženja",
+       "path": "/finance/postavke/pravila-knjizenja",
+       "description": "Kako se poslovni događaj automatski kontira",
+       "icon": "Workflow"
+      },
+      {
+       "key": "vrste-dokumenata",
+       "label": "Vrste dokumenata",
+       "path": "/finance/postavke/vrste-dokumenata",
+       "description": "Vrste naloga i dokumenata — brojevi iz Šifara i numeracije",
+       "icon": "Hash"
+      },
+      {
+       "key": "poreske-sifre",
+       "label": "Poreske šifre",
+       "path": "/finance/postavke/poreske-sifre",
+       "description": "PDV stope, oslobođenja i mapiranje na KUF/KIF",
+       "icon": "ReceiptText"
+      },
+      {
+       "key": "kursne-liste",
+       "label": "Kursne liste",
+       "path": "/finance/postavke/kursne-liste",
+       "description": "Dnevni kursevi Centralne banke BiH za valute iz Matičnih podataka",
+       "icon": "Coins"
+      },
+      {
+       "key": "uslovi-placanja",
+       "label": "Uslovi plaćanja",
+       "path": "/finance/postavke/uslovi-placanja",
+       "description": "Rokovi plaćanja, popusti za raniju uplatu i kamate",
+       "icon": "CalendarClock"
+      },
+      {
+       "key": "ovlastenja",
+       "label": "Ovlaštenja i potpisni limiti",
+       "path": "/finance/postavke/ovlastenja",
+       "description": "Ko smije odobriti koji iznos i koju vrstu dokumenta",
+       "icon": "UserCog"
+      },
+      {
+       "key": "parametri",
+       "label": "Parametri",
+       "path": "/finance/postavke/parametri",
+       "description": "Dnevnice, pragovi, blagajnički maksimum i računi za javne prihode",
+       "icon": "SlidersHorizontal"
+      },
+      {
+       "key": "integracije",
+       "label": "Integracije",
+       "path": "/finance/postavke/integracije",
+       "description": "Banke, Porezna uprava i druge DivetIQ aplikacije",
+       "icon": "Plug"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "nabavke",
+   "label": "Javne nabavke",
+   "path": "/nabavke",
+   "icon": "ShoppingCart",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/nabavke/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "godisnji-pregled",
+     "label": "Godišnji pregled",
+     "path": "/nabavke/godisnji-pregled/zahtjevi",
+     "icon": "CalendarRange",
+     "children": [
+      {
+       "key": "zahtjevi",
+       "label": "Zahtjevi",
+       "path": "/nabavke/godisnji-pregled/zahtjevi",
+       "description": "Zahtjevi odjeljenja za nabavku i njihovo odobravanje",
+       "icon": "FilePlus"
+      },
+      {
+       "key": "plan",
+       "label": "Plan",
+       "path": "/nabavke/godisnji-pregled/plan",
+       "description": "Godišnji plan nabavki i njegove verzije",
+       "icon": "ClipboardList"
+      },
+      {
+       "key": "realizacija",
+       "label": "Realizacija",
+       "path": "/nabavke/godisnji-pregled/realizacija",
+       "description": "Postupci godine, od plana do ugovora",
+       "icon": "CirclePlay"
+      }
+     ]
+    },
+    {
+     "key": "istrazivanje",
+     "label": "Istraživanje tržišta",
+     "path": "/nabavke/istrazivanje/istrazivanja",
+     "icon": "Search",
+     "children": [
+      {
+       "key": "istrazivanja",
+       "label": "Istraživanja",
+       "path": "/nabavke/istrazivanje/istrazivanja",
+       "description": "Izvori cijena i procijenjena vrijednost prije nabavke (čl. 14a.)",
+       "icon": "Search"
+      },
+      {
+       "key": "stavke-bez-istrazivanja",
+       "label": "Stavke bez istraživanja",
+       "path": "/nabavke/istrazivanje/stavke-bez-istrazivanja",
+       "description": "Stavke plana za koje istraživanje tržišta nedostaje",
+       "icon": "SearchX"
+      }
+     ]
+    },
+    {
+     "key": "dobavljaci",
+     "label": "Dobavljači",
+     "path": "/nabavke/dobavljaci",
+     "icon": "Truck",
+     "children": []
+    },
+    {
+     "key": "zalbe",
+     "label": "Žalbe",
+     "path": "/nabavke/zalbe",
+     "icon": "Gavel",
+     "children": []
+    },
+    {
+     "key": "tenderska",
+     "label": "Tenderska dokumentacija",
+     "path": "/nabavke/tenderska-dokumentacija",
+     "icon": "FileText",
+     "children": []
+    },
+    {
+     "key": "ponude",
+     "label": "Ponude",
+     "path": "/nabavke/ponude",
+     "icon": "Package",
+     "children": []
+    },
+    {
+     "key": "komisije",
+     "label": "Komisije",
+     "path": "/nabavke/komisije",
+     "icon": "Users",
+     "children": []
+    },
+    {
+     "key": "ugovori",
+     "label": "Ugovori",
+     "path": "/nabavke/ugovori",
+     "icon": "FilePenLine",
+     "children": []
+    },
+    {
+     "key": "okvirni",
+     "label": "Okvirni sporazumi",
+     "path": "/nabavke/okvirni-sporazumi",
+     "icon": "Layers",
+     "children": []
+    },
+    {
+     "key": "rokovi",
+     "label": "Rokovi",
+     "path": "/nabavke/rokovi",
+     "icon": "CalendarClock",
+     "children": []
+    },
+    {
+     "key": "sifarnici",
+     "label": "Šifarnici",
+     "path": "/nabavke/sifarnici/jrjn",
+     "icon": "BookOpen",
+     "children": [
+      {
+       "key": "jrjn",
+       "label": "JRJN šifarnik",
+       "path": "/nabavke/sifarnici/jrjn",
+       "description": "Jedinstveni rječnik javnih nabavki (CPV)",
+       "icon": "BookMarked"
+      },
+      {
+       "key": "vrijednosni-pragovi",
+       "label": "Vrijednosni pragovi",
+       "path": "/nabavke/sifarnici/vrijednosni-pragovi",
+       "description": "Koja vrsta postupka za koju vrijednost",
+       "icon": "SlidersHorizontal"
+      },
+      {
+       "key": "vrste-postupaka",
+       "label": "Vrste postupaka",
+       "path": "/nabavke/sifarnici/vrste-postupaka",
+       "description": "Osam postupaka po ZJN BiH",
+       "icon": "ListChecks"
+      },
+      {
+       "key": "tipovi-rokova",
+       "label": "Tipovi rokova",
+       "path": "/nabavke/sifarnici/tipovi-rokova",
+       "description": "Zakonski i ugovorni rokovi",
+       "icon": "Timer"
+      },
+      {
+       "key": "pragovi-realizacije",
+       "label": "Pragovi upozorenja (realizacija)",
+       "path": "/nabavke/sifarnici/pragovi-realizacije",
+       "description": "Kad ugovor upozorava da se iscrpljuje",
+       "icon": "Percent"
+      },
+      {
+       "key": "pravila-garancije",
+       "label": "Pravila garancije",
+       "path": "/nabavke/sifarnici/pravila-garancije",
+       "description": "Najviši procenti garancija (čl. 61.)",
+       "icon": "ShieldCheck"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "skladiste",
+   "label": "Skladište",
+   "path": "/skladiste",
+   "icon": "Warehouse",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/skladiste/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "zalihe",
+     "label": "Zalihe",
+     "path": "/skladiste/zalihe/stanje",
+     "icon": "Boxes",
+     "children": [
+      {
+       "key": "stanje",
+       "label": "Stanje zaliha",
+       "path": "/skladiste/zalihe/stanje",
+       "description": "Stanje po artiklu, skladištu, lokaciji i lotu — ili zbirno po artiklu",
+       "icon": "Boxes"
+      },
+      {
+       "key": "rezervacije",
+       "label": "Rezervacije",
+       "path": "/skladiste/zalihe/rezervacije",
+       "description": "Zaliha koju drže odobrena trebovanja, i šta još nije pokriveno",
+       "icon": "CalendarCheck"
+      },
+      {
+       "key": "artikli",
+       "label": "Artikli",
+       "path": "/skladiste/zalihe/artikli",
+       "description": "Katalog artikala: JM, praćenje i knjigovodstveni profil",
+       "icon": "Package"
+      }
+     ]
+    },
+    {
+     "key": "prijem",
+     "label": "Prijem",
+     "path": "/skladiste/prijem/prijemnice",
+     "icon": "PackagePlus",
+     "children": [
+      {
+       "key": "prijemnice",
+       "label": "Prijemnice",
+       "path": "/skladiste/prijem/prijemnice",
+       "description": "Prijem robe: prijem, kontrola i knjiženje na zalihu",
+       "icon": "PackagePlus"
+      },
+      {
+       "key": "povratnice",
+       "label": "Povratnice",
+       "path": "/skladiste/prijem/povratnice",
+       "description": "Povrat izdate robe nazad na zalihu",
+       "icon": "Undo2"
+      }
+     ]
+    },
+    {
+     "key": "izdavanje",
+     "label": "Izdavanje",
+     "path": "/skladiste/izdavanje/trebovanja",
+     "icon": "PackageMinus",
+     "children": [
+      {
+       "key": "trebovanja",
+       "label": "Trebovanja",
+       "path": "/skladiste/izdavanje/trebovanja",
+       "description": "Potrebe koje se izdaju sa zalihe: pošalji, ovjeri, odobri ili odbij",
+       "icon": "ClipboardList"
+      },
+      {
+       "key": "izdatnice",
+       "label": "Izdatnice",
+       "path": "/skladiste/izdavanje/izdatnice",
+       "description": "Izdavanje sa zalihe po radnom nalogu ili odobrenom trebovanju",
+       "icon": "PackageMinus"
+      },
+      {
+       "key": "otpremnice",
+       "label": "Otpremnice",
+       "path": "/skladiste/izdavanje/otpremnice",
+       "description": "Otprema robe kupcu ili nazad dobavljaču",
+       "icon": "Truck"
+      }
+     ]
+    },
+    {
+     "key": "interno",
+     "label": "Unutar skladišta",
+     "path": "/skladiste/interno/prenosnice",
+     "icon": "ArrowLeftRight",
+     "children": [
+      {
+       "key": "prenosnice",
+       "label": "Prenosnice",
+       "path": "/skladiste/interno/prenosnice",
+       "description": "Prenos između skladišta ili između polica",
+       "icon": "ArrowLeftRight"
+      },
+      {
+       "key": "popisi",
+       "label": "Popisi",
+       "path": "/skladiste/interno/popisi",
+       "description": "Popis zaliha: brojanje, razlike i knjiženje",
+       "icon": "ClipboardCheck"
+      },
+      {
+       "key": "korekcije",
+       "label": "Korekcije",
+       "path": "/skladiste/interno/korekcije",
+       "description": "Korekcije zaliha: oštećenje, manjak, pronađeno",
+       "icon": "Diff"
+      },
+      {
+       "key": "otpisi",
+       "label": "Otpisi",
+       "path": "/skladiste/interno/otpisi",
+       "description": "Otpis robe koja ne vrijedi: komisija, zapisnik, knjiženje",
+       "icon": "FileXCorner"
+      }
+     ]
+    },
+    {
+     "key": "nabavka",
+     "label": "Nabavka",
+     "path": "/skladiste/nabavka/zahtjevi",
+     "icon": "ShoppingCart",
+     "children": [
+      {
+       "key": "zahtjevi",
+       "label": "Zahtjevi za nabavku",
+       "path": "/skladiste/nabavka/zahtjevi",
+       "description": "Potrebe koje zaliha ne pokriva: ovjera, odluka i nabavka",
+       "icon": "ShoppingCart"
+      },
+      {
+       "key": "otvorene-potrebe",
+       "label": "Otvorene potrebe",
+       "path": "/skladiste/nabavka/otvorene-potrebe",
+       "description": "Artikli ispod signalne granice bez otvorenog zahtjeva",
+       "icon": "TriangleAlert"
+      },
+      {
+       "key": "dobavljaci",
+       "label": "Dobavljači",
+       "path": "/skladiste/nabavka/dobavljaci",
+       "description": "Dobavljači od kojih skladište prima robu",
+       "icon": "Users"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/skladiste/izvjestaji/stanje-prema-granicama",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "stanje-prema-granicama",
+       "label": "Stanje prema granicama",
+       "path": "/skladiste/izvjestaji/stanje-prema-granicama",
+       "description": "Redovi ispod minimuma i ispod signalne, po skladištu i artiklu",
+       "icon": "Gauge"
+      },
+      {
+       "key": "mrtva-zaliha",
+       "label": "Mrtva zaliha",
+       "path": "/skladiste/izvjestaji/mrtva-zaliha",
+       "description": "Artikli bez prometa u periodu, s količinom i vrijednošću",
+       "icon": "Archive"
+      },
+      {
+       "key": "fill-rate",
+       "label": "Pokrivenost potreba",
+       "path": "/skladiste/izvjestaji/fill-rate",
+       "description": "Potrebe pokrivene sa zalihe i dani bez zalihe",
+       "icon": "ChartPie"
+      },
+      {
+       "key": "stopa-povrata",
+       "label": "Stopa povrata",
+       "path": "/skladiste/izvjestaji/stopa-povrata",
+       "description": "Povratnice naspram izdatnica, po vrsti povrata",
+       "icon": "RotateCcw"
+      },
+      {
+       "key": "kontrolni-signali",
+       "label": "Kontrolni signali",
+       "path": "/skladiste/izvjestaji/kontrolni-signali",
+       "description": "Blokirano, nerazriješeno, nepokriveno i starost potrebe",
+       "icon": "Activity"
+      },
+      {
+       "key": "privremene-vrijednosti",
+       "label": "Privremene vrijednosti",
+       "path": "/skladiste/izvjestaji/privremene-vrijednosti",
+       "description": "Stavke koje još nose privremenu cijenu",
+       "icon": "Hourglass"
+      },
+      {
+       "key": "pomocna-knjiga",
+       "label": "Pomoćna knjiga naspram GK",
+       "path": "/skladiste/izvjestaji/pomocna-knjiga",
+       "description": "Stanje skladišta naspram glavne knjige",
+       "icon": "Scale"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/skladiste/postavke/skladista",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "skladista",
+       "label": "Skladišta i lokacije",
+       "path": "/skladiste/postavke/skladista",
+       "description": "Skladišta, njihove lokacije i tlocrt",
+       "icon": "Warehouse"
+      },
+      {
+       "key": "politike",
+       "label": "Politike",
+       "path": "/skladiste/postavke/politike",
+       "description": "Verzionisane politike: vrednovanje, granice, ishodi",
+       "icon": "ShieldCheck"
+      },
+      {
+       "key": "pocetna-stanja",
+       "label": "Početna stanja",
+       "path": "/skladiste/postavke/pocetna-stanja",
+       "description": "Prva zaliha skladišta: ručno ili CSV, prije prvog prometa",
+       "icon": "DatabaseZap"
+      },
+      {
+       "key": "naljepnice",
+       "label": "Naljepnice",
+       "path": "/skladiste/postavke/naljepnice",
+       "description": "Kod na naljepnicama: QR i barkod, samo QR ili samo barkod",
+       "icon": "Tags"
+      },
+      {
+       "key": "integracije",
+       "label": "Integracije",
+       "path": "/skladiste/postavke/integracije",
+       "description": "Knjiženja prema Finansijama i veze s drugim aplikacijama",
+       "icon": "Plug"
+      },
+      {
+       "key": "korisnici-i-uloge",
+       "label": "Korisnici i uloge",
+       "path": "/skladiste/postavke/korisnici-i-uloge",
+       "description": "Dodjele uloga po skladištu i periodu važenja",
+       "icon": "UserCog"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "stalna-sredstva",
+   "label": "Stalna sredstva",
+   "path": "/stalna-sredstva",
+   "icon": "Building2",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/stalna-sredstva/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "sredstva",
+     "label": "Sredstva",
+     "path": "/stalna-sredstva/sredstva",
+     "icon": "Tags",
+     "children": []
+    },
+    {
+     "key": "promjene",
+     "label": "Promjene",
+     "path": "/stalna-sredstva/promjene/nabavke",
+     "icon": "FileText",
+     "children": [
+      {
+       "key": "nabavke",
+       "label": "Nabavke",
+       "path": "/stalna-sredstva/promjene/nabavke",
+       "description": "Račun → kartice sredstava, raspodjela odobrenog iznosa",
+       "icon": "PackagePlus"
+      },
+      {
+       "key": "aktiviranja",
+       "label": "Aktiviranja",
+       "path": "/stalna-sredstva/promjene/aktiviranja",
+       "description": "Iz pripreme u upotrebu, od dana spremnosti",
+       "icon": "CirclePlay"
+      },
+      {
+       "key": "premjestaji",
+       "label": "Premještaji",
+       "path": "/stalna-sredstva/promjene/premjestaji",
+       "description": "Osoba, lokacija i mjesto troška, uz potvrdu preuzimanja",
+       "icon": "ArrowLeftRight"
+      },
+      {
+       "key": "ulaganja-i-procjene",
+       "label": "Ulaganja i procjene",
+       "path": "/stalna-sredstva/promjene/ulaganja-i-procjene",
+       "description": "Dodatno ulaganje, novi vijek ili ostatak — novi plan od datuma",
+       "icon": "TrendingUp"
+      },
+      {
+       "key": "umanjenja",
+       "label": "Umanjenja",
+       "path": "/stalna-sredstva/promjene/umanjenja",
+       "description": "Posebno umanjenje vrijednosti uz procjenu, i njegovo ukidanje",
+       "icon": "TrendingDown"
+      },
+      {
+       "key": "izlasci",
+       "label": "Izlasci",
+       "path": "/stalna-sredstva/promjene/izlasci",
+       "description": "Prodaja ili rashodovanje — sredstvo izlazi, kartica ostaje",
+       "icon": "LogOut"
+      },
+      {
+       "key": "storna",
+       "label": "Storna",
+       "path": "/stalna-sredstva/promjene/storna",
+       "description": "Poništavanje potvrđene promjene novim dokumentom",
+       "icon": "Undo2"
+      }
+     ]
+    },
+    {
+     "key": "amortizacija",
+     "label": "Amortizacija",
+     "path": "/stalna-sredstva/amortizacija",
+     "icon": "Calculator",
+     "children": []
+    },
+    {
+     "key": "popis",
+     "label": "Popis",
+     "path": "/stalna-sredstva/popis",
+     "icon": "ClipboardCheck",
+     "children": []
+    },
+    {
+     "key": "knjizenja",
+     "label": "Knjiženja",
+     "path": "/stalna-sredstva/knjizenja/prijenosi",
+     "icon": "Landmark",
+     "children": [
+      {
+       "key": "prijenosi",
+       "label": "Prijenosi u GK",
+       "path": "/stalna-sredstva/knjizenja/prijenosi",
+       "description": "Svaka potvrđena promjena i obračun prema glavnoj knjizi",
+       "icon": "Send"
+      },
+      {
+       "key": "periodi",
+       "label": "Periodi",
+       "path": "/stalna-sredstva/knjizenja/periodi",
+       "description": "Zaključavanje mjeseca kad su obračun, prijenosi i razlike gotovi",
+       "icon": "Lock"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/stalna-sredstva/izvjestaji/pregled-sredstava",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "pregled-sredstava",
+       "label": "Šta imamo i gdje je",
+       "path": "/stalna-sredstva/izvjestaji/pregled-sredstava",
+       "description": "Sredstva po grupi, lokaciji i osobi, na izabrani dan",
+       "icon": "MapPin"
+      },
+      {
+       "key": "zaduzenja",
+       "label": "Zaduženja",
+       "path": "/stalna-sredstva/izvjestaji/zaduzenja",
+       "description": "Ko je za šta zadužen, po osobi i dijelu firme",
+       "icon": "UserCheck"
+      },
+      {
+       "key": "historija-sredstva",
+       "label": "Historija sredstva",
+       "path": "/stalna-sredstva/izvjestaji/historija-sredstva",
+       "description": "Od početnog stanja, kroz svaku promjenu, do završnog",
+       "icon": "RotateCcwClock"
+      },
+      {
+       "key": "obracun-amortizacije",
+       "label": "Obračun amortizacije",
+       "path": "/stalna-sredstva/izvjestaji/obracun-amortizacije",
+       "description": "Amortizacija za izabrani period, po sredstvu i grupi",
+       "icon": "Calculator"
+      },
+      {
+       "key": "kretanje-vrijednosti",
+       "label": "Kretanje vrijednosti",
+       "path": "/stalna-sredstva/izvjestaji/kretanje-vrijednosti",
+       "description": "Početno stanje, nabavke, ulaganja, amortizacija, umanjenja, izlasci",
+       "icon": "TrendingUp"
+      },
+      {
+       "key": "popisne-razlike",
+       "label": "Popisne razlike i izlasci",
+       "path": "/stalna-sredstva/izvjestaji/popisne-razlike",
+       "description": "Razlike s rješenjem, prodaje i rashodovanja",
+       "icon": "Diff"
+      },
+      {
+       "key": "uskladjenost-s-gk",
+       "label": "Usklađenost s GK",
+       "path": "/stalna-sredstva/izvjestaji/uskladjenost-s-gk",
+       "description": "Stalna sredstva naspram glavne knjige, do sredstva i dokumenta",
+       "icon": "Scale"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/stalna-sredstva/postavke/grupe-i-pravila",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "grupe-i-pravila",
+       "label": "Grupe i pravila",
+       "path": "/stalna-sredstva/postavke/grupe-i-pravila",
+       "description": "Grupe sredstava, kriterij i verzionisana pravila obračuna",
+       "icon": "ListTree"
+      },
+      {
+       "key": "oznake",
+       "label": "Oznake",
+       "path": "/stalna-sredstva/postavke/oznake",
+       "description": "Kod na naljepnicama sredstava i prostorija",
+       "icon": "Hash"
+      },
+      {
+       "key": "prostorije",
+       "label": "Prostorije",
+       "path": "/stalna-sredstva/postavke/prostorije",
+       "description": "Kancelarije i sale unutar lokacija — naljepnica na vratima za skeniranje",
+       "icon": "DoorOpen"
+      },
+      {
+       "key": "korisnici-i-uloge",
+       "label": "Korisnici i uloge",
+       "path": "/stalna-sredstva/postavke/korisnici-i-uloge",
+       "description": "Ko unosi, ko odobrava i do kojeg iznosa, ko samo gleda",
+       "icon": "UserCog"
+      },
+      {
+       "key": "veze-s-racunovodstvom",
+       "label": "Veze s računovodstvom",
+       "path": "/stalna-sredstva/postavke/veze-s-racunovodstvom",
+       "description": "Konta po grupi i šta koja promjena šalje u glavnu knjigu",
+       "icon": "Plug"
+      },
+      {
+       "key": "uvoz",
+       "label": "Uvoz evidencije",
+       "path": "/stalna-sredstva/postavke/uvoz",
+       "description": "Probni uvoz, poređenje sa starom evidencijom i GK, konačni uvoz",
+       "icon": "FileUp"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "nalozi",
+   "label": "Radni nalozi",
+   "path": "/nalozi",
+   "icon": "ClipboardList",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/nalozi/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "lista",
+     "label": "Nalozi",
+     "path": "/nalozi/lista",
+     "icon": "ClipboardList",
+     "children": []
+    },
+    {
+     "key": "plan",
+     "label": "Godišnji plan",
+     "path": "/nalozi/plan",
+     "icon": "CalendarDays",
+     "children": []
+    },
+    {
+     "key": "normativi",
+     "label": "Normativi",
+     "path": "/nalozi/normativi",
+     "icon": "Ruler",
+     "children": []
+    },
+    {
+     "key": "profili",
+     "label": "Profili dokaza",
+     "path": "/nalozi/profili",
+     "icon": "FileCheckCorner",
+     "children": []
+    },
+    {
+     "key": "reversi",
+     "label": "Reversi",
+     "path": "/nalozi/reversi",
+     "icon": "Package",
+     "children": []
+    },
+    {
+     "key": "dispecer",
+     "label": "Dispečer",
+     "path": "/nalozi/dispecer",
+     "icon": "Siren",
+     "children": []
+    }
+   ]
+  },
+  {
+   "key": "maticni-podaci",
+   "label": "Matični podaci",
+   "path": "/maticni-podaci",
+   "icon": "Database",
+   "sections": [
+    {
+     "key": "partneri",
+     "label": "Poslovni partneri",
+     "path": "/maticni-podaci/partneri/svi",
+     "icon": "Handshake",
+     "children": [
+      {
+       "key": "svi",
+       "label": "Svi partneri",
+       "path": "/maticni-podaci/partneri/svi",
+       "description": "Jedan zapis po firmi ili osobi, bez obzira na ulogu",
+       "icon": "Users"
+      },
+      {
+       "key": "kupci",
+       "label": "Kupci",
+       "path": "/maticni-podaci/partneri/kupci",
+       "description": "Partneri kojima prodajemo: uslovi plaćanja i kreditni limit",
+       "icon": "UserCheck"
+      },
+      {
+       "key": "dobavljaci",
+       "label": "Dobavljači",
+       "path": "/maticni-podaci/partneri/dobavljaci",
+       "description": "Partneri od kojih kupujemo: kvalifikacija i uslovi",
+       "icon": "Truck"
+      },
+      {
+       "key": "kontakti",
+       "label": "Kontakt osobe",
+       "path": "/maticni-podaci/partneri/kontakti",
+       "description": "Ljudi kod partnera: uloga, telefon i e-pošta",
+       "icon": "Contact"
+      },
+      {
+       "key": "racuni",
+       "label": "Bankovni računi",
+       "path": "/maticni-podaci/partneri/racuni",
+       "description": "Računi partnera, s provjerom prije prvog plaćanja",
+       "icon": "Landmark"
+      },
+      {
+       "key": "grupe",
+       "label": "Grupe partnera",
+       "path": "/maticni-podaci/partneri/grupe",
+       "description": "Povezana lica i matične firme s podružnicama",
+       "icon": "Network"
+      }
+     ]
+    },
+    {
+     "key": "artikli",
+     "label": "Artikli i usluge",
+     "path": "/maticni-podaci/artikli/artikli",
+     "icon": "Package",
+     "children": [
+      {
+       "key": "artikli",
+       "label": "Artikli",
+       "path": "/maticni-podaci/artikli/artikli",
+       "description": "Roba i materijal: šifra, JM, porez i knjigovodstveni profil",
+       "icon": "Package"
+      },
+      {
+       "key": "usluge",
+       "label": "Usluge",
+       "path": "/maticni-podaci/artikli/usluge",
+       "description": "Usluge koje prodajemo ili kupujemo",
+       "icon": "Briefcase"
+      },
+      {
+       "key": "grupe",
+       "label": "Grupe artikala",
+       "path": "/maticni-podaci/artikli/grupe",
+       "description": "Hijerarhija grupa za izvještaje i pravila knjiženja",
+       "icon": "FolderTree"
+      },
+      {
+       "key": "jedinice-mjere",
+       "label": "Jedinice mjere",
+       "path": "/maticni-podaci/artikli/jedinice-mjere",
+       "description": "Jedinice mjere i pretvaranje između njih",
+       "icon": "Ruler"
+      }
+     ]
+    },
+    {
+     "key": "sifrarnici",
+     "label": "Zajednički šifrarnici",
+     "path": "/maticni-podaci/sifrarnici/drzave-mjesta",
+     "icon": "BookMarked",
+     "children": [
+      {
+       "key": "drzave-mjesta",
+       "label": "Države i mjesta",
+       "path": "/maticni-podaci/sifrarnici/drzave-mjesta",
+       "description": "Države, entiteti, kantoni, općine i poštanski brojevi",
+       "icon": "MapPin"
+      },
+      {
+       "key": "valute",
+       "label": "Valute",
+       "path": "/maticni-podaci/sifrarnici/valute",
+       "description": "Valute u kojima firma posluje",
+       "icon": "Coins"
+      },
+      {
+       "key": "banke",
+       "label": "Banke",
+       "path": "/maticni-podaci/sifrarnici/banke",
+       "description": "Banke i njihovi SWIFT i identifikacijski brojevi",
+       "icon": "Building"
+      },
+      {
+       "key": "djelatnosti",
+       "label": "Djelatnosti",
+       "path": "/maticni-podaci/sifrarnici/djelatnosti",
+       "description": "Klasifikacija djelatnosti (KD BiH)",
+       "icon": "ListTree"
+      },
+      {
+       "key": "kontni-plan",
+       "label": "Kontni plan",
+       "path": "/maticni-podaci/sifrarnici/kontni-plan",
+       "description": "Konta za sve aplikacije: knjiženje, plan, stalna sredstva",
+       "icon": "ListTree"
+      },
+      {
+       "key": "mjesta-troskova",
+       "label": "Mjesta troškova",
+       "path": "/maticni-podaci/sifrarnici/mjesta-troskova",
+       "description": "Gdje troškovi nastaju: sektori, pogoni i službe",
+       "icon": "Building2"
+      },
+      {
+       "key": "neradni-dani",
+       "label": "Neradni dani i praznici",
+       "path": "/maticni-podaci/sifrarnici/neradni-dani",
+       "description": "Praznici za odsustva, sate, rokove i rezervacije — jedna lista za sve aplikacije",
+       "icon": "CalendarOff"
+      },
+      {
+       "key": "zakonski-parametri",
+       "label": "Zakonski parametri",
+       "path": "/maticni-podaci/sifrarnici/zakonski-parametri",
+       "description": "Stope doprinosa i poreza, osnovica plate, najniža plata i PDV — za Plate, Planiranje i Nabavke",
+       "icon": "SlidersHorizontal"
+      },
+      {
+       "key": "vrste-ugovora",
+       "label": "Vrste ugovora",
+       "path": "/maticni-podaci/sifrarnici/vrste-ugovora",
+       "description": "Vrste po kojima registar ugovora vodi svaki ugovor",
+       "icon": "FilePenLine"
+      }
+     ]
+    },
+    {
+     "key": "organizacija",
+     "label": "Organizacija",
+     "path": "/maticni-podaci/organizacija/podaci-o-firmi",
+     "icon": "Network",
+     "children": [
+      {
+       "key": "podaci-o-firmi",
+       "label": "Podaci o firmi",
+       "path": "/maticni-podaci/organizacija/podaci-o-firmi",
+       "description": "Naziv, sjedište, JIB, PDV broj i logo — na svakom dokumentu, u svim aplikacijama",
+       "icon": "Building"
+      },
+      {
+       "key": "struktura",
+       "label": "Organizaciona struktura",
+       "path": "/maticni-podaci/organizacija/struktura",
+       "description": "Organizacione jedinice po Pravilniku, za sve aplikacije",
+       "icon": "Network"
+      },
+      {
+       "key": "radna-mjesta",
+       "label": "Radna mjesta",
+       "path": "/maticni-podaci/organizacija/radna-mjesta",
+       "description": "Katalog radnih mjesta po organizacionim jedinicama",
+       "icon": "Briefcase"
+      },
+      {
+       "key": "radne-lokacije",
+       "label": "Radne lokacije",
+       "path": "/maticni-podaci/organizacija/radne-lokacije",
+       "description": "Sjedište, kotlovnice, podstanice i skladišta",
+       "icon": "MapPin"
+      },
+      {
+       "key": "prostorije",
+       "label": "Prostorije",
+       "path": "/maticni-podaci/organizacija/prostorije",
+       "description": "Kancelarije, hale, postrojenja i depoi na lokacijama — za sredstva, skladišta, naloge i arhivu",
+       "icon": "DoorOpen"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/maticni-podaci/postavke/numeracija",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "numeracija",
+       "label": "Šifre i numeracija",
+       "path": "/maticni-podaci/postavke/numeracija",
+       "description": "Brojevi dokumenata i šifre zapisa za sve aplikacije",
+       "icon": "Hash"
+      },
+      {
+       "key": "obavezna-polja",
+       "label": "Obavezna polja i provjere",
+       "path": "/maticni-podaci/postavke/obavezna-polja",
+       "description": "Šta mora biti popunjeno i provjereno prije odobrenja",
+       "icon": "ListChecks"
+      },
+      {
+       "key": "uvoz",
+       "label": "Uvoz podataka",
+       "path": "/maticni-podaci/postavke/uvoz",
+       "description": "Početni uvoz i masovne izmjene iz datoteke",
+       "icon": "FileUp"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "crm",
+   "label": "CRM i prodaja",
+   "path": "/crm",
+   "icon": "Handshake",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/crm/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "lijevak",
+     "label": "Prodajni lijevak",
+     "path": "/crm/lijevak/potencijalni",
+     "icon": "Funnel",
+     "children": [
+      {
+       "key": "potencijalni",
+       "label": "Potencijalni klijenti",
+       "path": "/crm/lijevak/potencijalni",
+       "description": "Novi upiti i kontakti koje tek treba kvalifikovati",
+       "icon": "UserPlus"
+      },
+      {
+       "key": "prilike",
+       "label": "Prilike",
+       "path": "/crm/lijevak/prilike",
+       "description": "Kvalifikovani poslovi: vrijednost, faza i vjerovatnoća",
+       "icon": "Target"
+      },
+      {
+       "key": "pipeline",
+       "label": "Pipeline",
+       "path": "/crm/lijevak/pipeline",
+       "description": "Prilike po fazama, prevlačenjem iz faze u fazu",
+       "icon": "SquareKanban"
+      }
+     ]
+    },
+    {
+     "key": "klijenti",
+     "label": "Klijenti",
+     "path": "/crm/klijenti/kupci",
+     "icon": "Users",
+     "children": [
+      {
+       "key": "kupci",
+       "label": "Kupci",
+       "path": "/crm/klijenti/kupci",
+       "description": "Pregled kupca: prilike, ponude, narudžbe i dugovanja",
+       "icon": "UserCheck"
+      },
+      {
+       "key": "kontakti",
+       "label": "Kontakti",
+       "path": "/crm/klijenti/kontakti",
+       "description": "Ljudi kod kupaca i historija komunikacije s njima",
+       "icon": "Contact"
+      },
+      {
+       "key": "segmenti",
+       "label": "Segmenti",
+       "path": "/crm/klijenti/segmenti",
+       "description": "Grupe kupaca po djelatnosti, veličini ili regiji",
+       "icon": "Layers"
+      }
+     ]
+    },
+    {
+     "key": "ponude",
+     "label": "Ponude",
+     "path": "/crm/ponude/ponude",
+     "icon": "FileText",
+     "children": [
+      {
+       "key": "ponude",
+       "label": "Ponude",
+       "path": "/crm/ponude/ponude",
+       "description": "Izrada, odobrenje i slanje ponuda kupcu",
+       "icon": "FileText"
+      },
+      {
+       "key": "cjenovnici",
+       "label": "Cjenovnici",
+       "path": "/crm/ponude/cjenovnici",
+       "description": "Cijene po kupcu, segmentu i valuti",
+       "icon": "Tags"
+      },
+      {
+       "key": "popusti",
+       "label": "Popusti i akcije",
+       "path": "/crm/ponude/popusti",
+       "description": "Pravila popusta i njihova odobrenja",
+       "icon": "Percent"
+      }
+     ]
+    },
+    {
+     "key": "narudzbe",
+     "label": "Narudžbe",
+     "path": "/crm/narudzbe/narudzbe",
+     "icon": "ShoppingCart",
+     "children": [
+      {
+       "key": "narudzbe",
+       "label": "Narudžbe kupaca",
+       "path": "/crm/narudzbe/narudzbe",
+       "description": "Potvrđene narudžbe i status isporuke i fakturisanja",
+       "icon": "ShoppingCart"
+      },
+      {
+       "key": "isporuke",
+       "label": "Isporuke",
+       "path": "/crm/narudzbe/isporuke",
+       "description": "Šta je otpremljeno, a šta još čeka",
+       "icon": "Truck"
+      },
+      {
+       "key": "povrati",
+       "label": "Povrati kupaca",
+       "path": "/crm/narudzbe/povrati",
+       "description": "Vraćena roba i knjižna odobrenja",
+       "icon": "Undo2"
+      }
+     ]
+    },
+    {
+     "key": "aktivnosti",
+     "label": "Aktivnosti",
+     "path": "/crm/aktivnosti/zadaci",
+     "icon": "CalendarCheck",
+     "children": [
+      {
+       "key": "zadaci",
+       "label": "Zadaci",
+       "path": "/crm/aktivnosti/zadaci",
+       "description": "Šta prodajni tim treba uraditi i do kada",
+       "icon": "ListTodo"
+      },
+      {
+       "key": "sastanci-pozivi",
+       "label": "Sastanci i pozivi",
+       "path": "/crm/aktivnosti/sastanci-pozivi",
+       "description": "Zapis svakog kontakta s kupcem",
+       "icon": "Phone"
+      }
+     ]
+    },
+    {
+     "key": "marketing",
+     "label": "Marketing",
+     "path": "/crm/marketing/kampanje",
+     "icon": "Megaphone",
+     "children": [
+      {
+       "key": "kampanje",
+       "label": "Kampanje",
+       "path": "/crm/marketing/kampanje",
+       "description": "Kampanje, njihov trošak i prilike koje su donijele",
+       "icon": "Megaphone"
+      },
+      {
+       "key": "liste",
+       "label": "Liste primalaca",
+       "path": "/crm/marketing/liste",
+       "description": "Kome se kampanja šalje i ko se odjavio",
+       "icon": "Mail"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/crm/izvjestaji/prodaja",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "prodaja",
+       "label": "Prodaja po periodu",
+       "path": "/crm/izvjestaji/prodaja",
+       "description": "Prihod po kupcu, proizvodu, prodavcu i regiji",
+       "icon": "ChartColumn"
+      },
+      {
+       "key": "konverzija",
+       "label": "Konverzija lijevka",
+       "path": "/crm/izvjestaji/konverzija",
+       "description": "Koliko prilika prolazi svaku fazu i gdje se gube",
+       "icon": "Funnel"
+      },
+      {
+       "key": "prognoza",
+       "label": "Prognoza prodaje",
+       "path": "/crm/izvjestaji/prognoza",
+       "description": "Očekivani prihod iz otvorenih prilika",
+       "icon": "TrendingUp"
+      },
+      {
+       "key": "tim",
+       "label": "Rezultati tima",
+       "path": "/crm/izvjestaji/tim",
+       "description": "Aktivnosti i rezultat po prodavcu",
+       "icon": "Trophy"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/crm/postavke/faze",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "faze",
+       "label": "Faze prodaje",
+       "path": "/crm/postavke/faze",
+       "description": "Faze lijevka i vjerovatnoća po fazi",
+       "icon": "ListChecks"
+      },
+      {
+       "key": "izvori",
+       "label": "Izvori klijenata",
+       "path": "/crm/postavke/izvori",
+       "description": "Odakle dolaze potencijalni klijenti",
+       "icon": "Globe"
+      },
+      {
+       "key": "timovi",
+       "label": "Timovi i teritorije",
+       "path": "/crm/postavke/timovi",
+       "description": "Ko pokriva koje kupce i regije",
+       "icon": "MapPinned"
+      },
+      {
+       "key": "razlozi-gubitka",
+       "label": "Razlozi gubitka",
+       "path": "/crm/postavke/razlozi-gubitka",
+       "description": "Zašto su prilike izgubljene",
+       "icon": "Flag"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "plate",
+   "label": "Plate",
+   "path": "/plate",
+   "icon": "Wallet",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/plate/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "obracun",
+     "label": "Obračun",
+     "path": "/plate/obracun/obracuni",
+     "icon": "Calculator",
+     "children": [
+      {
+       "key": "obracuni",
+       "label": "Obračuni plata",
+       "path": "/plate/obracun/obracuni",
+       "description": "Mjesečni obračun: priprema, kontrola i zaključavanje",
+       "icon": "Calculator"
+      },
+      {
+       "key": "radno-vrijeme",
+       "label": "Evidencija radnog vremena",
+       "path": "/plate/obracun/radno-vrijeme",
+       "description": "Sati rada, prekovremeni, noćni rad i praznici",
+       "icon": "Clock"
+      },
+      {
+       "key": "naknade",
+       "label": "Naknade i dodaci",
+       "path": "/plate/obracun/naknade",
+       "description": "Bolovanje, godišnji odmor, topli obrok, regres i dodaci",
+       "icon": "HandCoins"
+      },
+      {
+       "key": "obustave",
+       "label": "Obustave i zabrane",
+       "path": "/plate/obracun/obustave",
+       "description": "Krediti, administrativne zabrane i sindikalne članarine",
+       "icon": "FileMinus"
+      }
+     ]
+    },
+    {
+     "key": "ostala-primanja",
+     "label": "Ostala primanja",
+     "path": "/plate/ostala-primanja/ugovori-o-djelu",
+     "icon": "Briefcase",
+     "children": [
+      {
+       "key": "ugovori-o-djelu",
+       "label": "Ugovori o djelu",
+       "path": "/plate/ostala-primanja/ugovori-o-djelu",
+       "description": "Isplate po ugovoru o djelu",
+       "icon": "FilePenLine"
+      },
+      {
+       "key": "autorski-honorari",
+       "label": "Autorski honorari",
+       "path": "/plate/ostala-primanja/autorski-honorari",
+       "description": "Isplate autorskih naknada",
+       "icon": "BookText"
+      },
+      {
+       "key": "naknade-odborima",
+       "label": "Naknade članovima odbora",
+       "path": "/plate/ostala-primanja/naknade-odborima",
+       "description": "Nadzorni i upravni odbor i komisije",
+       "icon": "Users"
+      }
+     ]
+    },
+    {
+     "key": "isplata",
+     "label": "Isplata",
+     "path": "/plate/isplata/platne-liste",
+     "icon": "Banknote",
+     "children": [
+      {
+       "key": "platne-liste",
+       "label": "Platne liste",
+       "path": "/plate/isplata/platne-liste",
+       "description": "Platna lista za svakog zaposlenika",
+       "icon": "Receipt"
+      },
+      {
+       "key": "nalozi",
+       "label": "Nalozi za isplatu",
+       "path": "/plate/isplata/nalozi",
+       "description": "Paket naloga za banku",
+       "icon": "Send"
+      },
+      {
+       "key": "knjizenje",
+       "label": "Knjiženje u Finansije",
+       "path": "/plate/isplata/knjizenje",
+       "description": "Trošak plata, porezi i doprinosi prema glavnoj knjizi",
+       "icon": "BookOpen"
+      }
+     ]
+    },
+    {
+     "key": "prijave",
+     "label": "Prijave i obrasci",
+     "path": "/plate/prijave/specifikacije",
+     "icon": "FileText",
+     "children": [
+      {
+       "key": "specifikacije",
+       "label": "Specifikacije uz isplatu",
+       "path": "/plate/prijave/specifikacije",
+       "description": "Specifikacija poreza i doprinosa uz svaku isplatu",
+       "icon": "FileSpreadsheet"
+      },
+      {
+       "key": "mjesecne",
+       "label": "Mjesečne prijave",
+       "path": "/plate/prijave/mjesecne",
+       "description": "Mjesečna prijava poreza i doprinosa poreznoj upravi",
+       "icon": "CalendarCheck"
+      },
+      {
+       "key": "godisnje",
+       "label": "Godišnji izvještaji",
+       "path": "/plate/prijave/godisnje",
+       "description": "Godišnji pregled isplaćenih primanja po zaposleniku",
+       "icon": "CalendarRange"
+      },
+      {
+       "key": "potvrde",
+       "label": "Potvrde o primanjima",
+       "path": "/plate/prijave/potvrde",
+       "description": "Potvrde za banku, sud ili zaposlenika",
+       "icon": "FileCheck"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/plate/izvjestaji/rekapitulacija",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "rekapitulacija",
+       "label": "Rekapitulacija plata",
+       "path": "/plate/izvjestaji/rekapitulacija",
+       "description": "Bruto, neto, porezi i doprinosi za period",
+       "icon": "TableProperties"
+      },
+      {
+       "key": "trosak-rada",
+       "label": "Trošak rada",
+       "path": "/plate/izvjestaji/trosak-rada",
+       "description": "Trošak rada po mjestu troška, sektoru i projektu",
+       "icon": "ChartPie"
+      },
+      {
+       "key": "statistika",
+       "label": "Statistika plata",
+       "path": "/plate/izvjestaji/statistika",
+       "description": "Prosječne plate i njihovo kretanje kroz godinu",
+       "icon": "ChartColumn"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/plate/postavke/vrste-primanja",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "vrste-primanja",
+       "label": "Vrste primanja",
+       "path": "/plate/postavke/vrste-primanja",
+       "description": "Šta se isplaćuje i kako se oporezuje",
+       "icon": "ListTree"
+      },
+      {
+       "key": "vrste-obustava",
+       "label": "Vrste obustava",
+       "path": "/plate/postavke/vrste-obustava",
+       "description": "Vrste obustava i redoslijed njihovog odbijanja",
+       "icon": "ListChecks"
+      },
+      {
+       "key": "ovlastenja",
+       "label": "Ovlaštenja",
+       "path": "/plate/postavke/ovlastenja",
+       "description": "Ko vidi i ko obračunava plate",
+       "icon": "Lock"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "ugovori",
+   "label": "Ugovori",
+   "path": "/ugovori",
+   "icon": "FilePenLine",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/ugovori/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "ugovori",
+     "label": "Ugovori",
+     "path": "/ugovori/ugovori/svi",
+     "icon": "FilePenLine",
+     "children": [
+      {
+       "key": "svi",
+       "label": "Svi ugovori",
+       "path": "/ugovori/ugovori/svi",
+       "description": "Aktivni, istekli i raskinuti ugovori",
+       "icon": "FileText"
+      },
+      {
+       "key": "kupci",
+       "label": "S kupcima",
+       "path": "/ugovori/ugovori/kupci",
+       "description": "Ugovori o prodaji i pružanju usluga",
+       "icon": "UserCheck"
+      },
+      {
+       "key": "dobavljaci",
+       "label": "S dobavljačima",
+       "path": "/ugovori/ugovori/dobavljaci",
+       "description": "Ugovori iz nabavki, s vrijednošću i iskorištenošću",
+       "icon": "Truck"
+      },
+      {
+       "key": "zakup",
+       "label": "Zakup i najam",
+       "path": "/ugovori/ugovori/zakup",
+       "description": "Poslovni prostori, oprema i vozila",
+       "icon": "Building"
+      },
+      {
+       "key": "okvirni",
+       "label": "Okvirni sporazumi",
+       "path": "/ugovori/ugovori/okvirni",
+       "description": "Okvirni sporazumi i pojedinačni ugovori po njima",
+       "icon": "Layers"
+      }
+     ]
+    },
+    {
+     "key": "priprema",
+     "label": "Priprema",
+     "path": "/ugovori/priprema/zahtjevi",
+     "icon": "FilePen",
+     "children": [
+      {
+       "key": "zahtjevi",
+       "label": "Zahtjevi za ugovor",
+       "path": "/ugovori/priprema/zahtjevi",
+       "description": "Službe traže novi ugovor ili izmjenu postojećeg",
+       "icon": "Inbox"
+      },
+      {
+       "key": "nacrti",
+       "label": "Nacrti i pravni pregled",
+       "path": "/ugovori/priprema/nacrti",
+       "description": "Pregovori, verzije nacrta i komentari pravne službe",
+       "icon": "FilePen"
+      },
+      {
+       "key": "potpisivanje",
+       "label": "Potpisivanje",
+       "path": "/ugovori/priprema/potpisivanje",
+       "description": "Redoslijed potpisa i potpisani primjerci",
+       "icon": "PenLine"
+      }
+     ]
+    },
+    {
+     "key": "izvrsenje",
+     "label": "Izvršenje",
+     "path": "/ugovori/izvrsenje/obaveze",
+     "icon": "ListChecks",
+     "children": [
+      {
+       "key": "obaveze",
+       "label": "Ugovorne obaveze",
+       "path": "/ugovori/izvrsenje/obaveze",
+       "description": "Šta koja strana mora uraditi i do kada",
+       "icon": "ListChecks"
+      },
+      {
+       "key": "aneksi",
+       "label": "Aneksi",
+       "path": "/ugovori/izvrsenje/aneksi",
+       "description": "Izmjene ugovora i njihov uticaj na vrijednost i rok",
+       "icon": "FilePlus"
+      },
+      {
+       "key": "garancije",
+       "label": "Garancije i osiguranja",
+       "path": "/ugovori/izvrsenje/garancije",
+       "description": "Bankovne garancije, mjenice i polise po ugovoru",
+       "icon": "ShieldCheck"
+      },
+      {
+       "key": "obnove-otkazi",
+       "label": "Obnove i otkazi",
+       "path": "/ugovori/izvrsenje/obnove-otkazi",
+       "description": "Automatske obnove, otkazni rokovi i raskidi",
+       "icon": "RotateCcw"
+      }
+     ]
+    },
+    {
+     "key": "rokovi",
+     "label": "Rokovi",
+     "path": "/ugovori/rokovi/isticu",
+     "icon": "CalendarClock",
+     "children": [
+      {
+       "key": "isticu",
+       "label": "Ističu uskoro",
+       "path": "/ugovori/rokovi/isticu",
+       "description": "Ugovori i garancije kojima uskoro ističe rok",
+       "icon": "Hourglass"
+      },
+      {
+       "key": "kalendar",
+       "label": "Kalendar rokova",
+       "path": "/ugovori/rokovi/kalendar",
+       "description": "Svi ugovorni rokovi po danima",
+       "icon": "CalendarDays"
+      }
+     ]
+    },
+    {
+     "key": "sabloni",
+     "label": "Šabloni",
+     "path": "/ugovori/sabloni/sabloni",
+     "icon": "BookMarked",
+     "children": [
+      {
+       "key": "sabloni",
+       "label": "Šabloni ugovora",
+       "path": "/ugovori/sabloni/sabloni",
+       "description": "Odobreni obrasci ugovora po vrsti",
+       "icon": "Copy"
+      },
+      {
+       "key": "klauzule",
+       "label": "Standardne klauzule",
+       "path": "/ugovori/sabloni/klauzule",
+       "description": "Odobrene formulacije koje se ubacuju u nacrt",
+       "icon": "ScrollText"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/ugovori/izvjestaji/vrijednost",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "vrijednost",
+       "label": "Vrijednost ugovora",
+       "path": "/ugovori/izvjestaji/vrijednost",
+       "description": "Ugovorena i iskorištena vrijednost po strani i vrsti",
+       "icon": "ChartColumn"
+      },
+      {
+       "key": "iskoristenost",
+       "label": "Iskorištenost okvirnih sporazuma",
+       "path": "/ugovori/izvjestaji/iskoristenost",
+       "description": "Koliko je okvira potrošeno, a koliko ostaje",
+       "icon": "Gauge"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/ugovori/postavke/odobravanje",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "odobravanje",
+       "label": "Tok odobravanja",
+       "path": "/ugovori/postavke/odobravanje",
+       "description": "Ko odobrava ugovor prema vrsti i vrijednosti",
+       "icon": "Workflow"
+      },
+      {
+       "key": "podsjetnici",
+       "label": "Podsjetnici",
+       "path": "/ugovori/postavke/podsjetnici",
+       "description": "Koliko dana ranije se najavljuje istek i kome",
+       "icon": "Bell"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "projekti",
+   "label": "Projekti",
+   "path": "/projekti",
+   "icon": "FolderKanban",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/projekti/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "projekti",
+     "label": "Projekti",
+     "path": "/projekti/projekti/svi",
+     "icon": "FolderKanban",
+     "children": [
+      {
+       "key": "svi",
+       "label": "Svi projekti",
+       "path": "/projekti/projekti/svi",
+       "description": "Projekti po statusu, rukovodiocu i kupcu",
+       "icon": "FolderOpen"
+      },
+      {
+       "key": "moji",
+       "label": "Moji projekti",
+       "path": "/projekti/projekti/moji",
+       "description": "Projekti na kojima radim",
+       "icon": "User"
+      },
+      {
+       "key": "portfelj",
+       "label": "Portfelj",
+       "path": "/projekti/projekti/portfelj",
+       "description": "Svi projekti zajedno: prioritet, budžet i rizik",
+       "icon": "Briefcase"
+      }
+     ]
+    },
+    {
+     "key": "plan",
+     "label": "Plan",
+     "path": "/projekti/plan/faze",
+     "icon": "CalendarRange",
+     "children": [
+      {
+       "key": "faze",
+       "label": "Faze i prekretnice",
+       "path": "/projekti/plan/faze",
+       "description": "Gantogram faza i ključni datumi",
+       "icon": "Milestone"
+      },
+      {
+       "key": "zadaci",
+       "label": "Zadaci",
+       "path": "/projekti/plan/zadaci",
+       "description": "Zadaci, zavisnosti i odgovorni",
+       "icon": "ListTodo"
+      },
+      {
+       "key": "resursi",
+       "label": "Resursi i kapaciteti",
+       "path": "/projekti/plan/resursi",
+       "description": "Ko je raspoređen na koji projekat i koliko",
+       "icon": "Users"
+      }
+     ]
+    },
+    {
+     "key": "evidencija",
+     "label": "Evidencija",
+     "path": "/projekti/evidencija/sati",
+     "icon": "Clock",
+     "children": [
+      {
+       "key": "sati",
+       "label": "Evidencija sati",
+       "path": "/projekti/evidencija/sati",
+       "description": "Sati po projektu i zadatku",
+       "icon": "Clock"
+      },
+      {
+       "key": "odobravanje-sati",
+       "label": "Odobravanje sati",
+       "path": "/projekti/evidencija/odobravanje-sati",
+       "description": "Rukovodilac projekta potvrđuje prijavljene sate",
+       "icon": "UserCheck"
+      },
+      {
+       "key": "troskovi",
+       "label": "Troškovi projekta",
+       "path": "/projekti/evidencija/troskovi",
+       "description": "Materijal, usluge i putni troškovi na projektu",
+       "icon": "Receipt"
+      }
+     ]
+    },
+    {
+     "key": "finansije",
+     "label": "Finansije projekta",
+     "path": "/projekti/finansije/budzet",
+     "icon": "Coins",
+     "children": [
+      {
+       "key": "budzet",
+       "label": "Budžet projekta",
+       "path": "/projekti/finansije/budzet",
+       "description": "Plan troškova i prihoda po fazi",
+       "icon": "Calculator"
+      },
+      {
+       "key": "fakturisanje",
+       "label": "Fakturisanje",
+       "path": "/projekti/finansije/fakturisanje",
+       "description": "Fakture kupcu po prekretnici ili utrošenim satima",
+       "icon": "FileOutput"
+      },
+      {
+       "key": "profitabilnost",
+       "label": "Profitabilnost",
+       "path": "/projekti/finansije/profitabilnost",
+       "description": "Prihod, trošak i marža projekta",
+       "icon": "ChartPie"
+      }
+     ]
+    },
+    {
+     "key": "rizici",
+     "label": "Rizici i izmjene",
+     "path": "/projekti/rizici/rizici",
+     "icon": "ShieldAlert",
+     "children": [
+      {
+       "key": "rizici",
+       "label": "Rizici",
+       "path": "/projekti/rizici/rizici",
+       "description": "Rizici projekta: vjerovatnoća, uticaj i mjere",
+       "icon": "ShieldAlert"
+      },
+      {
+       "key": "problemi",
+       "label": "Problemi",
+       "path": "/projekti/rizici/problemi",
+       "description": "Otvoreni problemi i ko ih rješava",
+       "icon": "TriangleAlert"
+      },
+      {
+       "key": "izmjene",
+       "label": "Zahtjevi za izmjenu",
+       "path": "/projekti/rizici/izmjene",
+       "description": "Promjene obima, roka ili budžeta i njihovo odobrenje",
+       "icon": "Diff"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/projekti/izvjestaji/status",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "status",
+       "label": "Status projekata",
+       "path": "/projekti/izvjestaji/status",
+       "description": "Rok, budžet i obim za svaki projekat",
+       "icon": "Gauge"
+      },
+      {
+       "key": "iskoristenost",
+       "label": "Iskorištenost resursa",
+       "path": "/projekti/izvjestaji/iskoristenost",
+       "description": "Opterećenje ljudi kroz sedmice",
+       "icon": "ChartColumn"
+      },
+      {
+       "key": "plan-ostvarenje",
+       "label": "Plan i ostvarenje",
+       "path": "/projekti/izvjestaji/plan-ostvarenje",
+       "description": "Planirani naspram stvarnih sati i troškova",
+       "icon": "TrendingUp"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/projekti/postavke/vrste",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "vrste",
+       "label": "Vrste projekata",
+       "path": "/projekti/postavke/vrste",
+       "description": "Interni, investicioni i projekti za kupce",
+       "icon": "ListTree"
+      },
+      {
+       "key": "sabloni",
+       "label": "Šabloni projekata",
+       "path": "/projekti/postavke/sabloni",
+       "description": "Standardne faze i zadaci za novu vrstu projekta",
+       "icon": "Copy"
+      },
+      {
+       "key": "uloge",
+       "label": "Uloge na projektu",
+       "path": "/projekti/postavke/uloge",
+       "description": "Rukovodilac, član tima, nadzor i njihova prava",
+       "icon": "UserCog"
+      },
+      {
+       "key": "satnice",
+       "label": "Cjenovnik rada",
+       "path": "/projekti/postavke/satnice",
+       "description": "Interne i prodajne satnice po ulozi",
+       "icon": "Tags"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "servis",
+   "label": "Servis i reklamacije",
+   "path": "/servis",
+   "icon": "Headset",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/servis/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "prijave",
+     "label": "Prijave",
+     "path": "/servis/prijave/sve",
+     "icon": "Inbox",
+     "children": [
+      {
+       "key": "sve",
+       "label": "Sve prijave",
+       "path": "/servis/prijave/sve",
+       "description": "Prijave po statusu, prioritetu i timu",
+       "icon": "Inbox"
+      },
+      {
+       "key": "moje",
+       "label": "Moje prijave",
+       "path": "/servis/prijave/moje",
+       "description": "Prijave dodijeljene meni",
+       "icon": "User"
+      },
+      {
+       "key": "nerasporedjene",
+       "label": "Neraspoređene",
+       "path": "/servis/prijave/nerasporedjene",
+       "description": "Nove prijave kojima još nije dodijeljen tim",
+       "icon": "Hourglass"
+      }
+     ]
+    },
+    {
+     "key": "reklamacije",
+     "label": "Reklamacije",
+     "path": "/servis/reklamacije/kupaca",
+     "icon": "TriangleAlert",
+     "children": [
+      {
+       "key": "kupaca",
+       "label": "Reklamacije kupaca",
+       "path": "/servis/reklamacije/kupaca",
+       "description": "Prigovori na robu ili uslugu i odluka o njima",
+       "icon": "MessageSquare"
+      },
+      {
+       "key": "povrati",
+       "label": "Povrati robe",
+       "path": "/servis/reklamacije/povrati",
+       "description": "Vraćena roba: prijem, provjera i rješenje",
+       "icon": "Undo2"
+      },
+      {
+       "key": "dobavljacima",
+       "label": "Reklamacije dobavljačima",
+       "path": "/servis/reklamacije/dobavljacima",
+       "description": "Neispravna roba vraćena dobavljaču",
+       "icon": "Truck"
+      }
+     ]
+    },
+    {
+     "key": "znanje",
+     "label": "Baza znanja",
+     "path": "/servis/znanje/clanci",
+     "icon": "BookOpen",
+     "children": [
+      {
+       "key": "clanci",
+       "label": "Članci",
+       "path": "/servis/znanje/clanci",
+       "description": "Rješenja čestih problema",
+       "icon": "BookText"
+      },
+      {
+       "key": "odgovori",
+       "label": "Šabloni odgovora",
+       "path": "/servis/znanje/odgovori",
+       "description": "Pripremljeni odgovori za česte upite",
+       "icon": "Copy"
+      }
+     ]
+    },
+    {
+     "key": "izvjestaji",
+     "label": "Izvještaji",
+     "path": "/servis/izvjestaji/vrijeme-rjesavanja",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "vrijeme-rjesavanja",
+       "label": "Vrijeme rješavanja",
+       "path": "/servis/izvjestaji/vrijeme-rjesavanja",
+       "description": "Koliko traju prvi odgovor i rješenje",
+       "icon": "Timer"
+      },
+      {
+       "key": "sla",
+       "label": "Poštovanje SLA",
+       "path": "/servis/izvjestaji/sla",
+       "description": "Prijave riješene u roku i kršenja",
+       "icon": "Gauge"
+      },
+      {
+       "key": "zadovoljstvo",
+       "label": "Zadovoljstvo kupaca",
+       "path": "/servis/izvjestaji/zadovoljstvo",
+       "description": "Ocjene kupaca nakon zatvaranja prijave",
+       "icon": "FaceSlightlySmiling"
+      },
+      {
+       "key": "uzroci",
+       "label": "Najčešći uzroci",
+       "path": "/servis/izvjestaji/uzroci",
+       "description": "Šta najčešće izaziva prijave i reklamacije",
+       "icon": "ChartPie"
+      }
+     ]
+    },
+    {
+     "key": "postavke",
+     "label": "Postavke",
+     "path": "/servis/postavke/kategorije",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "kategorije",
+       "label": "Kategorije i prioriteti",
+       "path": "/servis/postavke/kategorije",
+       "description": "Vrste prijava i njihova hitnost",
+       "icon": "Tags"
+      },
+      {
+       "key": "sla",
+       "label": "SLA pravila",
+       "path": "/servis/postavke/sla",
+       "description": "Rokovi prvog odgovora i rješenja po prioritetu i kupcu",
+       "icon": "Timer"
+      },
+      {
+       "key": "kanali",
+       "label": "Kanali prijema",
+       "path": "/servis/postavke/kanali",
+       "description": "E-pošta, telefon, web obrazac i portal",
+       "icon": "Mail"
+      },
+      {
+       "key": "timovi",
+       "label": "Timovi i dežurstva",
+       "path": "/servis/postavke/timovi",
+       "description": "Ko prima koje prijave i ko je dežuran",
+       "icon": "Users"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "vozni-park",
+   "label": "Vozni park",
+   "path": "/vozni-park",
+   "icon": "Car",
+   "sections": [
+    {
+     "key": "dashboard",
+     "label": "Početna",
+     "path": "/vozni-park/dashboard",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "pregled",
+     "label": "Pregled",
+     "path": "/vozni-park/pregled/troskovi",
+     "icon": "ChartColumn",
+     "children": [
+      {
+       "key": "troskovi",
+       "label": "Troškovi po vozilu",
+       "path": "/vozni-park/pregled/troskovi",
+       "description": "Ukupni trošak vozila po kilometru",
+       "icon": "ChartColumn"
+      },
+      {
+       "key": "potrosnja",
+       "label": "Potrošnja goriva",
+       "path": "/vozni-park/pregled/potrosnja",
+       "description": "Potrošnja po vozilu i odstupanja od norme",
+       "icon": "Fuel"
+      },
+      {
+       "key": "iskoristenost",
+       "label": "Iskorištenost",
+       "path": "/vozni-park/pregled/iskoristenost",
+       "description": "Koliko su vozila stvarno u upotrebi",
+       "icon": "ChartPie"
+      }
+     ]
+    },
+    {
+     "key": "vozila",
+     "label": "Vozila i mašine",
+     "path": "/vozni-park/vozila/vozila",
+     "icon": "Car",
+     "children": [
+      {
+       "key": "vozila",
+       "label": "Vozila",
+       "path": "/vozni-park/vozila/vozila",
+       "description": "Putnička i teretna vozila, s osnovnim podacima i zaduženjem",
+       "icon": "Car"
+      },
+      {
+       "key": "masine",
+       "label": "Radne mašine",
+       "path": "/vozni-park/vozila/masine",
+       "description": "Građevinske i radne mašine, s motornim satima",
+       "icon": "Tractor"
+      },
+      {
+       "key": "dokumenti",
+       "label": "Dokumenti vozila",
+       "path": "/vozni-park/vozila/dokumenti",
+       "description": "Saobraćajne dozvole, polise i certifikati",
+       "icon": "FileText"
+      },
+      {
+       "key": "rokovi",
+       "label": "Rokovi",
+       "path": "/vozni-park/vozila/rokovi",
+       "description": "Registracije, tehnički i osiguranja — kada ističu",
+       "icon": "Hourglass"
+      },
+      {
+       "key": "vozaci",
+       "label": "Vozači i dozvole",
+       "path": "/vozni-park/vozila/vozaci",
+       "description": "Ko smije voziti koju vrstu i do kada",
+       "icon": "IdCard"
+      }
+     ]
+    },
+    {
+     "key": "koristenje",
+     "label": "Korištenje",
+     "path": "/vozni-park/koristenje/putni-listovi",
+     "icon": "Route",
+     "children": [
+      {
+       "key": "putni-listovi",
+       "label": "Putni listovi",
+       "path": "/vozni-park/koristenje/putni-listovi",
+       "description": "Relacije, kilometraža i vozač za svaku vožnju",
+       "icon": "Route"
+      },
+      {
+       "key": "rezervacije",
+       "label": "Rezervacije",
+       "path": "/vozni-park/koristenje/rezervacije",
+       "description": "Najava korištenja zajedničkih vozila",
+       "icon": "CalendarCheck"
+      },
+      {
+       "key": "primopredaje",
+       "label": "Primopredaje",
+       "path": "/vozni-park/koristenje/primopredaje",
+       "description": "U kakvom je stanju vozilo predano i vraćeno",
+       "icon": "ClipboardCheck"
+      },
+      {
+       "key": "gorivo",
+       "label": "Gorivo i kartice",
+       "path": "/vozni-park/koristenje/gorivo",
+       "description": "Točenja, kartice za gorivo i potrošnja",
+       "icon": "Fuel"
+      }
+     ]
+    },
+    {
+     "key": "odrzavanje",
+     "label": "Održavanje",
+     "path": "/vozni-park/odrzavanje/servisi",
+     "icon": "Wrench",
+     "children": [
+      {
+       "key": "servisi",
+       "label": "Servisi i popravke",
+       "path": "/vozni-park/odrzavanje/servisi",
+       "description": "Redovni servisi i popravke, s troškom",
+       "icon": "Wrench"
+      },
+      {
+       "key": "prijave",
+       "label": "Prijave kvara",
+       "path": "/vozni-park/odrzavanje/prijave",
+       "description": "Šta je javljeno s terena i šta je od toga otišlo u servis",
+       "icon": "Siren"
+      },
+      {
+       "key": "plan",
+       "label": "Plan održavanja",
+       "path": "/vozni-park/odrzavanje/plan",
+       "description": "Sljedeći servis po kilometraži ili datumu",
+       "icon": "CalendarClock"
+      }
+     ]
+    },
+    {
+     "key": "sifrarnici",
+     "label": "Šifrarnici",
+     "path": "/vozni-park/sifrarnici/vrste",
+     "icon": "ListTree",
+     "children": [
+      {
+       "key": "vrste",
+       "label": "Vrste vozila",
+       "path": "/vozni-park/sifrarnici/vrste",
+       "description": "Brojilo, servisni interval i tražena dozvola po vrsti",
+       "icon": "ListTree"
+      },
+      {
+       "key": "vrste-dokumenata",
+       "label": "Vrste dokumenata",
+       "path": "/vozni-park/sifrarnici/vrste-dokumenata",
+       "description": "Koji papiri postoje, koliko traju i kad su obavezni",
+       "icon": "FileText"
+      },
+      {
+       "key": "checklist",
+       "label": "Checklist primopredaje",
+       "path": "/vozni-park/sifrarnici/checklist",
+       "description": "Šta se provjerava kad se vozilo preda i vrati",
+       "icon": "ClipboardList"
+      }
+     ]
+    },
+    {
+     "key": "vozac",
+     "label": "Vozač",
+     "path": "/vozni-park/vozac/danas",
+     "icon": "Navigation",
+     "children": [
+      {
+       "key": "vozilo",
+       "label": "Moje vozilo",
+       "path": "/vozni-park/vozac/vozilo",
+       "description": "Vozilo koje vozač ima, dokumenti na snazi i zadnja primopredaja",
+       "icon": "Car"
+      },
+      {
+       "key": "aktivnost",
+       "label": "Aktivnost",
+       "path": "/vozni-park/vozac/aktivnost",
+       "description": "Putni listovi, točenja, prijave i rezervacije vozača ovog mjeseca",
+       "icon": "Activity"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "javni-pozivi",
+   "label": "Javni pozivi",
+   "path": "/javni-pozivi",
+   "icon": "Megaphone",
+   "sections": [
+    {
+     "key": "pocetna",
+     "label": "Početna",
+     "path": "/javni-pozivi/pocetna",
+     "icon": "House",
+     "children": []
+    },
+    {
+     "key": "pozivi",
+     "label": "Pozivi",
+     "path": "/javni-pozivi/pozivi/svi",
+     "icon": "Megaphone",
+     "children": [
+      {
+       "key": "svi",
+       "label": "Pozivi",
+       "path": "/javni-pozivi/pozivi/svi",
+       "description": "Priprema, odobrenje i objava poziva",
+       "icon": "Megaphone"
+      },
+      {
+       "key": "plan",
+       "label": "Plan poziva",
+       "path": "/javni-pozivi/pozivi/plan",
+       "description": "Planirani pozivi po kvartalima i sredstva",
+       "icon": "CalendarRange"
+      }
+     ]
+    },
+    {
+     "key": "prijem",
+     "label": "Prijem prijava",
+     "path": "/javni-pozivi/prijem/prijave",
+     "icon": "Inbox",
+     "children": [
+      {
+       "key": "prijave",
+       "label": "Prijave",
+       "path": "/javni-pozivi/prijem/prijave",
+       "description": "Prijave po pozivu, formalna provjera i dopune",
+       "icon": "Inbox"
+      },
+      {
+       "key": "asistirana",
+       "label": "Asistirana prijava",
+       "path": "/javni-pozivi/prijem/asistirana",
+       "description": "Unos prijave na šalteru u ime podnosioca",
+       "icon": "UserPlus"
+      }
+     ]
+    },
+    {
+     "key": "komisija",
+     "label": "Komisija",
+     "path": "/javni-pozivi/komisija/sve",
+     "icon": "Scale",
+     "children": [
+      {
+       "key": "sve",
+       "label": "Komisije",
+       "path": "/javni-pozivi/komisija/sve",
+       "description": "Komisije svih poziva, krug ocjenjivanja, rang liste i zapisnici",
+       "icon": "UsersRound"
+      },
+      {
+       "key": "moje",
+       "label": "Moje komisije",
+       "path": "/javni-pozivi/komisija/moje",
+       "description": "Moja izjava o nepristrasnosti i moje ocjene",
+       "icon": "Users"
+      }
+     ]
+    },
+    {
+     "key": "odluke",
+     "label": "Odluke",
+     "path": "/javni-pozivi/odluke/sve",
+     "icon": "Gavel",
+     "children": [
+      {
+       "key": "sve",
+       "label": "Odluke",
+       "path": "/javni-pozivi/odluke/sve",
+       "description": "Prijedlog, potpis i objava rezultata",
+       "icon": "Gavel"
+      },
+      {
+       "key": "prigovori",
+       "label": "Prigovori",
+       "path": "/javni-pozivi/odluke/prigovori",
+       "description": "Prigovori na odluke i njihovi ishodi",
+       "icon": "ShieldAlert"
+      }
+     ]
+    },
+    {
+     "key": "ugovori",
+     "label": "Ugovori i praćenje",
+     "path": "/javni-pozivi/ugovori/svi",
+     "icon": "FilePenLine",
+     "children": [
+      {
+       "key": "svi",
+       "label": "Ugovori i rješenja",
+       "path": "/javni-pozivi/ugovori/svi",
+       "description": "Ugovori, isplate i izvještaji o utrošku",
+       "icon": "FilePenLine"
+      },
+      {
+       "key": "registar",
+       "label": "Registar dodjela",
+       "path": "/javni-pozivi/ugovori/registar",
+       "description": "Sve dodjele po pozivima, sa izvozom",
+       "icon": "Award"
+      },
+      {
+       "key": "izvjestaji",
+       "label": "Izvještaji i kontrola",
+       "path": "/javni-pozivi/ugovori/izvjestaji",
+       "description": "Kontrolni izvještaji i revizijski trag",
+       "icon": "ChartColumn"
+      }
+     ]
+    },
+    {
+     "key": "konfiguracija",
+     "label": "Konfiguracija",
+     "path": "/javni-pozivi/konfiguracija/tipovi",
+     "icon": "Settings",
+     "children": [
+      {
+       "key": "tipovi",
+       "label": "Tipovi poziva",
+       "path": "/javni-pozivi/konfiguracija/tipovi",
+       "description": "Pravila, dokumenti i faze po tipu poziva",
+       "icon": "Layers"
+      },
+      {
+       "key": "propisi",
+       "label": "Propisi",
+       "path": "/javni-pozivi/konfiguracija/propisi",
+       "description": "Pravni okvir, obavezne objave i najkraći rokovi",
+       "icon": "Landmark"
+      },
+      {
+       "key": "sabloni",
+       "label": "Šabloni",
+       "path": "/javni-pozivi/konfiguracija/sabloni",
+       "description": "Tekst poziva, odluke, ugovori i poruke",
+       "icon": "FileText"
+      },
+      {
+       "key": "skale",
+       "label": "Skale ocjena",
+       "path": "/javni-pozivi/konfiguracija/skale",
+       "description": "Skale bodovanja sa opisom svakog boda",
+       "icon": "Ruler"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "biblioteka",
+   "label": "Upravljanje dokumentima",
+   "path": "/upravljanje-dokumentima",
+   "icon": "Library",
+   "sections": [
+    {
+     "key": "pregled",
+     "label": "Pregled",
+     "path": "/upravljanje-dokumentima/pregled",
+     "icon": "Library",
+     "children": []
+    },
+    {
+     "key": "aplikacije",
+     "label": "Po aplikacijama",
+     "path": "/upravljanje-dokumentima/aplikacije",
+     "icon": "FolderTree",
+     "children": []
+    },
+    {
+     "key": "uvidi",
+     "label": "Uvidi",
+     "path": "/upravljanje-dokumentima/uvidi",
+     "icon": "Sparkles",
+     "children": []
+    }
+   ]
+  },
+  {
+   "key": "troskovi",
+   "label": "Upravljanje troškovima",
+   "path": "/troskovi",
+   "icon": "Gauge",
+   "sections": [
+    {
+     "key": "pregled",
+     "label": "Troškovi",
+     "path": "/troskovi/pregled",
+     "icon": "Gauge",
+     "children": []
+    },
+    {
+     "key": "prognoza",
+     "label": "Prognoza",
+     "path": "/troskovi/prognoza",
+     "icon": "TrendingUp",
+     "children": []
+    },
+    {
+     "key": "vrijednost",
+     "label": "Vrijednost i uštede",
+     "path": "/troskovi/vrijednost",
+     "icon": "Scale",
+     "children": []
+    }
+   ]
+  },
+  {
+   "key": "iam",
+   "label": "Upravljanje pristupom",
+   "path": "/iam",
+   "icon": "ShieldCheck",
+   "sections": [
+    {
+     "key": "moj-pristup",
+     "label": "Moj pristup",
+     "path": "/iam/moj-pristup",
+     "icon": "ShieldCheck",
+     "children": []
+    },
+    {
+     "key": "pregled",
+     "label": "Pregled",
+     "path": "/iam/pregled",
+     "icon": "LayoutDashboard",
+     "children": []
+    },
+    {
+     "key": "korisnici",
+     "label": "Korisnici",
+     "path": "/iam/korisnici",
+     "icon": "Users",
+     "children": []
+    },
+    {
+     "key": "grupe",
+     "label": "Grupe",
+     "path": "/iam/grupe",
+     "icon": "UsersRound",
+     "children": []
+    },
+    {
+     "key": "paketi",
+     "label": "Paketi dozvola",
+     "path": "/iam/paketi",
+     "icon": "KeyRound",
+     "children": []
+    },
+    {
+     "key": "zahtjevi",
+     "label": "Zahtjevi",
+     "path": "/iam/zahtjevi",
+     "icon": "Inbox",
+     "children": []
+    },
+    {
+     "key": "pregledi",
+     "label": "Pregledi pristupa",
+     "path": "/iam/pregledi",
+     "icon": "ClipboardCheck",
+     "children": []
+    },
+    {
+     "key": "zamjene",
+     "label": "Zamjene",
+     "path": "/iam/zamjene",
+     "icon": "UserRoundCog",
+     "children": []
+    },
+    {
+     "key": "hitni",
+     "label": "Hitni pristup",
+     "path": "/iam/hitni",
+     "icon": "Siren",
+     "children": []
+    },
+    {
+     "key": "prijave",
+     "label": "Prijave",
+     "path": "/iam/prijave",
+     "icon": "LogIn",
+     "children": []
+    },
+    {
+     "key": "revizija",
+     "label": "Revizijski trag",
+     "path": "/iam/revizija",
+     "icon": "RotateCcwClock",
+     "children": []
+    },
+    {
+     "key": "simulator",
+     "label": "Simulator",
+     "path": "/iam/simulator",
+     "icon": "FlaskConical",
+     "children": []
+    },
+    {
+     "key": "keycloak",
+     "label": "Keycloak",
+     "path": "/iam/keycloak",
+     "icon": "Share2",
+     "children": []
+    }
+   ]
+  }
+ ]
+}
