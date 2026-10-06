@@ -2,27 +2,18 @@ import {
   isRouteErrorResponse,
   Links,
   Meta,
-  Outlet,
   Scripts,
+  Outlet,
   ScrollRestoration,
+  useLocation,
 } from "react-router";
-import {
-  LuBookCheck,
-  LuCalendar,
-  LuHouse,
-  LuInbox,
-  LuLayers,
-  LuMessageCircle,
-  LuSettings,
-  LuTrendingUp,
-  LuUser,
-  LuUsers,
-} from "react-icons/lu";
 
 import type { Route } from "./+types/root";
 import "./app.css";
-import { VerticalDock, type RailSection } from "./components/VerticalDock";
-import { Welcome } from "./home/welcome";
+import { AppDock } from "./components/AppDock";
+import { AppSidebar } from "./components/AppSidebar";
+import { APPS, activeSection, activeSubItem, appForPath } from "./lib/apps";
+import { appGradient } from "./lib/dock";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -55,43 +46,30 @@ export function Layout({ children }: { children: React.ReactNode }) {
   );
 }
 
-const sections: RailSection[] = [
-  {
-    id: "home",
-    label: "Početna",
-    icon: LuHouse,
-    count: 12,
-    url: "/home",
-  },
-  {
-    id: "/moj-planer",
-    label: "Moj planer",
-    icon: LuUser,
-    url: "/moj-planer",
-  },
-  {
-    id: "/protokol",
-    label: "Protkol",
-    icon: LuBookCheck,
-    url: "/protokol",
-  },
-  {
-    id: "/ljudski-resursi",
-    label: "Ljudski resursi",
-    icon: LuUsers,
-    count: 4,
-    url: "/ljudski-resursi",
-  },
-];
-
+/**
+ * The shell: the open app's sidebar and its page in one window, and the dock for
+ * moving between apps at the bottom. The shell itself never scrolls.
+ */
 export default function App() {
+  const { pathname } = useLocation();
+  const app = appForPath(pathname);
+  const section = activeSection(app, pathname);
+
   return (
-    <main className="flex items-center justify-center">
-      {/* <div className="flex-1 flex flex-col items-center gap-16 min-h-0"> */}
-      <header className="flex flex-col items-center gap-9"></header>
-      <VerticalDock sections={sections} logo="D" eyebrow="Northwind" />
-      {/* <Outlet /> */}
-      {/* </div> */}
+    <main className="flex h-dvh w-screen flex-col gap-2 overflow-hidden p-2">
+      <div className="flex min-h-0 flex-1 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-xl shadow-gray-900/5 dark:border-slate-800 dark:bg-slate-950 dark:shadow-black/40">
+        <AppSidebar
+          key={app.key}
+          app={app}
+          gradient={appGradient(APPS.indexOf(app))}
+          activeSectionUrl={section?.url}
+          activeScreenUrl={activeSubItem(section, pathname)?.url}
+        />
+        <div className="min-h-0 min-w-0 flex-1 overflow-hidden">
+          <Outlet />
+        </div>
+      </div>
+      <AppDock apps={APPS} activeKey={app.key} />
     </main>
   );
 }

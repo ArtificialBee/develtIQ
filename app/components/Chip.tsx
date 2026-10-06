@@ -15,14 +15,14 @@ const sizes: Record<BasicChipSize, string> = {
   lg: "text-[1.6rem]",
 };
 
-/** A rounded gray chip for a short label or tag. */
+/** A rounded blue chip for a short label or count, such as the count next to a card title. */
 export const BasicChip = ({
   children,
   size = "sm",
   className = "",
 }: BasicChipProps) => (
   <span
-    className={`inline-block px-4 py-1 dark:bg-indigo-500 dark:text-white bg-[#d1d1d180] rounded-full ${sizes[size]}  ${className}`}
+    className={`inline-block px-3 py-0.5 rounded-full font-medium tabular-nums bg-[#3B9DF8]/10 text-[#3B9DF8] ring-1 ring-[#3B9DF8]/25 ${sizes[size]} ${className}`}
   >
     {children}
   </span>

@@ -5,3 +5,6 @@
 # React Router
 /.react-router/
 /build/
+
+# Playwright test screenshots and logs
+.playwright-mcp/

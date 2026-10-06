@@ -1,0 +1,1448 @@
+{
+ "meta": {
+  "izvor": "divetiq-cicak · useMojProstor() and module stores, exported live",
+  "danas": "2026-09-24",
+  "sada": "2026-09-24T07:45:00",
+  "sedmica": 39,
+  "osoba": {
+   "id": "zap-009",
+   "ime": "Mirza Alić",
+   "radnoMjesto": "Šef servisa",
+   "sektor": "Služba servisa"
+  },
+  "zadaciSedmice": {
+   "otvoreni": 9,
+   "zavrseni": 2
+  }
+ },
+ "stavke": [
+  {
+   "id": "hr:ods:ods-037",
+   "modul": "hr",
+   "vrsta": "ODSUSTVO",
+   "datum": "2025-07-28",
+   "datumDo": "2025-08-19",
+   "naslov": "Godišnji odmor",
+   "broj": "ODS-2025-037",
+   "opis": "Odobren",
+   "hitnost": "ZAVRSENO"
+  },
+  {
+   "id": "hr:ods:ods-090",
+   "modul": "hr",
+   "vrsta": "ODSUSTVO",
+   "datum": "2025-10-13",
+   "datumDo": "2025-10-27",
+   "naslov": "Godišnji odmor",
+   "broj": "ODS-2025-090",
+   "opis": "Odobren",
+   "hitnost": "ZAVRSENO"
+  },
+  {
+   "id": "hr:ods:ods-179",
+   "modul": "hr",
+   "vrsta": "ODSUSTVO",
+   "datum": "2026-07-06",
+   "datumDo": "2026-07-24",
+   "naslov": "Godišnji odmor",
+   "broj": "ODS-2026-039",
+   "opis": "Odobren",
+   "hitnost": "ZAVRSENO"
+  },
+  {
+   "id": "rn:rev:rv-0233",
+   "modul": "radni-nalozi",
+   "vrsta": "ROK",
+   "datum": "2026-08-26",
+   "naslov": "Rok povrata alata (revers)",
+   "broj": "RV-2026-0233",
+   "hitnost": "KASNI"
+  },
+  {
+   "id": "p:AKT:akt-03-05-26-0219:ROK_POTPISA",
+   "modul": "protokol",
+   "vrsta": "ROK",
+   "datum": "2026-09-20",
+   "naslov": "Obavještenje o otklonjenom kvaru — Alipašina 41",
+   "broj": "03-05/26-0219",
+   "hitnost": "KASNI"
+  },
+  {
+   "id": "l:zd:zd-8",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-21",
+   "naslov": "Odgovoriti na upit obračuna",
+   "opis": "Prekovremeni sati iz augusta.",
+   "hitnost": "ZAVRSENO"
+  },
+  {
+   "id": "p:PREDMET:pred-03-05-26-0224:ROK_RJESAVANJA_ZUP",
+   "modul": "protokol",
+   "vrsta": "ROK",
+   "datum": "2026-09-22",
+   "naslov": "Prijava oštećenja fasade nakon intervencije na vrelovodu — Hrasno",
+   "broj": "03-05/26-0224",
+   "hitnost": "KASNI"
+  },
+  {
+   "id": "l:zd:zd-1",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-22",
+   "naslov": "Poslati izvještaj o kvarovima za august",
+   "opis": "Direktor traži kratak pregled za sastanak — kvarovi po objektima i otvoreni nalozi.",
+   "hitnost": "KASNI"
+  },
+  {
+   "id": "l:zd:zd-7",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-23",
+   "naslov": "Dogovoriti preuzimanje vozila iz servisa",
+   "opis": "Octavia je u radionici zbog kvačila.",
+   "hitnost": "ZAVRSENO"
+  },
+  {
+   "id": "l:zd:zd-3",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-24",
+   "vrijeme": "08:00",
+   "naslov": "Pripremiti tačke za kolegij servisa",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "l:dg:dg-1",
+   "modul": "licno",
+   "vrsta": "DOGADJAJ",
+   "datum": "2026-09-24",
+   "vrijeme": "08:00",
+   "naslov": "Kolegij servisa",
+   "opis": "sala 2",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "l:ps:ps-1",
+   "modul": "licno",
+   "vrsta": "PODSJETNIK",
+   "datum": "2026-09-24",
+   "vrijeme": "11:00",
+   "naslov": "Nazvati dobavljača za pumpe",
+   "opis": "Ponuda vrijedi do kraja mjeseca. Jasmina Terzić ima kopiju.",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "l:ps:ps-3",
+   "modul": "licno",
+   "vrsta": "PODSJETNIK",
+   "datum": "2026-09-24",
+   "vrijeme": "14:00",
+   "naslov": "Sutra rok: RN-2026-0007",
+   "opis": "Baždarenje mjerila protoka — Kotlovnica K-2.",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "l:zd:zd-em-1",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-24",
+   "vrijeme": "15:00",
+   "naslov": "Plan remonta kotlovnice K-2 — tvoj dio",
+   "opis": "Iz e-maila: dostaviti svoj dio plana remonta (rokovi, ljudi, dijelovi).",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "l:zd:zd-2",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-24",
+   "naslov": "Pregledati ponudu za rezervne dijelove pumpe",
+   "opis": "Uporediti sa ponudom iz marta; provjeriti garanciju.",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "em:rok:em-009-02",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-24",
+   "naslov": "Kolegij rukovodilaca — Petak, 25. septembar 2026. u 10:00",
+   "opis": "rok iz e-maila · Azra Bećirović",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "em:rok:em-009-08",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-24T10:00:00",
+   "naslov": "Servis sigurnosnih ventila K-2 — termin",
+   "opis": "rok iz e-maila · Hidro-Servis d.o.o.",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "em:rok:em-009-01",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-24T12:00:00",
+   "naslov": "Pregled otvorenih intervencija za Nadzorni odbor — do 12 h",
+   "opis": "rok iz e-maila · Amir Hodžić",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "l:dg:dg-em-1",
+   "modul": "licno",
+   "vrsta": "DOGADJAJ",
+   "datum": "2026-09-25",
+   "vrijeme": "09:30",
+   "naslov": "Migracija e-mail naloga (IT)",
+   "opis": "kancelarija",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "l:dg:dg-2",
+   "modul": "licno",
+   "vrsta": "DOGADJAJ",
+   "datum": "2026-09-25",
+   "vrijeme": "13:00",
+   "naslov": "Sastanak sa direktorom — plan servisa",
+   "opis": "uprava",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "p:PREDMET:pred-03-05-INT-26-0021:ROK_RJESAVANJA_ZUP",
+   "modul": "protokol",
+   "vrsta": "ROK",
+   "datum": "2026-09-25",
+   "naslov": "Zahtjev za kontrolno očitanje — reklamacije sa Grbavice (5 stanova)",
+   "broj": "03-05/INT-26-0021",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "rn:rn-0007",
+   "modul": "radni-nalozi",
+   "vrsta": "ROK",
+   "datum": "2026-09-25",
+   "naslov": "Baždarenje mjerila protoka",
+   "broj": "RN-2026-0007",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "l:zd:zd-9",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-25",
+   "naslov": "Potvrditi termin baždarenja mjerila — K-2",
+   "opis": "Nalog je odobren; dogovoriti termin sa ovlaštenim servisom.",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:rok:em-009-07",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-25",
+   "naslov": "Specifikacija za tender pumpi + količine na trebovanju ZZN-2026-00031",
+   "opis": "rok iz e-maila · Mersiha Tanović",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:rok:em-009-23",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-25",
+   "naslov": "Plan remonta kotlovnice K-2 — tvoj dio",
+   "opis": "rok iz e-maila · Enes Berbić",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "l:ps:ps-em-1",
+   "modul": "licno",
+   "vrsta": "PODSJETNIK",
+   "datum": "2026-09-27",
+   "vrijeme": "08:00",
+   "naslov": "Reklamacija garancije — ležaj pumpe P-1",
+   "opis": "Iz e-maila — odgođeno kao podsjetnik.",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "l:ps:ps-2",
+   "modul": "licno",
+   "vrsta": "PODSJETNIK",
+   "datum": "2026-09-28",
+   "vrijeme": "09:00",
+   "naslov": "Provjeriti je li vozilo vraćeno sa servisa",
+   "opis": "Octavia — kvačilo.",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "l:zd:zd-10",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-28",
+   "naslov": "Odrediti ekipu za curenje zraka na KS-1",
+   "opis": "Nalog kreiran; pregled razvoda i procjena materijala.",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:rok:em-009-10",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-28",
+   "naslov": "Ponuda br. 2026-118 — frekventni regulator 15 kW",
+   "opis": "rok iz e-maila · Elektro-Pogon d.o.o.",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:rok-dodijeljeno:dl-001-1",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-28",
+   "naslov": "Podsjetnik: koordinacioni sastanak o radovima na mreži — 28.09.",
+   "opis": "rok proslijeđenog posla · Na rad",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "l:dg:dg-3",
+   "modul": "licno",
+   "vrsta": "DOGADJAJ",
+   "datum": "2026-09-29",
+   "vrijeme": "09:00",
+   "naslov": "Teren: Kompresorska stanica KS-1",
+   "opis": "teren",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "l:zd:zd-4",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-09-30",
+   "naslov": "Potvrditi raspored smjena za oktobar",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:rok:em-009-12",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-30",
+   "naslov": "Podsjetnik: evidencija radnog vremena za septembar",
+   "opis": "rok iz e-maila · Nermin Delić",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:rok:em-009-14",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-09-30T09:00:00",
+   "naslov": "Najava inspekcijskog nadzora — kotlovnica Alipašino Polje, 30.09.2026.",
+   "opis": "rok iz e-maila · Kantonalna uprava za inspekcijske poslove",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "l:zd:zd-5",
+   "modul": "licno",
+   "vrsta": "ZADATAK",
+   "datum": "2026-10-01",
+   "naslov": "Predati evidenciju rada za septembar",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:rok:em-009-15",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-10-01",
+   "naslov": "Zahtjev za dostavu podataka o priključenim objektima — rok 01.10.2026.",
+   "opis": "rok iz e-maila · Općina Centar — Služba za privredu",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "plt:isplata:2026-10-05",
+   "modul": "plate",
+   "vrsta": "ISPLATA",
+   "datum": "2026-10-05",
+   "naslov": "Isplata plaće",
+   "opis": "Plata za septembar 2026.",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "em:rok:em-009-05",
+   "modul": "email",
+   "vrsta": "ROK",
+   "datum": "2026-10-08",
+   "naslov": "Faktura br. 2026-0418 — rezervni dijelovi pumpe P-4",
+   "opis": "rok iz e-maila · Termo-Oprema d.o.o.",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "hr:ods:ods-229",
+   "modul": "hr",
+   "vrsta": "ODSUSTVO",
+   "datum": "2026-10-12",
+   "datumDo": "2026-10-23",
+   "naslov": "Godišnji odmor",
+   "broj": "ODS-2026-089",
+   "opis": "Podnesen",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "rn:rn-0033",
+   "modul": "radni-nalozi",
+   "vrsta": "ROK",
+   "datum": "2026-10-12",
+   "naslov": "Curenje kompresovanog zraka na razvodu",
+   "broj": "RN-2026-0033",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "vp:rok:VP-002:2027-02-13",
+   "modul": "vozni-park",
+   "vrsta": "ISTEK",
+   "datum": "2027-02-13",
+   "naslov": "Ističe: registracija, AO polisa — Škoda Octavia 2.0 TDI",
+   "broj": "E34-J-518",
+   "opis": "Registracija i redovni tehnički pregled · Obavezno osiguranje od autoodgovornosti",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "hr:lic:lic-x-zap-009-ZAVARIVACKI_ATEST",
+   "modul": "hr",
+   "vrsta": "ISTEK",
+   "datum": "2027-03-01",
+   "naslov": "Ističe: Zavarivački atest",
+   "broj": "ZAV-2025-009",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "hrx:obuka:ob-ppz-9",
+   "modul": "hr",
+   "vrsta": "ISTEK",
+   "datum": "2027-09-18",
+   "naslov": "Ističe: Obuka zaštite od požara",
+   "opis": "Vatrogasni savez KS · položeno 18.09.2025.",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "l:dok:ld-2",
+   "modul": "licno",
+   "vrsta": "ISTEK",
+   "datum": "2028-09-11",
+   "naslov": "Ističe: Certifikat — kurs SCADA (osnovni)",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "hr:lic:lic-x-zap-009-VOZACKA_B",
+   "modul": "hr",
+   "vrsta": "ISTEK",
+   "datum": "2028-11-03",
+   "naslov": "Ističe: Vozačka dozvola B kategorije",
+   "broj": "VOZ-2018-009",
+   "hitnost": "KASNIJE"
+  }
+ ],
+ "akcije": [
+  {
+   "id": "zam:zap-075:p:potpis-akt-04-13-26-0159",
+   "modul": "protokol",
+   "vrsta": "Potpis",
+   "broj": "04-13/26-0159",
+   "naslov": "Poziv za dopunu zahtjeva — saglasnost suvlasnika zgrade",
+   "detalj": "Dopis · pripremio Adisa Felić · čeka 1 d",
+   "datum": "2026-09-19",
+   "kada": "2026-09-17T14:10:00",
+   "akcija": "Potpiši",
+   "hitnost": "KASNI",
+   "zamjenaZa": "Lejla Fazlić"
+  },
+  {
+   "id": "zam:zap-075:p:potpis-akt-04-12-26-0415",
+   "modul": "protokol",
+   "vrsta": "Potpis",
+   "broj": "04-12/26-0415",
+   "naslov": "Odgovor na reklamaciju poslovnog prostora",
+   "detalj": "Odgovor · pripremio Adisa Felić · danas",
+   "datum": "2026-09-20",
+   "kada": "2026-09-18T09:30:00",
+   "akcija": "Potpiši",
+   "hitnost": "KASNI",
+   "zamjenaZa": "Lejla Fazlić"
+  },
+  {
+   "id": "p:potpis-akt-03-05-26-0219",
+   "modul": "protokol",
+   "vrsta": "Potpis",
+   "broj": "03-05/26-0219",
+   "naslov": "Obavještenje o otklonjenom kvaru — Alipašina 41",
+   "detalj": "Obavještenje · pripremio Adnan Kovačević · danas",
+   "datum": "2026-09-20",
+   "kada": "2026-09-18T10:15:00",
+   "akcija": "Potpiši",
+   "hitnost": "KASNI"
+  },
+  {
+   "id": "p:raspored-pred-03-05-26-0224",
+   "modul": "protokol",
+   "vrsta": "Raspoređivanje",
+   "broj": "03-05/26-0224",
+   "naslov": "Prijava oštećenja fasade nakon intervencije na vrelovodu — Hrasno",
+   "detalj": "Servis · Upravitelj Hrasno d.o.o. · spis na putu",
+   "datum": "2026-09-22",
+   "kada": "2026-09-14T11:45:00",
+   "akcija": "Rasporedi",
+   "hitnost": "KASNI"
+  },
+  {
+   "id": "em:delegacija:dl-009-3",
+   "modul": "email",
+   "vrsta": "Delegacija",
+   "broj": "Haris Ibrahimović",
+   "naslov": "Prigovor — raskopan trotoar bez ograde, Hrasno 12",
+   "detalj": "Na rad · Probijen rok · predano 17.09.",
+   "datum": "2026-09-22",
+   "kada": "2026-09-17T14:00:00",
+   "akcija": "Podsjeti",
+   "hitnost": "KASNI"
+  },
+  {
+   "id": "em:trijaza:em-009-02",
+   "modul": "email",
+   "vrsta": "Trijaža e-maila",
+   "broj": "Azra Bećirović",
+   "naslov": "Kolegij rukovodilaca — Petak, 25. septembar 2026. u 10:00",
+   "detalj": "Poziv na kolegij rukovodilaca Petak, 25. septembar 2026. u 10:00, sala 2. Traži se potvrda prisustva do kraja dana.",
+   "datum": "2026-09-24",
+   "kada": "2026-09-24T07:20:00",
+   "akcija": "Trijažiraj",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "em:vraceno:em-009-08",
+   "modul": "email",
+   "vrsta": "Vraćeno",
+   "broj": "Hidro-Servis d.o.o.",
+   "naslov": "Servis sigurnosnih ventila K-2 — termin",
+   "detalj": "Stigao odgovor u nit",
+   "datum": "2026-09-24T10:00:00",
+   "kada": "2026-09-23T19:40:00",
+   "akcija": "Odluči",
+   "hitnost": "DANAS"
+  },
+  {
+   "id": "p:raspored-pred-03-05-INT-26-0021",
+   "modul": "protokol",
+   "vrsta": "Raspoređivanje",
+   "broj": "03-05/INT-26-0021",
+   "naslov": "Zahtjev za kontrolno očitanje — reklamacije sa Grbavice (5 stanova)",
+   "detalj": "Servis · Služba prodaje i naplate · čeka 1 d",
+   "datum": "2026-09-25",
+   "kada": "2026-09-17T14:50:00",
+   "akcija": "Rasporedi",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:delegacija:dl-009-5",
+   "modul": "email",
+   "vrsta": "Delegacija",
+   "broj": "Adnan Kovačević",
+   "naslov": "Curenje na ventilu u podstanici — Otoka 14",
+   "detalj": "Na rad · Predata · predano 22.09.",
+   "datum": "2026-09-25",
+   "kada": "2026-09-22T10:05:00",
+   "akcija": "Podsjeti",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "em:vraceno:em-009-23",
+   "modul": "email",
+   "vrsta": "Vraćeno",
+   "broj": "Enes Berbić",
+   "naslov": "Plan remonta kotlovnice K-2 — tvoj dio",
+   "detalj": "Vraćeno iz odgode",
+   "datum": "2026-09-25",
+   "kada": "2026-09-24T15:00:00",
+   "akcija": "Odluči",
+   "hitnost": "USKORO"
+  },
+  {
+   "id": "zam:zap-075:p:raspored-pred-04-11-26-0073",
+   "modul": "protokol",
+   "vrsta": "Raspoređivanje",
+   "broj": "04-11/26-0073",
+   "naslov": "Zahtjev za uvjerenje o izmirenim obavezama",
+   "detalj": "Prodaja i naplata · Amar Hadžiomerović · spis na putu",
+   "datum": "2026-09-28",
+   "kada": "2026-09-18T10:50:00",
+   "akcija": "Rasporedi",
+   "hitnost": "USKORO",
+   "zamjenaZa": "Lejla Fazlić"
+  },
+  {
+   "id": "hrx:zamjena:rs-servis-ze-10-z1",
+   "modul": "hr",
+   "vrsta": "Zamjena smjene",
+   "broj": "RS-2026-10-04",
+   "naslov": "Emir Bajrić → Adnan Kovačević",
+   "detalj": "Pripravnost 03.10. · Služba servisa Zenica · Vjenčanje u porodici — dogovoreno sa Adnanom.",
+   "datum": "2026-10-03",
+   "kada": "2026-09-23T08:00:00",
+   "akcija": "Odluči",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "zam:zap-075:p:raspored-pred-04-14-26-0064",
+   "modul": "protokol",
+   "vrsta": "Raspoređivanje",
+   "broj": "04-14/26-0064",
+   "naslov": "Zahtjev za izmjenu ugovora o isporuci — poslovni prostor",
+   "detalj": "Prodaja i naplata · Pekara Bosna d.o.o. · spis na putu",
+   "datum": "2026-10-05",
+   "kada": "2026-09-18T11:55:00",
+   "akcija": "Rasporedi",
+   "hitnost": "KASNIJE",
+   "zamjenaZa": "Lejla Fazlić"
+  },
+  {
+   "id": "zam:zap-075:hr:ods-261",
+   "modul": "hr",
+   "vrsta": "Usaglašavanje odsustva",
+   "broj": "ODS-2026-121",
+   "naslov": "Neplaćeno odsustvo · Sanja Trivić",
+   "detalj": "12.10. – 23.10. · Njega roditelja nakon operacije.",
+   "datum": "2026-10-12",
+   "kada": "2026-09-15T08:00:00",
+   "akcija": "Usaglasi",
+   "hitnost": "KASNIJE",
+   "zamjenaZa": "Lejla Fazlić"
+  },
+  {
+   "id": "zam:zap-075:p:raspored-pred-04-12-26-0416",
+   "modul": "protokol",
+   "vrsta": "Raspoređivanje",
+   "broj": "04-12/26-0416",
+   "naslov": "Prigovor na postupanje radnika na terenu",
+   "detalj": "Prodaja i naplata · Muhamed Kapić · danas",
+   "datum": "2026-10-19",
+   "kada": "2026-09-18T09:55:00",
+   "akcija": "Rasporedi",
+   "hitnost": "KASNIJE",
+   "zamjenaZa": "Lejla Fazlić"
+  },
+  {
+   "id": "hr:ods-263",
+   "modul": "hr",
+   "vrsta": "Usaglašavanje odsustva",
+   "broj": "ODS-2026-123",
+   "naslov": "Godišnji odmor · Elvir Jusić",
+   "detalj": "21.12. – 24.12. · Porodično putovanje.",
+   "datum": "2026-12-21",
+   "kada": "2026-09-15T08:00:00",
+   "akcija": "Usaglasi",
+   "hitnost": "KASNIJE"
+  },
+  {
+   "id": "hrx:ucinak:2026-08:zap-010",
+   "modul": "hr",
+   "vrsta": "Ocjena učinka",
+   "broj": "RU-202608-010",
+   "naslov": "Adnan Kovačević",
+   "detalj": "August 2026. · nacrt ocjene",
+   "kada": "2026-09-01T08:00:00",
+   "akcija": "Ocijeni",
+   "hitnost": "BEZ_ROKA"
+  },
+  {
+   "id": "hrx:ucinak:2026-08:zap-011",
+   "modul": "hr",
+   "vrsta": "Ocjena učinka",
+   "broj": "RU-202608-011",
+   "naslov": "Haris Ibrahimović",
+   "detalj": "August 2026. · ocjena nije započeta",
+   "kada": "2026-09-01T08:00:00",
+   "akcija": "Ocijeni",
+   "hitnost": "BEZ_ROKA"
+  },
+  {
+   "id": "hrx:ucinak:2026-08:zap-026",
+   "modul": "hr",
+   "vrsta": "Ocjena učinka",
+   "broj": "RU-202608-026",
+   "naslov": "Elvir Jusić",
+   "detalj": "August 2026. · nacrt ocjene",
+   "kada": "2026-09-01T08:00:00",
+   "akcija": "Ocijeni",
+   "hitnost": "BEZ_ROKA"
+  },
+  {
+   "id": "hrx:ucinak:2026-08:zap-030",
+   "modul": "hr",
+   "vrsta": "Ocjena učinka",
+   "broj": "RU-202608-030",
+   "naslov": "Emir Bajrić",
+   "detalj": "August 2026. · nacrt ocjene",
+   "kada": "2026-09-01T08:00:00",
+   "akcija": "Ocijeni",
+   "hitnost": "BEZ_ROKA"
+  },
+  {
+   "id": "hrx:ucinak:2026-08:zap-031",
+   "modul": "hr",
+   "vrsta": "Ocjena učinka",
+   "broj": "RU-202608-031",
+   "naslov": "Harun Mešić",
+   "detalj": "August 2026. · ocjena nije započeta",
+   "kada": "2026-09-01T08:00:00",
+   "akcija": "Ocijeni",
+   "hitnost": "BEZ_ROKA"
+  },
+  {
+   "id": "hrx:ucinak:2026-08:zap-038",
+   "modul": "hr",
+   "vrsta": "Ocjena učinka",
+   "broj": "RU-202608-038",
+   "naslov": "Nedim Čolić",
+   "detalj": "August 2026. · nacrt ocjene",
+   "kada": "2026-09-01T08:00:00",
+   "akcija": "Ocijeni",
+   "hitnost": "BEZ_ROKA"
+  },
+  {
+   "id": "zam:zap-075:p:revers-rev-RS-2026-013",
+   "modul": "protokol",
+   "vrsta": "Spis iz arhive",
+   "broj": "04-12/24-0904",
+   "naslov": "Vrati spis u arhivu — kutija K-2025-0031",
+   "detalj": "RS-2026-013 · Uvid po ponovljenoj reklamaciji korisnika · vratiti danas",
+   "kada": "2026-09-11T11:00:00",
+   "akcija": "Vrati spis",
+   "hitnost": "BEZ_ROKA",
+   "zamjenaZa": "Lejla Fazlić"
+  },
+  {
+   "id": "p:preuzimanje-dk-2026-3144",
+   "modul": "protokol",
+   "vrsta": "Preuzimanje",
+   "broj": "DK-2026-03144",
+   "naslov": "Prijava oštećenja fasade nakon intervencije na vrelovodu — Hrasno",
+   "detalj": "Spis predmeta · od Pisarnica · 03-05/26-0224 · nepotvrđeno 4 d",
+   "kada": "2026-09-14T13:30:00",
+   "akcija": "Preuzmi",
+   "hitnost": "BEZ_ROKA"
+  },
+  {
+   "id": "p:preuzimanje-dk-2026-3164",
+   "modul": "protokol",
+   "vrsta": "Preuzimanje",
+   "broj": "DK-2026-03164",
+   "naslov": "Zahtjev za raspored ekipa servisa — održavanje podstanica u oktobru",
+   "detalj": "Zahtjev · od Proizvodnja · 03-12/INT-26-0049 · predano danas",
+   "kada": "2026-09-18T09:30:00",
+   "akcija": "Preuzmi",
+   "hitnost": "BEZ_ROKA"
+  },
+  {
+   "id": "zam:zap-075:p:preuzimanje-dk-2026-3167",
+   "modul": "protokol",
+   "vrsta": "Preuzimanje",
+   "broj": "DK-2026-03167",
+   "naslov": "Obavještenje o toku spora — ročište zakazano za 06.10.2026.",
+   "detalj": "Dopis · od Pravni i opći poslovi · 08-05/26-0014 · predano danas",
+   "kada": "2026-09-18T10:40:00",
+   "akcija": "Preuzmi",
+   "hitnost": "BEZ_ROKA",
+   "zamjenaZa": "Lejla Fazlić"
+  }
+ ],
+ "obavijesti": [
+  {
+   "id": "em:brief-popodne:2026-09-24",
+   "modul": "email",
+   "naslov": "Popodnevni pregled inboxa",
+   "poruka": "19 bez odluke · čekam od 5 · probijen rok 1",
+   "kada": "2026-09-24T16:00:00",
+   "traziAkciju": false
+  },
+  {
+   "id": "em:vraceno:2026-09-24",
+   "modul": "email",
+   "naslov": "Poruke vraćene u inbox: 2",
+   "poruka": "Servis sigurnosnih ventila K-2 — termin · Plan remonta kotlovnice K-2 — tvoj dio",
+   "kada": "2026-09-24T15:00:00",
+   "traziAkciju": true
+  },
+  {
+   "id": "l:ps:ps-3",
+   "modul": "licno",
+   "naslov": "Podsjetnik",
+   "poruka": "Sutra rok: RN-2026-0007",
+   "kada": "2026-09-24T14:00:00",
+   "traziAkciju": true
+  },
+  {
+   "id": "l:ps:ps-1",
+   "modul": "licno",
+   "naslov": "Podsjetnik",
+   "poruka": "Nazvati dobavljača za pumpe",
+   "kada": "2026-09-24T11:00:00",
+   "traziAkciju": true
+  },
+  {
+   "id": "em:brief:2026-09-24",
+   "modul": "email",
+   "naslov": "Jutarnji pregled inboxa",
+   "poruka": "12 novih · 5 traži odluku",
+   "kada": "2026-09-24T08:00:00",
+   "traziAkciju": true
+  },
+  {
+   "id": "em:vip:2026-09-24",
+   "modul": "email",
+   "naslov": "VIP poruka od Amir Hodžić",
+   "poruka": "Pregled otvorenih intervencija za Nadzorni odbor — do 12 h",
+   "kada": "2026-09-24T07:05:00",
+   "traziAkciju": true
+  },
+  {
+   "id": "rok:l:zd:zd-3:0",
+   "modul": "licno",
+   "naslov": "Rok danas: Pripremiti tačke za kolegij servisa",
+   "poruka": "Zadatak · 24.09. u 08:00",
+   "kada": "2026-09-24T07:00:00",
+   "traziAkciju": true
+  },
+  {
+   "id": "rok:l:dg:dg-1:0",
+   "modul": "licno",
+   "naslov": "Rok danas: Kolegij servisa",
+   "poruka": "Događaj · 24.09. u 08:00",
+   "kada": "2026-09-24T07:00:00",
+   "traziAkciju": true
+  }
+ ],
+ "neprocitanihObavijesti": 41,
+ "email": {
+  "odSinoc": {
+   "od": "2026-09-23T17:00:00",
+   "ukupno": 12,
+   "traziOdgovor": 7,
+   "odobrenja": 1,
+   "sastanci": 1,
+   "zaZnanje": 3,
+   "cekamOd": 5,
+   "probijenRok": 1
+  },
+  "cekaOdluku": 20,
+  "inbox": [
+   {
+    "od": "Hidro-Servis d.o.o.",
+    "primljeno": "2026-09-23T19:40:00",
+    "vip": false,
+    "kategorija": "TREBA_ODGOVOR",
+    "hitnost": "HITNO",
+    "rok": "2026-09-24T10:00:00",
+    "sazetak": "Hidro-Servis potvrđuje servis ventila u utorak i traži do sutra 10:00 potvrdu da će kotao K-2 biti van pogona."
+   },
+   {
+    "od": "Upravitelj Dom d.o.o.",
+    "primljeno": "2026-09-24T07:48:00",
+    "vip": false,
+    "kategorija": "PODNESAK",
+    "hitnost": "VAZNO",
+    "rok": null,
+    "sazetak": "Upravitelj zgrade ulaže reklamaciju na slab učinak grijanja na zadnja dva sprata i traži izlazak na teren i pisani odgovor. Reklamacija sa potpisima je u prilogu."
+   },
+   {
+    "od": "Azra Bećirović",
+    "primljeno": "2026-09-24T07:20:00",
+    "vip": false,
+    "kategorija": "SASTANAK",
+    "hitnost": "VAZNO",
+    "rok": "2026-09-24",
+    "sazetak": "Poziv na kolegij rukovodilaca Petak, 25. septembar 2026. u 10:00, sala 2. Traži se potvrda prisustva do kraja dana."
+   },
+   {
+    "od": "Amela Hasanović",
+    "primljeno": "2026-09-23T14:15:00",
+    "vip": false,
+    "kategorija": "ODOBRENJE",
+    "hitnost": "VAZNO",
+    "rok": "2026-09-25",
+    "sazetak": "Kadrovska predlaže prelazak Harisa Ibrahimovića na puno radno vrijeme od narednog mjeseca i traži tvoju saglasnost do kraja sedmice."
+   },
+   {
+    "od": "Općina Centar — Služba za privredu",
+    "primljeno": "2026-09-23T11:25:00",
+    "vip": false,
+    "kategorija": "PODNESAK",
+    "hitnost": "VAZNO",
+    "rok": "2026-10-01",
+    "sazetak": "Općina Centar traži podatke o broju priključenih objekata po naseljima za 2025. do 01.10.2026. Obrazac je u prilogu."
+   },
+   {
+    "od": "Kantonalna uprava za inspekcijske poslove",
+    "primljeno": "2026-09-23T10:40:00",
+    "vip": false,
+    "kategorija": "PODNESAK",
+    "hitnost": "VAZNO",
+    "rok": "2026-09-30T09:00:00",
+    "sazetak": "Kantonalna inspekcija najavljuje nadzor zaštite od požara Srijeda, 30. septembar 2026. u 09:00 u kotlovnici Alipašino Polje. Traži pripremljenu evidenciju osposobljenosti i zapisnike o PP aparatima."
+   }
+  ],
+  "sanducici": [
+   {
+    "adresa": "mirza.alic@toplanesarajevo.ba",
+    "zdravlje": "POVEZANO",
+    "vrsta": "LICNI"
+   },
+   {
+    "adresa": "nabavka@toplanesarajevo.ba",
+    "zdravlje": "PREKINUTO",
+    "vrsta": "DIJELJENI"
+   },
+   {
+    "adresa": "amir.hodzic@toplanesarajevo.ba",
+    "zdravlje": "UPOZORENJE",
+    "vrsta": "LICNI"
+   },
+   {
+    "adresa": "amir.hodzic@toplanesarajevo.ba",
+    "zdravlje": "POVEZANO",
+    "vrsta": "U_IME"
+   },
+   {
+    "adresa": "lejla.fazlic@toplanesarajevo.ba",
+    "zdravlje": "POVEZANO",
+    "vrsta": "LICNI"
+   }
+  ]
+ },
+ "nalozi": [
+  {
+   "broj": "RN-2026-0001",
+   "tip": "PREVENTIVNI",
+   "status": "ZATVOREN",
+   "rok": "2026-03-31",
+   "predmetRada": "Godišnji servis pumpi — zamjena ležajeva i zaptivki",
+   "objekat": "Pumpna stanica PS-1",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0002",
+   "tip": "PREVENTIVNI",
+   "status": "ZAVRSEN",
+   "rok": "2026-06-30",
+   "predmetRada": "Ispitivanje gromobranske instalacije",
+   "objekat": "Upravna zgrada",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Harun Mešić"
+  },
+  {
+   "broj": "RN-2026-0003",
+   "tip": "KOREKTIVNI",
+   "status": "U_RADU",
+   "rok": "2026-09-12",
+   "predmetRada": "Sanacija curenja na potisnom cjevovodu DN200",
+   "objekat": "Pumpna stanica PS-1",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0004",
+   "tip": "HITNI",
+   "status": "U_RADU",
+   "rok": "2026-09-07",
+   "predmetRada": "Ispad napajanja — kvar na NN razvodu",
+   "objekat": "Trafostanica TS-3",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Haris Ibrahimović",
+   "inicijator": "Dispečer (dežurni)"
+  },
+  {
+   "broj": "RN-2026-0005",
+   "tip": "PREVENTIVNI",
+   "status": "ODOBREN",
+   "rok": "2026-10-15",
+   "predmetRada": "Čišćenje i dezinfekcija rezervoara",
+   "objekat": "Rezervoar R-1",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0006",
+   "tip": "KOREKTIVNI",
+   "status": "KREIRAN",
+   "rok": "2026-11-30",
+   "predmetRada": "Zamjena dotrajale stolarije — kancelarije 2. sprat",
+   "objekat": "Upravna zgrada",
+   "oj": "SERV-GS",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0007",
+   "tip": "PREVENTIVNI",
+   "status": "ODOBREN",
+   "rok": "2026-09-25",
+   "predmetRada": "Baždarenje mjerila protoka",
+   "objekat": "Kotlovnica K-2",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Mirza Alić",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0008",
+   "tip": "HITNI",
+   "status": "ZAVRSEN",
+   "rok": "2026-08-20",
+   "predmetRada": "Puknuće cijevi grijanja — hitna sanacija",
+   "objekat": "Kotlovnica K-2",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Dispečer (dežurni)"
+  },
+  {
+   "broj": "RN-2026-0009",
+   "tip": "KOREKTIVNI",
+   "status": "STORNIRAN",
+   "rok": "2026-07-10",
+   "predmetRada": "Popravka rasvjete u mašinskoj sali",
+   "objekat": "Pumpna stanica PS-1",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Harun Mešić"
+  },
+  {
+   "broj": "RN-2026-0010",
+   "tip": "PREVENTIVNI",
+   "status": "KREIRAN",
+   "rok": "2026-12-15",
+   "predmetRada": "Pregled i servis ventila sigurnosti",
+   "objekat": "Kotlovnica K-2",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0011",
+   "tip": "KOREKTIVNI",
+   "status": "U_RADU",
+   "rok": "2026-09-18",
+   "predmetRada": "Zamjena frekventnog regulatora pumpe P-2",
+   "objekat": "Pumpna stanica PS-1",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Harun Mešić"
+  },
+  {
+   "broj": "RN-2026-0012",
+   "tip": "PREVENTIVNI",
+   "status": "ZATVOREN",
+   "rok": "2026-05-31",
+   "predmetRada": "Termovizijsko snimanje razvodnih ormara",
+   "objekat": "Trafostanica TS-3",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Harun Mešić"
+  },
+  {
+   "broj": "RN-2026-0013",
+   "tip": "PREVENTIVNI",
+   "status": "ZATVOREN",
+   "rok": "2026-02-28",
+   "predmetRada": "Servis kompresora — zamjena filtera i ulja",
+   "objekat": "Kompresorska stanica KS-1",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0014",
+   "tip": "PREVENTIVNI",
+   "status": "ZATVOREN",
+   "rok": "2026-03-15",
+   "predmetRada": "Godišnji pregled protivpožarnih aparata",
+   "objekat": "Skladište gotovih proizvoda",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0015",
+   "tip": "KOREKTIVNI",
+   "status": "ZATVOREN",
+   "rok": "2026-04-10",
+   "predmetRada": "Sanacija oštećene rampe na utovaru",
+   "objekat": "Skladište gotovih proizvoda",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0016",
+   "tip": "HITNI",
+   "status": "ZATVOREN",
+   "rok": "2026-01-22",
+   "predmetRada": "Zaglavljen glavni ventil napojne vode",
+   "objekat": "Kotlovnica K-2",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Haris Ibrahimović",
+   "inicijator": "Dispečer (dežurni)"
+  },
+  {
+   "broj": "RN-2026-0017",
+   "tip": "PREVENTIVNI",
+   "status": "ZATVOREN",
+   "rok": "2026-04-30",
+   "predmetRada": "Ispitivanje nepropusnosti hidrantske mreže",
+   "objekat": "Upravna zgrada",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0018",
+   "tip": "PREVENTIVNI",
+   "status": "ZATVOREN",
+   "rok": "2026-05-20",
+   "predmetRada": "Servis dizalice u mašinskoj sali",
+   "objekat": "Pumpna stanica PS-2",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0019",
+   "tip": "PREVENTIVNI",
+   "status": "ZAVRSEN",
+   "rok": "2026-08-31",
+   "predmetRada": "Zamjena UPS baterija u serverskoj sali",
+   "objekat": "Upravna zgrada",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Harun Mešić"
+  },
+  {
+   "broj": "RN-2026-0020",
+   "tip": "KOREKTIVNI",
+   "status": "ZAVRSEN",
+   "rok": "2026-08-25",
+   "predmetRada": "Popravka klizne kapije na ulazu",
+   "objekat": "Skladište gotovih proizvoda",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0021",
+   "tip": "PREVENTIVNI",
+   "status": "ZAVRSEN",
+   "rok": "2026-09-05",
+   "predmetRada": "Kontrola zategnutosti remenica ventilacije",
+   "objekat": "Kompresorska stanica KS-1",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0022",
+   "tip": "HITNI",
+   "status": "ZAVRSEN",
+   "rok": "2026-07-28",
+   "predmetRada": "Prodor vode u kablovski kanal",
+   "objekat": "Trafostanica TS-3",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Dispečer (dežurni)"
+  },
+  {
+   "broj": "RN-2026-0023",
+   "tip": "PREVENTIVNI",
+   "status": "U_RADU",
+   "rok": "2026-09-20",
+   "predmetRada": "Remont sekcijskog razvodnog ormara RO-4",
+   "objekat": "Trafostanica TS-3",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Harun Mešić"
+  },
+  {
+   "broj": "RN-2026-0024",
+   "tip": "HITNI",
+   "status": "U_RADU",
+   "rok": "2026-09-10",
+   "predmetRada": "Pregorio motor ventilatora hlađenja",
+   "objekat": "Kompresorska stanica KS-1",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Harun Mešić",
+   "inicijator": "Dispečer (dežurni)"
+  },
+  {
+   "broj": "RN-2026-0025",
+   "tip": "KOREKTIVNI",
+   "status": "U_RADU",
+   "rok": "2026-09-05",
+   "predmetRada": "Vibracije na pumpi P-4 — dijagnostika i sanacija",
+   "objekat": "Pumpna stanica PS-2",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0026",
+   "tip": "PREVENTIVNI",
+   "status": "U_RADU",
+   "rok": "2026-09-30",
+   "predmetRada": "Čišćenje separatora ulja",
+   "objekat": "Kompresorska stanica KS-1",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0027",
+   "tip": "KOREKTIVNI",
+   "status": "U_RADU",
+   "rok": "2026-10-05",
+   "predmetRada": "Korozija nosača cjevovoda — dionica C",
+   "objekat": "Rezervoar R-1",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0028",
+   "tip": "PREVENTIVNI",
+   "status": "ODOBREN",
+   "rok": "2026-10-20",
+   "predmetRada": "Zamjena rasvjete skladišta LED panelima",
+   "objekat": "Skladište gotovih proizvoda",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Harun Mešić"
+  },
+  {
+   "broj": "RN-2026-0029",
+   "tip": "PREVENTIVNI",
+   "status": "ODOBREN",
+   "rok": "2026-10-30",
+   "predmetRada": "Ispitivanje izolacije NN kablova",
+   "objekat": "Pumpna stanica PS-2",
+   "oj": "SERV-EL",
+   "odgovorniServiser": "Emir Bajrić",
+   "inicijator": "Harun Mešić"
+  },
+  {
+   "broj": "RN-2026-0030",
+   "tip": "KOREKTIVNI",
+   "status": "ODOBREN",
+   "rok": "2026-11-10",
+   "predmetRada": "Zamjena oštećenih vrata na trafo boksu",
+   "objekat": "Trafostanica TS-3",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0031",
+   "tip": "PREVENTIVNI",
+   "status": "ODOBREN",
+   "rok": "2026-11-15",
+   "predmetRada": "Godišnji servis klima komora",
+   "objekat": "Upravna zgrada",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Adnan Kovačević",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0032",
+   "tip": "PREVENTIVNI",
+   "status": "KREIRAN",
+   "rok": "2026-11-30",
+   "predmetRada": "Antikorozivna zaštita cjevovoda — dionica B",
+   "objekat": "Rezervoar R-1",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0033",
+   "tip": "KOREKTIVNI",
+   "status": "KREIRAN",
+   "rok": "2026-10-12",
+   "predmetRada": "Curenje kompresovanog zraka na razvodu",
+   "objekat": "Kompresorska stanica KS-1",
+   "oj": "SERV-MAS",
+   "odgovorniServiser": "Mirza Alić",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "broj": "RN-2026-0034",
+   "tip": "PREVENTIVNI",
+   "status": "KREIRAN",
+   "rok": "2026-12-05",
+   "predmetRada": "Zamjena anodne zaštite rezervoara",
+   "objekat": "Rezervoar R-1",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0035",
+   "tip": "KOREKTIVNI",
+   "status": "STORNIRAN",
+   "rok": "2026-12-20",
+   "predmetRada": "Farbanje ograde kruga — otkazano zbog zime",
+   "objekat": "Upravna zgrada",
+   "oj": "SERV-GS",
+   "odgovorniServiser": "Almir Šehić",
+   "inicijator": "Jasmina Terzić"
+  },
+  {
+   "broj": "RN-2026-0036",
+   "tip": "PREVENTIVNI",
+   "status": "STORNIRAN",
+   "rok": "2026-03-31",
+   "predmetRada": "Dupli unos — servis pumpi (vidi RN-2026-0001)",
+   "objekat": "Pumpna stanica PS-1",
+   "oj": "SERV-MAS",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "tip": "KOREKTIVNI",
+   "status": "KREIRAN",
+   "predmetRada": "Podešavanje sigurnosnih prekidača na presi",
+   "objekat": "Skladište gotovih proizvoda",
+   "oj": "SERV-MAS",
+   "inicijator": "Haris Ibrahimović"
+  },
+  {
+   "tip": "PREVENTIVNI",
+   "status": "KREIRAN",
+   "predmetRada": "Priprema zimske službe — pregled opreme",
+   "objekat": "Upravna zgrada",
+   "oj": "SERV-GS",
+   "inicijator": "Jasmina Terzić"
+  }
+ ],
+ "skladiste": {
+  "pokazatelji": {
+   "ispodSignalne": 3,
+   "ispodMinimuma": 1,
+   "naNuli": 0,
+   "uZahtjevu": 2,
+   "uGranicama": 24,
+   "iznadMaksimuma": 3
+  },
+  "ispodGranica": [
+   {
+    "artikl": "ART-5120",
+    "naziv": "Mast EP-2 400 g",
+    "skladiste": "Centralno skladište",
+    "raspolozivo": 2,
+    "min": 4,
+    "signalna": 6,
+    "polozaj": "ISPOD_MINIMUMA"
+   },
+   {
+    "artikl": "ART-5121",
+    "naziv": "Žica za zavarivanje 1.2 mm",
+    "skladiste": "Centralno skladište",
+    "raspolozivo": 21,
+    "min": 20,
+    "signalna": 40,
+    "polozaj": "ISPOD_SIGNALNE"
+   },
+   {
+    "artikl": "ART-6030",
+    "naziv": "Ventil kuglasti DN25",
+    "skladiste": "Skladište rezervnih dijelova",
+    "raspolozivo": 6,
+    "min": 4,
+    "signalna": 8,
+    "polozaj": "ISPOD_SIGNALNE"
+   }
+  ]
+ },
+ "tim": {
+  "clanovi": [
+   {
+    "id": "zap-009",
+    "ime": "Mirza Alić",
+    "radnoMjesto": "SEF-SERVISA"
+   },
+   {
+    "id": "zap-010",
+    "ime": "Adnan Kovačević",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-011",
+    "ime": "Haris Ibrahimović",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-012",
+    "ime": "Emina Salihović",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-013",
+    "ime": "Tarik Omerović",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-022",
+    "ime": "Senad Hadžić",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-024",
+    "ime": "Almir Šehić",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-026",
+    "ime": "Elvir Jusić",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-030",
+    "ime": "Emir Bajrić",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-031",
+    "ime": "Harun Mešić",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-034",
+    "ime": "Kemal Karahasan",
+    "radnoMjesto": "SERVISER"
+   },
+   {
+    "id": "zap-038",
+    "ime": "Nedim Čolić",
+    "radnoMjesto": "SERVISER"
+   }
+  ],
+  "odsustva": [
+   {
+    "zaposlenik": "zap-022",
+    "vrsta": "BOLOVANJE",
+    "datumOd": "2026-06-01",
+    "datumDo": "2026-10-16",
+    "status": "ODOBREN",
+    "datumPodnosenja": "2026-06-03"
+   },
+   {
+    "zaposlenik": "zap-012",
+    "vrsta": "BOLOVANJE",
+    "datumOd": "2026-09-14",
+    "datumDo": "2026-09-25",
+    "status": "PODNESEN",
+    "datumPodnosenja": "2026-09-16"
+   }
+  ]
+ }
+}

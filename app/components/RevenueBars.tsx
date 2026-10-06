@@ -1,4 +1,4 @@
-import { useEffect, useId, useRef, useState } from "react";
+import { useId, useRef, useState } from "react";
 import type { KeyboardEvent, PointerEvent } from "react";
 import {
   AnimatePresence,
@@ -6,6 +6,9 @@ import {
   useInView,
   useReducedMotion,
 } from "framer-motion";
+import { Card } from "~/components/Card";
+import { useElementSize } from "~/hooks/useElementSize";
+import { CARD_TITLE } from "~/lib/ui";
 
 export interface BarSeries {
   /** Name shown on the switch button and in the tooltip, such as a year. */
@@ -38,8 +41,20 @@ export interface RevenueBarsProps {
   valueHeading?: string;
   /** Added to the screen reader table caption, for example the unit. */
   unitNote?: string;
-  /** Chart height in pixels. */
+  /** Chart height in pixels. Ignored with `fill`. */
   height?: number;
+  /**
+   * Fill a box of fixed height: the chart takes whatever height is left under
+   * the header, measured live, instead of a fixed `height`.
+   */
+  fill?: boolean;
+  /** Draws a dashed goal line at this value. */
+  target?: number;
+  targetLabel?: string;
+  /** Picks a bar's class from its value, such as green above the goal and amber under it. */
+  barTone?: (value: number) => string;
+  /** One note per category, shown in the tooltip, such as what drove that month. */
+  notes?: string[];
   barClassName?: string;
   activeBarClassName?: string;
   className?: string;
@@ -49,19 +64,10 @@ export interface RevenueBarsProps {
 const margin = { top: 16, right: 8, bottom: 28, left: 40 };
 
 // Measures the chart container so the SVG can be drawn at real pixel size and stay crisp.
-const useWidth = () => {
+const useChartBox = () => {
   const ref = useRef<HTMLDivElement>(null);
-  const [width, setWidth] = useState(0);
-  useEffect(() => {
-    const element = ref.current;
-    if (!element) return;
-    const observer = new ResizeObserver(([entry]) =>
-      setWidth(entry.contentRect.width),
-    );
-    observer.observe(element);
-    return () => observer.disconnect();
-  }, []);
-  return [ref, width] as const;
+  const size = useElementSize(ref);
+  return [ref, size.width, size.height] as const;
 };
 
 // Picks four even steps that end at a round number just above the largest value.
@@ -94,14 +100,21 @@ export const RevenueBars = ({
   categoryHeading = "Month",
   valueHeading = "Revenue",
   unitNote = "in thousands of dollars",
-  height = 260,
+  height: fixedHeight = 260,
+  fill = false,
+  target,
+  targetLabel = "Cilj",
+  barTone,
+  notes,
   barClassName = "fill-indigo-500 dark:fill-indigo-500",
   activeBarClassName = "fill-indigo-600 dark:fill-indigo-400",
   className = "",
   showValue,
 }: RevenueBarsProps) => {
   const reduceMotion = useReducedMotion();
-  const [containerRef, width] = useWidth();
+  const [containerRef, width, measuredHeight] = useChartBox();
+  // With `fill` the box sets the height; below 80px the chart would be unreadable.
+  const height = fill ? Math.max(80, measuredHeight) : fixedHeight;
   const inView = useInView(containerRef, { once: true, amount: 0.4 });
   const [internal, setInternal] = useState(
     defaultValue ?? series[series.length - 1]?.label ?? "",
@@ -168,16 +181,15 @@ export const RevenueBars = ({
   const periodLabel = selected?.label ?? "";
 
   return (
-    <section
-      aria-labelledby={titleId}
-      className={`w-full rounded-2xl border border-gray-200 bg-white p-5 shadow-sm dark:border-slate-700 dark:bg-slate-900 sm:p-6 ${className}`}
+    <Card
+      as="section"
+      labelledBy={titleId}
+      className={`w-full ${fill ? "min-h-0 p-4" : "p-5"} ${className}`}
     >
-      <header className="flex flex-wrap items-start justify-between gap-4">
-        <div>
-          <h3
-            id={titleId}
-            className="text-sm font-medium text-gray-500 dark:text-slate-400"
-          >
+      <div className={fill ? "flex h-full min-h-0 flex-col" : ""}>
+      <header className={`flex items-start justify-between gap-4 ${fill ? "shrink-0" : "flex-wrap"}`}>
+        <div className="min-w-0">
+          <h3 id={titleId} title={title} className={`${CARD_TITLE} ${fill ? "truncate" : ""}`}>
             {title}
           </h3>
           {showValue && (
@@ -221,8 +233,8 @@ export const RevenueBars = ({
         aria-label={`Bar chart of ${title.toLowerCase()} in ${periodLabel}. Use the left and right arrow keys to read each ${categoryHeading.toLowerCase()}.`}
         onKeyDown={handleKeyDown}
         onBlur={() => setActive(null)}
-        className="relative mt-6 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-4 dark:focus-visible:ring-offset-slate-900"
-        style={{ height }}
+        className={`relative rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-4 dark:focus-visible:ring-offset-slate-900 ${fill ? "mt-3 min-h-0 flex-1" : "mt-6"}`}
+        style={fill ? undefined : { height }}
       >
         {width > 0 && (
           <svg
@@ -254,6 +266,28 @@ export const RevenueBars = ({
                 </text>
               </g>
             ))}
+
+            {target !== undefined && (
+              <g>
+                <line
+                  x1={margin.left}
+                  x2={width - margin.right}
+                  y1={yFor(target)}
+                  y2={yFor(target)}
+                  strokeDasharray="6 4"
+                  className="stroke-[#3B9DF8]"
+                  strokeWidth={1.5}
+                />
+                <text
+                  x={width - margin.right}
+                  y={yFor(target) - 5}
+                  textAnchor="end"
+                  className="fill-[#3B9DF8] text-[11px] font-medium"
+                >
+                  {targetLabel} {formatTick(target)}
+                </text>
+              </g>
+            )}
 
             {data.map((amount, index) => {
               const x = margin.left + step * index + (step - barWidth) / 2;
@@ -297,7 +331,8 @@ export const RevenueBars = ({
                           }
                     }
                     className={
-                      active === index ? activeBarClassName : barClassName
+                      barTone?.(amount) ??
+                      (active === index ? activeBarClassName : barClassName)
                     }
                   />
                   <text
@@ -324,7 +359,7 @@ export const RevenueBars = ({
               exit={{ opacity: 0, scale: 0.9 }}
               transition={{ type: "spring", stiffness: 500, damping: 36 }}
             >
-              <div className="-translate-x-1/2 -translate-y-[calc(100%+10px)] whitespace-nowrap rounded-lg bg-gray-900 px-3 py-2 text-xs text-white shadow-xl dark:bg-white dark:text-slate-900">
+              <div className="max-w-72 -translate-x-1/2 -translate-y-[calc(100%+10px)] rounded-lg bg-gray-900 px-3 py-2 text-xs text-white shadow-xl dark:bg-white dark:text-slate-900">
                 <p className="font-medium">
                   {categories[active]} {periodLabel}
                 </p>
@@ -341,6 +376,11 @@ export const RevenueBars = ({
                   >
                     {change >= 0 ? "Veće" : "Manje"}{" "}
                     {Math.abs(change).toFixed(1)}% od {categories[active - 1]}
+                  </p>
+                )}
+                {notes?.[active] && (
+                  <p className="mt-1 w-64 whitespace-normal text-[11px] leading-snug opacity-80">
+                    {notes[active]}
                   </p>
                 )}
               </div>
@@ -374,6 +414,7 @@ export const RevenueBars = ({
           ))}
         </tbody>
       </table>
-    </section>
+      </div>
+    </Card>
   );
 };
