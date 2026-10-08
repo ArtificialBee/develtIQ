@@ -9,7 +9,6 @@ import { stagger } from "~/lib/motion";
 import {
   CARD_DESCRIPTION,
   CARD_TITLE,
-  ICON_CHIP,
   WRAP_ANYWHERE,
   bigNumberSize,
   formatBroj,
@@ -128,9 +127,7 @@ export const StatCard = ({ stat, level = 2, fill = false }: StatCardProps) => {
         <div className={`flex items-center justify-between gap-2 ${fill ? "" : "flex-wrap"}`}>
           <div className="flex min-w-0 flex-1 items-center gap-2.5">
             {Icon && (
-              <span className={`size-8 ${ICON_CHIP}`}>
-                <Icon aria-hidden />
-              </span>
+              <Icon aria-hidden className="size-[18px] shrink-0 text-[#3B9DF8]" />
             )}
             <Heading title={stat.label} className={`min-w-0 text-sm text-gray-600 dark:text-[#abc2d3] ${l.label}`}>
               {stat.label}
@@ -188,24 +185,27 @@ export const StatCard = ({ stat, level = 2, fill = false }: StatCardProps) => {
         {stat.trend && <AreaSparkline values={stat.trend} className={`shrink-0 ${l.trend}`} />}
 
         {stat.highlight && (
-          <div className={`shrink-0 rounded-lg border-l-2 bg-gray-50 px-3 py-1.5 dark:bg-slate-800/60 ${highlightAccents[tone]} ${l.highlight}`}>
-            <p className={`truncate text-[0.7rem] ${l.highlightLabel} font-medium uppercase tracking-[0.12em] text-gray-500 dark:text-white/50`}>
-              {stat.highlight.label}
-            </p>
-            <p
-              title={stat.highlight.title}
-              className={`mt-0.5 text-sm font-semibold text-gray-900 dark:text-white ${WRAP_ANYWHERE} ${l.title}`}
-            >
-              {stat.highlight.title}
-            </p>
-            {stat.highlight.meta && (
+          <div className={`flex shrink-0 items-start gap-2.5 rounded-lg border-l-2 bg-gray-50 px-3 py-2 dark:bg-slate-800/60 ${highlightAccents[tone]} ${l.highlight}`}>
+            <span
+              aria-label={`Status: ${stat.badge?.label ?? tone}`}
+              className={`mt-1 size-2.5 shrink-0 rounded-full bg-current ${tones[tone]}`}
+            />
+            <div className="min-w-0 flex-1">
               <p
-                title={stat.highlight.meta}
-                className={`mt-0.5 text-xs text-gray-500 dark:text-white/60 ${WRAP_ANYWHERE} ${l.meta}`}
+                title={stat.highlight.title}
+                className={`text-sm font-semibold text-gray-900 dark:text-white ${WRAP_ANYWHERE} ${l.title}`}
               >
-                {stat.highlight.meta}
+                {stat.highlight.title}
               </p>
-            )}
+              {stat.highlight.meta && (
+                <p
+                  title={stat.highlight.meta}
+                  className={`mt-0.5 text-xs text-gray-500 dark:text-white/60 ${WRAP_ANYWHERE} ${l.meta}`}
+                >
+                  {stat.highlight.meta}
+                </p>
+              )}
+            </div>
           </div>
         )}
 

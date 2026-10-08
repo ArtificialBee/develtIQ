@@ -8,7 +8,7 @@ import {
   LuUsers,
   LuWrench,
 } from "react-icons/lu";
-import type { FeedItem } from "~/components/NotificationFeed";
+import type { FeedItem } from "~/components/NotificationsDropdown";
 import type { Stat } from "~/components/StatCard";
 import {
   MODUL_ICONS,
@@ -335,6 +335,40 @@ const obavjestenja = ({ s, sada }: Kontekst): FeedItem[] =>
       tag: o.traziAkciju ? "Traži akciju" : "Info",
     }));
 
+/** Active personal reminders, ordered by their next due date and time. */
+const podsjetnici = ({ s, danas }: Kontekst): FeedItem[] =>
+  s.stavke
+    .filter(
+      (stavka) =>
+        stavka.vrsta === "PODSJETNIK" &&
+        stavka.hitnost !== "ZAVRSENO" &&
+        stavka.datum.slice(0, 10) >= danas,
+    )
+    .sort((a, b) =>
+      `${a.datum.slice(0, 10)}T${vrijemeStavke(a) || "23:59"}`.localeCompare(
+        `${b.datum.slice(0, 10)}T${vrijemeStavke(b) || "23:59"}`,
+      ),
+    )
+    .map((stavka) => ({
+      id: stavka.id,
+      icon: LuAlarmClock,
+      text: stavka.naslov,
+      meta: [
+        stavka.datum.slice(0, 10) === danas ? "Danas" : kratkiDatum(stavka.datum),
+        vrijemeStavke(stavka),
+        stavka.opis,
+      ]
+        .filter(Boolean)
+        .join(" · "),
+      tone:
+        stavka.hitnost === "KASNI"
+          ? "danger"
+          : stavka.hitnost === "DANAS"
+            ? "warning"
+            : "info",
+      tag: stavka.hitnost === "DANAS" ? "Danas" : "Podsjetnik",
+    }));
+
 /** Everything the home page shows for one snapshot. */
 export const homeView = (s: Snapshot) => {
   const k = kontekst(s);
@@ -347,6 +381,7 @@ export const homeView = (s: Snapshot) => {
     danas: dayOf(k, k.danas, "Danas"),
     sutra: dayOf(k, k.sutra, "Sutra"),
     obavjestenja: obavjestenja(k),
+    podsjetnici: podsjetnici(k),
   };
 };
 

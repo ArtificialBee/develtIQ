@@ -54,7 +54,7 @@ export const AppLaunchpad = ({ open, apps, activeKey, gradientOf, onClose }: App
                     className="group flex w-28 flex-col items-center gap-2 rounded-2xl p-2 text-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3B9DF8]"
                   >
                     <span
-                      className={`relative flex size-14 items-center justify-center rounded-[28%] bg-linear-to-br text-white shadow-lg shadow-black/30 ring-1 ring-white/25 transition-transform group-hover:scale-110 sm:size-16 ${gradientOf(app.key)} ${active ? "ring-2 ring-white" : ""}`}
+                      className={`relative flex size-14 items-center justify-center rounded-[28%] bg-linear-to-br text-sky-100 shadow-lg shadow-black/40 ring-1 ring-slate-500/40 transition-transform group-hover:scale-110 sm:size-16 ${gradientOf(app.key)} ${active ? "text-white ring-2 ring-sky-300 brightness-125" : ""}`}
                     >
                       <Icon aria-hidden className="size-1/2 drop-shadow" />
                       {app.badge ? (
