@@ -78,7 +78,7 @@ const DockItem = ({ label, icon: Icon, gradient, pointerX, reduceMotion, active 
     <motion.div
       ref={ref}
       style={{ height: size, paddingLeft: padding, paddingRight: padding, borderRadius: radius }}
-      className={`relative flex items-center bg-linear-to-br text-white ring-1 transition-shadow duration-300 ${active ? "shadow-lg shadow-black/30 ring-white/35" : "shadow-lg shadow-black/20 ring-white/25"} ${gradient}`}
+      className={`relative flex items-center bg-linear-to-br ring-1 transition-[box-shadow,filter] duration-300 ${active ? "text-white shadow-lg shadow-blue-950/50 ring-sky-300/70 brightness-125" : "text-sky-200 shadow-lg shadow-black/40 ring-slate-500/40 hover:brightness-125"} ${gradient}`}
     >
       <motion.span style={{ width: iconSize, height: iconSize }} className="flex shrink-0">
         <Icon aria-hidden className="h-full w-full drop-shadow" />
@@ -127,7 +127,7 @@ const DockItem = ({ label, icon: Icon, gradient, pointerX, reduceMotion, active 
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 2 }}
             transition={{ duration: 0.12 }}
-            className="pointer-events-none absolute bottom-full mb-3 whitespace-nowrap rounded-md bg-gray-900/90 px-2.5 py-1 text-xs font-medium text-white shadow-lg backdrop-blur dark:bg-white/90 dark:text-slate-900"
+            className="pointer-events-none absolute bottom-full mb-3 whitespace-nowrap rounded-md border border-slate-700 bg-slate-900/95 px-2.5 py-1 text-xs font-medium text-white shadow-lg shadow-black/30 backdrop-blur"
           >
             {label}
           </motion.span>
@@ -178,7 +178,7 @@ export const AppDock = ({ apps, activeKey }: AppDockProps) => {
         onPointerMove={(event) => pointerX.set(event.clientX)}
         onPointerLeave={() => pointerX.set(Infinity)}
         style={{ height: DOCK.base + DOCK.padding * 2 }}
-        className="flex items-end gap-2.5 rounded-2xl border border-white/40 bg-white/55 px-3 pb-1.5 shadow-xl shadow-black/10 backdrop-blur-2xl dark:border-white/10 dark:bg-slate-900/55 dark:shadow-black/40"
+        className="flex items-end gap-2.5 rounded-2xl border border-slate-700/80 bg-slate-950/90 px-3 pb-1.5 shadow-xl shadow-black/40 backdrop-blur-2xl"
       >
         <ul className="flex items-end gap-2.5">
           {shown.map((app) => (

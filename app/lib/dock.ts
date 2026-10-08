@@ -1,17 +1,17 @@
 /** Colors and sizes for the app dock, kept here so the dock component stays about layout. */
 
-// Each app gets a fixed gradient, like an app icon. Full class names keep Tailwind able to find them.
+// Coordinated navy gradients keep dock icons consistent with the dark app shell.
 const GRADIENTS = [
-  "from-cyan-400 to-blue-600",
-  "from-violet-400 to-indigo-600",
-  "from-sky-400 to-cyan-600",
-  "from-emerald-400 to-teal-600",
-  "from-amber-400 to-orange-600",
-  "from-rose-400 to-pink-600",
-  "from-fuchsia-400 to-purple-600",
-  "from-lime-400 to-green-600",
-  "from-blue-400 to-indigo-700",
-  "from-orange-400 to-red-600",
+  "from-slate-700 to-slate-900",
+  "from-slate-800 to-blue-950",
+  "from-blue-900 to-slate-900",
+  "from-slate-700 to-blue-950",
+  "from-blue-950 to-slate-800",
+  "from-slate-800 to-slate-950",
+  "from-blue-900 to-slate-950",
+  "from-slate-700 to-slate-950",
+  "from-blue-950 to-slate-900",
+  "from-slate-800 to-blue-900",
 ];
 
 /** The icon gradient of the app at `index` in the app list. */

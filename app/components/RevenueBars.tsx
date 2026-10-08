@@ -61,7 +61,7 @@ export interface RevenueBarsProps {
   showValue?: boolean;
 }
 
-const margin = { top: 16, right: 8, bottom: 28, left: 40 };
+const margin = { top: 20, right: 12, bottom: 36, left: 48 };
 
 // Measures the chart container so the SVG can be drawn at real pixel size and stay crisp.
 const useChartBox = () => {
@@ -139,7 +139,7 @@ export const RevenueBars = ({
   const innerWidth = Math.max(0, width - margin.left - margin.right);
   const innerHeight = height - margin.top - margin.bottom;
   const step = data.length ? innerWidth / data.length : 0;
-  const barWidth = Math.max(6, Math.min(32, step * 0.62));
+  const barWidth = Math.max(8, Math.min(40, step * 0.62));
   const yFor = (amount: number) =>
     margin.top + innerHeight - (amount / maxValue) * innerHeight;
   const baseline = yFor(0);
@@ -260,7 +260,7 @@ export const RevenueBars = ({
                   y={yFor(tick)}
                   dy="0.32em"
                   textAnchor="end"
-                  className="fill-gray-400 text-[11px] dark:fill-slate-500"
+                  className="fill-gray-400 text-[13px] dark:fill-slate-500"
                 >
                   {formatTick(tick)}
                 </text>
@@ -282,7 +282,7 @@ export const RevenueBars = ({
                   x={width - margin.right}
                   y={yFor(target) - 5}
                   textAnchor="end"
-                  className="fill-[#3B9DF8] text-[11px] font-medium"
+                  className="fill-[#3B9DF8] text-[13px] font-medium"
                 >
                   {targetLabel} {formatTick(target)}
                 </text>
@@ -339,7 +339,7 @@ export const RevenueBars = ({
                     x={margin.left + step * index + step / 2}
                     y={height - 8}
                     textAnchor="middle"
-                    className={`text-[11px] ${active === index ? "fill-gray-900 font-medium dark:fill-white" : "fill-gray-400 dark:fill-slate-500"}`}
+                    className={`text-[13px] ${active === index ? "fill-gray-900 font-medium dark:fill-white" : "fill-gray-400 dark:fill-slate-500"}`}
                   >
                     {width < 480 ? category.charAt(0) : category}
                   </text>

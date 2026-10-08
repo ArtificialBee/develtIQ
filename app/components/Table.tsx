@@ -31,6 +31,7 @@ export interface TableProps<T> {
   title?: string;
   description?: string;
   emptyText?: string;
+  action?: ReactNode;
   /**
    * Fill a box of fixed height and never scroll: show the rows that fit, one line
    * each, and page through the rest with the buttons in the header.
@@ -95,6 +96,7 @@ export function Table<T>({
   title,
   description,
   emptyText = "Nema podataka.",
+  action,
   fill = false,
   className = "",
 }: TableProps<T>) {
@@ -170,7 +172,14 @@ export function Table<T>({
       title={title}
       description={description}
       fill={fill}
-      action={fill ? <FitListPager fit={fit} label={title} /> : undefined}
+      action={
+        fill || action ? (
+          <div className="flex shrink-0 items-center gap-1">
+            {action}
+            {fill && <FitListPager fit={fit} label={title} />}
+          </div>
+        ) : undefined
+      }
       className={className}
     >
       {table}

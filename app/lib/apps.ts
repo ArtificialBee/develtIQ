@@ -1,5 +1,5 @@
 import type { IconType } from "react-icons";
-import { LuGauge, LuLayoutDashboard } from "react-icons/lu";
+import { LuChartColumn, LuGauge, LuLayoutDashboard } from "react-icons/lu";
 import data from "~/data/apps.json";
 import { iconFor } from "~/lib/app-icons";
 import { homeView } from "~/lib/moj-dan";
@@ -45,6 +45,7 @@ export interface AppEntry {
 const HOME_SECTIONS: AppSection[] = [
   { key: "dobrodosli", label: "Dobrodošli", url: "/home", icon: LuLayoutDashboard, children: [] },
   { key: "kpi", label: "KPI · Praćenje performansi", url: "/home/kpi", icon: LuGauge, children: [] },
+  { key: "pokazatelji", label: "Pokazatelji i obim", url: "/home/pokazatelji", icon: LuChartColumn, children: [] },
 ];
 
 // What waits on the person in Moj planer, counted the same way as on the home page.

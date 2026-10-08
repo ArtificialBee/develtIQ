@@ -1,19 +1,17 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { InsightList } from "~/components/InsightList";
-import { KpiTable } from "~/components/KpiTable";
 import { Page } from "~/components/Page";
 import { RevenueBars } from "~/components/RevenueBars";
 import { SegmentedTabs } from "~/components/SegmentedTabs";
 import { StatGrid } from "~/components/StatCard";
 import { TopBar } from "~/components/TopBar";
-import { VolumeList } from "~/components/VolumeList";
 import { BUSINESS_INDEX, MODULE_KPIS, MONTHS } from "~/lib/kpi";
-import { EXECUTIVE_READ, KPI_STATS, PULSE, VOLUMES } from "~/lib/kpi-page";
+import { EXECUTIVE_READ, KPI_STATS, PULSE } from "~/lib/kpi-page";
 import { stagger } from "~/lib/motion";
 import { SNAPSHOT } from "~/lib/snapshot";
 
-type Section = "pregled" | "puls" | "pokazatelji";
+type Section = "pregled" | "puls";
 
 // Green on or above the goal, amber in the warning band (85–99), red under it.
 const barTone = (value: number) =>
@@ -22,8 +20,8 @@ const barTone = (value: number) =>
 const lastIndex = BUSINESS_INDEX.values[BUSINESS_INDEX.values.length - 1];
 
 /**
- * How the business follows its plan. Like the home page it fills the screen and
- * never scrolls: from `lg` the 3 rows share the height; below it, tabs switch them.
+ * How the business follows its plan. The overview and pulse fill the page; below
+ * `lg`, tabs switch between them.
  */
 export default function KPI() {
   const [section, setSection] = useState<Section>("pregled");
@@ -52,7 +50,6 @@ export default function KPI() {
         tabs={[
           { key: "pregled", label: "Pregled" },
           { key: "puls", label: "Puls" },
-          { key: "pokazatelji", label: "Pokazatelji" },
         ]}
       />
 
@@ -62,11 +59,11 @@ export default function KPI() {
 
       <motion.div
         variants={stagger(0.08)}
-        className={`${shownGrid("puls")} min-h-0 grid-cols-1 grid-rows-2 gap-3 lg:grid lg:flex-[3] lg:grid-cols-3 lg:grid-rows-1 lg:gap-4`}
+        className={`${shownGrid("puls")} min-h-0 grid-cols-1 grid-rows-2 gap-3 lg:grid lg:flex-[4] lg:grid-cols-4 lg:grid-rows-1 lg:gap-4`}
       >
         <RevenueBars
           fill
-          className="lg:col-span-2"
+          className="lg:col-span-3"
           title="Poslovni puls — indeks kroz godinu, naspram cilja"
           categories={PULSE.categories}
           series={PULSE.series}
@@ -84,17 +81,6 @@ export default function KPI() {
         <InsightList title="Izvršni pregled" description="Šta brojke znače, iz istih podataka." items={EXECUTIVE_READ} />
       </motion.div>
 
-      <motion.div
-        variants={stagger(0.08)}
-        className={`${shownGrid("pokazatelji")} min-h-0 grid-cols-1 grid-rows-[3fr_2fr] gap-3 lg:grid lg:flex-[5] lg:grid-cols-3 lg:grid-rows-1 lg:gap-4`}
-      >
-        <KpiTable fill className="lg:col-span-2" />
-        <VolumeList
-          title="Obim obrade po modulu"
-          description="Ovaj mjesec naspram prošlog; godina naspram cilja."
-          rows={VOLUMES}
-        />
-      </motion.div>
     </Page>
   );
 }

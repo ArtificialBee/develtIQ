@@ -13,7 +13,6 @@ import "./app.css";
 import { AppDock } from "./components/AppDock";
 import { AppSidebar } from "./components/AppSidebar";
 import { APPS, activeSection, activeSubItem, appForPath } from "./lib/apps";
-import { appGradient } from "./lib/dock";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -52,6 +51,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
  */
 export default function App() {
   const { pathname } = useLocation();
+  if (pathname === "/login") {
+    return <Outlet />;
+  }
+
   const app = appForPath(pathname);
   const section = activeSection(app, pathname);
 
@@ -61,7 +64,6 @@ export default function App() {
         <AppSidebar
           key={app.key}
           app={app}
-          gradient={appGradient(APPS.indexOf(app))}
           activeSectionUrl={section?.url}
           activeScreenUrl={activeSubItem(section, pathname)?.url}
         />

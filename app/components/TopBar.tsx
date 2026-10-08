@@ -1,10 +1,14 @@
 import type { CSSProperties } from "react";
 import { motion, useReducedMotion } from "framer-motion";
-import { LuCalendarDays, LuClock, LuUser } from "react-icons/lu";
+import { LuAlarmClock, LuBell, LuCalendarDays, LuClock, LuUser } from "react-icons/lu";
+import { AccountDropdown } from "~/components/AccountDropdown";
+import { NotificationsDropdown } from "~/components/NotificationsDropdown";
 import { OrbitGauge } from "~/components/OrbitGauge";
 import { useNow } from "~/hooks/useNow";
 import { formatClock, formatDate, greetingFor } from "~/lib/home";
 import { riseIn } from "~/lib/motion";
+import { homeView } from "~/lib/moj-dan";
+import { SNAPSHOT } from "~/lib/snapshot";
 import { formatBroj } from "~/lib/ui";
 
 // A faint blueprint grid that fades out toward the edges.
@@ -68,6 +72,7 @@ export interface TopBarProps {
   alert?: string;
   /** A small progress ring at the right end. */
   gauge?: { value: number; target: number; label: string; caption: string };
+  className?: string;
 }
 
 /**
@@ -75,17 +80,21 @@ export interface TopBarProps {
  * a title with a status or alert under it, the live clock, and a small progress
  * ring. Chips that do not fit a narrower screen are left out; nothing wraps.
  */
-export const TopBar = ({ title, name, role, week, status = "Svi sistemi rade", startAt, alert, gauge }: TopBarProps) => {
+export const TopBar = ({ title, name, role, week, status = "Svi sistemi rade", startAt, alert, gauge, className = "" }: TopBarProps) => {
   const now = useNow(1000, startAt);
   const dot = alert ? "bg-amber-400" : "bg-emerald-400";
+  const { obavjestenja, podsjetnici } = homeView(SNAPSHOT);
 
   return (
-    <motion.section
-      variants={riseIn}
-      className="relative shrink-0 overflow-hidden rounded-2xl border border-[#e5eaf2] bg-white/60 px-4 py-3 sm:px-5 dark:border-slate-700/70 dark:bg-slate-900/40"
-    >
-      <Aurora />
-      <div className="relative flex items-center gap-4">
+    <div className="relative z-30 flex shrink-0 items-center gap-3">
+      <motion.section
+        variants={riseIn}
+        className={`relative min-w-0 flex-1 overflow-visible rounded-2xl border border-[#e5eaf2] bg-white/60 px-4 py-3 sm:px-5 dark:border-slate-700/70 dark:bg-slate-900/40 ${className}`}
+      >
+        <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-2xl">
+          <Aurora />
+        </div>
+        <div className="relative z-10 flex items-center gap-4">
         <div className="min-w-0 flex-1">
           <h1 className="truncate text-xl font-semibold tracking-tight text-gray-900 sm:text-2xl dark:text-white">
             {title ?? (
@@ -140,7 +149,23 @@ export const TopBar = ({ title, name, role, week, status = "Svi sistemi rade", s
             </div>
           </div>
         )}
+        </div>
+      </motion.section>
+      <div className="flex shrink-0 items-center gap-1">
+        <NotificationsDropdown
+          items={obavjestenja}
+          label="Obavještenja"
+          emptyText="Nema novih obavještenja."
+          icon={LuBell}
+        />
+        <NotificationsDropdown
+          items={podsjetnici}
+          label="Podsjetnici"
+          emptyText="Nema aktivnih podsjetnika."
+          icon={LuAlarmClock}
+        />
+        <AccountDropdown />
       </div>
-    </motion.section>
+    </div>
   );
 };

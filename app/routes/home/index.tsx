@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { useSearchParams } from "react-router";
 import { LuCalendarClock } from "react-icons/lu";
 import { TopBar } from "~/components/TopBar";
-import { NotificationFeed } from "~/components/NotificationFeed";
 import { Page } from "~/components/Page";
 import { SegmentedTabs } from "~/components/SegmentedTabs";
 import { StatGrid } from "~/components/StatCard";
@@ -73,16 +72,15 @@ export default function Home() {
 
       <motion.div
         variants={stagger(0.08)}
-        className={`${section === "tok" ? "grid flex-1" : "hidden"} min-h-0 grid-cols-1 grid-rows-2 gap-3 lg:grid lg:flex-[4] [@media(max-height:960px)]:lg:flex-[3] lg:grid-cols-3 lg:grid-rows-1 lg:gap-4`}
+        className={`${section === "tok" ? "grid flex-1" : "hidden"} min-h-0 grid-cols-1 grid-rows-1 gap-3 lg:grid lg:flex-[4] [@media(max-height:960px)]:lg:flex-[3] lg:gap-4`}
       >
         <DayTimeline
           day={view.danas}
           title="Tok dana"
           description="Današnji raspored po satima."
           icon={LuCalendarClock}
-          className="lg:col-span-2"
+          className="min-w-0"
         />
-        <NotificationFeed items={view.obavjestenja} />
       </motion.div>
     </Page>
   );
