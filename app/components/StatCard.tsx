@@ -107,10 +107,12 @@ export interface StatCardProps {
   level?: 2 | 3;
   /** Fit a box of fixed height, dropping details that do not fit. */
   fill?: boolean;
+  /** Two lines, as tall as they are: label and number, then the record behind it and the badge. */
+  minimal?: boolean;
 }
 
 /** One headline number: it counts up, with optional chips, the most important record and one fact under it. */
-export const StatCard = ({ stat, level = 2, fill = false }: StatCardProps) => {
+export const StatCard = ({ stat, level = 2, fill = false, minimal = false }: StatCardProps) => {
   const count = useCountUp(stat.value);
   const Icon = stat.icon;
   const Arrow = stat.direction === "up" ? LuArrowUp : LuArrowDown;
@@ -120,6 +122,37 @@ export const StatCard = ({ stat, level = 2, fill = false }: StatCardProps) => {
   const chips = stat.breakdown ?? [];
   const hiddenChips = chips.length - MAX_CHIPS;
   const l = fill ? layouts.fill : layouts.grow;
+
+  // Two lines, as tall as they are: what and how many, then the record and its badge.
+  if (minimal) {
+    return (
+      <Card className="p-4">
+        <div className="flex items-center gap-2.5">
+          {Icon && <Icon aria-hidden className="size-[18px] shrink-0 text-[#3B9DF8]" />}
+          <Heading title={stat.label} className="min-w-0 flex-1 truncate text-sm text-gray-600 dark:text-[#abc2d3]">
+            {stat.label}
+          </Heading>
+          <span aria-hidden className={`shrink-0 whitespace-nowrap text-3xl font-bold leading-none tabular-nums ${tones[tone]}`}>
+            <motion.span>{count}</motion.span>
+            {stat.suffix}
+          </span>
+          <span className="sr-only">{finalText}</span>
+        </div>
+        {(stat.highlight || stat.badge) && (
+          <div className="mt-2 flex items-center gap-2">
+            <p title={stat.highlight?.title} className="min-w-0 flex-1 truncate text-sm text-gray-500 dark:text-white/60">
+              {stat.highlight?.title}
+            </p>
+            {stat.badge && (
+              <StatusBadge tone={stat.badge.tone} className="shrink-0">
+                {stat.badge.label}
+              </StatusBadge>
+            )}
+          </div>
+        )}
+      </Card>
+    );
+  }
 
   return (
     <Card className={fill ? "min-h-0 p-4" : "p-5"}>
@@ -238,11 +271,13 @@ export interface StatGridProps {
   description?: string;
   /** Fill a box of fixed height: 2 × 2 cards on narrow screens, 4 in a row from `lg`. */
   fill?: boolean;
+  /** Two-line cards, as tall as their content: label and number, then one line and the badge. */
+  minimal?: boolean;
   className?: string;
 }
 
 /** A row of stat cards that rise in one after another. */
-export const StatGrid = ({ stats, label, title, description, fill = false, className = "" }: StatGridProps) => (
+export const StatGrid = ({ stats, label, title, description, fill = false, minimal = false, className = "" }: StatGridProps) => (
   <motion.section
     aria-label={label}
     variants={stagger(0.08)}
@@ -264,13 +299,15 @@ export const StatGrid = ({ stats, label, title, description, fill = false, class
     )}
     <div
       className={
-        fill
-          ? "grid min-h-0 flex-1 grid-cols-1 grid-rows-4 gap-3 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 lg:gap-4"
-          : "grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4"
+        minimal
+          ? "grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4 lg:gap-4"
+          : fill
+            ? "grid min-h-0 flex-1 grid-cols-1 grid-rows-4 gap-3 sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-4 lg:grid-rows-1 lg:gap-4"
+            : "grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-4"
       }
     >
       {stats.map((stat) => (
-        <StatCard key={stat.key} stat={stat} level={title ? 3 : 2} fill={fill} />
+        <StatCard key={stat.key} stat={stat} level={title ? 3 : 2} fill={fill} minimal={minimal} />
       ))}
     </div>
   </motion.section>

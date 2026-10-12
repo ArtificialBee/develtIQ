@@ -1,5 +1,5 @@
-import { useRef, useState, type ReactNode } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import { useRef, useState, type HTMLAttributes, type ReactNode } from "react";
+import { AnimatePresence } from "framer-motion";
 import { Link, useNavigate } from "react-router";
 import {
   LuChevronRight,
@@ -28,77 +28,45 @@ const rowIdle =
   "text-gray-600 hover:bg-gray-200/70 hover:text-gray-900 dark:text-slate-300 dark:hover:bg-white/5 dark:hover:text-white";
 const rowCurrent = "bg-[#3B9DF8]/12 font-medium text-[#3B9DF8]";
 
+/** The pointer and focus handlers that open a row's submenu, from `AppSidebar`. */
+type HoverMenuProps = Pick<HTMLAttributes<HTMLLIElement>, "onPointerEnter" | "onPointerLeave" | "onFocus" | "onBlur">;
+
 interface SectionRowProps {
   section: AppSection;
   active: boolean;
-  activeScreenUrl?: string;
+  menuOpen: boolean;
+  hover?: HoverMenuProps;
+  /** The section's screens, in a menu beside the sidebar. */
+  menu?: ReactNode;
 }
 
 /**
- * One section with its name. Clicking it opens its first screen; while it is the
- * open section its screens unfold under it, and a blue bar marks the one you are on.
+ * One section with its name, one line high: it never unfolds inside the sidebar.
+ * Clicking it opens its first screen; pointing at it shows its screens at once in
+ * a menu beside the sidebar, with the screen you are on marked.
  */
-const SectionRow = ({ section, active, activeScreenUrl }: SectionRowProps) => {
+const SectionRow = ({ section, active, menuOpen, hover, menu }: SectionRowProps) => {
   const Icon = section.icon;
   const hasScreens = section.children.length > 0;
-  const current = active && !hasScreens;
   return (
-    <li>
+    <li className="relative" {...hover}>
       <Link
         to={landing(section)}
-        aria-current={current ? "page" : undefined}
-        className={`flex h-9 items-center gap-3 rounded-lg px-2.5 text-sm transition-colors ${current ? rowCurrent : active ? "font-medium text-gray-900 dark:text-white" : rowIdle}`}
+        aria-current={active ? (hasScreens ? "true" : "page") : undefined}
+        aria-haspopup={hover ? "menu" : undefined}
+        aria-expanded={hover ? menuOpen : undefined}
+        className={`flex h-9 items-center gap-3 rounded-lg px-2.5 text-sm transition-colors ${active ? rowCurrent : rowIdle}`}
       >
-        <Icon
-          aria-hidden
-          className={`size-4 shrink-0 ${active ? "text-[#3B9DF8]" : ""}`}
-        />
+        <Icon aria-hidden className="size-4 shrink-0" />
         <span className="min-w-0 flex-1 truncate">{section.label}</span>
         {hasScreens && (
           <LuChevronRight
             aria-hidden
-            className={`size-3.5 shrink-0 text-gray-400 transition-transform dark:text-slate-500 ${active ? "rotate-90" : ""}`}
+            className={`size-3.5 shrink-0 ${active ? "" : "text-gray-400 dark:text-slate-500"}`}
           />
         )}
       </Link>
-      <AnimatePresence initial={false}>
-        {active && hasScreens && (
-          <motion.ul
-            initial={{ opacity: 0, y: -4 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.18 }}
-            className="ml-[1.2rem] mt-0.5 border-l border-gray-200 pl-2 dark:border-slate-700"
-          >
-            {section.children.map((screen) => {
-              const on = screen.url === activeScreenUrl;
-              return (
-                <li key={screen.key} className="relative">
-                  {on && (
-                    <motion.span
-                      layoutId="sidebar-screen"
-                      transition={{
-                        type: "spring",
-                        stiffness: 500,
-                        damping: 38,
-                      }}
-                      className="absolute -left-[9.5px] bottom-1.5 top-1.5 w-[3px] rounded-full bg-[#3B9DF8]"
-                    />
-                  )}
-                  <Link
-                    to={screen.url}
-                    title={screen.description}
-                    aria-current={on ? "page" : undefined}
-                    className={`flex h-8 items-center rounded-md px-2.5 text-sm transition-colors ${on ? rowCurrent : "text-gray-500 hover:bg-gray-200/70 hover:text-gray-900 dark:text-slate-400 dark:hover:bg-white/5 dark:hover:text-white"}`}
-                  >
-                    <span className="truncate">{screen.label}</span>
-                  </Link>
-                </li>
-              );
-            })}
-          </motion.ul>
-        )}
-      </AnimatePresence>
+      <AnimatePresence>{menu}</AnimatePresence>
     </li>
   );
 };
@@ -107,45 +75,31 @@ interface IconRowProps {
   section: AppSection;
   active: boolean;
   menuOpen: boolean;
-  onOpenMenu: (button: HTMLElement) => void;
+  hover?: HoverMenuProps;
   menu?: ReactNode;
 }
 
-/** One section as an icon only, for the narrow sidebar. A section with screens opens them in a menu beside it. */
-const IconRow = ({
-  section,
-  active,
-  menuOpen,
-  onOpenMenu,
-  menu,
-}: IconRowProps) => {
+/**
+ * One section as an icon only, for the narrow sidebar. Clicking it opens its first
+ * screen; pointing at a section with screens shows them at once in a menu beside it.
+ */
+const IconRow = ({ section, active, menuOpen, hover, menu }: IconRowProps) => {
   const Icon = section.icon;
+  const hasScreens = section.children.length > 0;
   const tile = `flex size-10 items-center justify-center rounded-xl transition-colors ${active ? "bg-[#3B9DF8] text-white shadow-[0_0_16px_rgba(59,157,248,0.45)]" : rowIdle}`;
   return (
-    <li className="relative">
-      {section.children.length > 0 ? (
-        <button
-          type="button"
-          title={section.label}
-          aria-label={section.label}
-          aria-haspopup="menu"
-          aria-expanded={menuOpen}
-          onClick={(event) => onOpenMenu(event.currentTarget)}
-          className={tile}
-        >
-          <Icon aria-hidden className="size-[18px]" />
-        </button>
-      ) : (
-        <Link
-          to={section.url}
-          title={section.label}
-          aria-label={section.label}
-          aria-current={active ? "page" : undefined}
-          className={tile}
-        >
-          <Icon aria-hidden className="size-[18px]" />
-        </Link>
-      )}
+    <li className="relative" {...hover}>
+      <Link
+        to={landing(section)}
+        title={hasScreens ? undefined : section.label}
+        aria-label={section.label}
+        aria-current={active && !hasScreens ? "page" : undefined}
+        aria-haspopup={hover ? "menu" : undefined}
+        aria-expanded={hover ? menuOpen : undefined}
+        className={tile}
+      >
+        <Icon aria-hidden className="size-[18px]" />
+      </Link>
       <AnimatePresence>{menu}</AnimatePresence>
     </li>
   );
@@ -159,10 +113,10 @@ const toMenuItems = (sections: AppSection[]): RailMenuItem[] =>
   }));
 
 /**
- * The sidebar of the open app, like the macOS Finder sidebar: the app's name, its
- * sections by name, and the open section's screens unfolded under it. On narrow
- * windows, or after the collapse button, it shows icons only and opens a section's
- * screens in a menu. It never scrolls: sections that do not fit go into "Više".
+ * The sidebar of the open app, like the macOS Finder sidebar: the app's name and its
+ * sections, by name or, on narrow windows or after the collapse button, as icons.
+ * Pointing at a section shows its screens at once in a menu beside the sidebar; nothing
+ * unfolds inside it. It never scrolls: sections that do not fit go into "Više".
  */
 export const AppSidebar = ({
   app,
@@ -185,25 +139,34 @@ export const AppSidebar = ({
   const activeIndex = app.sections.findIndex(
     (section) => section.url === activeSectionUrl,
   );
-  const openScreens = wide
-    ? (app.sections[activeIndex]?.children.length ?? 0) * SIDEBAR_ROW.screen
-    : 0;
   const { visible, hidden } = sidebarFit(
     app.sections,
     activeIndex,
     height,
     wide ? SIDEBAR_ROW.section : SIDEBAR_ROW.icon,
-    openScreens,
   );
-  const toggleMenu = (id: string, button: HTMLElement) =>
-    setMenu(
-      menu?.id === id
-        ? null
-        : {
-            id,
-            up: button.getBoundingClientRect().top > window.innerHeight / 2,
-          },
+  // Menus open the moment the pointer or focus reaches a row, with no delay, and close
+  // when both leave it. The menu is inside the row, so moving onto it keeps it open.
+  const openMenu = (id: string, row: HTMLElement) =>
+    setMenu((current) =>
+      current?.id === id ? current : { id, up: row.getBoundingClientRect().top > window.innerHeight / 2 },
     );
+  const closeMenu = (id: string) => setMenu((current) => (current?.id === id ? null : current));
+  const hoverMenu = (id: string): HoverMenuProps => ({
+    onPointerEnter: (event) => openMenu(id, event.currentTarget),
+    onPointerLeave: () => closeMenu(id),
+    onFocus: (event) => openMenu(id, event.currentTarget),
+    onBlur: (event) => {
+      if (!event.currentTarget.contains(event.relatedTarget as Node | null)) closeMenu(id);
+    },
+  });
+  const screensOf = (section: AppSection): RailMenuItem[] =>
+    section.children.map((screen) => ({
+      id: screen.url,
+      label: screen.label,
+      icon: screen.icon,
+      description: screen.description,
+    }));
   const pick = (url: string) => {
     setMenu(null);
     navigate(url);
@@ -229,11 +192,11 @@ export const AppSidebar = ({
   return (
     <nav
       aria-label={app.label}
-      className={`relative flex h-full shrink-0 flex-col border-r border-gray-200 bg-gray-50/80 py-4 transition-[width] duration-300 dark:border-slate-800 dark:bg-slate-900/70 ${wide ? "w-64 px-3" : "w-[4.5rem] items-center px-2"}`}
+      className={`relative z-40 flex h-full shrink-0 flex-col border-r border-gray-200 bg-gray-50/80 py-4 transition-[width] duration-300 dark:border-slate-800 dark:bg-slate-900/70 ${wide ? "w-64 px-3" : "w-[4.5rem] items-center px-2"}`}
     >
       <div className={`mb-4 flex shrink-0 items-center gap-3 ${wide ? "px-1" : ""}`} title={app.label}>
         <span
-          className="size-10 shrink-0 overflow-hidden rounded-xl shadow-md ring-1 ring-white/20"
+          className="size-10 shrink-0 overflow-hidden rounded-xl shadow-md ring-1 ring-gray-200"
         >
           <img
             src="/develtiq-mark.png"
@@ -245,7 +208,7 @@ export const AppSidebar = ({
         {wide && (
           <div className="min-w-0 flex-1">
             <WorkspaceSwitcher />
-            <p className="truncate text-xs text-white/70">
+            <p className="truncate text-xs text-gray-500">
               {app.label}
             </p>
           </div>
@@ -256,44 +219,29 @@ export const AppSidebar = ({
         <ul
           className={`flex flex-col ${wide ? "gap-0.5" : "items-center gap-1"}`}
         >
-          {visible.map((section) =>
-            wide ? (
-              <SectionRow
-                key={section.key}
-                section={section}
-                active={section.url === activeSectionUrl}
-                activeScreenUrl={activeScreenUrl}
-              />
-            ) : (
-              <IconRow
+          {visible.map((section) => {
+            const hasScreens = section.children.length > 0;
+            const Row = wide ? SectionRow : IconRow;
+            return (
+              <Row
                 key={section.key}
                 section={section}
                 active={section.url === activeSectionUrl}
                 menuOpen={menu?.id === section.url}
-                onOpenMenu={(button) => toggleMenu(section.url, button)}
-                menu={menuFor(
-                  section.url,
-                  section.label,
-                  section.children.map((screen) => ({
-                    id: screen.url,
-                    label: screen.label,
-                    icon: screen.icon,
-                    description: screen.description,
-                  })),
-                  activeScreenUrl,
-                )}
+                hover={hasScreens ? hoverMenu(section.url) : undefined}
+                menu={hasScreens ? menuFor(section.url, section.label, screensOf(section), activeScreenUrl) : undefined}
               />
-            ),
-          )}
+            );
+          })}
           {hidden.length > 0 && (
-            <li className="relative">
+            <li className="relative" {...hoverMenu("more")}>
               <button
                 type="button"
                 aria-haspopup="menu"
                 aria-expanded={menu?.id === "more"}
                 aria-label={`Još ${hidden.length} sekcija`}
                 title={`Još ${hidden.length} sekcija`}
-                onClick={(event) => toggleMenu("more", event.currentTarget)}
+                onClick={(event) => openMenu("more", event.currentTarget)}
                 className={
                   wide
                     ? `flex h-9 w-full items-center gap-3 rounded-lg px-2.5 text-sm ${rowIdle}`

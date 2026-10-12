@@ -1,15 +1,15 @@
 import type { CSSProperties } from "react";
 import { motion, useReducedMotion } from "framer-motion";
-import { LuAlarmClock, LuBell, LuCalendarDays, LuClock, LuUser } from "react-icons/lu";
+import { LuAlarmClock, LuBell } from "react-icons/lu";
 import { AccountDropdown } from "~/components/AccountDropdown";
+import { NotificationPills } from "~/components/NotificationPills";
 import { NotificationsDropdown } from "~/components/NotificationsDropdown";
-import { OrbitGauge } from "~/components/OrbitGauge";
 import { useNow } from "~/hooks/useNow";
-import { formatClock, formatDate, greetingFor } from "~/lib/home";
+import { appForModul } from "~/lib/apps";
+import { greetingFor } from "~/lib/home";
 import { riseIn } from "~/lib/motion";
 import { homeView } from "~/lib/moj-dan";
 import { SNAPSHOT } from "~/lib/snapshot";
-import { formatBroj } from "~/lib/ui";
 
 // A faint blueprint grid that fades out toward the edges.
 const grid: CSSProperties = {
@@ -52,38 +52,36 @@ const Aurora = () => {
   );
 };
 
-const chip =
-  "flex min-w-0 shrink-0 items-center gap-2 rounded-full border border-[#e5eaf2] bg-white/70 px-3 py-1 text-sm text-gray-700 backdrop-blur dark:border-slate-700/70 dark:bg-slate-900/60 dark:text-[#abc2d3]";
-
 export interface TopBarProps {
   /** A fixed page title. Without it the bar greets `name` for the time of day. */
   title?: string;
   /** First name of the person, for the greeting. */
   name?: string;
-  /** Job and unit, such as "Šef servisa, Služba servisa". */
-  role?: string;
-  /** Week of the year. */
-  week?: number;
   /** The line under the title when nothing is wrong. Defaults to "Svi sistemi rade". */
   status?: string;
-  /** ISO date-time the clock starts at. It then moves with real time. */
+  /** ISO date-time the greeting's clock starts at. It then moves with real time. */
   startAt: string;
   /** A problem the person must fix. It replaces "all systems work". */
   alert?: string;
-  /** A small progress ring at the right end. */
-  gauge?: { value: number; target: number; label: string; caption: string };
   className?: string;
 }
 
 /**
  * The top bar of a page, one line high so the cards get the screen: a greeting or
- * a title with a status or alert under it, the live clock, and a small progress
- * ring. Chips that do not fit a narrower screen are left out; nothing wraps.
+ * a title with a status or alert under it, and the newest notifications as buttons.
+ * Nothing wraps.
  */
-export const TopBar = ({ title, name, role, week, status = "Svi sistemi rade", startAt, alert, gauge, className = "" }: TopBarProps) => {
-  const now = useNow(1000, startAt);
+export const TopBar = ({ title, name, status = "Svi sistemi rade", startAt, alert, className = "" }: TopBarProps) => {
+  // Only the greeting reads the time, so once a minute is enough.
+  const now = useNow(60_000, startAt);
   const dot = alert ? "bg-amber-400" : "bg-emerald-400";
-  const { obavjestenja, podsjetnici } = homeView(SNAPSHOT);
+  const { obavjestenja, podsjetnici, najnovije } = homeView(SNAPSHOT);
+  // One button per app, each with that app's own icon from the dock.
+  const pills = najnovije
+    .map((item) => ({ item, app: appForModul(item.modul) }))
+    .filter(({ app }, index, all) => all.findIndex((other) => other.app.key === app.key) === index)
+    .slice(0, 4)
+    .map(({ item, app }) => ({ id: item.id, app: app.label, url: app.url, title: item.naslov, icon: app.icon, urgent: item.traziAkciju }));
 
   return (
     <div className="relative z-30 flex shrink-0 items-center gap-3">
@@ -118,37 +116,7 @@ export const TopBar = ({ title, name, role, week, status = "Svi sistemi rade", s
           </p>
         </div>
 
-        <span className={`hidden md:flex ${chip}`}>
-          <LuClock aria-hidden className="shrink-0 text-[#3B9DF8]" />
-          <span className="font-mono tabular-nums">{now ? formatClock(now) : "--:--:--"}</span>
-          <span className="hidden text-gray-400 xl:inline dark:text-white/40">·</span>
-          <span className="hidden whitespace-nowrap xl:inline">{now ? formatDate(now) : ""}</span>
-        </span>
-        {week !== undefined && (
-          <span className={`hidden 2xl:flex ${chip}`}>
-            <LuCalendarDays aria-hidden className="shrink-0 text-[#3B9DF8]" />
-            {week}. sedmica
-          </span>
-        )}
-        {role && (
-          <span title={role} className={`hidden max-w-xs 2xl:flex ${chip}`}>
-            <LuUser aria-hidden className="shrink-0 text-[#3B9DF8]" />
-            <span className="truncate">{role}</span>
-          </span>
-        )}
-
-        {gauge && (
-          <div title={`${gauge.label}: ${gauge.caption}`} className="flex shrink-0 items-center gap-3">
-            <OrbitGauge value={gauge.value} target={gauge.target} size={48} showValue={false} />
-            <div className="hidden text-right sm:block">
-              <p className="text-lg font-semibold leading-tight tabular-nums text-gray-900 dark:text-white">
-                {formatBroj(gauge.value)}
-                <span className="text-sm font-normal text-gray-500 dark:text-white/60">/{formatBroj(gauge.target)}</span>
-              </p>
-              <p className="text-[0.7rem] uppercase tracking-[0.14em] text-gray-500 dark:text-white/50">{gauge.label}</p>
-            </div>
-          </div>
-        )}
+        <NotificationPills items={pills} />
         </div>
       </motion.section>
       <div className="flex shrink-0 items-center gap-1">

@@ -13,9 +13,7 @@ import type { Stat } from "~/components/StatCard";
 import {
   MODUL_ICONS,
   MODUL_LABELS,
-  danaIzmedju,
   kratkiDatum,
-  prebroji,
   vrijemeIz,
   type Snapshot,
   type Stavka,
@@ -100,13 +98,7 @@ const cekaNaMene = ({ akcije }: Kontekst): Stat => {
     value: akcije.length,
     icon: LuInbox,
     badge: kasne.length > 0 ? { label: `${formatBroj(kasne.length)} kasni`, tone: "danger" } : undefined,
-    breakdown: prebroji(akcije.map((a) => a.vrsta)).slice(0, 3),
-    highlight: prva && {
-      label: "Prvo na redu",
-      title: `${prva.akcija}: ${prva.naslov}`,
-      meta: [prva.broj, prva.datum && `rok ${kratkiDatum(prva.datum)}`].filter(Boolean).join(" · "),
-    },
-    fact: { label: "Rok danas", value: formatBroj(akcije.filter((a) => a.hitnost === "DANAS").length) },
+    highlight: prva && { label: "Prvo na redu", title: `${prva.akcija}: ${prva.naslov}` },
   };
 };
 
@@ -124,15 +116,9 @@ const kasni = (k: Kontekst): Stat => {
     value: sve.length,
     icon: LuAlarmClock,
     tone: "danger",
-    breakdown: prebroji(sve.map((x) => modul(x.modul))),
     highlight: najstarija && {
       label: "Najstarije",
       title: najstarija.broj ? `${najstarija.broj} · ${najstarija.naslov}` : najstarija.naslov,
-      meta: `${modul(najstarija.modul)} · rok ${kratkiDatum(najstarija.datum)} · ${danaIzmedju(najstarija.datum, k.danas)} dana`,
-    },
-    fact: {
-      label: "Kasni više od 7 dana",
-      value: formatBroj(sve.filter((x) => danaIzmedju(x.datum, k.danas) > 7).length),
     },
   };
 };
@@ -148,37 +134,22 @@ const danas = (k: Kontekst): Stat => {
     label: "Danas",
     value: lista.length,
     icon: LuCalendarClock,
-    breakdown: prebroji(lista.map((s) => vrsta(s.vrsta))).slice(0, 3),
     highlight: sljedeca && {
       label: "Sljedeće",
       title: [vrijemeStavke(sljedeca), sljedeca.naslov].filter(Boolean).join(" · "),
-      meta: `${vrsta(sljedeca.vrsta)} · ${modul(sljedeca.modul)}`,
     },
-    fact: { label: "Sutra", value: formatBroj(k.zive.filter((s) => naDan(s, k.sutra)).length) },
   };
 };
 
 const noviMailovi = ({ s, sada }: Kontekst): Stat => {
-  const { odSinoc, inbox, cekaOdluku } = s.email;
+  const { odSinoc, inbox } = s.email;
   const prvi = inbox.find((m) => m.primljeno <= sada);
   return {
     key: "novo",
     label: `Novo od sinoć ${vrijemeIz(odSinoc.od)}`,
     value: odSinoc.ukupno,
     icon: LuMailOpen,
-    breakdown: [
-      { label: "Traži odgovor", value: odSinoc.traziOdgovor },
-      { label: "Odobrenje", value: odSinoc.odobrenja },
-      { label: "Sastanak", value: odSinoc.sastanci },
-      { label: "Za znanje", value: odSinoc.zaZnanje },
-    ].filter((b) => b.value > 0),
-    // What the mail asks comes first; who sent it can be long and goes under it.
-    highlight: prvi && {
-      label: prvi.hitnost === "HITNO" ? "Hitno" : "Najvažnije",
-      title: prvi.sazetak,
-      meta: [prvi.od, prvi.rok ? `rok ${kratkiDatum(prvi.rok)} u ${vrijemeIz(prvi.rok)}` : `stiglo ${kratkiDatum(prvi.primljeno)}`].join(" · "),
-    },
-    fact: { label: "U inboxu čeka odluku", value: formatBroj(cekaOdluku) },
+    highlight: prvi && { label: prvi.hitnost === "HITNO" ? "Hitno" : "Najvažnije", title: prvi.sazetak },
   };
 };
 
@@ -189,15 +160,21 @@ const OTVORENI_NALOZI = new Set(["KREIRAN", "ODOBREN", "U_RADU"]);
 // Drafts have no number yet and are not real orders.
 const otvoreniNalozi = ({ s }: Kontekst) => s.nalozi.filter((n) => OTVORENI_NALOZI.has(n.status) && n.broj);
 
+type Nalog = Snapshot["nalozi"][number];
+type Artikl = Snapshot["skladiste"]["ispodGranica"][number];
+
+// An urgent work order first, then the one longest past its deadline.
+const hitniPaNajstariji = (a: Nalog, b: Nalog) =>
+  Number(b.tip === "HITNI") - Number(a.tip === "HITNI") || (a.rok ?? "").localeCompare(b.rok ?? "");
+
+// Items under their minimum first, then the emptiest against its minimum.
+const najkriticniji = (a: Artikl, b: Artikl) =>
+  Number(b.polozaj === "ISPOD_MINIMUMA") - Number(a.polozaj === "ISPOD_MINIMUMA") || a.raspolozivo / a.min - b.raspolozivo / b.min;
+
 const radniNalozi = (k: Kontekst): Stat => {
-  const otvoreni = otvoreniNalozi(k);
-  const kasne = otvoreni.filter((n) => n.rok && n.rok < k.danas);
+  const kasne = otvoreniNalozi(k).filter((n) => n.rok && n.rok < k.danas);
   const hitne = kasne.filter((n) => n.tip === "HITNI");
-  const uskoro = otvoreni.filter((n) => n.rok && n.rok >= k.danas && danaIzmedju(k.danas, n.rok) <= 7);
-  const najgori = [...kasne].sort(
-    (a, b) => Number(b.tip === "HITNI") - Number(a.tip === "HITNI") || (a.rok ?? "").localeCompare(b.rok ?? ""),
-  )[0];
-  const poStatusu = (status: string) => otvoreni.filter((n) => n.status === status).length;
+  const najgori = [...kasne].sort(hitniPaNajstariji)[0];
   return {
     key: "radni-nalozi",
     label: "Radni nalozi · kasne",
@@ -205,22 +182,12 @@ const radniNalozi = (k: Kontekst): Stat => {
     icon: LuWrench,
     tone: "danger",
     badge: hitne.length > 0 ? { label: `${formatBroj(hitne.length)} hitna`, tone: "danger" } : undefined,
-    breakdown: [
-      { label: "U radu", value: poStatusu("U_RADU") },
-      { label: "Odobreno", value: poStatusu("ODOBREN") },
-      { label: "Čeka odobrenje", value: poStatusu("KREIRAN") },
-    ],
     highlight: najgori && {
       label: najgori.tip === "HITNI" ? "Hitni nalog kasni" : "Najstariji",
       title: `${najgori.broj} · ${najgori.predmetRada}`,
-      meta: `${najgori.objekat} · ${najgori.odgovorniServiser ?? "bez servisera"} · ${danaIzmedju(najgori.rok ?? k.danas, k.danas)} dana`,
     },
-    fact: { label: "Rok u narednih 7 dana", value: formatBroj(uskoro.length) },
   };
 };
-
-const najopterecenijiServiser = (k: Kontekst) =>
-  prebroji(otvoreniNalozi(k).flatMap((n) => (n.odgovorniServiser ? [n.odgovorniServiser] : [])))[0];
 
 const timDanas = (k: Kontekst): Stat => {
   const { clanovi, odsustva } = k.s.tim;
@@ -228,7 +195,6 @@ const timDanas = (k: Kontekst): Stat => {
   const ime = (id: string) => clanovi.find((c) => c.id === id)?.ime ?? id;
   const opis = (o: (typeof odsutni)[number]) =>
     `${ime(o.zaposlenik)}: ${ODSUSTVO_LABELS[o.vrsta] ?? o.vrsta} do ${kratkiDatum(o.datumDo)}${o.status === "PODNESEN" ? " (čeka odluku)" : ""}`;
-  const najvise = najopterecenijiServiser(k);
   return {
     key: "tim",
     label: "Tim danas · na poslu",
@@ -237,43 +203,29 @@ const timDanas = (k: Kontekst): Stat => {
     icon: LuUsers,
     tone: "success",
     badge: odsutni.length > 0 ? { label: `${formatBroj(odsutni.length)} odsutno`, tone: "warning" } : undefined,
-    breakdown: prebroji(k.akcije.filter((a) => a.modul === "hr").map((a) => a.vrsta)),
     highlight: odsutni.length > 0 ? { label: "Odsutni", title: odsutni.map(opis).join(" · ") } : undefined,
-    fact: najvise && { label: "Najviše otvorenih naloga", value: `${formatBroj(najvise.value)} · ${najvise.label}` },
   };
 };
 
 const skladiste = ({ s }: Kontekst): Stat => {
   const { pokazatelji, ispodGranica } = s.skladiste;
-  const poRiziku = [...ispodGranica].sort(
-    (a, b) => Number(b.polozaj === "ISPOD_MINIMUMA") - Number(a.polozaj === "ISPOD_MINIMUMA") || a.raspolozivo / a.min - b.raspolozivo / b.min,
-  );
-  const [prvi, ...ostali] = poRiziku;
+  const prvi = [...ispodGranica].sort(najkriticniji)[0];
   return {
     key: "skladiste",
     label: "Skladište · ispod granice",
     value: pokazatelji.ispodSignalne,
     icon: LuPackage,
     tone: "warning",
-    breakdown: [
-      { label: "Ispod minimuma", value: pokazatelji.ispodMinimuma },
-      { label: "Na nuli", value: pokazatelji.naNuli ?? 0 },
-      { label: "Već u zahtjevu", value: pokazatelji.uZahtjevu },
-    ],
     highlight: prvi && {
       label: prvi.polozaj === "ISPOD_MINIMUMA" ? "Ispod minimuma" : "Ispod signalne",
       title: `${prvi.naziv} · na stanju ${prvi.raspolozivo}, minimum ${prvi.min}`,
-      meta: [prvi.skladiste, ostali.length > 0 && `još: ${ostali.map((a) => a.naziv).join(", ")}`].filter(Boolean).join(" · "),
     },
-    fact: { label: "Artikala u granicama", value: formatBroj(pokazatelji.uGranicama) },
   };
 };
 
 const cekamOdDrugih = ({ s, akcije }: Kontekst): Stat => {
   const { cekamOd, probijenRok } = s.email.odSinoc;
-  const delegacije = akcije.filter((a) => a.vrsta === "Delegacija");
-  const [prva, ...ostale] = delegacije;
-  const sljedeca = ostale.find((a) => a.hitnost !== "KASNI");
+  const prva = akcije.find((a) => a.vrsta === "Delegacija");
   return {
     key: "cekam-od",
     label: "Čekam od drugih",
@@ -284,9 +236,7 @@ const cekamOdDrugih = ({ s, akcije }: Kontekst): Stat => {
     highlight: prva && {
       label: prva.hitnost === "KASNI" ? "Probijen rok" : "Sljedeće",
       title: `${prva.broj}: ${prva.naslov}`,
-      meta: prva.detalj,
     },
-    fact: sljedeca?.datum ? { label: "Sljedeći rok", value: `${kratkiDatum(sljedeca.datum)} · ${sljedeca.broj}` } : undefined,
   };
 };
 
@@ -335,6 +285,41 @@ const obavjestenja = ({ s, sada }: Kontekst): FeedItem[] =>
       tag: o.traziAkciju ? "Traži akciju" : "Info",
     }));
 
+/**
+ * What the top bar's buttons can show, title only, most pressing first: notifications
+ * that have arrived, the newest actions waiting on the person, the worst late work
+ * order and the stock item furthest under its limit. The bar takes one per app.
+ */
+const najnovije = (k: Kontekst) => {
+  const { s, sada, akcije } = k;
+  const nalog = otvoreniNalozi(k).filter((n) => n.rok && n.rok < k.danas).sort(hitniPaNajstariji)[0];
+  const artikl = [...s.skladiste.ispodGranica].sort(najkriticniji)[0];
+  return [
+    ...s.obavijesti
+      .filter((o) => o.kada <= sada)
+      .map((o) => ({ id: o.id, modul: o.modul, naslov: o.naslov, traziAkciju: o.traziAkciju })),
+    ...[...akcije]
+      .sort((a, b) => b.kada.localeCompare(a.kada))
+      .map((a) => ({ id: a.id, modul: a.modul, naslov: `${a.vrsta}: ${a.naslov}`, traziAkciju: true })),
+    ...(nalog
+      ? [{
+          id: `nalog:${nalog.broj}`,
+          modul: "radni-nalozi",
+          naslov: `${nalog.tip === "HITNI" ? "Hitni nalog kasni" : "Nalog kasni"}: ${nalog.broj} · ${nalog.predmetRada}`,
+          traziAkciju: true,
+        }]
+      : []),
+    ...(artikl
+      ? [{
+          id: `artikl:${artikl.artikl}`,
+          modul: "skladiste",
+          naslov: `${artikl.polozaj === "ISPOD_MINIMUMA" ? "Ispod minimuma" : "Ispod signalne"}: ${artikl.naziv}`,
+          traziAkciju: artikl.polozaj === "ISPOD_MINIMUMA",
+        }]
+      : []),
+  ];
+};
+
 /** Active personal reminders, ordered by their next due date and time. */
 const podsjetnici = ({ s, danas }: Kontekst): FeedItem[] =>
   s.stavke
@@ -381,6 +366,7 @@ export const homeView = (s: Snapshot) => {
     danas: dayOf(k, k.danas, "Danas"),
     sutra: dayOf(k, k.sutra, "Sutra"),
     obavjestenja: obavjestenja(k),
+    najnovije: najnovije(k),
     podsjetnici: podsjetnici(k),
   };
 };

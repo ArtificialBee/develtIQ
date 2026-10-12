@@ -16,7 +16,10 @@ export function useFitList<T>(items: T[], rowHeight: number, reserve = 0, minCol
   const columns = minColumnWidth && width > 0 ? Math.max(1, Math.floor(width / minColumnWidth)) : 1;
   const perPage = rows * columns;
   const paged = usePagedList(items, perPage);
-  return { boxRef, perPage, rows, columns, total: items.length, ...paged };
+  // When everything fits on one page, the rows spread evenly over the columns
+  // instead of filling the first column and leaving the others nearly empty.
+  const shownRows = items.length > 0 && items.length < perPage ? Math.ceil(items.length / columns) : rows;
+  return { boxRef, perPage, rows: shownRows, columns, total: items.length, ...paged };
 }
 
 export type FitListState<T> = ReturnType<typeof useFitList<T>>;

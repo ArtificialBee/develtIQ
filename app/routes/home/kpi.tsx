@@ -17,8 +17,6 @@ type Section = "pregled" | "puls";
 const barTone = (value: number) =>
   value >= BUSINESS_INDEX.target ? "fill-emerald-400" : value >= BUSINESS_INDEX.target * 0.85 ? "fill-amber-400" : "fill-red-400";
 
-const lastIndex = BUSINESS_INDEX.values[BUSINESS_INDEX.values.length - 1];
-
 /**
  * How the business follows its plan. The overview and pulse fill the page; below
  * `lg`, tabs switch between them.
@@ -34,12 +32,6 @@ export default function KPI() {
         title="Praćenje performansi"
         status={`Podaci za ${MONTHS[0]}–${MONTHS[MONTHS.length - 1]} 2026 · ${MODULE_KPIS.length} praćenih pokazatelja`}
         startAt={SNAPSHOT.meta.sada}
-        gauge={{
-          value: lastIndex,
-          target: BUSINESS_INDEX.target,
-          label: "Poslovni indeks",
-          caption: `${lastIndex} od ${BUSINESS_INDEX.target}`,
-        }}
       />
 
       <SegmentedTabs<Section>
