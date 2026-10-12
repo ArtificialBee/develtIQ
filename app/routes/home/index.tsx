@@ -31,16 +31,8 @@ export default function Home() {
     <Page fill>
       <TopBar
         name={osoba.ime}
-        role={osoba.uloga}
-        week={osoba.sedmica}
         startAt={osoba.sada}
         alert={prekinut && `Sandučić ${prekinut.adresa} je prekinut`}
-        gauge={{
-          value: osoba.zadaci.zavrseni,
-          target: osoba.zadaci.ukupno,
-          label: "Zadaci sedmice",
-          caption: `${osoba.zadaci.zavrseni} od ${osoba.zadaci.ukupno} završeno`,
-        }}
       />
 
       <SegmentedTabs<Section>
@@ -55,13 +47,15 @@ export default function Home() {
         ]}
       />
 
-      <div className={`${shown("dan")} min-h-0 flex-col lg:flex lg:flex-[3]`}>
-        <StatGrid fill label="Moj dan" title="Moj dan" description="Šta traži tebe, šta kasni i šta je danas." stats={view.mojDan} className="flex-1" />
+      {/* The cards are only as tall as their two lines; Tok dana gets the rest of the screen. */}
+      <div className={`${shown("dan")} min-h-0 flex-col lg:flex lg:flex-none`}>
+        <StatGrid fill minimal label="Moj dan" title="Moj dan" description="Šta traži tebe, šta kasni i šta je danas." stats={view.mojDan} className="flex-1" />
       </div>
 
-      <div className={`${shown("sluzba")} min-h-0 flex-col lg:flex lg:flex-[3]`}>
+      <div className={`${shown("sluzba")} min-h-0 flex-col lg:flex lg:flex-none`}>
         <StatGrid
           fill
+          minimal
           label={osoba.sektor}
           title={osoba.sektor}
           description="Nalozi, ljudi, dijelovi i ono što si predao drugima."
@@ -72,7 +66,7 @@ export default function Home() {
 
       <motion.div
         variants={stagger(0.08)}
-        className={`${section === "tok" ? "grid flex-1" : "hidden"} min-h-0 grid-cols-1 grid-rows-1 gap-3 lg:grid lg:flex-[4] [@media(max-height:960px)]:lg:flex-[3] lg:gap-4`}
+        className={`${section === "tok" ? "grid flex-1" : "hidden"} min-h-0 grid-cols-1 grid-rows-1 gap-3 lg:grid lg:flex-1 lg:gap-4`}
       >
         <DayTimeline
           day={view.danas}

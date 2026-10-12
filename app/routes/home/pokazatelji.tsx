@@ -4,13 +4,11 @@ import { Page } from "~/components/Page";
 import { SegmentedTabs } from "~/components/SegmentedTabs";
 import { TopBar } from "~/components/TopBar";
 import { VolumeList } from "~/components/VolumeList";
-import { BUSINESS_INDEX, MODULE_KPIS, MONTHS } from "~/lib/kpi";
+import { MODULE_KPIS, MONTHS } from "~/lib/kpi";
 import { VOLUMES } from "~/lib/kpi-page";
 import { SNAPSHOT } from "~/lib/snapshot";
 
 type Section = "pokazatelji" | "obim";
-
-const lastIndex = BUSINESS_INDEX.values[BUSINESS_INDEX.values.length - 1];
 
 /** Detailed KPI status and processing volume by module. */
 export default function Pokazatelji() {
@@ -23,12 +21,6 @@ export default function Pokazatelji() {
         title="Pokazatelji i obim"
         status={`Podaci za ${MONTHS[0]}–${MONTHS[MONTHS.length - 1]} 2026 · ${MODULE_KPIS.length} praćenih pokazatelja`}
         startAt={SNAPSHOT.meta.sada}
-        gauge={{
-          value: lastIndex,
-          target: BUSINESS_INDEX.target,
-          label: "Poslovni indeks",
-          caption: `${lastIndex} od ${BUSINESS_INDEX.target}`,
-        }}
       />
 
       <SegmentedTabs<Section>

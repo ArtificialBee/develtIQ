@@ -16,5 +16,7 @@ export function usePagedList<T>(items: T[], perPage: number) {
     pages,
     previous: () => setPage(Math.max(0, page - 1)),
     next: () => setPage(Math.min(pages - 1, page + 1)),
+    /** Zero-based; kept inside the page count. */
+    goTo: (target: number) => setPage(Math.min(pages - 1, Math.max(0, target))),
   };
 }

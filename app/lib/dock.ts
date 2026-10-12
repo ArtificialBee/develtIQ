@@ -1,18 +1,17 @@
 /** Colors and sizes for the app dock, kept here so the dock component stays about layout. */
 
-// Coordinated navy gradients keep dock icons consistent with the dark app shell.
+// Soft light gradients keep dock icons consistent with the light app shell.
 const GRADIENTS = [
-  "from-slate-700 to-slate-900",
-  "from-slate-800 to-blue-950",
-  "from-blue-900 to-slate-900",
-  "from-slate-700 to-blue-950",
-  "from-blue-950 to-slate-800",
-  "from-slate-800 to-slate-950",
-  "from-blue-900 to-slate-950",
-  "from-slate-700 to-slate-950",
-  "from-blue-950 to-slate-900",
-  "from-slate-800 to-blue-900",
+  "from-white to-slate-100",
+  "from-white to-blue-50",
+  "from-slate-50 to-slate-100",
+  "from-white to-sky-50",
+  "from-slate-50 to-blue-100",
+  "from-white to-slate-200",
 ];
+
+/** The open app's tile: the accent blue, so it stands out from the light icons. */
+export const ACTIVE_GRADIENT = "from-[#3B9DF8] to-blue-600";
 
 /** The icon gradient of the app at `index` in the app list. */
 export const appGradient = (index: number) => GRADIENTS[index % GRADIENTS.length];

@@ -1,8 +1,8 @@
-import { useCallback, type ReactNode } from "react";
+import { useCallback, useEffect, type ReactNode } from "react";
 import { motion } from "framer-motion";
 import { LuChevronDown, LuChevronUp, LuChevronsUpDown } from "react-icons/lu";
 import { Card } from "~/components/Card";
-import { FitListPager } from "~/components/FitList";
+import { PageNumbers } from "~/components/PageNumbers";
 import { useFitList } from "~/hooks/useFitList";
 import { Panel } from "~/components/Panel";
 import {
@@ -34,7 +34,7 @@ export interface TableProps<T> {
   action?: ReactNode;
   /**
    * Fill a box of fixed height and never scroll: show the rows that fit, one line
-   * each, and page through the rest with the buttons in the header.
+   * each, and page through the rest with the page numbers under the table.
    */
   fill?: boolean;
   className?: string;
@@ -107,9 +107,13 @@ export function Table<T>({
   const { sortedRows, sort, toggleSort } = useSortedRows(rows, getSortValue);
   const fit = useFitList(sortedRows, ROW_HEIGHT, HEAD_HEIGHT);
   const shownRows = fill ? fit.pageItems : sortedRows;
+  const { goTo } = fit;
+
+  // New rows, from a search or a filter, start again at the first page.
+  useEffect(() => goTo(0), [rows]);
 
   const table = (
-    <div ref={fill ? fit.boxRef : undefined} className={fill ? "h-full min-h-0 overflow-hidden" : "overflow-x-auto"}>
+    <div ref={fill ? fit.boxRef : undefined} className={fill ? "min-h-0 flex-1 overflow-hidden" : "overflow-x-auto"}>
       <table className={`w-full text-sm ${fill ? "table-fixed" : ""}`}>
         <thead>
           <tr className="border-b border-[#e5eaf2] dark:border-slate-700">
@@ -165,6 +169,15 @@ export function Table<T>({
       </table>
     </div>
   );
+  // In `fill` mode the page numbers sit under the rows, outside the measured box.
+  const body = fill ? (
+    <div className="flex h-full min-h-0 flex-col">
+      {table}
+      {fit.pages > 1 && <PageNumbers page={fit.page} pages={fit.pages} onPage={goTo} label={title ?? "Tabela"} />}
+    </div>
+  ) : (
+    table
+  );
 
   return title ? (
     <Panel
@@ -172,22 +185,14 @@ export function Table<T>({
       title={title}
       description={description}
       fill={fill}
-      action={
-        fill || action ? (
-          <div className="flex shrink-0 items-center gap-1">
-            {action}
-            {fill && <FitListPager fit={fit} label={title} />}
-          </div>
-        ) : undefined
-      }
+      action={action ? <div className="flex shrink-0 items-center gap-1">{action}</div> : undefined}
       className={className}
     >
-      {table}
+      {body}
     </Panel>
   ) : (
     <Card as="section" className={`p-5 ${fill ? "min-h-0" : ""} ${className}`}>
-      {table}
-      {fill && <FitListPager fit={fit} label="Tabela" />}
+      {body}
     </Card>
   );
 }

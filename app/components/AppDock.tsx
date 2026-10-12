@@ -14,7 +14,7 @@ import {
 import { AppLaunchpad } from "~/components/AppLaunchpad";
 import { useElementSize } from "~/hooks/useElementSize";
 import { useRevealWidth } from "~/hooks/useRevealWidth";
-import { DOCK, activeTileWidth, appGradient, dockApps, dockCapacity } from "~/lib/dock";
+import { ACTIVE_GRADIENT, DOCK, activeTileWidth, appGradient, dockApps, dockCapacity } from "~/lib/dock";
 import { formatBroj } from "~/lib/ui";
 
 export interface DockApp {
@@ -78,7 +78,7 @@ const DockItem = ({ label, icon: Icon, gradient, pointerX, reduceMotion, active 
     <motion.div
       ref={ref}
       style={{ height: size, paddingLeft: padding, paddingRight: padding, borderRadius: radius }}
-      className={`relative flex items-center bg-linear-to-br ring-1 transition-[box-shadow,filter] duration-300 ${active ? "text-white shadow-lg shadow-blue-950/50 ring-sky-300/70 brightness-125" : "text-sky-200 shadow-lg shadow-black/40 ring-slate-500/40 hover:brightness-125"} ${gradient}`}
+      className={`relative flex items-center bg-linear-to-br ring-1 transition-[box-shadow,filter] duration-300 ${active ? `text-white shadow-lg shadow-blue-500/30 ring-[#3B9DF8]/60 ${ACTIVE_GRADIENT}` : `text-slate-600 shadow-md shadow-gray-900/10 ring-gray-200 hover:text-[#3B9DF8] ${gradient}`}`}
     >
       <motion.span style={{ width: iconSize, height: iconSize }} className="flex shrink-0">
         <Icon aria-hidden className="h-full w-full drop-shadow" />
@@ -100,7 +100,7 @@ const DockItem = ({ label, icon: Icon, gradient, pointerX, reduceMotion, active 
         </motion.span>
       </motion.span>
       {badge ? (
-        <span className="absolute -right-1.5 -top-1.5 flex h-5 min-w-5 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-semibold text-white ring-2 ring-white dark:ring-slate-900">
+        <span className="absolute -right-1.5 -top-1.5 flex h-5 min-w-5 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-semibold text-white ring-2 ring-white">
           {formatBroj(badge)}
         </span>
       ) : null}
@@ -127,7 +127,7 @@ const DockItem = ({ label, icon: Icon, gradient, pointerX, reduceMotion, active 
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 2 }}
             transition={{ duration: 0.12 }}
-            className="pointer-events-none absolute bottom-full mb-3 whitespace-nowrap rounded-md border border-slate-700 bg-slate-900/95 px-2.5 py-1 text-xs font-medium text-white shadow-lg shadow-black/30 backdrop-blur"
+            className="pointer-events-none absolute bottom-full mb-3 whitespace-nowrap rounded-md border border-gray-200 bg-white/95 px-2.5 py-1 text-xs font-medium text-gray-800 shadow-lg shadow-gray-900/10 backdrop-blur"
           >
             {label}
           </motion.span>
@@ -178,7 +178,7 @@ export const AppDock = ({ apps, activeKey }: AppDockProps) => {
         onPointerMove={(event) => pointerX.set(event.clientX)}
         onPointerLeave={() => pointerX.set(Infinity)}
         style={{ height: DOCK.base + DOCK.padding * 2 }}
-        className="flex items-end gap-2.5 rounded-2xl border border-slate-700/80 bg-slate-950/90 px-3 pb-1.5 shadow-xl shadow-black/40 backdrop-blur-2xl"
+        className="flex items-end gap-2.5 rounded-2xl border border-gray-200/80 bg-white/80 px-3 pb-1.5 shadow-xl shadow-gray-900/10 backdrop-blur-2xl"
       >
         <ul className="flex items-end gap-2.5">
           {shown.map((app) => (
@@ -195,12 +195,12 @@ export const AppDock = ({ apps, activeKey }: AppDockProps) => {
             />
           ))}
         </ul>
-        <span aria-hidden className="mb-3 h-9 w-px self-end bg-gray-400/40 dark:bg-white/15" />
+        <span aria-hidden className="mb-3 h-9 w-px self-end bg-gray-300" />
         <ul className="flex items-end">
           <DockItem
             label={`Sve aplikacije (${apps.length})`}
             icon={LuLayoutGrid}
-            gradient="from-slate-500 to-slate-800"
+            gradient="from-slate-100 to-slate-200"
             pointerX={pointerX}
             reduceMotion={reduceMotion}
             onClick={() => setLaunchpadOpen(true)}

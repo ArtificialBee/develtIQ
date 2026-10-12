@@ -77,6 +77,23 @@ export const APPS: AppEntry[] = data.apps.map((app) =>
       },
 );
 
+// The app each snapshot module lives in. Personal items and mail sit in Moj planer.
+const MODUL_APP: Record<string, string> = {
+  protokol: "protocol",
+  "radni-nalozi": "nalozi",
+  licno: "moj-prostor",
+  email: "moj-prostor",
+  hr: "hr",
+  "vozni-park": "vozni-park",
+  plate: "plate",
+  finansije: "finance",
+  skladiste: "skladiste",
+  "stalna-sredstva": "stalna-sredstva",
+};
+
+/** The app a snapshot module, such as "email" or "protokol", belongs to; Početna when none matches. */
+export const appForModul = (modul: string) => APPS.find((app) => app.key === MODUL_APP[modul]) ?? APPS[0];
+
 /** The app a URL belongs to; Početna when none matches. */
 export const appForPath = (pathname: string) =>
   APPS.find((app) => pathname === app.url || pathname.startsWith(`${app.url}/`)) ?? APPS[0];

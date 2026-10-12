@@ -31,29 +31,26 @@ const handleArrows = (event: KeyboardEvent<HTMLUListElement>) => {
 };
 
 /**
- * The submenu of a rail section: its screens, each with a one-line description.
- * It opens beside the rail, takes focus, moves with the arrow keys, and closes on
- * Escape, on a click anywhere else, or when a screen is picked.
+ * The submenu of a sidebar section: its screens, each with a one-line description.
+ * It opens beside the sidebar while the pointer or focus is on the section, moves
+ * with the arrow keys, and closes on Escape or when a screen is picked. Its left
+ * padding fills the gap to the sidebar, so the pointer can cross over without
+ * leaving the section.
  */
 export const RailMenu = ({ title, items, activeId, up, onPick, onClose }: RailMenuProps) => {
   useEscape(true, onClose);
   return (
-    <>
-      <button
-        type="button"
-        aria-label="Zatvori meni"
-        tabIndex={-1}
-        onClick={onClose}
-        className="fixed inset-0 z-20 cursor-default"
-      />
-      <motion.div
+    <motion.div
+      initial={{ opacity: 0, x: -6 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -4 }}
+      transition={{ duration: 0.12 }}
+      className={`absolute left-full z-30 pl-4 ${up ? "bottom-0" : "top-0"}`}
+    >
+      <div
         role="menu"
         aria-label={title}
-        initial={{ opacity: 0, x: -6 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: -4 }}
-        transition={{ duration: 0.15 }}
-        className={`absolute left-full z-30 ml-4 w-72 rounded-xl border border-gray-200 bg-white/95 p-1.5 shadow-2xl backdrop-blur-xl dark:border-slate-700 dark:bg-slate-900/95 ${up ? "bottom-0" : "top-0"}`}
+        className="w-72 rounded-xl border border-gray-200 bg-white/95 p-1.5 shadow-2xl backdrop-blur-xl dark:border-slate-700 dark:bg-slate-900/95"
       >
         <p className="px-2.5 pb-1.5 pt-1 text-[0.7rem] font-medium uppercase tracking-[0.14em] text-gray-500 dark:text-white/50">
           {title}
@@ -66,7 +63,6 @@ export const RailMenu = ({ title, items, activeId, up, onPick, onClose }: RailMe
                 <button
                   type="button"
                   role="menuitem"
-                  autoFocus={active || (!activeId && id === items[0].id)}
                   aria-current={active ? "page" : undefined}
                   onClick={() => onPick(id)}
                   className={`flex w-full items-start gap-2.5 rounded-lg px-2.5 py-2 text-left transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3B9DF8] ${active ? "bg-[#3B9DF8]/10 text-[#3B9DF8]" : "text-gray-700 hover:bg-gray-100 dark:text-slate-200 dark:hover:bg-slate-800"}`}
@@ -85,7 +81,7 @@ export const RailMenu = ({ title, items, activeId, up, onPick, onClose }: RailMe
             );
           })}
         </ul>
-      </motion.div>
-    </>
+      </div>
+    </motion.div>
   );
 };
