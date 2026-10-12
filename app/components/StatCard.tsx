@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import type { IconType } from "react-icons";
-import { LuArrowDown, LuArrowUp } from "react-icons/lu";
+import { Link } from "react-router";
+import { LuArrowDown, LuArrowUp, LuArrowUpRight } from "react-icons/lu";
 import { AreaSparkline } from "~/components/AreaSparkline";
 import { Card } from "~/components/Card";
 import { StatusBadge, type StatusTone } from "~/components/StatusBadge";
@@ -38,6 +39,8 @@ export interface Stat {
   highlight?: { label: string; title: string; meta?: string };
   fact?: { label: string; value: string };
   badge?: { label: string; tone: StatusTone };
+  /** When set, the card is a link to this route and shows a hint arrow. */
+  href?: string;
 }
 
 // Full class names keep Tailwind able to find them.
@@ -125,13 +128,19 @@ export const StatCard = ({ stat, level = 2, fill = false, minimal = false }: Sta
 
   // Two lines, as tall as they are: what and how many, then the record and its badge.
   if (minimal) {
-    return (
+    const card = (
       <Card className="p-4">
         <div className="flex items-center gap-2.5">
           {Icon && <Icon aria-hidden className="size-[18px] shrink-0 text-[#3B9DF8]" />}
           <Heading title={stat.label} className="min-w-0 flex-1 truncate text-sm text-gray-600 dark:text-[#abc2d3]">
             {stat.label}
           </Heading>
+          {stat.href && (
+            <LuArrowUpRight
+              aria-hidden
+              className="size-4 shrink-0 text-gray-400 transition-colors group-hover:text-[#3B9DF8] dark:text-slate-500"
+            />
+          )}
           <span aria-hidden className={`shrink-0 whitespace-nowrap text-3xl font-bold leading-none tabular-nums ${tones[tone]}`}>
             <motion.span>{count}</motion.span>
             {stat.suffix}
@@ -152,9 +161,20 @@ export const StatCard = ({ stat, level = 2, fill = false, minimal = false }: Sta
         )}
       </Card>
     );
+    return stat.href ? (
+      <Link
+        to={stat.href}
+        aria-label={`${stat.label} — otvori detalje`}
+        className="block rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3B9DF8]"
+      >
+        {card}
+      </Link>
+    ) : (
+      card
+    );
   }
 
-  return (
+  const card = (
     <Card className={fill ? "min-h-0 p-4" : "p-5"}>
       <div className={l.root}>
         <div className={`flex items-center justify-between gap-2 ${fill ? "" : "flex-wrap"}`}>
@@ -259,6 +279,17 @@ export const StatCard = ({ stat, level = 2, fill = false, minimal = false }: Sta
         )}
       </div>
     </Card>
+  );
+  return stat.href ? (
+    <Link
+      to={stat.href}
+      aria-label={`${stat.label} — otvori detalje`}
+      className="block h-full rounded-2xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3B9DF8]"
+    >
+      {card}
+    </Link>
+  ) : (
+    card
   );
 };
 

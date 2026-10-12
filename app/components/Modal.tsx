@@ -1,4 +1,5 @@
 import { useCallback, useId, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import { LuX } from "react-icons/lu";
 import { useEscape } from "~/hooks/useEscape";
@@ -17,7 +18,9 @@ export function Modal({ open, title, children, actions, onClose }: ModalProps) {
   const close = useCallback(() => onClose(), [onClose]);
   useEscape(open, close);
 
-  return (
+  if (typeof document === "undefined") return null;
+
+  return createPortal(
     <AnimatePresence>
       {open && (
         <motion.div
@@ -26,7 +29,7 @@ export function Modal({ open, title, children, actions, onClose }: ModalProps) {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           onMouseDown={(event) => event.target === event.currentTarget && close()}
-          className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-slate-950/55 p-4 backdrop-blur-sm"
+          className="fixed inset-0 z-[100] flex items-center justify-center overflow-y-auto bg-slate-950/55 p-4 backdrop-blur-sm"
         >
           <motion.section
             role="dialog"
@@ -58,6 +61,7 @@ export function Modal({ open, title, children, actions, onClose }: ModalProps) {
           </motion.section>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body,
   );
 }

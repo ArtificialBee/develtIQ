@@ -48,6 +48,8 @@ export interface Akcija {
   /** The button verb, such as "Potpiši". */
   akcija: string;
   hitnost: Hitnost;
+  /** Set when the person is standing in for someone, such as during their leave. */
+  zamjenaZa?: string;
 }
 
 export interface Obavijest {
