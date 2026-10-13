@@ -1,0 +1,687 @@
+[
+  {
+    "id": "zzn-2026-00093",
+    "broj": "ZZN-2026-00093",
+    "skladiste": "SK-01",
+    "vrsta": "SA_ZALIHE",
+    "prioritet": "NORMALAN",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Zaštitne rukavice za ekipe održavanja, kvartal 3",
+    "poslano": "2026-10-03",
+    "narudzba": "",
+    "status": "ODOBRENO",
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-03T04:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "zzn-2026-00093-s1",
+        "artikl": "ART-4008",
+        "trazeno": 200,
+        "odobreno": 200,
+        "odluka": "ODOBRENO",
+        "razlog": "rezervisano sa zalihe",
+        "izvorVrsta": "PLAN",
+        "izvorDetalj": "zaštitna oprema za ekipe održavanja, kvartal 3",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-287",
+        "kad": "2026-10-03T12:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Odlučeno po stavkama",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-286",
+        "kad": "2026-10-03T04:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjereno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-285",
+        "kad": "2026-10-02T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-284",
+        "kad": "2026-10-02T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00091",
+    "broj": "ZZN-2026-00091",
+    "skladiste": "SK-01",
+    "vrsta": "SA_ZALIHE",
+    "prioritet": "VISOK",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Osigurači za sanaciju razvodnog ormara",
+    "poslano": "2026-10-08",
+    "narudzba": "",
+    "status": "ODOBRENO",
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-08T04:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "zzn-2026-00091-s1",
+        "artikl": "ART-2044",
+        "trazeno": 60,
+        "odobreno": 60,
+        "odluka": "ODOBRENO",
+        "razlog": "odobreno u cijelosti · zaliha pokriva 40, ostatak čeka prijem",
+        "izvorVrsta": "KVAR",
+        "izvorDetalj": "sanacija razvodnog ormara",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-291",
+        "kad": "2026-10-08T12:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Odlučeno po stavkama",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-290",
+        "kad": "2026-10-08T04:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjereno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-289",
+        "kad": "2026-10-07T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-288",
+        "kad": "2026-10-07T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00087",
+    "broj": "ZZN-2026-00087",
+    "skladiste": "SK-01",
+    "vrsta": "SA_ZALIHE",
+    "prioritet": "NORMALAN",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Kabl za instalaciju pumpne stanice",
+    "poslano": "2026-10-01",
+    "narudzba": "",
+    "status": "ODOBRENO",
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-01T04:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "zzn-2026-00087-s1",
+        "artikl": "ART-1001",
+        "trazeno": 500,
+        "odobreno": 500,
+        "odluka": "ODOBRENO",
+        "razlog": "rezervisano sa zalihe",
+        "izvorVrsta": "RADNI_NALOG",
+        "izvorDetalj": "servis pumpi",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-295",
+        "kad": "2026-10-01T12:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Odlučeno po stavkama",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-294",
+        "kad": "2026-10-01T04:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjereno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-293",
+        "kad": "2026-09-30T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-292",
+        "kad": "2026-09-30T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00079",
+    "broj": "ZZN-2026-00079",
+    "skladiste": "SK-01",
+    "vrsta": "SA_ZALIHE",
+    "prioritet": "NIZAK",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Žica za zavarivanje, radionica transporta",
+    "poslano": "2026-09-23",
+    "narudzba": "",
+    "status": "ZAVRSENO",
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-22T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "zzn-2026-00079-s1",
+        "artikl": "ART-5121",
+        "trazeno": 80,
+        "odobreno": 80,
+        "odluka": "ODOBRENO",
+        "razlog": "izdato u cijelosti (IZD-2026-00083)",
+        "izvorVrsta": "PLAN",
+        "izvorDetalj": "radionica transporta",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 80,
+        "primljeno": 80
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-301",
+        "kad": "2026-09-23T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Završeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-300",
+        "kad": "2026-09-23T04:00:00.000Z",
+        "ko": "N. Nabavka",
+        "radnja": "Proslijeđeno nabavci",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-299",
+        "kad": "2026-09-22T20:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Odlučeno po stavkama",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-298",
+        "kad": "2026-09-22T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjereno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-297",
+        "kad": "2026-09-22T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-296",
+        "kad": "2026-09-21T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00031",
+    "broj": "ZZN-2026-00031",
+    "skladiste": "SK-01",
+    "vrsta": "SA_ZALIHE",
+    "prioritet": "NORMALAN",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Materijal za remont pumpne stanice, sedmica 38",
+    "poslano": "2026-10-09",
+    "narudzba": "",
+    "status": "OVJERENO",
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-09T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "zzn-2026-00031-s1",
+        "artikl": "ART-2044",
+        "trazeno": 20,
+        "odobreno": null,
+        "odluka": "CEKA",
+        "razlog": "",
+        "izvorVrsta": "RADNI_NALOG",
+        "izvorDetalj": "RN-2026-0015",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      },
+      {
+        "id": "zzn-2026-00031-s2",
+        "artikl": "ART-5120",
+        "trazeno": 12,
+        "odobreno": null,
+        "odluka": "CEKA",
+        "razlog": "",
+        "izvorVrsta": "ISPOD_SIGNALNE",
+        "izvorDetalj": "",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      },
+      {
+        "id": "zzn-2026-00031-s3",
+        "artikl": "ART-1001",
+        "trazeno": 200,
+        "odobreno": null,
+        "odluka": "CEKA",
+        "razlog": "",
+        "izvorVrsta": "RADNI_NALOG",
+        "izvorDetalj": "RN-2026-0015",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      },
+      {
+        "id": "zzn-2026-00031-s4",
+        "artikl": "ART-3310",
+        "trazeno": 6,
+        "odobreno": null,
+        "odluka": "CEKA",
+        "razlog": "",
+        "izvorVrsta": "ISPOD_SIGNALNE",
+        "izvorDetalj": "",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      },
+      {
+        "id": "zzn-2026-00031-s5",
+        "artikl": "ART-6030",
+        "trazeno": 4,
+        "odobreno": null,
+        "odluka": "CEKA",
+        "razlog": "",
+        "izvorVrsta": "RADNI_NALOG",
+        "izvorDetalj": "RN-2026-0015",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-304",
+        "kad": "2026-10-09T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjereno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-303",
+        "kad": "2026-10-09T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-302",
+        "kad": "2026-10-08T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00015",
+    "broj": "ZZN-2026-00015",
+    "skladiste": "SK-01",
+    "vrsta": "ZA_NABAVKU",
+    "prioritet": "VISOK",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Osigurači i zaptivke za remont pumpne stanice",
+    "poslano": "2026-10-11",
+    "narudzba": "",
+    "status": "POSLANO",
+    "ovjerio": null,
+    "stavke": [
+      {
+        "id": "zzn-2026-00015-s1",
+        "artikl": "ART-2044",
+        "trazeno": 40,
+        "odobreno": null,
+        "odluka": "CEKA",
+        "razlog": "",
+        "izvorVrsta": "ISPOD_SIGNALNE",
+        "izvorDetalj": "",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      },
+      {
+        "id": "zzn-2026-00015-s2",
+        "artikl": "ART-3310",
+        "trazeno": 12,
+        "odobreno": null,
+        "odluka": "CEKA",
+        "razlog": "",
+        "izvorVrsta": "ISPOD_SIGNALNE",
+        "izvorDetalj": "",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-306",
+        "kad": "2026-10-11T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-305",
+        "kad": "2026-10-11T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00014",
+    "broj": "ZZN-2026-00014",
+    "skladiste": "SK-01",
+    "vrsta": "SA_ZALIHE",
+    "prioritet": "NORMALAN",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Ventili za servis kotlovnice",
+    "poslano": "2026-10-10",
+    "narudzba": "",
+    "status": "ODOBRENO",
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-10T04:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "zzn-2026-00014-s1",
+        "artikl": "ART-6030",
+        "trazeno": 5,
+        "odobreno": 5,
+        "odluka": "ODOBRENO",
+        "razlog": "pokriveno sa zalihe",
+        "izvorVrsta": "KVAR",
+        "izvorDetalj": "servis kotlovnice",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-310",
+        "kad": "2026-10-10T12:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Odlučeno po stavkama",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-309",
+        "kad": "2026-10-10T04:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjereno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-308",
+        "kad": "2026-10-09T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-307",
+        "kad": "2026-10-09T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00013",
+    "broj": "ZZN-2026-00013",
+    "skladiste": "SK-01",
+    "vrsta": "ZA_NABAVKU",
+    "prioritet": "NORMALAN",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Vodomjeri za zamjenu u zgradi B",
+    "poslano": "2026-10-06",
+    "narudzba": "NAR-2026-130",
+    "status": "U_NABAVCI",
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T20:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "zzn-2026-00013-s1",
+        "artikl": "ART-6220",
+        "trazeno": 4,
+        "odobreno": 4,
+        "odluka": "ODOBRENO",
+        "razlog": "plan zamjene",
+        "izvorVrsta": "PLAN",
+        "izvorDetalj": "zamjena vodomjera u zgradi B",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 4,
+        "primljeno": 0
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-315",
+        "kad": "2026-10-06T12:00:00.000Z",
+        "ko": "N. Nabavka",
+        "radnja": "Proslijeđeno nabavci",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-314",
+        "kad": "2026-10-06T04:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Odlučeno po stavkama",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-313",
+        "kad": "2026-10-05T20:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjereno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-312",
+        "kad": "2026-10-05T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-311",
+        "kad": "2026-10-05T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00012",
+    "broj": "ZZN-2026-00012",
+    "skladiste": "SK-01",
+    "vrsta": "ZA_NABAVKU",
+    "prioritet": "NIZAK",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Elektrode za radionicu",
+    "poslano": "2026-10-03",
+    "narudzba": "NAR-2026-119",
+    "status": "ZAVRSENO",
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-02T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "zzn-2026-00012-s1",
+        "artikl": "ART-8115",
+        "trazeno": 20,
+        "odobreno": 20,
+        "odluka": "ODOBRENO",
+        "razlog": "redovna potrošnja",
+        "izvorVrsta": "PLAN",
+        "izvorDetalj": "redovna potrošnja radionice",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 20,
+        "primljeno": 20
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-321",
+        "kad": "2026-10-03T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Završeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-320",
+        "kad": "2026-10-03T04:00:00.000Z",
+        "ko": "N. Nabavka",
+        "radnja": "Proslijeđeno nabavci",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-319",
+        "kad": "2026-10-02T20:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Odlučeno po stavkama",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-318",
+        "kad": "2026-10-02T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjereno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-317",
+        "kad": "2026-10-02T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Poslano na ovjeru",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-316",
+        "kad": "2026-10-01T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "zzn-2026-00011",
+    "broj": "ZZN-2026-00011",
+    "skladiste": "SK-01",
+    "vrsta": "ZA_NABAVKU",
+    "prioritet": "NORMALAN",
+    "trazilac": "R. Referent · referent skladišta",
+    "obrazlozenje": "Zamjena dotrajale bušilice",
+    "poslano": "",
+    "narudzba": "",
+    "status": "NACRT",
+    "ovjerio": null,
+    "stavke": [
+      {
+        "id": "zzn-2026-00011-s1",
+        "artikl": "ART-5501",
+        "trazeno": 1,
+        "odobreno": null,
+        "odluka": "CEKA",
+        "razlog": "",
+        "izvorVrsta": "KVAR",
+        "izvorDetalj": "dotrajao alat",
+        "nosilacTroskaTip": "ODJEL",
+        "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+        "naruceno": 0,
+        "primljeno": 0
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-322",
+        "kad": "2026-10-12T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  }
+]

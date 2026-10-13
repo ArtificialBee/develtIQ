@@ -1,0 +1,86 @@
+[
+  {
+    "id": "DOB-001",
+    "sifra": "DOB-001",
+    "naziv": "Elektro d.o.o.",
+    "pdvBroj": "4200123450006",
+    "adresa": "Rajlovačka 12, Sarajevo",
+    "kontakt": "E. Elektrić",
+    "email": "prodaja@elektro.ba",
+    "telefon": "+387 33 111 222",
+    "osnov": "UG-NAB-2026-0012",
+    "aktivan": true
+  },
+  {
+    "id": "DOB-002",
+    "sifra": "DOB-002",
+    "naziv": "Hidraulika BH d.o.o.",
+    "pdvBroj": "4201987650009",
+    "adresa": "Industrijska 4, Zenica",
+    "kontakt": "H. Hidro",
+    "email": "nabavka@hidraulika.ba",
+    "telefon": "+387 32 333 444",
+    "osnov": "UG-NAB-2026-0006",
+    "aktivan": true
+  },
+  {
+    "id": "DOB-003",
+    "sifra": "DOB-003",
+    "naziv": "Alati Plus d.o.o.",
+    "pdvBroj": "4200556780003",
+    "adresa": "Bulevar Meše Selimovića 8, Sarajevo",
+    "kontakt": "A. Alatić",
+    "email": "info@alatiplus.ba",
+    "telefon": "+387 33 555 666",
+    "osnov": "NAR-2026-117",
+    "aktivan": true
+  },
+  {
+    "id": "DOB-004",
+    "sifra": "DOB-004",
+    "naziv": "Energo Plus d.o.o.",
+    "pdvBroj": "4201234560001",
+    "adresa": "Tvornička 1, Tuzla",
+    "kontakt": "N. Naftić",
+    "email": "ugovori@energoplus.ba",
+    "telefon": "+387 35 777 888",
+    "osnov": "UG-NAB-2026-0002",
+    "aktivan": true
+  },
+  {
+    "id": "DOB-005",
+    "sifra": "DOB-005",
+    "naziv": "Metal Trade d.o.o.",
+    "pdvBroj": "4200987120004",
+    "adresa": "Zona B bb, Vogošća",
+    "kontakt": "M. Metalić",
+    "email": "prodaja@metaltrade.ba",
+    "telefon": "+387 33 999 000",
+    "osnov": "NAR-2026-124",
+    "aktivan": true
+  },
+  {
+    "id": "DOB-006",
+    "sifra": "DOB-006",
+    "naziv": "Termo Servis d.o.o.",
+    "pdvBroj": "4201765430008",
+    "adresa": "Halilovići 21, Sarajevo",
+    "kontakt": "T. Termić",
+    "email": "servis@termo.ba",
+    "telefon": "+387 33 121 212",
+    "osnov": "UG-NAB-2026-0003",
+    "aktivan": true
+  },
+  {
+    "id": "DOB-007",
+    "sifra": "DOB-007",
+    "naziv": "Gradnja Komerc d.o.o.",
+    "pdvBroj": "4200334450002",
+    "adresa": "Sarajevska 3, Kakanj",
+    "kontakt": "G. Građić",
+    "email": "office@gradnja.ba",
+    "telefon": "+387 32 343 434",
+    "osnov": "UG-NAB-2025-0001",
+    "aktivan": false
+  }
+]

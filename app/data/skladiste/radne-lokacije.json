@@ -1,0 +1,67 @@
+[
+  {
+    "sifra": "SA-REJON-1",
+    "nazivBs": "Toplanski rejon Novo Sarajevo",
+    "tip": "TOPLANSKI_REJON",
+    "adresa": "Kolodvorska bb, Sarajevo",
+    "grad": "Sarajevo",
+    "lat": 43.8524,
+    "lon": 18.3832,
+    "nadredjenaLokacija": "SA-CENTRALA",
+    "aktivna": true
+  },
+  {
+    "sifra": "SA-KOTL",
+    "nazivBs": "Kotlovnica Alipašino Polje",
+    "tip": "KOTLOVNICA",
+    "adresa": "Trg solidarnosti bb, Sarajevo",
+    "grad": "Sarajevo",
+    "lat": 43.8478,
+    "lon": 18.3542,
+    "nadredjenaLokacija": "SA-CENTRALA",
+    "aktivna": true
+  },
+  {
+    "sifra": "SA-SKL",
+    "nazivBs": "Centralno skladište Rajlovac",
+    "tip": "SKLADISTE",
+    "adresa": "Rajlovačka bb, Sarajevo",
+    "grad": "Sarajevo",
+    "lat": 43.8822,
+    "lon": 18.3301,
+    "nadredjenaLokacija": "SA-CENTRALA",
+    "aktivna": true
+  },
+  {
+    "sifra": "ZE-POGON",
+    "nazivBs": "Pogon Zenica",
+    "tip": "KOTLOVNICA",
+    "adresa": "Bulevar Kralja Tvrtka I 4, Zenica",
+    "grad": "Zenica",
+    "lat": 44.2031,
+    "lon": 17.9075,
+    "aktivna": true
+  },
+  {
+    "sifra": "ZE-REJON-1",
+    "nazivBs": "Toplanski rejon Zenica 1",
+    "tip": "TOPLANSKI_REJON",
+    "adresa": "Zenica — Blatuša",
+    "grad": "Zenica",
+    "lat": 44.1962,
+    "lon": 17.9123,
+    "nadredjenaLokacija": "ZE-POGON",
+    "aktivna": true
+  },
+  {
+    "sifra": "ZE-SKL",
+    "nazivBs": "Skladište Zenica",
+    "tip": "SKLADISTE",
+    "adresa": "Industrijska zona bb, Zenica",
+    "grad": "Zenica",
+    "lat": 44.1804,
+    "lon": 17.9302,
+    "nadredjenaLokacija": "ZE-POGON",
+    "aktivna": true
+  }
+]

@@ -1,0 +1,819 @@
+{
+  "postavke": [
+    {
+      "id": "skladiste",
+      "vrsta": "QR_BARKOD"
+    },
+    {
+      "id": "stalna-sredstva",
+      "vrsta": "QR_BARKOD"
+    }
+  ],
+  "artikli": {
+    "ART-1001": {
+      "kod": "ART-1001",
+      "naslov": "ART-1001",
+      "redovi": [
+        "Kabl NYM 3×1.5",
+        "JM m · EAN 3800123004417",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-1002": {
+      "kod": "ART-1002",
+      "naslov": "ART-1002",
+      "redovi": [
+        "Kabl PP-Y 5×2.5",
+        "JM m",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-2044": {
+      "kod": "ART-2044",
+      "naslov": "ART-2044",
+      "redovi": [
+        "Automatski osigurač 16A",
+        "JM kom · EAN 3800123010012",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-2051": {
+      "kod": "ART-2051",
+      "naslov": "ART-2051",
+      "redovi": [
+        "Zaštitna sklopka FID 40A",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-3310": {
+      "kod": "ART-3310",
+      "naslov": "ART-3310",
+      "redovi": [
+        "Zaptivka pumpe 32 mm",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-3402": {
+      "kod": "ART-3402",
+      "naslov": "ART-3402",
+      "redovi": [
+        "Ležaj 6205-2RS",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-4008": {
+      "kod": "ART-4008",
+      "naslov": "ART-4008",
+      "redovi": [
+        "Zaštitne rukavice L",
+        "JM par",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-4102": {
+      "kod": "ART-4102",
+      "naslov": "ART-4102",
+      "redovi": [
+        "Hidraulično ulje HLP 46",
+        "JM l",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-4103": {
+      "kod": "ART-4103",
+      "naslov": "ART-4103",
+      "redovi": [
+        "Ulje reduktorsko ISO VG220",
+        "JM l",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-5006": {
+      "kod": "ART-5006",
+      "naslov": "ART-5006",
+      "redovi": [
+        "Radne rukavice broj 10",
+        "JM par",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-5120": {
+      "kod": "ART-5120",
+      "naslov": "ART-5120",
+      "redovi": [
+        "Mast EP-2 400 g",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-5121": {
+      "kod": "ART-5121",
+      "naslov": "ART-5121",
+      "redovi": [
+        "Žica za zavarivanje 1.2 mm",
+        "JM kg",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-5501": {
+      "kod": "ART-5501",
+      "naslov": "ART-5501",
+      "redovi": [
+        "Udarna bušilica 850 W",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-6030": {
+      "kod": "ART-6030",
+      "naslov": "ART-6030",
+      "redovi": [
+        "Ventil kuglasti DN25",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-6031": {
+      "kod": "ART-6031",
+      "naslov": "ART-6031",
+      "redovi": [
+        "Ventil sigurnosti DN25 PN16",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-6220": {
+      "kod": "ART-6220",
+      "naslov": "ART-6220",
+      "redovi": [
+        "Vodomjer DN 20",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-6221": {
+      "kod": "ART-6221",
+      "naslov": "ART-6221",
+      "redovi": [
+        "Manometar 0–16 bar, ø100",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-6640": {
+      "kod": "ART-6640",
+      "naslov": "ART-6640",
+      "redovi": [
+        "Čelična cijev 1 inč",
+        "JM m",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-7001": {
+      "kod": "ART-7001",
+      "naslov": "ART-7001",
+      "redovi": [
+        "Cement 25 kg",
+        "JM vreća",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-7420": {
+      "kod": "ART-7420",
+      "naslov": "ART-7420",
+      "redovi": [
+        "Ležaj 6204 2RS",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-8115": {
+      "kod": "ART-8115",
+      "naslov": "ART-8115",
+      "redovi": [
+        "Elektroda za zavarivanje 2.5 mm",
+        "JM kg",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-8116": {
+      "kod": "ART-8116",
+      "naslov": "ART-8116",
+      "redovi": [
+        "Elektroda E7018 3,2 mm",
+        "JM kg",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-8230": {
+      "kod": "ART-8230",
+      "naslov": "ART-8230",
+      "redovi": [
+        "Zaštitni šljem bijeli",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-9004": {
+      "kod": "ART-9004",
+      "naslov": "ART-9004",
+      "redovi": [
+        "Dizel gorivo",
+        "JM l",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-9310": {
+      "kod": "ART-9310",
+      "naslov": "ART-9310",
+      "redovi": [
+        "Moment ključ 1/2 inča",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-9520": {
+      "kod": "ART-9520",
+      "naslov": "ART-9520",
+      "redovi": [
+        "Brtveni papir 2 mm",
+        "JM m2",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    },
+    "ART-9521": {
+      "kod": "ART-9521",
+      "naslov": "ART-9521",
+      "redovi": [
+        "Zaptivka klingerit 3 mm",
+        "JM kom",
+        "KJKP „Toplane-Sarajevo“ d.o.o. Sarajevo"
+      ]
+    }
+  },
+  "lokacije": {
+    "SK-01/A-01-02": {
+      "kod": "SK-01|A-01-02",
+      "naslov": "A-01-02",
+      "redovi": [
+        "SK-01 · zona A",
+        "Polica"
+      ]
+    },
+    "SK-01/A-01-03": {
+      "kod": "SK-01|A-01-03",
+      "naslov": "A-01-03",
+      "redovi": [
+        "SK-01 · zona A",
+        "Polica"
+      ]
+    },
+    "SK-01/A-03-01": {
+      "kod": "SK-01|A-03-01",
+      "naslov": "A-03-01",
+      "redovi": [
+        "SK-01 · zona A",
+        "Polica"
+      ]
+    },
+    "SK-01/A-03-02": {
+      "kod": "SK-01|A-03-02",
+      "naslov": "A-03-02",
+      "redovi": [
+        "SK-01 · zona A",
+        "Polica"
+      ]
+    },
+    "SK-01/A-04-01": {
+      "kod": "SK-01|A-04-01",
+      "naslov": "A-04-01",
+      "redovi": [
+        "SK-01 · zona A",
+        "Polica"
+      ]
+    },
+    "SK-01/B-01-02": {
+      "kod": "SK-01|B-01-02",
+      "naslov": "B-01-02",
+      "redovi": [
+        "SK-01 · zona B",
+        "Polica"
+      ]
+    },
+    "SK-01/B-02-01": {
+      "kod": "SK-01|B-02-01",
+      "naslov": "B-02-01",
+      "redovi": [
+        "SK-01 · zona B",
+        "Polica"
+      ]
+    },
+    "SK-01/B-02-04": {
+      "kod": "SK-01|B-02-04",
+      "naslov": "B-02-04",
+      "redovi": [
+        "SK-01 · zona B",
+        "Polica"
+      ]
+    },
+    "SK-01/B-05-01": {
+      "kod": "SK-01|B-05-01",
+      "naslov": "B-05-01",
+      "redovi": [
+        "SK-01 · zona B",
+        "Podna pozicija"
+      ]
+    },
+    "SK-01/C-01-01": {
+      "kod": "SK-01|C-01-01",
+      "naslov": "C-01-01",
+      "redovi": [
+        "SK-01 · zona C",
+        "Polica"
+      ]
+    },
+    "SK-01/C-02-03": {
+      "kod": "SK-01|C-02-03",
+      "naslov": "C-02-03",
+      "redovi": [
+        "SK-01 · zona C",
+        "Polica"
+      ]
+    },
+    "SK-01/C-02-04": {
+      "kod": "SK-01|C-02-04",
+      "naslov": "C-02-04",
+      "redovi": [
+        "SK-01 · zona C",
+        "Polica"
+      ]
+    },
+    "SK-01/C-03-01": {
+      "kod": "SK-01|C-03-01",
+      "naslov": "C-03-01",
+      "redovi": [
+        "SK-01 · zona C",
+        "Polica"
+      ]
+    },
+    "SK-01/A-02-01": {
+      "kod": "SK-01|A-02-01",
+      "naslov": "A-02-01",
+      "redovi": [
+        "SK-01 · zona A",
+        "Polica"
+      ]
+    },
+    "SK-01/A-02-02": {
+      "kod": "SK-01|A-02-02",
+      "naslov": "A-02-02",
+      "redovi": [
+        "SK-01 · zona A",
+        "Polica"
+      ]
+    },
+    "SK-01/A-04-02": {
+      "kod": "SK-01|A-04-02",
+      "naslov": "A-04-02",
+      "redovi": [
+        "SK-01 · zona A",
+        "Polica"
+      ]
+    },
+    "SK-01/B-03-01": {
+      "kod": "SK-01|B-03-01",
+      "naslov": "B-03-01",
+      "redovi": [
+        "SK-01 · zona B",
+        "Polica"
+      ]
+    },
+    "SK-01/B-03-02": {
+      "kod": "SK-01|B-03-02",
+      "naslov": "B-03-02",
+      "redovi": [
+        "SK-01 · zona B",
+        "Polica"
+      ]
+    },
+    "SK-01/B-04-01": {
+      "kod": "SK-01|B-04-01",
+      "naslov": "B-04-01",
+      "redovi": [
+        "SK-01 · zona B",
+        "Polica"
+      ]
+    },
+    "SK-01/C-03-02": {
+      "kod": "SK-01|C-03-02",
+      "naslov": "C-03-02",
+      "redovi": [
+        "SK-01 · zona C",
+        "Polica"
+      ]
+    },
+    "SK-01/C-04-01": {
+      "kod": "SK-01|C-04-01",
+      "naslov": "C-04-01",
+      "redovi": [
+        "SK-01 · zona C",
+        "Polica"
+      ]
+    },
+    "SK-01/QUARANTINE": {
+      "kod": "SK-01|QUARANTINE",
+      "naslov": "QUARANTINE",
+      "redovi": [
+        "SK-01 · sistemska lokacija",
+        "Karantin · bez stanja"
+      ]
+    },
+    "SK-01/RETURN-HOLD": {
+      "kod": "SK-01|RETURN-HOLD",
+      "naslov": "RETURN-HOLD",
+      "redovi": [
+        "SK-01 · sistemska lokacija",
+        "Custody · bez stanja"
+      ]
+    },
+    "SK-04/D-01-01": {
+      "kod": "SK-04|D-01-01",
+      "naslov": "D-01-01",
+      "redovi": [
+        "SK-04 · zona D",
+        "Polica"
+      ]
+    },
+    "SK-04/D-01-02": {
+      "kod": "SK-04|D-01-02",
+      "naslov": "D-01-02",
+      "redovi": [
+        "SK-04 · zona D",
+        "Polica"
+      ]
+    },
+    "SK-04/D-02-01": {
+      "kod": "SK-04|D-02-01",
+      "naslov": "D-02-01",
+      "redovi": [
+        "SK-04 · zona D",
+        "Polica"
+      ]
+    },
+    "SK-04/D-03-01": {
+      "kod": "SK-04|D-03-01",
+      "naslov": "D-03-01",
+      "redovi": [
+        "SK-04 · zona D",
+        "Podna pozicija"
+      ]
+    },
+    "SK-04/QUARANTINE": {
+      "kod": "SK-04|QUARANTINE",
+      "naslov": "QUARANTINE",
+      "redovi": [
+        "SK-04 · sistemska lokacija",
+        "Karantin · bez stanja"
+      ]
+    },
+    "SK-04/RETURN-HOLD": {
+      "kod": "SK-04|RETURN-HOLD",
+      "naslov": "RETURN-HOLD",
+      "redovi": [
+        "SK-04 · sistemska lokacija",
+        "Custody · bez stanja"
+      ]
+    },
+    "SK-06/E-01-01": {
+      "kod": "SK-06|E-01-01",
+      "naslov": "E-01-01",
+      "redovi": [
+        "SK-06 · zona E",
+        "Polica"
+      ]
+    },
+    "SK-06/E-01-02": {
+      "kod": "SK-06|E-01-02",
+      "naslov": "E-01-02",
+      "redovi": [
+        "SK-06 · zona E",
+        "Polica"
+      ]
+    },
+    "SK-06/E-02-01": {
+      "kod": "SK-06|E-02-01",
+      "naslov": "E-02-01",
+      "redovi": [
+        "SK-06 · zona E",
+        "Polica"
+      ]
+    },
+    "SK-06/E-02-02": {
+      "kod": "SK-06|E-02-02",
+      "naslov": "E-02-02",
+      "redovi": [
+        "SK-06 · zona E",
+        "Polica"
+      ]
+    },
+    "SK-06/E-03-01": {
+      "kod": "SK-06|E-03-01",
+      "naslov": "E-03-01",
+      "redovi": [
+        "SK-06 · zona E",
+        "Podna pozicija"
+      ]
+    },
+    "SK-06/E-01-03": {
+      "kod": "SK-06|E-01-03",
+      "naslov": "E-01-03",
+      "redovi": [
+        "SK-06 · zona E",
+        "Polica"
+      ]
+    },
+    "SK-06/E-02-03": {
+      "kod": "SK-06|E-02-03",
+      "naslov": "E-02-03",
+      "redovi": [
+        "SK-06 · zona E",
+        "Polica"
+      ]
+    },
+    "SK-06/F-01-01": {
+      "kod": "SK-06|F-01-01",
+      "naslov": "F-01-01",
+      "redovi": [
+        "SK-06 · zona F",
+        "Polica"
+      ]
+    },
+    "SK-06/F-01-02": {
+      "kod": "SK-06|F-01-02",
+      "naslov": "F-01-02",
+      "redovi": [
+        "SK-06 · zona F",
+        "Polica"
+      ]
+    },
+    "SK-06/F-02-01": {
+      "kod": "SK-06|F-02-01",
+      "naslov": "F-02-01",
+      "redovi": [
+        "SK-06 · zona F",
+        "Polica"
+      ]
+    },
+    "SK-06/F-02-02": {
+      "kod": "SK-06|F-02-02",
+      "naslov": "F-02-02",
+      "redovi": [
+        "SK-06 · zona F",
+        "Polica"
+      ]
+    },
+    "SK-06/QUARANTINE": {
+      "kod": "SK-06|QUARANTINE",
+      "naslov": "QUARANTINE",
+      "redovi": [
+        "SK-06 · sistemska lokacija",
+        "Karantin · bez stanja"
+      ]
+    },
+    "SK-06/RETURN-HOLD": {
+      "kod": "SK-06|RETURN-HOLD",
+      "naslov": "RETURN-HOLD",
+      "redovi": [
+        "SK-06 · sistemska lokacija",
+        "Custody · bez stanja"
+      ]
+    }
+  },
+  "serijePrijemnica": {
+    "prj-2026-00011": [
+      {
+        "kod": "ART-3402|L-7702",
+        "naslov": "L-7702",
+        "redovi": [
+          "ART-3402 · Ležaj 6205-2RS",
+          "80 kom · PRJ-2026-00011"
+        ]
+      }
+    ],
+    "prj-2026-00010": [
+      {
+        "kod": "ART-5120|L-0415|2027-10",
+        "naslov": "L-0415",
+        "redovi": [
+          "ART-5120 · Mast EP-2 400 g",
+          "rok 2027-10 · 20 kom · PRJ-2026-00010"
+        ]
+      }
+    ],
+    "prj-2026-00009": [
+      {
+        "kod": "ART-1001|L-2551",
+        "naslov": "L-2551",
+        "redovi": [
+          "ART-1001 · Kabl NYM 3×1.5",
+          "1000 m · PRJ-2026-00009"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-01",
+        "naslov": "S-01",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-02",
+        "naslov": "S-02",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-03",
+        "naslov": "S-03",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-04",
+        "naslov": "S-04",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-05",
+        "naslov": "S-05",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-06",
+        "naslov": "S-06",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-07",
+        "naslov": "S-07",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-08",
+        "naslov": "S-08",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-09",
+        "naslov": "S-09",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-10",
+        "naslov": "S-10",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-11",
+        "naslov": "S-11",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-12",
+        "naslov": "S-12",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-13",
+        "naslov": "S-13",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-14",
+        "naslov": "S-14",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-15",
+        "naslov": "S-15",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-16",
+        "naslov": "S-16",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-17",
+        "naslov": "S-17",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-18",
+        "naslov": "S-18",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-19",
+        "naslov": "S-19",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-20",
+        "naslov": "S-20",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-21",
+        "naslov": "S-21",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-22",
+        "naslov": "S-22",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-23",
+        "naslov": "S-23",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      },
+      {
+        "kod": "ART-3310|S-24",
+        "naslov": "S-24",
+        "redovi": [
+          "ART-3310 · Zaptivka pumpe 32 mm",
+          "PRJ-2026-00009 · B-02-04"
+        ]
+      }
+    ]
+  }
+}

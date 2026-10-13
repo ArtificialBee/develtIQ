@@ -1,0 +1,164 @@
+[
+  {
+    "id": "p1",
+    "vrsta": "Vrednovanje",
+    "obuhvat": "sva skladišta",
+    "verzija": 1,
+    "status": "NACRT",
+    "vaziOd": "",
+    "vlasnik": "računovodstvo",
+    "opis": "Metoda vrednovanja izlaza (prosječna nabavna cijena) — nacrt čeka odobrenje.",
+    "razlogPovlacenja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-412",
+        "kad": "2026-10-07T16:00:00.000Z",
+        "ko": "K. Knjigovođa",
+        "radnja": "Nacrt kreiran",
+        "napomena": "Vrednovanje · sva skladišta · v1"
+      }
+    ]
+  },
+  {
+    "id": "p2",
+    "vrsta": "Granice zaliha",
+    "obuhvat": "SK-01",
+    "verzija": 3,
+    "status": "ODOBRENA",
+    "vaziOd": "2026-01-01",
+    "vlasnik": "glavni skladištar",
+    "opis": "Min / signalna / max po artiklu; nikad ih ne postavlja podnosilac zahtjeva.",
+    "razlogPovlacenja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-414",
+        "kad": "2026-01-23T18:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Odobrena",
+        "napomena": "važi od 2026-01-01"
+      },
+      {
+        "id": "h-mv69uio0-413",
+        "kad": "2026-01-21T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Nacrt kreiran",
+        "napomena": "Granice zaliha · SK-01 · v3"
+      }
+    ]
+  },
+  {
+    "id": "p3",
+    "vrsta": "Ishodi",
+    "obuhvat": "SK-01",
+    "verzija": 2,
+    "status": "ODOBRENA",
+    "vaziOd": "2026-04-01",
+    "vlasnik": "glavni skladištar",
+    "opis": "Šta smije biti ishod pregleda povrata: prihvati, vrati, otpiši.",
+    "razlogPovlacenja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-416",
+        "kad": "2026-04-23T18:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Odobrena",
+        "napomena": "važi od 2026-04-01"
+      },
+      {
+        "id": "h-mv69uio0-415",
+        "kad": "2026-04-21T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Nacrt kreiran",
+        "napomena": "Ishodi · SK-01 · v2"
+      }
+    ]
+  },
+  {
+    "id": "p5",
+    "vrsta": "Granice zaliha",
+    "obuhvat": "SK-01",
+    "verzija": 2,
+    "status": "POVUCENA",
+    "vaziOd": "2025-06-01",
+    "vlasnik": "glavni skladištar",
+    "opis": "Min / signalna / max po artiklu, bez signalne granice.",
+    "razlogPovlacenja": "zamijenjena verzijom 3",
+    "historija": [
+      {
+        "id": "h-mv69uio0-419",
+        "kad": "2026-01-14T14:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Povučena",
+        "napomena": "zamijenjena verzijom 3"
+      },
+      {
+        "id": "h-mv69uio0-418",
+        "kad": "2025-06-22T18:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Odobrena",
+        "napomena": "važi od 2025-06-01"
+      },
+      {
+        "id": "h-mv69uio0-417",
+        "kad": "2025-06-20T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Nacrt kreiran",
+        "napomena": "Granice zaliha · SK-01 · v2"
+      }
+    ]
+  },
+  {
+    "id": "p6",
+    "vrsta": "Ishodi",
+    "obuhvat": "SK-01",
+    "verzija": 1,
+    "status": "POVUCENA",
+    "vaziOd": "2025-06-01",
+    "vlasnik": "glavni skladištar",
+    "opis": "Ishod pregleda povrata: samo prihvati ili otpiši.",
+    "razlogPovlacenja": "zamijenjena verzijom 2",
+    "historija": [
+      {
+        "id": "h-mv69uio0-422",
+        "kad": "2026-01-14T14:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Povučena",
+        "napomena": "zamijenjena verzijom 2"
+      },
+      {
+        "id": "h-mv69uio0-421",
+        "kad": "2025-06-22T18:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Odobrena",
+        "napomena": "važi od 2025-06-01"
+      },
+      {
+        "id": "h-mv69uio0-420",
+        "kad": "2025-06-20T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Nacrt kreiran",
+        "napomena": "Ishodi · SK-01 · v1"
+      }
+    ]
+  },
+  {
+    "id": "p7",
+    "vrsta": "Ishodi",
+    "obuhvat": "SK-02",
+    "verzija": 1,
+    "status": "NACRT",
+    "vaziOd": "",
+    "vlasnik": "glavni skladištar",
+    "opis": "Terensko skladište: povrat se ne pregleda na terenu — sve ide na RETURN-HOLD glavnog.",
+    "razlogPovlacenja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-423",
+        "kad": "2026-10-11T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Nacrt kreiran",
+        "napomena": "Ishodi · SK-02 · v1"
+      }
+    ]
+  }
+]

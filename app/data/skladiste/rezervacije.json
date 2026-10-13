@@ -1,0 +1,235 @@
+[
+  {
+    "id": "rez-001",
+    "artikl": "ART-1001",
+    "skladiste": "SK-01",
+    "izvorTip": "ODOBRENI_ZAHTJEV",
+    "izvorBroj": "ZZN-2026-00087",
+    "trazeno": 500,
+    "rezervisano": 500,
+    "izdato": 200,
+    "kreirana": "2026-10-01",
+    "zatvorena": false,
+    "razlogOtpustanja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-389",
+        "kad": "2026-10-02T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Izdato izdatnicom",
+        "napomena": "IZD-2026-00085 · 200"
+      },
+      {
+        "id": "h-mv69uio0-388",
+        "kad": "2026-10-01T15:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Rezervisano iz odobrene stavke",
+        "napomena": "ZZN-2026-00087 · drži 500 od 500"
+      }
+    ]
+  },
+  {
+    "id": "rez-002",
+    "artikl": "ART-2044",
+    "skladiste": "SK-01",
+    "izvorTip": "ODOBRENI_ZAHTJEV",
+    "izvorBroj": "ZZN-2026-00091",
+    "trazeno": 60,
+    "rezervisano": 40,
+    "izdato": 0,
+    "kreirana": "2026-10-08",
+    "zatvorena": false,
+    "razlogOtpustanja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-390",
+        "kad": "2026-10-08T15:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Rezervisano iz odobrene stavke",
+        "napomena": "ZZN-2026-00091 · drži 40 od 60"
+      }
+    ]
+  },
+  {
+    "id": "rez-003",
+    "artikl": "ART-4102",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0005",
+    "trazeno": 40,
+    "rezervisano": 0,
+    "izdato": 0,
+    "kreirana": "2026-10-07",
+    "zatvorena": false,
+    "razlogOtpustanja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-391",
+        "kad": "2026-10-07T15:00:00.000Z",
+        "ko": "P. Planer",
+        "radnja": "Rezervisano iz radnog naloga",
+        "napomena": "RN-2026-0005 · nema raspoložive zalihe, čeka prijem"
+      }
+    ]
+  },
+  {
+    "id": "rez-004",
+    "artikl": "ART-5121",
+    "skladiste": "SK-01",
+    "izvorTip": "ODOBRENI_ZAHTJEV",
+    "izvorBroj": "ZZN-2026-00079",
+    "trazeno": 80,
+    "rezervisano": 80,
+    "izdato": 80,
+    "kreirana": "2026-09-23",
+    "zatvorena": true,
+    "razlogOtpustanja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-394",
+        "kad": "2026-09-24T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Zatvorena",
+        "napomena": "izdato u cijelosti"
+      },
+      {
+        "id": "h-mv69uio0-393",
+        "kad": "2026-09-24T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Izdato izdatnicom",
+        "napomena": "IZD-2026-00083 · 80"
+      },
+      {
+        "id": "h-mv69uio0-392",
+        "kad": "2026-09-23T15:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Rezervisano iz odobrene stavke",
+        "napomena": "ZZN-2026-00079 · drži 80 od 80"
+      }
+    ]
+  },
+  {
+    "id": "rez-005",
+    "artikl": "ART-4008",
+    "skladiste": "SK-01",
+    "izvorTip": "ODOBRENI_ZAHTJEV",
+    "izvorBroj": "ZZN-2026-00093",
+    "trazeno": 200,
+    "rezervisano": 150,
+    "izdato": 50,
+    "kreirana": "2026-10-04",
+    "zatvorena": false,
+    "razlogOtpustanja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-396",
+        "kad": "2026-10-05T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Izdato izdatnicom",
+        "napomena": "IZD-2026-00084 · 50"
+      },
+      {
+        "id": "h-mv69uio0-395",
+        "kad": "2026-10-04T15:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Rezervisano iz odobrene stavke",
+        "napomena": "ZZN-2026-00093 · drži 150 od 200"
+      }
+    ]
+  },
+  {
+    "id": "rez-006",
+    "artikl": "ART-2044",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0015",
+    "trazeno": 10,
+    "rezervisano": 10,
+    "izdato": 0,
+    "kreirana": "2026-10-11",
+    "zatvorena": false,
+    "razlogOtpustanja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-397",
+        "kad": "2026-10-11T15:00:00.000Z",
+        "ko": "P. Planer",
+        "radnja": "Rezervisano iz radnog naloga",
+        "napomena": "RN-2026-0015 · drži 10 od 10"
+      }
+    ]
+  },
+  {
+    "id": "rez-007",
+    "artikl": "ART-1001",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0015",
+    "trazeno": 120,
+    "rezervisano": 20,
+    "izdato": 0,
+    "kreirana": "2026-10-11",
+    "zatvorena": false,
+    "razlogOtpustanja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-398",
+        "kad": "2026-10-11T15:00:00.000Z",
+        "ko": "P. Planer",
+        "radnja": "Rezervisano iz radnog naloga",
+        "napomena": "RN-2026-0015 · drži 20 od 120"
+      }
+    ]
+  },
+  {
+    "id": "rez-008",
+    "artikl": "ART-6030",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0001",
+    "trazeno": 4,
+    "rezervisano": 4,
+    "izdato": 0,
+    "kreirana": "2026-10-02",
+    "zatvorena": true,
+    "razlogOtpustanja": "radni nalog zatvoren — izdatnica IZD-2026-00082 otkazana",
+    "historija": [
+      {
+        "id": "h-mv69uio0-400",
+        "kad": "2026-10-03T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Otpuštena",
+        "napomena": "radni nalog zatvoren — izdatnica IZD-2026-00082 otkazana"
+      },
+      {
+        "id": "h-mv69uio0-399",
+        "kad": "2026-10-02T15:00:00.000Z",
+        "ko": "P. Planer",
+        "radnja": "Rezervisano iz radnog naloga",
+        "napomena": "RN-2026-0001 · drži 4 od 4"
+      }
+    ]
+  },
+  {
+    "id": "rez-009",
+    "artikl": "ART-6030",
+    "skladiste": "SK-01",
+    "izvorTip": "ODOBRENI_ZAHTJEV",
+    "izvorBroj": "ZZN-2026-00014",
+    "trazeno": 5,
+    "rezervisano": 5,
+    "izdato": 0,
+    "kreirana": "2026-10-11",
+    "zatvorena": false,
+    "razlogOtpustanja": "",
+    "historija": [
+      {
+        "id": "h-mv69uio0-401",
+        "kad": "2026-10-11T15:00:00.000Z",
+        "ko": "O. Odobravatelj",
+        "radnja": "Rezervisano iz odobrene stavke",
+        "napomena": "ZZN-2026-00014 · drži 5 od 5"
+      }
+    ]
+  }
+]

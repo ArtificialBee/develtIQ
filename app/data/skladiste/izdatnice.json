@@ -1,0 +1,3185 @@
+[
+  {
+    "id": "izd-2026-00088",
+    "broj": "IZD-2026-00088",
+    "materijalniDatum": "2026-10-11",
+    "skladiste": "SK-02",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0017",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PRIPREMLJENA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-12T00:00:00.000Z"
+    },
+    "ovjerio": null,
+    "proknjizio": null,
+    "predao": null,
+    "primio": null,
+    "stavke": [
+      {
+        "id": "izd-2026-00088-s1",
+        "artikl": "ART-4102",
+        "lokacija": "",
+        "lot": "L-3120",
+        "serijskiBrojevi": "",
+        "kolicina": 40,
+        "rezervisano": 0,
+        "slobodno": 40,
+        "predano": 0,
+        "cijena": 0,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-115",
+        "kad": "2026-10-12T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00087",
+    "broj": "IZD-2026-00087",
+    "materijalniDatum": "2026-10-12",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0015",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PRIPREMLJENA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-12T04:00:00.000Z"
+    },
+    "ovjerio": null,
+    "proknjizio": null,
+    "predao": null,
+    "primio": null,
+    "stavke": [
+      {
+        "id": "izd-2026-00087-s1",
+        "artikl": "ART-1001",
+        "lokacija": "A-01-02",
+        "lot": "L-2609",
+        "serijskiBrojevi": "",
+        "kolicina": 120,
+        "rezervisano": 20,
+        "slobodno": 100,
+        "predano": 0,
+        "cijena": 0,
+        "napomena": ""
+      },
+      {
+        "id": "izd-2026-00087-s2",
+        "artikl": "ART-2044",
+        "lokacija": "A-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 10,
+        "rezervisano": 10,
+        "slobodno": 0,
+        "predano": 0,
+        "cijena": 0,
+        "napomena": ""
+      },
+      {
+        "id": "izd-2026-00087-s3",
+        "artikl": "ART-3310",
+        "lokacija": "B-02-04",
+        "lot": "",
+        "serijskiBrojevi": "S-91…S-94",
+        "kolicina": 4,
+        "rezervisano": 0,
+        "slobodno": 4,
+        "predano": 0,
+        "cijena": 0,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-116",
+        "kad": "2026-10-12T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00086",
+    "broj": "IZD-2026-00086",
+    "materijalniDatum": "2026-10-10",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0014",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "REVERS",
+    "napomena": "",
+    "status": "KNJIZEN_CEKA_PREDAJU",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-11T04:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-11T09:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-11T14:00:00.000Z"
+    },
+    "predao": null,
+    "primio": null,
+    "stavke": [
+      {
+        "id": "izd-2026-00086-s1",
+        "artikl": "ART-6030",
+        "lokacija": "B-01-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 0,
+        "cijena": 24.5,
+        "napomena": ""
+      },
+      {
+        "id": "izd-2026-00086-s2",
+        "artikl": "ART-9310",
+        "lokacija": "B-01-02",
+        "lot": "",
+        "serijskiBrojevi": "S-104",
+        "kolicina": 1,
+        "rezervisano": 0,
+        "slobodno": 1,
+        "predano": 0,
+        "cijena": 95,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-119",
+        "kad": "2026-10-11T14:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-10-10"
+      },
+      {
+        "id": "h-mv69uio0-118",
+        "kad": "2026-10-11T09:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-117",
+        "kad": "2026-10-11T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00085",
+    "broj": "IZD-2026-00085",
+    "materijalniDatum": "2026-10-07",
+    "skladiste": "SK-01",
+    "izvorTip": "ODOBRENI_ZAHTJEV",
+    "izvorBroj": "ZZN-2026-00087",
+    "primalac": "H. Hidrauličar · servis pumpi",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "DJELIMICNO_PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-08T11:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-08T16:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-08T21:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-09T02:00:00.000Z"
+    },
+    "primio": {
+      "ko": "H. Hidrauličar · servis pumpi",
+      "uloga": "primalac",
+      "kad": "2026-10-09T02:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00085-s1",
+        "artikl": "ART-1001",
+        "lokacija": "A-01-02",
+        "lot": "L-2609",
+        "serijskiBrojevi": "",
+        "kolicina": 200,
+        "rezervisano": 200,
+        "slobodno": 0,
+        "predano": 120,
+        "cijena": 1.2,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-123",
+        "kad": "2026-10-09T02:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Djelimična predaja",
+        "napomena": "primalac H. Hidrauličar · servis pumpi"
+      },
+      {
+        "id": "h-mv69uio0-122",
+        "kad": "2026-10-08T21:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-10-07"
+      },
+      {
+        "id": "h-mv69uio0-121",
+        "kad": "2026-10-08T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-120",
+        "kad": "2026-10-08T11:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00084",
+    "broj": "IZD-2026-00084",
+    "materijalniDatum": "2026-10-05",
+    "skladiste": "SK-01",
+    "izvorTip": "ODOBRENI_ZAHTJEV",
+    "izvorBroj": "ZZN-2026-00093",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-05T13:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T18:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T23:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-06T04:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-10-06T04:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00084-s1",
+        "artikl": "ART-4008",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 50,
+        "rezervisano": 50,
+        "slobodno": 0,
+        "predano": 50,
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-127",
+        "kad": "2026-10-06T04:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-126",
+        "kad": "2026-10-05T23:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-10-05"
+      },
+      {
+        "id": "h-mv69uio0-125",
+        "kad": "2026-10-05T18:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-124",
+        "kad": "2026-10-05T13:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00083",
+    "broj": "IZD-2026-00083",
+    "materijalniDatum": "2026-09-27",
+    "skladiste": "SK-01",
+    "izvorTip": "ODOBRENI_ZAHTJEV",
+    "izvorBroj": "ZZN-2026-00079",
+    "primalac": "V. Vozač · transport",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-27T15:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-27T20:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-28T01:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-28T06:00:00.000Z"
+    },
+    "primio": {
+      "ko": "V. Vozač · transport",
+      "uloga": "primalac",
+      "kad": "2026-09-28T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00083-s1",
+        "artikl": "ART-5121",
+        "lokacija": "C-02-04",
+        "lot": "L-9012",
+        "serijskiBrojevi": "",
+        "kolicina": 80,
+        "rezervisano": 80,
+        "slobodno": 0,
+        "predano": 80,
+        "cijena": 7.2,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-131",
+        "kad": "2026-09-28T06:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac V. Vozač · transport"
+      },
+      {
+        "id": "h-mv69uio0-130",
+        "kad": "2026-09-28T01:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-27"
+      },
+      {
+        "id": "h-mv69uio0-129",
+        "kad": "2026-09-27T20:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-128",
+        "kad": "2026-09-27T15:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00082",
+    "broj": "IZD-2026-00082",
+    "materijalniDatum": "2026-10-03",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0001",
+    "primalac": "H. Hidrauličar · servis pumpi",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "OTKAZANA",
+    "razlogZatvaranja": "pogrešan osnov — radni nalog već zatvoren",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-04T02:00:00.000Z"
+    },
+    "ovjerio": null,
+    "proknjizio": null,
+    "predao": null,
+    "primio": null,
+    "stavke": [
+      {
+        "id": "izd-2026-00082-s1",
+        "artikl": "ART-6030",
+        "lokacija": "B-01-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 4,
+        "rezervisano": 0,
+        "slobodno": 4,
+        "predano": 0,
+        "cijena": 0,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-133",
+        "kad": "2026-10-04T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Otkazano",
+        "napomena": "pogrešan osnov — radni nalog već zatvoren"
+      },
+      {
+        "id": "h-mv69uio0-132",
+        "kad": "2026-10-04T02:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00081",
+    "broj": "IZD-2026-00081",
+    "materijalniDatum": "2026-09-25",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0009",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-25T13:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-25T18:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-25T23:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-26T04:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-09-26T04:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00081-s1",
+        "artikl": "ART-2044",
+        "lokacija": "A-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 12,
+        "rezervisano": 0,
+        "slobodno": 12,
+        "predano": 12,
+        "cijena": 8.5,
+        "napomena": ""
+      },
+      {
+        "id": "izd-2026-00081-s2",
+        "artikl": "ART-3310",
+        "lokacija": "B-02-04",
+        "lot": "",
+        "serijskiBrojevi": "S-25…S-30",
+        "kolicina": 6,
+        "rezervisano": 0,
+        "slobodno": 6,
+        "predano": 6,
+        "cijena": 46,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-137",
+        "kad": "2026-09-26T04:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-136",
+        "kad": "2026-09-25T23:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-25"
+      },
+      {
+        "id": "h-mv69uio0-135",
+        "kad": "2026-09-25T18:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-134",
+        "kad": "2026-09-25T13:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00080",
+    "broj": "IZD-2026-00080",
+    "materijalniDatum": "2026-09-22",
+    "skladiste": "SK-02",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0007",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-22T15:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-22T20:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-23T01:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-23T06:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-09-23T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00080-s1",
+        "artikl": "ART-4102",
+        "lokacija": "",
+        "lot": "L-3120",
+        "serijskiBrojevi": "",
+        "kolicina": 60,
+        "rezervisano": 0,
+        "slobodno": 60,
+        "predano": 60,
+        "cijena": 4.3,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-141",
+        "kad": "2026-09-23T06:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-140",
+        "kad": "2026-09-23T01:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-22"
+      },
+      {
+        "id": "h-mv69uio0-139",
+        "kad": "2026-09-22T20:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-138",
+        "kad": "2026-09-22T15:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00079",
+    "broj": "IZD-2026-00079",
+    "materijalniDatum": "2026-09-18",
+    "skladiste": "SK-01",
+    "izvorTip": "DISTRIBUCIJA_OJ",
+    "izvorBroj": "OJ Održavanje",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-18T11:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-18T16:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-18T21:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-19T02:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-09-19T02:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00079-s1",
+        "artikl": "ART-8230",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 6,
+        "rezervisano": 0,
+        "slobodno": 6,
+        "predano": 6,
+        "cijena": 14,
+        "napomena": ""
+      },
+      {
+        "id": "izd-2026-00079-s2",
+        "artikl": "ART-5006",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 20,
+        "rezervisano": 0,
+        "slobodno": 20,
+        "predano": 20,
+        "cijena": 2.6,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-145",
+        "kad": "2026-09-19T02:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-144",
+        "kad": "2026-09-18T21:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-18"
+      },
+      {
+        "id": "h-mv69uio0-143",
+        "kad": "2026-09-18T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-142",
+        "kad": "2026-09-18T11:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00201",
+    "broj": "IZD-2026-00201",
+    "materijalniDatum": "2026-10-05",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0022",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-04T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-05T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-10-05T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00201-s1",
+        "artikl": "ART-4008",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 12,
+        "rezervisano": 0,
+        "slobodno": 12,
+        "predano": 12,
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-149",
+        "kad": "2026-10-05T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-148",
+        "kad": "2026-10-05T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-10-05"
+      },
+      {
+        "id": "h-mv69uio0-147",
+        "kad": "2026-10-05T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-146",
+        "kad": "2026-10-04T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00202",
+    "broj": "IZD-2026-00202",
+    "materijalniDatum": "2026-10-04",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0023",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-03T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-04T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-04T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-04T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-10-04T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00202-s1",
+        "artikl": "ART-2044",
+        "lokacija": "A-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 8.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-153",
+        "kad": "2026-10-04T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-152",
+        "kad": "2026-10-04T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-10-04"
+      },
+      {
+        "id": "h-mv69uio0-151",
+        "kad": "2026-10-04T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-150",
+        "kad": "2026-10-03T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00203",
+    "broj": "IZD-2026-00203",
+    "materijalniDatum": "2026-10-03",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0024",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-02T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-03T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-03T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-03T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-10-03T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00203-s1",
+        "artikl": "ART-5006",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 10,
+        "rezervisano": 0,
+        "slobodno": 10,
+        "predano": 10,
+        "cijena": 2.6,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-157",
+        "kad": "2026-10-03T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-156",
+        "kad": "2026-10-03T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-10-03"
+      },
+      {
+        "id": "h-mv69uio0-155",
+        "kad": "2026-10-03T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-154",
+        "kad": "2026-10-02T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00204",
+    "broj": "IZD-2026-00204",
+    "materijalniDatum": "2026-10-02",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0025",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-01T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-02T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-02T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-02T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-10-02T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00204-s1",
+        "artikl": "ART-4008",
+        "lokacija": "E-02-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 6,
+        "rezervisano": 0,
+        "slobodno": 6,
+        "predano": 6,
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-161",
+        "kad": "2026-10-02T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-160",
+        "kad": "2026-10-02T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-10-02"
+      },
+      {
+        "id": "h-mv69uio0-159",
+        "kad": "2026-10-02T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-158",
+        "kad": "2026-10-01T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00205",
+    "broj": "IZD-2026-00205",
+    "materijalniDatum": "2026-10-01",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0026",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-30T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-01T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-01T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-01T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-10-01T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00205-s1",
+        "artikl": "ART-8230",
+        "lokacija": "E-02-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 1,
+        "rezervisano": 0,
+        "slobodno": 1,
+        "predano": 1,
+        "cijena": 14,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-165",
+        "kad": "2026-10-01T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-164",
+        "kad": "2026-10-01T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-10-01"
+      },
+      {
+        "id": "h-mv69uio0-163",
+        "kad": "2026-10-01T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-162",
+        "kad": "2026-09-30T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00206",
+    "broj": "IZD-2026-00206",
+    "materijalniDatum": "2026-09-28",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0027",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-27T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-28T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-28T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-28T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-09-28T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00206-s1",
+        "artikl": "ART-6640",
+        "lokacija": "B-05-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 8,
+        "rezervisano": 0,
+        "slobodno": 8,
+        "predano": 8,
+        "cijena": 11.4,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-169",
+        "kad": "2026-09-28T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-168",
+        "kad": "2026-09-28T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-28"
+      },
+      {
+        "id": "h-mv69uio0-167",
+        "kad": "2026-09-28T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-166",
+        "kad": "2026-09-27T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00207",
+    "broj": "IZD-2026-00207",
+    "materijalniDatum": "2026-09-27",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0028",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-26T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-27T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-27T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-27T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-09-27T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00207-s1",
+        "artikl": "ART-6030",
+        "lokacija": "B-01-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 24.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-173",
+        "kad": "2026-09-27T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-172",
+        "kad": "2026-09-27T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-27"
+      },
+      {
+        "id": "h-mv69uio0-171",
+        "kad": "2026-09-27T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-170",
+        "kad": "2026-09-26T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00208",
+    "broj": "IZD-2026-00208",
+    "materijalniDatum": "2026-09-26",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0029",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-25T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-26T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-26T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-26T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-09-26T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00208-s1",
+        "artikl": "ART-2044",
+        "lokacija": "E-01-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 8.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-177",
+        "kad": "2026-09-26T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-176",
+        "kad": "2026-09-26T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-26"
+      },
+      {
+        "id": "h-mv69uio0-175",
+        "kad": "2026-09-26T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-174",
+        "kad": "2026-09-25T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00209",
+    "broj": "IZD-2026-00209",
+    "materijalniDatum": "2026-09-21",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0030",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-20T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-21T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-21T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-21T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-09-21T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00209-s1",
+        "artikl": "ART-5006",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 10,
+        "rezervisano": 0,
+        "slobodno": 10,
+        "predano": 10,
+        "cijena": 2.6,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-181",
+        "kad": "2026-09-21T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-180",
+        "kad": "2026-09-21T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-21"
+      },
+      {
+        "id": "h-mv69uio0-179",
+        "kad": "2026-09-21T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-178",
+        "kad": "2026-09-20T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00210",
+    "broj": "IZD-2026-00210",
+    "materijalniDatum": "2026-09-20",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0031",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-19T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-20T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-20T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-20T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-09-20T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00210-s1",
+        "artikl": "ART-4008",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 12,
+        "rezervisano": 0,
+        "slobodno": 12,
+        "predano": 12,
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-185",
+        "kad": "2026-09-20T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-184",
+        "kad": "2026-09-20T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-20"
+      },
+      {
+        "id": "h-mv69uio0-183",
+        "kad": "2026-09-20T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-182",
+        "kad": "2026-09-19T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00211",
+    "broj": "IZD-2026-00211",
+    "materijalniDatum": "2026-09-19",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0032",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-18T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-19T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-19T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-19T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-09-19T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00211-s1",
+        "artikl": "ART-6640",
+        "lokacija": "B-05-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 8,
+        "rezervisano": 0,
+        "slobodno": 8,
+        "predano": 8,
+        "cijena": 11.4,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-189",
+        "kad": "2026-09-19T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-188",
+        "kad": "2026-09-19T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-19"
+      },
+      {
+        "id": "h-mv69uio0-187",
+        "kad": "2026-09-19T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-186",
+        "kad": "2026-09-18T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00212",
+    "broj": "IZD-2026-00212",
+    "materijalniDatum": "2026-09-18",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0033",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-17T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-18T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-18T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-18T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-09-18T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00212-s1",
+        "artikl": "ART-2044",
+        "lokacija": "A-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 8.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-193",
+        "kad": "2026-09-18T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-192",
+        "kad": "2026-09-18T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-18"
+      },
+      {
+        "id": "h-mv69uio0-191",
+        "kad": "2026-09-18T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-190",
+        "kad": "2026-09-17T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00213",
+    "broj": "IZD-2026-00213",
+    "materijalniDatum": "2026-09-17",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0034",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-16T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-17T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-17T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-17T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-09-17T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00213-s1",
+        "artikl": "ART-6640",
+        "lokacija": "E-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 4,
+        "rezervisano": 0,
+        "slobodno": 4,
+        "predano": 4,
+        "cijena": 11.4,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-197",
+        "kad": "2026-09-17T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-196",
+        "kad": "2026-09-17T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-17"
+      },
+      {
+        "id": "h-mv69uio0-195",
+        "kad": "2026-09-17T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-194",
+        "kad": "2026-09-16T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00214",
+    "broj": "IZD-2026-00214",
+    "materijalniDatum": "2026-09-16",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0035",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-15T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-16T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-16T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-16T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-09-16T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00214-s1",
+        "artikl": "ART-4008",
+        "lokacija": "E-02-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 6,
+        "rezervisano": 0,
+        "slobodno": 6,
+        "predano": 6,
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-201",
+        "kad": "2026-09-16T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-200",
+        "kad": "2026-09-16T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-16"
+      },
+      {
+        "id": "h-mv69uio0-199",
+        "kad": "2026-09-16T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-198",
+        "kad": "2026-09-15T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00215",
+    "broj": "IZD-2026-00215",
+    "materijalniDatum": "2026-09-14",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0036",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-13T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-14T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-14T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-14T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-09-14T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00215-s1",
+        "artikl": "ART-6030",
+        "lokacija": "B-01-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 24.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-205",
+        "kad": "2026-09-14T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-204",
+        "kad": "2026-09-14T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-14"
+      },
+      {
+        "id": "h-mv69uio0-203",
+        "kad": "2026-09-14T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-202",
+        "kad": "2026-09-13T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00216",
+    "broj": "IZD-2026-00216",
+    "materijalniDatum": "2026-09-13",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0001",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-12T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-13T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-13T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-13T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-09-13T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00216-s1",
+        "artikl": "ART-4008",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 12,
+        "rezervisano": 0,
+        "slobodno": 12,
+        "predano": 12,
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-209",
+        "kad": "2026-09-13T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-208",
+        "kad": "2026-09-13T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-13"
+      },
+      {
+        "id": "h-mv69uio0-207",
+        "kad": "2026-09-13T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-206",
+        "kad": "2026-09-12T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00217",
+    "broj": "IZD-2026-00217",
+    "materijalniDatum": "2026-09-12",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0002",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-11T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-12T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-12T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-12T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-09-12T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00217-s1",
+        "artikl": "ART-5006",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 10,
+        "rezervisano": 0,
+        "slobodno": 10,
+        "predano": 10,
+        "cijena": 2.6,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-213",
+        "kad": "2026-09-12T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-212",
+        "kad": "2026-09-12T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-12"
+      },
+      {
+        "id": "h-mv69uio0-211",
+        "kad": "2026-09-12T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-210",
+        "kad": "2026-09-11T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00218",
+    "broj": "IZD-2026-00218",
+    "materijalniDatum": "2026-09-11",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0003",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-10T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-11T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-11T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-11T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-09-11T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00218-s1",
+        "artikl": "ART-8230",
+        "lokacija": "E-02-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 1,
+        "rezervisano": 0,
+        "slobodno": 1,
+        "predano": 1,
+        "cijena": 14,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-217",
+        "kad": "2026-09-11T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-216",
+        "kad": "2026-09-11T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-11"
+      },
+      {
+        "id": "h-mv69uio0-215",
+        "kad": "2026-09-11T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-214",
+        "kad": "2026-09-10T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00219",
+    "broj": "IZD-2026-00219",
+    "materijalniDatum": "2026-09-07",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0004",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-06T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-07T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-07T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-07T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-09-07T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00219-s1",
+        "artikl": "ART-6640",
+        "lokacija": "B-05-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 8,
+        "rezervisano": 0,
+        "slobodno": 8,
+        "predano": 8,
+        "cijena": 11.4,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-221",
+        "kad": "2026-09-07T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-220",
+        "kad": "2026-09-07T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-07"
+      },
+      {
+        "id": "h-mv69uio0-219",
+        "kad": "2026-09-07T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-218",
+        "kad": "2026-09-06T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00220",
+    "broj": "IZD-2026-00220",
+    "materijalniDatum": "2026-09-06",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0005",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-05T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-06T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-06T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-06T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-09-06T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00220-s1",
+        "artikl": "ART-2044",
+        "lokacija": "A-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 8.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-225",
+        "kad": "2026-09-06T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-224",
+        "kad": "2026-09-06T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-06"
+      },
+      {
+        "id": "h-mv69uio0-223",
+        "kad": "2026-09-06T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-222",
+        "kad": "2026-09-05T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00221",
+    "broj": "IZD-2026-00221",
+    "materijalniDatum": "2026-09-05",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0006",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-04T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-05T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-05T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-09-05T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-09-05T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00221-s1",
+        "artikl": "ART-4008",
+        "lokacija": "E-02-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 6,
+        "rezervisano": 0,
+        "slobodno": 6,
+        "predano": 6,
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-229",
+        "kad": "2026-09-05T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-228",
+        "kad": "2026-09-05T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-09-05"
+      },
+      {
+        "id": "h-mv69uio0-227",
+        "kad": "2026-09-05T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-226",
+        "kad": "2026-09-04T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00222",
+    "broj": "IZD-2026-00222",
+    "materijalniDatum": "2026-08-31",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0007",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-30T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-31T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-31T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-08-31T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-08-31T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00222-s1",
+        "artikl": "ART-4008",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 12,
+        "rezervisano": 0,
+        "slobodno": 12,
+        "predano": 12,
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-233",
+        "kad": "2026-08-31T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-232",
+        "kad": "2026-08-31T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-08-31"
+      },
+      {
+        "id": "h-mv69uio0-231",
+        "kad": "2026-08-31T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-230",
+        "kad": "2026-08-30T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00223",
+    "broj": "IZD-2026-00223",
+    "materijalniDatum": "2026-08-30",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0008",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-29T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-30T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-30T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-08-30T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-08-30T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00223-s1",
+        "artikl": "ART-5006",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 10,
+        "rezervisano": 0,
+        "slobodno": 10,
+        "predano": 10,
+        "cijena": 2.6,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-237",
+        "kad": "2026-08-30T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-236",
+        "kad": "2026-08-30T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-08-30"
+      },
+      {
+        "id": "h-mv69uio0-235",
+        "kad": "2026-08-30T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-234",
+        "kad": "2026-08-29T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00224",
+    "broj": "IZD-2026-00224",
+    "materijalniDatum": "2026-08-29",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0009",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-28T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-29T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-29T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-08-29T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-08-29T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00224-s1",
+        "artikl": "ART-6030",
+        "lokacija": "B-01-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 24.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-241",
+        "kad": "2026-08-29T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-240",
+        "kad": "2026-08-29T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-08-29"
+      },
+      {
+        "id": "h-mv69uio0-239",
+        "kad": "2026-08-29T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-238",
+        "kad": "2026-08-28T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00225",
+    "broj": "IZD-2026-00225",
+    "materijalniDatum": "2026-08-28",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0010",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-27T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-28T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-28T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-08-28T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-08-28T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00225-s1",
+        "artikl": "ART-2044",
+        "lokacija": "E-01-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 8.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-245",
+        "kad": "2026-08-28T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-244",
+        "kad": "2026-08-28T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-08-28"
+      },
+      {
+        "id": "h-mv69uio0-243",
+        "kad": "2026-08-28T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-242",
+        "kad": "2026-08-27T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00226",
+    "broj": "IZD-2026-00226",
+    "materijalniDatum": "2026-08-27",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0011",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-26T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-27T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-27T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-08-27T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-08-27T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00226-s1",
+        "artikl": "ART-6640",
+        "lokacija": "E-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 4,
+        "rezervisano": 0,
+        "slobodno": 4,
+        "predano": 4,
+        "cijena": 11.4,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-249",
+        "kad": "2026-08-27T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-248",
+        "kad": "2026-08-27T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-08-27"
+      },
+      {
+        "id": "h-mv69uio0-247",
+        "kad": "2026-08-27T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-246",
+        "kad": "2026-08-26T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00227",
+    "broj": "IZD-2026-00227",
+    "materijalniDatum": "2026-08-24",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0012",
+    "primalac": "M. Majstor · ekipa održavanja 2",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-23T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-24T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-24T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-08-24T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "M. Majstor · ekipa održavanja 2",
+      "uloga": "primalac",
+      "kad": "2026-08-24T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00227-s1",
+        "artikl": "ART-2044",
+        "lokacija": "A-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "rezervisano": 0,
+        "slobodno": 2,
+        "predano": 2,
+        "cijena": 8.5,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-253",
+        "kad": "2026-08-24T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac M. Majstor · ekipa održavanja 2"
+      },
+      {
+        "id": "h-mv69uio0-252",
+        "kad": "2026-08-24T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-08-24"
+      },
+      {
+        "id": "h-mv69uio0-251",
+        "kad": "2026-08-24T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-250",
+        "kad": "2026-08-23T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00228",
+    "broj": "IZD-2026-00228",
+    "materijalniDatum": "2026-08-23",
+    "skladiste": "SK-01",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0013",
+    "primalac": "E. Električar · ekipa održavanja 1",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-22T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-23T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-23T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-08-23T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "E. Električar · ekipa održavanja 1",
+      "uloga": "primalac",
+      "kad": "2026-08-23T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00228-s1",
+        "artikl": "ART-6640",
+        "lokacija": "B-05-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 8,
+        "rezervisano": 0,
+        "slobodno": 8,
+        "predano": 8,
+        "cijena": 11.4,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-257",
+        "kad": "2026-08-23T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac E. Električar · ekipa održavanja 1"
+      },
+      {
+        "id": "h-mv69uio0-256",
+        "kad": "2026-08-23T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-08-23"
+      },
+      {
+        "id": "h-mv69uio0-255",
+        "kad": "2026-08-23T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-254",
+        "kad": "2026-08-22T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "izd-2026-00229",
+    "broj": "IZD-2026-00229",
+    "materijalniDatum": "2026-08-22",
+    "skladiste": "SK-06",
+    "izvorTip": "RADNI_NALOG",
+    "izvorBroj": "RN-2026-0014",
+    "primalac": "Z. Zenički · ekipa pogona Zenica",
+    "dispozicija": "UTROSAK",
+    "napomena": "",
+    "status": "PREDATA",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-21T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-22T02:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-22T07:00:00.000Z"
+    },
+    "predao": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-08-22T12:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Z. Zenički · ekipa pogona Zenica",
+      "uloga": "primalac",
+      "kad": "2026-08-22T12:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "izd-2026-00229-s1",
+        "artikl": "ART-8230",
+        "lokacija": "E-02-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 1,
+        "rezervisano": 0,
+        "slobodno": 1,
+        "predano": 1,
+        "cijena": 14,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-261",
+        "kad": "2026-08-22T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Predano u cijelosti",
+        "napomena": "primalac Z. Zenički · ekipa pogona Zenica"
+      },
+      {
+        "id": "h-mv69uio0-260",
+        "kad": "2026-08-22T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "zaliha izašla · poslovni datum 2026-08-22"
+      },
+      {
+        "id": "h-mv69uio0-259",
+        "kad": "2026-08-22T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-258",
+        "kad": "2026-08-21T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  }
+]

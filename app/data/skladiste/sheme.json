@@ -1,0 +1,2092 @@
+{
+  "SK-01": {
+    "shema": {
+      "zone": [
+        {
+          "zona": "A",
+          "prolazi": [
+            {
+              "prolaz": "01",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/A-01-02",
+                    "sifra": "A-01-02",
+                    "skladiste": "SK-01",
+                    "zona": "A",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-1001|SK-01|A-01-02|L-2609",
+                      "artikl": "ART-1001",
+                      "skladiste": "SK-01",
+                      "lokacija": "A-01-02",
+                      "lot": "L-2609",
+                      "naStanju": 220,
+                      "blokirano": 0,
+                      "rezervisano": 220,
+                      "raspolozivo": 0,
+                      "vrijednost": 264,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-1001|SK-01|A-01-02|L-2551",
+                      "artikl": "ART-1001",
+                      "skladiste": "SK-01",
+                      "lokacija": "A-01-02",
+                      "lot": "L-2551",
+                      "naStanju": 1000,
+                      "blokirano": 0,
+                      "rezervisano": 100,
+                      "raspolozivo": 900,
+                      "vrijednost": 1200,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 1220,
+                  "vrijednost": 1464,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-01/A-01-03",
+                    "sifra": "A-01-03",
+                    "skladiste": "SK-01",
+                    "zona": "A",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-1002|SK-01|A-01-03|L-5410",
+                      "artikl": "ART-1002",
+                      "skladiste": "SK-01",
+                      "lokacija": "A-01-03",
+                      "lot": "L-5410",
+                      "naStanju": 240,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 240,
+                      "vrijednost": 816,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 240,
+                  "vrijednost": 816,
+                  "nivo": 2
+                }
+              ]
+            },
+            {
+              "prolaz": "02",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/A-02-01",
+                    "sifra": "A-02-01",
+                    "skladiste": "SK-01",
+                    "zona": "A",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-1002|SK-01|A-02-01|L-5411",
+                      "artikl": "ART-1002",
+                      "skladiste": "SK-01",
+                      "lokacija": "A-02-01",
+                      "lot": "L-5411",
+                      "naStanju": 300,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 300,
+                      "vrijednost": 1020,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 300,
+                  "vrijednost": 1020,
+                  "nivo": 2
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-01/A-02-02",
+                    "sifra": "A-02-02",
+                    "skladiste": "SK-01",
+                    "zona": "A",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-2051|SK-01|A-02-02|",
+                      "artikl": "ART-2051",
+                      "skladiste": "SK-01",
+                      "lokacija": "A-02-02",
+                      "lot": "",
+                      "naStanju": 16,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 16,
+                      "vrijednost": 672,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 16,
+                  "vrijednost": 672,
+                  "nivo": 2
+                }
+              ]
+            },
+            {
+              "prolaz": "03",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/A-03-01",
+                    "sifra": "A-03-01",
+                    "skladiste": "SK-01",
+                    "zona": "A",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "03",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-2044|SK-01|A-03-01|",
+                      "artikl": "ART-2044",
+                      "skladiste": "SK-01",
+                      "lokacija": "A-03-01",
+                      "lot": "",
+                      "naStanju": 251,
+                      "blokirano": 0,
+                      "rezervisano": 50,
+                      "raspolozivo": 201,
+                      "vrijednost": 2133.5,
+                      "privremeno": true,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 251,
+                  "vrijednost": 2133.5,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-01/A-03-02",
+                    "sifra": "A-03-02",
+                    "skladiste": "SK-01",
+                    "zona": "A",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "03",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-2051|SK-01|A-03-02|",
+                      "artikl": "ART-2051",
+                      "skladiste": "SK-01",
+                      "lokacija": "A-03-02",
+                      "lot": "",
+                      "naStanju": 6,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 6,
+                      "vrijednost": 252,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 6,
+                  "vrijednost": 252,
+                  "nivo": 1
+                }
+              ]
+            },
+            {
+              "prolaz": "04",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/A-04-01",
+                    "sifra": "A-04-01",
+                    "skladiste": "SK-01",
+                    "zona": "A",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "04",
+                  "redovi": [],
+                  "kolicina": 0,
+                  "vrijednost": 0,
+                  "nivo": 0
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-01/A-04-02",
+                    "sifra": "A-04-02",
+                    "skladiste": "SK-01",
+                    "zona": "A",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "04",
+                  "redovi": [],
+                  "kolicina": 0,
+                  "vrijednost": 0,
+                  "nivo": 0
+                }
+              ]
+            }
+          ],
+          "zauzeto": 6,
+          "ukupno": 8,
+          "vrijednost": 6357.5
+        },
+        {
+          "zona": "B",
+          "prolazi": [
+            {
+              "prolaz": "01",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/B-01-02",
+                    "sifra": "B-01-02",
+                    "skladiste": "SK-01",
+                    "zona": "B",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-5501|SK-01|B-01-02|S-1001…S-1003",
+                      "artikl": "ART-5501",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-01-02",
+                      "lot": "S-1001…S-1003",
+                      "naStanju": 3,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 3,
+                      "vrijednost": 630,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-6030|SK-01|B-01-02|",
+                      "artikl": "ART-6030",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-01-02",
+                      "lot": "",
+                      "naStanju": 226,
+                      "blokirano": 0,
+                      "rezervisano": 5,
+                      "raspolozivo": 221,
+                      "vrijednost": 5537,
+                      "privremeno": true,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-9310|SK-01|B-01-02|S-104 · S-105",
+                      "artikl": "ART-9310",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-01-02",
+                      "lot": "S-104 · S-105",
+                      "naStanju": 1,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 1,
+                      "vrijednost": 95,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 230,
+                  "vrijednost": 6262,
+                  "nivo": 3
+                }
+              ]
+            },
+            {
+              "prolaz": "02",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/B-02-01",
+                    "sifra": "B-02-01",
+                    "skladiste": "SK-01",
+                    "zona": "B",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-3402|SK-01|B-02-01|L-7690",
+                      "artikl": "ART-3402",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-02-01",
+                      "lot": "L-7690",
+                      "naStanju": 8,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 8,
+                      "vrijednost": 102.4,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-3402|SK-01|B-02-01|L-7702",
+                      "artikl": "ART-3402",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-02-01",
+                      "lot": "L-7702",
+                      "naStanju": 80,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 80,
+                      "vrijednost": 1024,
+                      "privremeno": true,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-6220|SK-01|B-02-01|S-4401…S-4405",
+                      "artikl": "ART-6220",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-02-01",
+                      "lot": "S-4401…S-4405",
+                      "naStanju": 5,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 5,
+                      "vrijednost": 340,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-7420|SK-01|B-02-01|",
+                      "artikl": "ART-7420",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-02-01",
+                      "lot": "",
+                      "naStanju": 69,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 69,
+                      "vrijednost": 614.1,
+                      "privremeno": true,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 162,
+                  "vrijednost": 2080.5,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-01/B-02-04",
+                    "sifra": "B-02-04",
+                    "skladiste": "SK-01",
+                    "zona": "B",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-3310|SK-01|B-02-04|S-01…S-24",
+                      "artikl": "ART-3310",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-02-04",
+                      "lot": "S-01…S-24",
+                      "naStanju": 24,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 24,
+                      "vrijednost": 1104,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 24,
+                  "vrijednost": 1104,
+                  "nivo": 2
+                }
+              ]
+            },
+            {
+              "prolaz": "03",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/B-03-01",
+                    "sifra": "B-03-01",
+                    "skladiste": "SK-01",
+                    "zona": "B",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "03",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-6640|SK-01|B-03-01|",
+                      "artikl": "ART-6640",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-03-01",
+                      "lot": "",
+                      "naStanju": 120,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 120,
+                      "vrijednost": 1368,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 120,
+                  "vrijednost": 1368,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-01/B-03-02",
+                    "sifra": "B-03-02",
+                    "skladiste": "SK-01",
+                    "zona": "B",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "03",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-7420|SK-01|B-03-02|",
+                      "artikl": "ART-7420",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-03-02",
+                      "lot": "",
+                      "naStanju": 40,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 40,
+                      "vrijednost": 356,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 40,
+                  "vrijednost": 356,
+                  "nivo": 1
+                }
+              ]
+            },
+            {
+              "prolaz": "04",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/B-04-01",
+                    "sifra": "B-04-01",
+                    "skladiste": "SK-01",
+                    "zona": "B",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "04",
+                  "redovi": [],
+                  "kolicina": 0,
+                  "vrijednost": 0,
+                  "nivo": 0
+                }
+              ]
+            },
+            {
+              "prolaz": "05",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/B-05-01",
+                    "sifra": "B-05-01",
+                    "skladiste": "SK-01",
+                    "zona": "B",
+                    "vrsta": "POD",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "05",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-6640|SK-01|B-05-01|",
+                      "artikl": "ART-6640",
+                      "skladiste": "SK-01",
+                      "lokacija": "B-05-01",
+                      "lot": "",
+                      "naStanju": 146,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 146,
+                      "vrijednost": 1664.4,
+                      "privremeno": true,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 146,
+                  "vrijednost": 1664.4,
+                  "nivo": 3
+                }
+              ]
+            }
+          ],
+          "zauzeto": 6,
+          "ukupno": 7,
+          "vrijednost": 12834.9
+        },
+        {
+          "zona": "C",
+          "prolazi": [
+            {
+              "prolaz": "01",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/C-01-01",
+                    "sifra": "C-01-01",
+                    "skladiste": "SK-01",
+                    "zona": "C",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-4008|SK-01|C-01-01|",
+                      "artikl": "ART-4008",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-01-01",
+                      "lot": "",
+                      "naStanju": 362,
+                      "blokirano": 0,
+                      "rezervisano": 100,
+                      "raspolozivo": 262,
+                      "vrijednost": 1411.8,
+                      "privremeno": true,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-5006|SK-01|C-01-01|",
+                      "artikl": "ART-5006",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-01-01",
+                      "lot": "",
+                      "naStanju": 56,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 56,
+                      "vrijednost": 145.6,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-8230|SK-01|C-01-01|",
+                      "artikl": "ART-8230",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-01-01",
+                      "lot": "",
+                      "naStanju": 9,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 9,
+                      "vrijednost": 126,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 427,
+                  "vrijednost": 1683.3999999999999,
+                  "nivo": 3
+                }
+              ]
+            },
+            {
+              "prolaz": "02",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/C-02-03",
+                    "sifra": "C-02-03",
+                    "skladiste": "SK-01",
+                    "zona": "C",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-5120|SK-01|C-02-03|L-0388",
+                      "artikl": "ART-5120",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-02-03",
+                      "lot": "L-0388",
+                      "naStanju": 2,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 2,
+                      "vrijednost": 19.2,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-5121|SK-01|C-02-03|L-9012",
+                      "artikl": "ART-5121",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-02-03",
+                      "lot": "L-9012",
+                      "naStanju": 10,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 10,
+                      "vrijednost": 72,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 12,
+                  "vrijednost": 91.2,
+                  "nivo": 1
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-01/C-02-04",
+                    "sifra": "C-02-04",
+                    "skladiste": "SK-01",
+                    "zona": "C",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-5121|SK-01|C-02-04|L-9012",
+                      "artikl": "ART-5121",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-02-04",
+                      "lot": "L-9012",
+                      "naStanju": 11,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 11,
+                      "vrijednost": 79.2,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-8115|SK-01|C-02-04|L-9001",
+                      "artikl": "ART-8115",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-02-04",
+                      "lot": "L-9001",
+                      "naStanju": 60,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 60,
+                      "vrijednost": 384,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    },
+                    {
+                      "kljuc": "ART-9520|SK-01|C-02-04|",
+                      "artikl": "ART-9520",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-02-04",
+                      "lot": "",
+                      "naStanju": 14,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 14,
+                      "vrijednost": 252,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 85,
+                  "vrijednost": 715.2,
+                  "nivo": 2
+                }
+              ]
+            },
+            {
+              "prolaz": "03",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/C-03-01",
+                    "sifra": "C-03-01",
+                    "skladiste": "SK-01",
+                    "zona": "C",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": false
+                  },
+                  "prolaz": "03",
+                  "redovi": [],
+                  "kolicina": 0,
+                  "vrijednost": 0,
+                  "nivo": 0
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-01/C-03-02",
+                    "sifra": "C-03-02",
+                    "skladiste": "SK-01",
+                    "zona": "C",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "03",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-8230|SK-01|C-03-02|",
+                      "artikl": "ART-8230",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-03-02",
+                      "lot": "",
+                      "naStanju": 30,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 30,
+                      "vrijednost": 420,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 30,
+                  "vrijednost": 420,
+                  "nivo": 1
+                }
+              ]
+            },
+            {
+              "prolaz": "04",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-01/C-04-01",
+                    "sifra": "C-04-01",
+                    "skladiste": "SK-01",
+                    "zona": "C",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "04",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-5006|SK-01|C-04-01|",
+                      "artikl": "ART-5006",
+                      "skladiste": "SK-01",
+                      "lokacija": "C-04-01",
+                      "lot": "",
+                      "naStanju": 200,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 200,
+                      "vrijednost": 520,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 200,
+                  "vrijednost": 520,
+                  "nivo": 2
+                }
+              ]
+            }
+          ],
+          "zauzeto": 5,
+          "ukupno": 5,
+          "vrijednost": 3429.8
+        }
+      ],
+      "posebne": [
+        {
+          "lokacija": {
+            "id": "SK-01/QUARANTINE",
+            "sifra": "QUARANTINE",
+            "skladiste": "SK-01",
+            "zona": "—",
+            "vrsta": "KARANTIN",
+            "nosiStanje": false,
+            "aktivna": true
+          },
+          "prolaz": "—",
+          "redovi": [
+            {
+              "kljuc": "ART-3310|SK-01|QUARANTINE|PRJ-2026-00012",
+              "artikl": "ART-3310",
+              "skladiste": "SK-01",
+              "lokacija": "QUARANTINE",
+              "lot": "S-77…S-88",
+              "naStanju": 4,
+              "blokirano": 4,
+              "rezervisano": 0,
+              "raspolozivo": 0,
+              "vrijednost": 0,
+              "privremeno": false,
+              "bezStanja": true,
+              "napomena": "zadržano za kvalitativnu kontrolu PRJ-2026-00012"
+            }
+          ],
+          "kolicina": 4,
+          "vrijednost": 0,
+          "nivo": 1
+        },
+        {
+          "lokacija": {
+            "id": "SK-01/RETURN-HOLD",
+            "sifra": "RETURN-HOLD",
+            "skladiste": "SK-01",
+            "zona": "—",
+            "vrsta": "CUSTODY",
+            "nosiStanje": false,
+            "aktivna": true
+          },
+          "prolaz": "HOLD",
+          "redovi": [
+            {
+              "kljuc": "ART-2044|SK-01|RETURN-HOLD|POV-2026-00009",
+              "artikl": "ART-2044",
+              "skladiste": "SK-01",
+              "lokacija": "RETURN-HOLD",
+              "lot": "",
+              "naStanju": 3,
+              "blokirano": 3,
+              "rezervisano": 0,
+              "raspolozivo": 0,
+              "vrijednost": 0,
+              "privremeno": false,
+              "bezStanja": true,
+              "napomena": "custody povratnice POV-2026-00009"
+            },
+            {
+              "kljuc": "ART-3310|SK-01|RETURN-HOLD|POV-2026-00009",
+              "artikl": "ART-3310",
+              "skladiste": "SK-01",
+              "lokacija": "RETURN-HOLD",
+              "lot": "S-29 · S-30",
+              "naStanju": 2,
+              "blokirano": 2,
+              "rezervisano": 0,
+              "raspolozivo": 0,
+              "vrijednost": 0,
+              "privremeno": false,
+              "bezStanja": true,
+              "napomena": "custody povratnice POV-2026-00009"
+            },
+            {
+              "kljuc": "ART-3310|SK-01|RETURN-HOLD|POV-2026-00003",
+              "artikl": "ART-3310",
+              "skladiste": "SK-01",
+              "lokacija": "RETURN-HOLD",
+              "lot": "S-25",
+              "naStanju": 1,
+              "blokirano": 1,
+              "rezervisano": 0,
+              "raspolozivo": 0,
+              "vrijednost": 0,
+              "privremeno": false,
+              "bezStanja": true,
+              "napomena": "custody povratnice POV-2026-00003"
+            }
+          ],
+          "kolicina": 6,
+          "vrijednost": 0,
+          "nivo": 1
+        }
+      ],
+      "zauzeto": 17,
+      "ukupno": 20,
+      "vrijednost": 22622.2,
+      "artikala": 19
+    },
+    "promet": [
+      {
+        "od": "2026-08-24",
+        "ulaz": 1,
+        "izlaz": 3
+      },
+      {
+        "od": "2026-08-31",
+        "ulaz": 2,
+        "izlaz": 2
+      },
+      {
+        "od": "2026-09-07",
+        "ulaz": 1,
+        "izlaz": 3
+      },
+      {
+        "od": "2026-09-14",
+        "ulaz": 4,
+        "izlaz": 5
+      },
+      {
+        "od": "2026-09-21",
+        "ulaz": 5,
+        "izlaz": 4
+      },
+      {
+        "od": "2026-09-28",
+        "ulaz": 4,
+        "izlaz": 5
+      },
+      {
+        "od": "2026-10-05",
+        "ulaz": 6,
+        "izlaz": 6
+      },
+      {
+        "od": "2026-10-12",
+        "ulaz": 4,
+        "izlaz": 2
+      }
+    ],
+    "otvoreni": 16,
+    "popunjenost": 85,
+    "podskladista": [
+      {
+        "skladiste": {
+          "id": "SK-02",
+          "sifra": "SK-02",
+          "naziv": "Terensko skladište",
+          "vrsta": "PODSKLADISTE",
+          "lokacije": false,
+          "radnaLokacija": "SA-REJON-1",
+          "odgovorna": "zap-072",
+          "opis": "Kontejner 4 na gradilištu Istok. Bez lokacija — stanje se vodi po artiklu i lotu.",
+          "nadredjeno": "SK-01",
+          "aktivno": true,
+          "prostorija": "PRS-0053"
+        },
+        "vrijednost": 6899
+      },
+      {
+        "skladiste": {
+          "id": "SK-03",
+          "sifra": "SK-03",
+          "naziv": "Skladište goriva i maziva",
+          "vrsta": "PODSKLADISTE",
+          "lokacije": false,
+          "radnaLokacija": "SA-KOTL",
+          "odgovorna": "zap-059",
+          "opis": "Rezervoar 2 u krugu pogona i priručna zaliha ulja; količine u litrima.",
+          "nadredjeno": "SK-01",
+          "aktivno": true,
+          "prostorija": "PRS-0054"
+        },
+        "vrijednost": 2166.1
+      },
+      {
+        "skladiste": {
+          "id": "SK-04",
+          "sifra": "SK-04",
+          "naziv": "Skladište rezervnih dijelova",
+          "vrsta": "PODSKLADISTE",
+          "lokacije": true,
+          "radnaLokacija": "SA-KOTL",
+          "odgovorna": "zap-080",
+          "opis": "Hala održavanja. Priručna zaliha dijelova za servis pumpi; police zone D.",
+          "nadredjeno": "SK-01",
+          "aktivno": true,
+          "prostorija": "PRS-0055"
+        },
+        "vrijednost": 570.6
+      }
+    ]
+  },
+  "SK-02": {
+    "shema": {
+      "zone": [],
+      "posebne": [],
+      "zauzeto": 0,
+      "ukupno": 0,
+      "vrijednost": 6899,
+      "artikala": 6
+    },
+    "promet": [
+      {
+        "od": "2026-08-24",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-08-31",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-07",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-14",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-21",
+        "ulaz": 0,
+        "izlaz": 1
+      },
+      {
+        "od": "2026-09-28",
+        "ulaz": 2,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-05",
+        "ulaz": 0,
+        "izlaz": 1
+      },
+      {
+        "od": "2026-10-12",
+        "ulaz": 0,
+        "izlaz": 0
+      }
+    ],
+    "otvoreni": 2,
+    "popunjenost": 0,
+    "podskladista": []
+  },
+  "SK-03": {
+    "shema": {
+      "zone": [],
+      "posebne": [],
+      "zauzeto": 0,
+      "ukupno": 0,
+      "vrijednost": 2166.1,
+      "artikala": 3
+    },
+    "promet": [
+      {
+        "od": "2026-08-24",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-08-31",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-07",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-14",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-21",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-28",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-05",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-12",
+        "ulaz": 0,
+        "izlaz": 0
+      }
+    ],
+    "otvoreni": 0,
+    "popunjenost": 0,
+    "podskladista": []
+  },
+  "SK-04": {
+    "shema": {
+      "zone": [
+        {
+          "zona": "D",
+          "prolazi": [
+            {
+              "prolaz": "01",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-04/D-01-01",
+                    "sifra": "D-01-01",
+                    "skladiste": "SK-04",
+                    "zona": "D",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-3310|SK-04|D-01-01|S-31 · S-32",
+                      "artikl": "ART-3310",
+                      "skladiste": "SK-04",
+                      "lokacija": "D-01-01",
+                      "lot": "S-31 · S-32",
+                      "naStanju": 2,
+                      "blokirano": 2,
+                      "rezervisano": 0,
+                      "raspolozivo": 0,
+                      "vrijednost": 92,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": "zamrznuto popisom INV-2026-00003"
+                    },
+                    {
+                      "kljuc": "ART-3402|SK-04|D-01-01|L-7702",
+                      "artikl": "ART-3402",
+                      "skladiste": "SK-04",
+                      "lokacija": "D-01-01",
+                      "lot": "L-7702",
+                      "naStanju": 8,
+                      "blokirano": 8,
+                      "rezervisano": 0,
+                      "raspolozivo": 0,
+                      "vrijednost": 102.4,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": "zamrznuto popisom INV-2026-00003"
+                    },
+                    {
+                      "kljuc": "ART-3402|SK-04|D-01-01|L-7690",
+                      "artikl": "ART-3402",
+                      "skladiste": "SK-04",
+                      "lokacija": "D-01-01",
+                      "lot": "L-7690",
+                      "naStanju": 4,
+                      "blokirano": 4,
+                      "rezervisano": 0,
+                      "raspolozivo": 0,
+                      "vrijednost": 51.2,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": "zamrznuto popisom INV-2026-00003"
+                    }
+                  ],
+                  "kolicina": 14,
+                  "vrijednost": 245.60000000000002,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-04/D-01-02",
+                    "sifra": "D-01-02",
+                    "skladiste": "SK-04",
+                    "zona": "D",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-7420|SK-04|D-01-02|",
+                      "artikl": "ART-7420",
+                      "skladiste": "SK-04",
+                      "lokacija": "D-01-02",
+                      "lot": "",
+                      "naStanju": 20,
+                      "blokirano": 20,
+                      "rezervisano": 0,
+                      "raspolozivo": 0,
+                      "vrijednost": 178,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": "zamrznuto popisom INV-2026-00003"
+                    }
+                  ],
+                  "kolicina": 20,
+                  "vrijednost": 178,
+                  "nivo": 2
+                }
+              ]
+            },
+            {
+              "prolaz": "02",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-04/D-02-01",
+                    "sifra": "D-02-01",
+                    "skladiste": "SK-04",
+                    "zona": "D",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-6030|SK-04|D-02-01|",
+                      "artikl": "ART-6030",
+                      "skladiste": "SK-04",
+                      "lokacija": "D-02-01",
+                      "lot": "",
+                      "naStanju": 6,
+                      "blokirano": 6,
+                      "rezervisano": 0,
+                      "raspolozivo": 0,
+                      "vrijednost": 147,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": "zamrznuto popisom INV-2026-00003"
+                    }
+                  ],
+                  "kolicina": 6,
+                  "vrijednost": 147,
+                  "nivo": 1
+                }
+              ]
+            },
+            {
+              "prolaz": "03",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-04/D-03-01",
+                    "sifra": "D-03-01",
+                    "skladiste": "SK-04",
+                    "zona": "D",
+                    "vrsta": "POD",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "03",
+                  "redovi": [],
+                  "kolicina": 0,
+                  "vrijednost": 0,
+                  "nivo": 0
+                }
+              ]
+            }
+          ],
+          "zauzeto": 3,
+          "ukupno": 4,
+          "vrijednost": 570.6
+        }
+      ],
+      "posebne": [
+        {
+          "lokacija": {
+            "id": "SK-04/QUARANTINE",
+            "sifra": "QUARANTINE",
+            "skladiste": "SK-04",
+            "zona": "—",
+            "vrsta": "KARANTIN",
+            "nosiStanje": false,
+            "aktivna": true
+          },
+          "prolaz": "—",
+          "redovi": [],
+          "kolicina": 0,
+          "vrijednost": 0,
+          "nivo": 0
+        },
+        {
+          "lokacija": {
+            "id": "SK-04/RETURN-HOLD",
+            "sifra": "RETURN-HOLD",
+            "skladiste": "SK-04",
+            "zona": "—",
+            "vrsta": "CUSTODY",
+            "nosiStanje": false,
+            "aktivna": true
+          },
+          "prolaz": "HOLD",
+          "redovi": [],
+          "kolicina": 0,
+          "vrijednost": 0,
+          "nivo": 0
+        }
+      ],
+      "zauzeto": 3,
+      "ukupno": 4,
+      "vrijednost": 570.6,
+      "artikala": 4
+    },
+    "promet": [
+      {
+        "od": "2026-08-24",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-08-31",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-07",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-14",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-21",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-28",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-05",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-12",
+        "ulaz": 0,
+        "izlaz": 0
+      }
+    ],
+    "otvoreni": 0,
+    "popunjenost": 75,
+    "podskladista": []
+  },
+  "SK-05": {
+    "shema": {
+      "zone": [],
+      "posebne": [],
+      "zauzeto": 0,
+      "ukupno": 0,
+      "vrijednost": 0,
+      "artikala": 0
+    },
+    "promet": [
+      {
+        "od": "2026-08-24",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-08-31",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-07",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-14",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-21",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-28",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-05",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-12",
+        "ulaz": 0,
+        "izlaz": 0
+      }
+    ],
+    "otvoreni": 0,
+    "popunjenost": 0,
+    "podskladista": []
+  },
+  "SK-06": {
+    "shema": {
+      "zone": [
+        {
+          "zona": "E",
+          "prolazi": [
+            {
+              "prolaz": "01",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-06/E-01-01",
+                    "sifra": "E-01-01",
+                    "skladiste": "SK-06",
+                    "zona": "E",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-1001|SK-06|E-01-01|L-2701",
+                      "artikl": "ART-1001",
+                      "skladiste": "SK-06",
+                      "lokacija": "E-01-01",
+                      "lot": "L-2701",
+                      "naStanju": 300,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 300,
+                      "vrijednost": 360,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 300,
+                  "vrijednost": 360,
+                  "nivo": 1
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-06/E-01-02",
+                    "sifra": "E-01-02",
+                    "skladiste": "SK-06",
+                    "zona": "E",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-2044|SK-06|E-01-02|",
+                      "artikl": "ART-2044",
+                      "skladiste": "SK-06",
+                      "lokacija": "E-01-02",
+                      "lot": "",
+                      "naStanju": 76,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 76,
+                      "vrijednost": 646,
+                      "privremeno": true,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 76,
+                  "vrijednost": 646,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-06/E-01-03",
+                    "sifra": "E-01-03",
+                    "skladiste": "SK-06",
+                    "zona": "E",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-2051|SK-06|E-01-03|",
+                      "artikl": "ART-2051",
+                      "skladiste": "SK-06",
+                      "lokacija": "E-01-03",
+                      "lot": "",
+                      "naStanju": 10,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 10,
+                      "vrijednost": 420,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 10,
+                  "vrijednost": 420,
+                  "nivo": 1
+                }
+              ]
+            },
+            {
+              "prolaz": "02",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-06/E-02-01",
+                    "sifra": "E-02-01",
+                    "skladiste": "SK-06",
+                    "zona": "E",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-4008|SK-06|E-02-01|",
+                      "artikl": "ART-4008",
+                      "skladiste": "SK-06",
+                      "lokacija": "E-02-01",
+                      "lot": "",
+                      "naStanju": 182,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 182,
+                      "vrijednost": 709.8,
+                      "privremeno": true,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 182,
+                  "vrijednost": 709.8,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-06/E-02-02",
+                    "sifra": "E-02-02",
+                    "skladiste": "SK-06",
+                    "zona": "E",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-8230|SK-06|E-02-02|",
+                      "artikl": "ART-8230",
+                      "skladiste": "SK-06",
+                      "lokacija": "E-02-02",
+                      "lot": "",
+                      "naStanju": 12,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 12,
+                      "vrijednost": 168,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 12,
+                  "vrijednost": 168,
+                  "nivo": 1
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-06/E-02-03",
+                    "sifra": "E-02-03",
+                    "skladiste": "SK-06",
+                    "zona": "E",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-6030|SK-06|E-02-03|",
+                      "artikl": "ART-6030",
+                      "skladiste": "SK-06",
+                      "lokacija": "E-02-03",
+                      "lot": "",
+                      "naStanju": 24,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 24,
+                      "vrijednost": 588,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 24,
+                  "vrijednost": 588,
+                  "nivo": 2
+                }
+              ]
+            },
+            {
+              "prolaz": "03",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-06/E-03-01",
+                    "sifra": "E-03-01",
+                    "skladiste": "SK-06",
+                    "zona": "E",
+                    "vrsta": "POD",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "03",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-6640|SK-06|E-03-01|",
+                      "artikl": "ART-6640",
+                      "skladiste": "SK-06",
+                      "lokacija": "E-03-01",
+                      "lot": "",
+                      "naStanju": 52,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 52,
+                      "vrijednost": 592.8,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 52,
+                  "vrijednost": 592.8,
+                  "nivo": 2
+                }
+              ]
+            }
+          ],
+          "zauzeto": 7,
+          "ukupno": 7,
+          "vrijednost": 3484.6000000000004
+        },
+        {
+          "zona": "F",
+          "prolazi": [
+            {
+              "prolaz": "01",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-06/F-01-01",
+                    "sifra": "F-01-01",
+                    "skladiste": "SK-06",
+                    "zona": "F",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-7001|SK-06|F-01-01|L-C611",
+                      "artikl": "ART-7001",
+                      "skladiste": "SK-06",
+                      "lokacija": "F-01-01",
+                      "lot": "L-C611",
+                      "naStanju": 80,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 80,
+                      "vrijednost": 784,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 80,
+                  "vrijednost": 784,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-06/F-01-02",
+                    "sifra": "F-01-02",
+                    "skladiste": "SK-06",
+                    "zona": "F",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "01",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-4008|SK-06|F-01-02|",
+                      "artikl": "ART-4008",
+                      "skladiste": "SK-06",
+                      "lokacija": "F-01-02",
+                      "lot": "",
+                      "naStanju": 150,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 150,
+                      "vrijednost": 585,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 150,
+                  "vrijednost": 585,
+                  "nivo": 2
+                }
+              ]
+            },
+            {
+              "prolaz": "02",
+              "polja": [
+                {
+                  "lokacija": {
+                    "id": "SK-06/F-02-01",
+                    "sifra": "F-02-01",
+                    "skladiste": "SK-06",
+                    "zona": "F",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [
+                    {
+                      "kljuc": "ART-1002|SK-06|F-02-01|L-5510",
+                      "artikl": "ART-1002",
+                      "skladiste": "SK-06",
+                      "lokacija": "F-02-01",
+                      "lot": "L-5510",
+                      "naStanju": 260,
+                      "blokirano": 0,
+                      "rezervisano": 0,
+                      "raspolozivo": 260,
+                      "vrijednost": 884,
+                      "privremeno": false,
+                      "bezStanja": false,
+                      "napomena": ""
+                    }
+                  ],
+                  "kolicina": 260,
+                  "vrijednost": 884,
+                  "nivo": 3
+                },
+                {
+                  "lokacija": {
+                    "id": "SK-06/F-02-02",
+                    "sifra": "F-02-02",
+                    "skladiste": "SK-06",
+                    "zona": "F",
+                    "vrsta": "POLICA",
+                    "nosiStanje": true,
+                    "aktivna": true
+                  },
+                  "prolaz": "02",
+                  "redovi": [],
+                  "kolicina": 0,
+                  "vrijednost": 0,
+                  "nivo": 0
+                }
+              ]
+            }
+          ],
+          "zauzeto": 3,
+          "ukupno": 4,
+          "vrijednost": 2253
+        }
+      ],
+      "posebne": [
+        {
+          "lokacija": {
+            "id": "SK-06/QUARANTINE",
+            "sifra": "QUARANTINE",
+            "skladiste": "SK-06",
+            "zona": "—",
+            "vrsta": "KARANTIN",
+            "nosiStanje": false,
+            "aktivna": true
+          },
+          "prolaz": "—",
+          "redovi": [],
+          "kolicina": 0,
+          "vrijednost": 0,
+          "nivo": 0
+        },
+        {
+          "lokacija": {
+            "id": "SK-06/RETURN-HOLD",
+            "sifra": "RETURN-HOLD",
+            "skladiste": "SK-06",
+            "zona": "—",
+            "vrsta": "CUSTODY",
+            "nosiStanje": false,
+            "aktivna": true
+          },
+          "prolaz": "HOLD",
+          "redovi": [],
+          "kolicina": 0,
+          "vrijednost": 0,
+          "nivo": 0
+        }
+      ],
+      "zauzeto": 10,
+      "ukupno": 11,
+      "vrijednost": 5737.6,
+      "artikala": 9
+    },
+    "promet": [
+      {
+        "od": "2026-08-24",
+        "ulaz": 1,
+        "izlaz": 2
+      },
+      {
+        "od": "2026-08-31",
+        "ulaz": 0,
+        "izlaz": 1
+      },
+      {
+        "od": "2026-09-07",
+        "ulaz": 1,
+        "izlaz": 1
+      },
+      {
+        "od": "2026-09-14",
+        "ulaz": 1,
+        "izlaz": 2
+      },
+      {
+        "od": "2026-09-21",
+        "ulaz": 0,
+        "izlaz": 1
+      },
+      {
+        "od": "2026-09-28",
+        "ulaz": 1,
+        "izlaz": 2
+      },
+      {
+        "od": "2026-10-05",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-12",
+        "ulaz": 0,
+        "izlaz": 1
+      }
+    ],
+    "otvoreni": 1,
+    "popunjenost": 91,
+    "podskladista": [
+      {
+        "skladiste": {
+          "id": "SK-07",
+          "sifra": "SK-07",
+          "naziv": "Terensko skladište Zenica",
+          "vrsta": "PODSKLADISTE",
+          "lokacije": false,
+          "radnaLokacija": "ZE-REJON-1",
+          "odgovorna": "zap-074",
+          "opis": "Kontejner 2 na gradilištu Sjever. Terenska zaliha pogona Zenica; bez lokacija.",
+          "nadredjeno": "SK-06",
+          "aktivno": true,
+          "prostorija": "PRS-0058"
+        },
+        "vrijednost": 462
+      },
+      {
+        "skladiste": {
+          "id": "SK-08",
+          "sifra": "SK-08",
+          "naziv": "Skladište goriva Zenica",
+          "vrsta": "PODSKLADISTE",
+          "lokacije": false,
+          "radnaLokacija": "ZE-POGON",
+          "odgovorna": "zap-058",
+          "opis": "Rezervoar 1 u krugu pogona — dizel i ulje za vozni park Zenica.",
+          "nadredjeno": "SK-06",
+          "aktivno": true,
+          "prostorija": "PRS-0059"
+        },
+        "vrijednost": 2549
+      }
+    ]
+  },
+  "SK-07": {
+    "shema": {
+      "zone": [],
+      "posebne": [],
+      "zauzeto": 0,
+      "ukupno": 0,
+      "vrijednost": 462,
+      "artikala": 2
+    },
+    "promet": [
+      {
+        "od": "2026-08-24",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-08-31",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-07",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-14",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-21",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-28",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-05",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-12",
+        "ulaz": 0,
+        "izlaz": 0
+      }
+    ],
+    "otvoreni": 0,
+    "popunjenost": 0,
+    "podskladista": []
+  },
+  "SK-08": {
+    "shema": {
+      "zone": [],
+      "posebne": [],
+      "zauzeto": 0,
+      "ukupno": 0,
+      "vrijednost": 2549,
+      "artikala": 2
+    },
+    "promet": [
+      {
+        "od": "2026-08-24",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-08-31",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-07",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-14",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-21",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-09-28",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-05",
+        "ulaz": 0,
+        "izlaz": 0
+      },
+      {
+        "od": "2026-10-12",
+        "ulaz": 0,
+        "izlaz": 0
+      }
+    ],
+    "otvoreni": 0,
+    "popunjenost": 0,
+    "podskladista": []
+  }
+}

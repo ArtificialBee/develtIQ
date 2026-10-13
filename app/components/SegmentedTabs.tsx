@@ -35,7 +35,7 @@ export function SegmentedTabs<K extends string>({ tabs, value, onChange, label, 
             role="tab"
             aria-selected={active}
             onClick={() => onChange(tab.key)}
-            className={`relative min-w-0 flex-1 cursor-pointer rounded-lg px-2 py-1.5 text-sm font-medium transition-colors ${active ? "text-white" : "text-gray-600 hover:text-[#3B9DF8] dark:text-[#abc2d3]"}`}
+            className={`relative min-w-0 flex-auto cursor-pointer rounded-lg px-2 py-1.5 text-sm font-medium transition-colors ${active ? "text-white" : "text-gray-600 hover:text-[#3B9DF8] dark:text-[#abc2d3]"}`}
           >
             {active && (
               <motion.span

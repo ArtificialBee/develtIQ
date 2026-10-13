@@ -1,0 +1,122 @@
+[
+  {
+    "entity": "skladiste/Popis",
+    "id": "pop-0004",
+    "title": "Vanredni popis — goriva i ulja",
+    "reference": "INV-2026-00004",
+    "fields": [
+      {
+        "label": "Skladište",
+        "value": "SK-02 — Terensko skladište"
+      },
+      {
+        "label": "Vrsta",
+        "value": "VANREDNI"
+      },
+      {
+        "label": "Obuhvat",
+        "value": "Grupa artikala: Goriva i ulja"
+      },
+      {
+        "label": "Razlog",
+        "value": "sumnja na manjak goriva"
+      },
+      {
+        "label": "Komisija",
+        "value": "G. Glavni, E. Električar"
+      },
+      {
+        "label": "Status",
+        "value": "U_TOKU"
+      }
+    ]
+  },
+  {
+    "entity": "skladiste/Korekcija",
+    "id": "usk-0006",
+    "title": "Usklađenje stanja — pronađeno pri čišćenju",
+    "reference": "USK-2026-00006",
+    "fields": [
+      {
+        "label": "Skladište",
+        "value": "SK-01 — Centralno skladište"
+      },
+      {
+        "label": "Artikl",
+        "value": "ART-9520 — Brtveni papir 2 mm"
+      },
+      {
+        "label": "Lokacija",
+        "value": "C-02-04 — Polica, zona C"
+      },
+      {
+        "label": "Količina",
+        "value": "+2"
+      },
+      {
+        "label": "Uzrok",
+        "value": "PRONADJENO"
+      },
+      {
+        "label": "Razlog",
+        "value": "pronađeno iza police pri čišćenju, vidio S. Skladištar"
+      }
+    ]
+  },
+  {
+    "entity": "skladiste/Izdatnica",
+    "id": "izd-0088",
+    "title": "Izdatnica po radnom nalogu RN-2026-0017",
+    "reference": "IZD-2026-00088",
+    "fields": [
+      {
+        "label": "Skladište",
+        "value": "SK-02 — Terensko skladište"
+      },
+      {
+        "label": "Izvor",
+        "value": "RN-2026-0017"
+      },
+      {
+        "label": "Primalac",
+        "value": "E. Električar · ekipa održavanja 1"
+      },
+      {
+        "label": "Dispozicija",
+        "value": "UTROSAK"
+      },
+      {
+        "label": "Status",
+        "value": "PRIPREMLJENA"
+      }
+    ]
+  },
+  {
+    "entity": "skladiste/Izdatnica",
+    "id": "izd-0085",
+    "title": "Izdatnica po odobrenom zahtjevu ZZN-2026-00087",
+    "reference": "IZD-2026-00085",
+    "fields": [
+      {
+        "label": "Skladište",
+        "value": "SK-01 — Centralno skladište"
+      },
+      {
+        "label": "Izvor",
+        "value": "ZZN-2026-00087"
+      },
+      {
+        "label": "Primalac",
+        "value": "H. Hidrauličar · servis pumpi"
+      },
+      {
+        "label": "Dispozicija",
+        "value": "UTROSAK"
+      },
+      {
+        "label": "Status",
+        "value": "DJELIMICNO_PREDATA"
+      }
+    ]
+  }
+]

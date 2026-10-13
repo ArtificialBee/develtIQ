@@ -1,0 +1,529 @@
+[
+  {
+    "id": "pov-2026-00009",
+    "broj": "POV-2026-00009",
+    "datum": "2026-10-10",
+    "skladiste": "SK-01",
+    "izvornaIzdatnica": "izd-2026-00081",
+    "tipPovrata": "NEUTROSENO",
+    "vratio": "M. Majstor · ekipa održavanja 2",
+    "naknadniPovrat": false,
+    "napomena": "",
+    "status": "FIZICKI_PRIMLJENA",
+    "razlogZatvaranja": "",
+    "custodyLokacija": "RETURN-HOLD",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-12T14:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-12T19:00:00.000Z"
+    },
+    "primio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-13T00:00:00.000Z"
+    },
+    "pregledao": null,
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "pov-2026-00009-s1",
+        "izdatnicaStavkaId": "izd-2026-00081-s1",
+        "artikl": "ART-2044",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "prijavljeno": 3,
+        "prebrojano": 3,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "stanje": null,
+        "odredisnaLokacija": "A-03-01",
+        "cijena": 8.5,
+        "napomena": ""
+      },
+      {
+        "id": "pov-2026-00009-s2",
+        "izdatnicaStavkaId": "izd-2026-00081-s2",
+        "artikl": "ART-3310",
+        "lot": "",
+        "serijskiBrojevi": "S-29 · S-30",
+        "prijavljeno": 2,
+        "prebrojano": 2,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "stanje": null,
+        "odredisnaLokacija": "B-02-04",
+        "cijena": 46,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-264",
+        "kad": "2026-10-13T00:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Fizički primljeno u custody",
+        "napomena": "RETURN-HOLD"
+      },
+      {
+        "id": "h-mv69uio0-263",
+        "kad": "2026-10-12T19:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": "ovjera ne stavlja robu na zalihu"
+      },
+      {
+        "id": "h-mv69uio0-262",
+        "kad": "2026-10-12T14:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "pov-2026-00008",
+    "broj": "POV-2026-00008",
+    "datum": "2026-10-04",
+    "skladiste": "SK-01",
+    "izvornaIzdatnica": "izd-2026-00083",
+    "tipPovrata": "VISAK",
+    "vratio": "V. Vozač · transport",
+    "naknadniPovrat": false,
+    "napomena": "",
+    "status": "KNJIZEN",
+    "razlogZatvaranja": "",
+    "custodyLokacija": "RETURN-HOLD",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-04T02:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-04T07:00:00.000Z"
+    },
+    "primio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-04T12:00:00.000Z"
+    },
+    "pregledao": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-10-04T17:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-04T22:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pov-2026-00008-s1",
+        "izdatnicaStavkaId": "izd-2026-00083-s1",
+        "artikl": "ART-5121",
+        "lot": "L-9012",
+        "serijskiBrojevi": "",
+        "prijavljeno": 5,
+        "prebrojano": 5,
+        "prihvaceno": 5,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "stanje": "DOBRO",
+        "odredisnaLokacija": "C-02-04",
+        "cijena": 7.2,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-269",
+        "kad": "2026-10-04T22:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "prihvaćeno na zalihu po cijeni izvorne izdatnice · 2026-10-04"
+      },
+      {
+        "id": "h-mv69uio0-268",
+        "kad": "2026-10-04T17:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Pregledano i prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-267",
+        "kad": "2026-10-04T12:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Fizički primljeno u custody",
+        "napomena": "RETURN-HOLD"
+      },
+      {
+        "id": "h-mv69uio0-266",
+        "kad": "2026-10-04T07:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": "ovjera ne stavlja robu na zalihu"
+      },
+      {
+        "id": "h-mv69uio0-265",
+        "kad": "2026-10-04T02:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "pov-2026-00007",
+    "broj": "POV-2026-00007",
+    "datum": "2026-10-12",
+    "skladiste": "SK-01",
+    "izvornaIzdatnica": "izd-2026-00085",
+    "tipPovrata": "VISAK",
+    "vratio": "H. Hidrauličar · servis pumpi",
+    "naknadniPovrat": false,
+    "napomena": "",
+    "status": "OVJERENA",
+    "razlogZatvaranja": "",
+    "custodyLokacija": "RETURN-HOLD",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-12T13:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-12T18:00:00.000Z"
+    },
+    "primio": null,
+    "pregledao": null,
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "pov-2026-00007-s1",
+        "izdatnicaStavkaId": "izd-2026-00085-s1",
+        "artikl": "ART-1001",
+        "lot": "L-2609",
+        "serijskiBrojevi": "",
+        "prijavljeno": 15,
+        "prebrojano": null,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "stanje": null,
+        "odredisnaLokacija": "A-01-02",
+        "cijena": 1.2,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-271",
+        "kad": "2026-10-12T18:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": "ovjera ne stavlja robu na zalihu"
+      },
+      {
+        "id": "h-mv69uio0-270",
+        "kad": "2026-10-12T13:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "pov-2026-00006",
+    "broj": "POV-2026-00006",
+    "datum": "2026-10-13",
+    "skladiste": "SK-01",
+    "izvornaIzdatnica": "izd-2026-00084",
+    "tipPovrata": "NEUTROSENO",
+    "vratio": "E. Električar · ekipa održavanja 1",
+    "naknadniPovrat": false,
+    "napomena": "",
+    "status": "PRIPREMLJENA",
+    "razlogZatvaranja": "",
+    "custodyLokacija": "RETURN-HOLD",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-13T03:00:00.000Z"
+    },
+    "ovjerio": null,
+    "primio": null,
+    "pregledao": null,
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "pov-2026-00006-s1",
+        "izdatnicaStavkaId": "izd-2026-00084-s1",
+        "artikl": "ART-4008",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "prijavljeno": 10,
+        "prebrojano": null,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "stanje": null,
+        "odredisnaLokacija": "C-01-01",
+        "cijena": 3.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-272",
+        "kad": "2026-10-13T03:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "pov-2026-00005",
+    "broj": "POV-2026-00005",
+    "datum": "2026-10-01",
+    "skladiste": "SK-02",
+    "izvornaIzdatnica": "izd-2026-00080",
+    "tipPovrata": "NEUTROSENO",
+    "vratio": "E. Električar · ekipa održavanja 1",
+    "naknadniPovrat": false,
+    "napomena": "",
+    "status": "KNJIZEN",
+    "razlogZatvaranja": "",
+    "custodyLokacija": "RETURN-HOLD",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-01T04:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-01T09:00:00.000Z"
+    },
+    "primio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-01T14:00:00.000Z"
+    },
+    "pregledao": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-10-01T19:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-02T00:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pov-2026-00005-s1",
+        "izdatnicaStavkaId": "izd-2026-00080-s1",
+        "artikl": "ART-4102",
+        "lot": "L-3120",
+        "serijskiBrojevi": "",
+        "prijavljeno": 12,
+        "prebrojano": 12,
+        "prihvaceno": 10,
+        "vracenoNazad": 0,
+        "otpisano": 2,
+        "stanje": "OSTECENO_UPOTREBLJIVO",
+        "odredisnaLokacija": "",
+        "cijena": 4.3,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-277",
+        "kad": "2026-10-02T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "prihvaćeno na zalihu po cijeni izvorne izdatnice · 2026-10-01"
+      },
+      {
+        "id": "h-mv69uio0-276",
+        "kad": "2026-10-01T19:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Pregledano i prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-275",
+        "kad": "2026-10-01T14:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Fizički primljeno u custody",
+        "napomena": "RETURN-HOLD"
+      },
+      {
+        "id": "h-mv69uio0-274",
+        "kad": "2026-10-01T09:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": "ovjera ne stavlja robu na zalihu"
+      },
+      {
+        "id": "h-mv69uio0-273",
+        "kad": "2026-10-01T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "pov-2026-00004",
+    "broj": "POV-2026-00004",
+    "datum": "2026-09-23",
+    "skladiste": "SK-01",
+    "izvornaIzdatnica": "izd-2026-00079",
+    "tipPovrata": "NEUTROSENO",
+    "vratio": "M. Majstor · ekipa održavanja 2",
+    "naknadniPovrat": false,
+    "napomena": "",
+    "status": "OTKAZANA",
+    "razlogZatvaranja": "šljem nije vraćen — ostaje na zaduženju",
+    "custodyLokacija": "RETURN-HOLD",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-23T16:00:00.000Z"
+    },
+    "ovjerio": null,
+    "primio": null,
+    "pregledao": null,
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "pov-2026-00004-s1",
+        "izdatnicaStavkaId": "izd-2026-00079-s1",
+        "artikl": "ART-8230",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "prijavljeno": 1,
+        "prebrojano": null,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "stanje": null,
+        "odredisnaLokacija": "C-01-01",
+        "cijena": 14,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-279",
+        "kad": "2026-09-23T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Otkazano",
+        "napomena": "šljem nije vraćen — ostaje na zaduženju"
+      },
+      {
+        "id": "h-mv69uio0-278",
+        "kad": "2026-09-23T16:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "pov-2026-00003",
+    "broj": "POV-2026-00003",
+    "datum": "2026-10-07",
+    "skladiste": "SK-01",
+    "izvornaIzdatnica": "izd-2026-00081",
+    "tipPovrata": "NEUTROSENO",
+    "vratio": "M. Majstor · ekipa održavanja 2",
+    "naknadniPovrat": true,
+    "napomena": "",
+    "status": "PREGLEDANA",
+    "razlogZatvaranja": "",
+    "custodyLokacija": "RETURN-HOLD",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-10T03:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-10T08:00:00.000Z"
+    },
+    "primio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-10T13:00:00.000Z"
+    },
+    "pregledao": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-10-10T18:00:00.000Z"
+    },
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "pov-2026-00003-s1",
+        "izdatnicaStavkaId": "izd-2026-00081-s2",
+        "artikl": "ART-3310",
+        "lot": "",
+        "serijskiBrojevi": "S-25",
+        "prijavljeno": 1,
+        "prebrojano": 1,
+        "prihvaceno": 1,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "stanje": "OSTECENO_UPOTREBLJIVO",
+        "odredisnaLokacija": "B-02-04",
+        "cijena": 46,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-283",
+        "kad": "2026-10-10T18:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Pregledano i prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-282",
+        "kad": "2026-10-10T13:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Fizički primljeno u custody",
+        "napomena": "RETURN-HOLD"
+      },
+      {
+        "id": "h-mv69uio0-281",
+        "kad": "2026-10-10T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": "ovjera ne stavlja robu na zalihu"
+      },
+      {
+        "id": "h-mv69uio0-280",
+        "kad": "2026-10-10T03:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  }
+]

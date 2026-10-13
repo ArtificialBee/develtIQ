@@ -1,0 +1,399 @@
+[
+  {
+    "id": "inv-2026-00004",
+    "broj": "INV-2026-00004",
+    "datum": "2026-10-12",
+    "skladiste": "SK-02",
+    "vrsta": "VANREDNI",
+    "obuhvat": {
+      "tip": "GRUPA",
+      "grupa": "GA-003"
+    },
+    "komisija": [
+      "G. Glavni",
+      "E. Električar"
+    ],
+    "razlog": "sumnja na manjak goriva",
+    "napomena": "",
+    "slijepo": true,
+    "status": "U_TOKU",
+    "razlogZatvaranja": "",
+    "otvorio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-12T10:00:00.000Z"
+    },
+    "zatvorioBrojanje": null,
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "inv-2026-00004-s1",
+        "artikl": "ART-4102",
+        "lokacija": "",
+        "lot": "L-3120",
+        "knjigovodstveno": 410,
+        "prebrojano": 405,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      },
+      {
+        "id": "inv-2026-00004-s2",
+        "artikl": "ART-9004",
+        "lokacija": "",
+        "lot": "L-D07",
+        "knjigovodstveno": 1800,
+        "prebrojano": null,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-349",
+        "kad": "2026-10-12T14:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Uneseno brojanje",
+        "napomena": "1 od 2 pozicija"
+      },
+      {
+        "id": "h-mv69uio0-348",
+        "kad": "2026-10-12T10:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Pokrenuto brojanje",
+        "napomena": "2 pozicija zamrznuto"
+      },
+      {
+        "id": "h-mv69uio0-347",
+        "kad": "2026-10-12T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran plan popisa",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "inv-2026-00003",
+    "broj": "INV-2026-00003",
+    "datum": "2026-10-11",
+    "skladiste": "SK-04",
+    "vrsta": "REDOVNI",
+    "obuhvat": {
+      "tip": "CIJELO"
+    },
+    "komisija": [
+      "H. Hidrauličar",
+      "S. Skladištar"
+    ],
+    "razlog": "",
+    "napomena": "",
+    "slijepo": false,
+    "status": "U_TOKU",
+    "razlogZatvaranja": "",
+    "otvorio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-11T14:00:00.000Z"
+    },
+    "zatvorioBrojanje": null,
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "inv-2026-00003-s1",
+        "artikl": "ART-3402",
+        "lokacija": "D-01-01",
+        "lot": "L-7702",
+        "knjigovodstveno": 8,
+        "prebrojano": 8,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      },
+      {
+        "id": "inv-2026-00003-s2",
+        "artikl": "ART-3402",
+        "lokacija": "D-01-01",
+        "lot": "L-7690",
+        "knjigovodstveno": 4,
+        "prebrojano": 4,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      },
+      {
+        "id": "inv-2026-00003-s3",
+        "artikl": "ART-7420",
+        "lokacija": "D-01-02",
+        "lot": "",
+        "knjigovodstveno": 20,
+        "prebrojano": 19,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      },
+      {
+        "id": "inv-2026-00003-s4",
+        "artikl": "ART-6030",
+        "lokacija": "D-02-01",
+        "lot": "",
+        "knjigovodstveno": 6,
+        "prebrojano": 6,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      },
+      {
+        "id": "inv-2026-00003-s5",
+        "artikl": "ART-3310",
+        "lokacija": "D-01-01",
+        "lot": "S-31 · S-32",
+        "knjigovodstveno": 2,
+        "prebrojano": null,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-352",
+        "kad": "2026-10-11T18:00:00.000Z",
+        "ko": "H. Hidrauličar",
+        "radnja": "Uneseno brojanje",
+        "napomena": "4 od 5 pozicija"
+      },
+      {
+        "id": "h-mv69uio0-351",
+        "kad": "2026-10-11T14:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Pokrenuto brojanje",
+        "napomena": "5 pozicija zamrznuto"
+      },
+      {
+        "id": "h-mv69uio0-350",
+        "kad": "2026-10-11T08:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran plan popisa",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "inv-2026-00002",
+    "broj": "INV-2026-00002",
+    "datum": "2026-09-21",
+    "skladiste": "SK-01",
+    "vrsta": "REDOVNI",
+    "obuhvat": {
+      "tip": "LOKACIJE",
+      "lokacije": [
+        "B-05-01",
+        "B-02-01"
+      ]
+    },
+    "komisija": [
+      "G. Glavni",
+      "S. Skladištar",
+      "K. Knjigovođa"
+    ],
+    "razlog": "",
+    "napomena": "",
+    "slijepo": true,
+    "status": "PROKNJIZEN",
+    "razlogZatvaranja": "",
+    "otvorio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-21T14:00:00.000Z"
+    },
+    "zatvorioBrojanje": {
+      "ko": "G. Glavni",
+      "uloga": "predsjednik komisije",
+      "kad": "2026-09-21T20:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-22T02:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "inv-2026-00002-s1",
+        "artikl": "ART-6640",
+        "lokacija": "B-05-01",
+        "lot": "",
+        "knjigovodstveno": 90,
+        "prebrojano": 88,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": "usk-2026-00003"
+      },
+      {
+        "id": "inv-2026-00002-s2",
+        "artikl": "ART-3402",
+        "lokacija": "B-02-01",
+        "lot": "L-7690",
+        "knjigovodstveno": 12,
+        "prebrojano": 12,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      },
+      {
+        "id": "inv-2026-00002-s3",
+        "artikl": "ART-7420",
+        "lokacija": "B-02-01",
+        "lot": "",
+        "knjigovodstveno": 36,
+        "prebrojano": 36,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      },
+      {
+        "id": "inv-2026-00002-s4",
+        "artikl": "ART-6220",
+        "lokacija": "B-02-01",
+        "lot": "S-4401…S-4405",
+        "knjigovodstveno": 5,
+        "prebrojano": 5,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-356",
+        "kad": "2026-09-22T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjižene razlike",
+        "napomena": "1 korekcija · USK-2026-00003"
+      },
+      {
+        "id": "h-mv69uio0-355",
+        "kad": "2026-09-21T20:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Brojanje zatvoreno",
+        "napomena": "1 manjak · -22,80 KM"
+      },
+      {
+        "id": "h-mv69uio0-354",
+        "kad": "2026-09-21T14:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Pokrenuto brojanje",
+        "napomena": "4 pozicija zamrznuto"
+      },
+      {
+        "id": "h-mv69uio0-353",
+        "kad": "2026-09-21T08:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran plan popisa",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "inv-2026-00001",
+    "broj": "INV-2026-00001",
+    "datum": "2026-09-03",
+    "skladiste": "SK-01",
+    "vrsta": "VANREDNI",
+    "obuhvat": {
+      "tip": "LOKACIJE",
+      "lokacije": [
+        "C-02-04"
+      ]
+    },
+    "komisija": [
+      "G. Glavni",
+      "R. Referent"
+    ],
+    "razlog": "greška unosa brojanja elektroda",
+    "napomena": "",
+    "slijepo": true,
+    "status": "PROKNJIZEN",
+    "razlogZatvaranja": "",
+    "otvorio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-03T14:00:00.000Z"
+    },
+    "zatvorioBrojanje": {
+      "ko": "G. Glavni",
+      "uloga": "predsjednik komisije",
+      "kad": "2026-09-03T20:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-04T02:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "inv-2026-00001-s1",
+        "artikl": "ART-8115",
+        "lokacija": "C-02-04",
+        "lot": "L-9001",
+        "knjigovodstveno": 55,
+        "prebrojano": 60,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": "usk-2026-00002"
+      },
+      {
+        "id": "inv-2026-00001-s2",
+        "artikl": "ART-5121",
+        "lokacija": "C-02-04",
+        "lot": "L-9012",
+        "knjigovodstveno": 96,
+        "prebrojano": 96,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      },
+      {
+        "id": "inv-2026-00001-s3",
+        "artikl": "ART-9520",
+        "lokacija": "C-02-04",
+        "lot": "",
+        "knjigovodstveno": 12,
+        "prebrojano": 12,
+        "nalaz": false,
+        "napomena": "",
+        "korekcijaId": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-360",
+        "kad": "2026-09-04T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjižene razlike",
+        "napomena": "1 korekcija · USK-2026-00002"
+      },
+      {
+        "id": "h-mv69uio0-359",
+        "kad": "2026-09-03T20:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Brojanje zatvoreno",
+        "napomena": "1 višak · 32,00 KM"
+      },
+      {
+        "id": "h-mv69uio0-358",
+        "kad": "2026-09-03T14:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Pokrenuto brojanje",
+        "napomena": "3 pozicija zamrznuto"
+      },
+      {
+        "id": "h-mv69uio0-357",
+        "kad": "2026-09-03T08:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran plan popisa",
+        "napomena": ""
+      }
+    ]
+  }
+]

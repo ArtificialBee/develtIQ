@@ -1,0 +1,63 @@
+[
+  {
+    "id": "REFERENT_SKLADISTA",
+    "sifra": "REFERENT_SKLADISTA",
+    "naziv": "Referent skladišta",
+    "domen": "Skladište",
+    "aktivna": true,
+    "opis": "Priprema dokumente i zahtjeve; nikad ih ne ovjerava.",
+    "tacke": [
+      1
+    ]
+  },
+  {
+    "id": "GLAVNI_SKLADISTAR",
+    "sifra": "GLAVNI_SKLADISTAR",
+    "naziv": "Glavni skladištar",
+    "domen": "Skladište",
+    "aktivna": true,
+    "opis": "Ovjerava i knjiži; postavlja granice zaliha.",
+    "tacke": [
+      2,
+      4
+    ]
+  },
+  {
+    "id": "SKLADISTAR",
+    "sifra": "SKLADISTAR",
+    "naziv": "Skladištar",
+    "domen": "Skladište",
+    "aktivna": true,
+    "opis": "Fizički prima, predaje i premješta robu.",
+    "tacke": [
+      3
+    ]
+  },
+  {
+    "id": "TEHNICKI_PRIMALAC",
+    "sifra": "TEHNICKI_PRIMALAC",
+    "naziv": "Tehnički primalac",
+    "domen": "Kvalitet",
+    "aktivna": true,
+    "opis": "Kvalitativna kontrola prijema i pregled povrata.",
+    "tacke": []
+  },
+  {
+    "id": "KNJIGOVODJA",
+    "sifra": "KNJIGOVODJA",
+    "naziv": "Računovodstvo",
+    "domen": "Finansije",
+    "aktivna": true,
+    "opis": "Priznaje cijene po fakturi; vodi vrednovanje.",
+    "tacke": []
+  },
+  {
+    "id": "VOZAC_TRANSPORT",
+    "sifra": "VOZAC_TRANSPORT",
+    "naziv": "Vozač / transport",
+    "domen": "Logistika",
+    "aktivna": false,
+    "opis": "Nije u obuhvatu MVP-a.",
+    "tacke": []
+  }
+]

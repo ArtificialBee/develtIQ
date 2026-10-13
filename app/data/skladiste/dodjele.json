@@ -1,0 +1,171 @@
+[
+  {
+    "id": "d1",
+    "osoba": "R. Referent",
+    "uloga": "REFERENT_SKLADISTA",
+    "skladiste": "SK-01",
+    "vaziOd": "2026-01-01",
+    "vaziDo": "",
+    "verzija": 1,
+    "historija": [
+      {
+        "id": "h-mv69uio0-402",
+        "kad": "2026-01-26T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Referent skladišta · SK-01 · od 2026-01-01"
+      }
+    ]
+  },
+  {
+    "id": "d2",
+    "osoba": "G. Glavni",
+    "uloga": "GLAVNI_SKLADISTAR",
+    "skladiste": "SK-01",
+    "vaziOd": "2026-01-01",
+    "vaziDo": "",
+    "verzija": 2,
+    "historija": [
+      {
+        "id": "h-mv69uio0-404",
+        "kad": "2026-02-03T14:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Produžena",
+        "napomena": "v2 · otvoreno"
+      },
+      {
+        "id": "h-mv69uio0-403",
+        "kad": "2026-01-26T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Glavni skladištar · SK-01 · od 2026-01-01 do 2026-06-30"
+      }
+    ]
+  },
+  {
+    "id": "d3",
+    "osoba": "S. Skladištar",
+    "uloga": "SKLADISTAR",
+    "skladiste": "SK-01",
+    "vaziOd": "2026-03-15",
+    "vaziDo": "",
+    "verzija": 1,
+    "historija": [
+      {
+        "id": "h-mv69uio0-405",
+        "kad": "2026-04-06T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Skladištar · SK-01 · od 2026-03-15"
+      }
+    ]
+  },
+  {
+    "id": "d4",
+    "osoba": "T. Tehnički",
+    "uloga": "TEHNICKI_PRIMALAC",
+    "skladiste": "SK-01",
+    "vaziOd": "2026-02-01",
+    "vaziDo": "2026-12-31",
+    "verzija": 1,
+    "historija": [
+      {
+        "id": "h-mv69uio0-406",
+        "kad": "2026-02-25T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Tehnički primalac · SK-01 · od 2026-02-01"
+      }
+    ]
+  },
+  {
+    "id": "d5",
+    "osoba": "K. Knjigovođa",
+    "uloga": "KNJIGOVODJA",
+    "skladiste": "",
+    "vaziOd": "2025-09-01",
+    "vaziDo": "",
+    "verzija": 1,
+    "historija": [
+      {
+        "id": "h-mv69uio0-407",
+        "kad": "2025-09-28T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Računovodstvo · sva skladišta · od 2025-09-01"
+      }
+    ]
+  },
+  {
+    "id": "d6",
+    "osoba": "E. Električar",
+    "uloga": "SKLADISTAR",
+    "skladiste": "SK-02",
+    "vaziOd": "2026-05-01",
+    "vaziDo": "",
+    "verzija": 1,
+    "historija": [
+      {
+        "id": "h-mv69uio0-408",
+        "kad": "2026-05-26T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Skladištar · SK-02 · od 2026-05-01"
+      }
+    ]
+  },
+  {
+    "id": "d7",
+    "osoba": "S. Skladištar",
+    "uloga": "TEHNICKI_PRIMALAC",
+    "skladiste": "SK-02",
+    "vaziOd": "2026-09-23",
+    "vaziDo": "2026-11-22",
+    "verzija": 1,
+    "historija": [
+      {
+        "id": "h-mv69uio0-409",
+        "kad": "2026-09-21T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Tehnički primalac · SK-02 · od 2026-09-23"
+      }
+    ]
+  },
+  {
+    "id": "d8",
+    "osoba": "M. Majstor",
+    "uloga": "REFERENT_SKLADISTA",
+    "skladiste": "SK-02",
+    "vaziOd": "2026-10-27",
+    "vaziDo": "",
+    "verzija": 1,
+    "historija": [
+      {
+        "id": "h-mv69uio0-410",
+        "kad": "2026-10-10T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Referent skladišta · SK-02 · od 2026-10-27"
+      }
+    ]
+  },
+  {
+    "id": "d9",
+    "osoba": "H. Hidrauličar",
+    "uloga": "TEHNICKI_PRIMALAC",
+    "skladiste": "SK-01",
+    "vaziOd": "2025-02-01",
+    "vaziDo": "2026-01-31",
+    "verzija": 1,
+    "historija": [
+      {
+        "id": "h-mv69uio0-411",
+        "kad": "2025-03-02T15:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Dodijeljena",
+        "napomena": "Tehnički primalac · SK-01 · od 2025-02-01"
+      }
+    ]
+  }
+]

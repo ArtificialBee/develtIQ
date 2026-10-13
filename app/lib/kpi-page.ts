@@ -64,17 +64,12 @@ export const KPI_STATS: Stat[] = [
     icon: LuGauge,
     tone: zoneTone,
     direction: trendSinceJan >= 0 ? "up" : "down",
-    trend: index,
+    trend: { labels: MONTHS, values: index, target },
     badge: { label: now >= target ? "U planu" : "Ispod plana", tone: zoneTone },
     breakdown: [
       { label: `Najbolji · ${monthOf(bestMonth)}`, value: bestMonth },
       { label: `Najslabiji · ${monthOf(worstMonth)}`, value: worstMonth },
     ],
-    highlight: worstBlocker && {
-      label: "Glavna kočnica",
-      title: worstBlocker.label,
-      meta: [kpiName(worst), worstBlocker.owner].filter(Boolean).join(" · "),
-    },
     fact: { label: `Cilj ${target} · od januara`, value: `${trendSinceJan >= 0 ? "+" : "−"}${Math.abs(trendSinceJan)}%` },
   },
   {

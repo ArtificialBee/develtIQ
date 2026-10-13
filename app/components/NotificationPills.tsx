@@ -7,7 +7,7 @@ export interface NotificationPill {
   id: string;
   /** The app the notification comes from, such as "Moj planer". */
   app: string;
-  /** Where a click goes: the app. */
+  /** Where a click goes: the item's own page, or the app for a plain notification. */
   url: string;
   /** The notification's title only, without its message. */
   title: string;
@@ -25,11 +25,12 @@ const MAX_SHOWN = 4;
 const BAR_WIDTH = SLOTS * BUTTON + (SLOTS - 1) * GAP + 2 * PAD;
 
 /**
- * The newest notifications as icon buttons in a row six buttons wide, at most four
- * of them, with nothing behind them. Point at a button and a box as wide as the row
- * grows down under it with the app the notification came from and its title. The box
- * keeps its place whichever button is pointed at and lies over the page, so nothing
- * moves; the button it is showing gets a white background.
+ * The newest notifications as icon buttons, at most four, at the right end of a
+ * column six buttons wide. Point at a button and a box as wide as the column opens
+ * under the row with the app the notification came from and its title. The box is
+ * part of the column, so the top bar around it grows down with it; the extra width
+ * of the column is on the left, toward the middle of the bar. The button whose
+ * notification shows gets a white background.
  */
 export const NotificationPills = ({ items }: { items: NotificationPill[] }) => {
   const pills = items.slice(0, MAX_SHOWN);
@@ -39,16 +40,16 @@ export const NotificationPills = ({ items }: { items: NotificationPill[] }) => {
   if (pills.length === 0) return null;
 
   return (
-    // Below md the bar would push the greeting out; the bell next to it lists everything there.
+    // Below md the column would push the greeting out; the bell next to the bar lists everything there.
     <div
-      className="relative hidden h-12 shrink-0 md:block"
+      className="hidden shrink-0 md:block"
       style={{ width: BAR_WIDTH }}
       onPointerLeave={() => setIndex(null)}
       onBlur={(event) => {
         if (!event.currentTarget.contains(event.relatedTarget as Node | null)) setIndex(null);
       }}
     >
-      <ul aria-label="Najnovija obavještenja" className="flex h-12 items-center" style={{ gap: GAP, paddingInline: PAD }}>
+      <ul aria-label="Najnovija obavještenja" className="flex h-12 items-center justify-end" style={{ gap: GAP, paddingInline: PAD }}>
         {pills.map(({ id, app, url, title, icon: Icon, urgent }, i) => (
           <li key={id}>
             <Link
@@ -68,29 +69,26 @@ export const NotificationPills = ({ items }: { items: NotificationPill[] }) => {
           </li>
         ))}
       </ul>
-      {/* The top padding bridges the gap to the row, so the pointer can reach the box without it closing. */}
-      <div className="absolute inset-x-0 top-full pt-1">
-        <AnimatePresence initial={false}>
-          {shown && (
-            <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: reduceMotion ? 0 : 0.2, ease: "easeOut" }}
-              className="overflow-hidden rounded-2xl border border-slate-200 bg-white/95 shadow-xl shadow-slate-950/10 backdrop-blur-xl"
+      <AnimatePresence initial={false}>
+        {shown && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: reduceMotion ? 0 : 0.2, ease: "easeOut" }}
+            className="overflow-hidden"
+          >
+            <Link
+              to={shown.url}
+              tabIndex={-1}
+              className="mt-2 block rounded-xl border border-[#3B9DF8]/25 bg-white px-4 pb-3.5 pt-3 shadow-md shadow-[#3B9DF8]/10 transition-colors hover:border-[#3B9DF8]/50"
             >
-              <Link to={shown.url} tabIndex={-1} className="block px-4 pb-3.5 pt-3">
-                <span className="block text-[0.65rem] font-medium uppercase tracking-[0.14em] text-gray-500">
-                  {shown.app}
-                </span>
-                <span className="mt-0.5 line-clamp-2 text-sm font-semibold leading-snug text-gray-900">
-                  {shown.title}
-                </span>
-              </Link>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </div>
+              <span className="block text-[0.65rem] font-semibold uppercase tracking-[0.14em] text-[#3B9DF8]">{shown.app}</span>
+              <span className="mt-0.5 line-clamp-2 text-sm font-semibold leading-snug text-gray-900">{shown.title}</span>
+            </Link>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 };

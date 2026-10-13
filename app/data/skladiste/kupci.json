@@ -1,0 +1,34 @@
+[
+  {
+    "id": "KUP-001",
+    "sifra": "KUP-001",
+    "naziv": "Vodovod i kanalizacija d.o.o.",
+    "adresa": "Jaroslava Černija 8, Sarajevo",
+    "pdvBroj": "4200151360000",
+    "kontakt": "D. Dizdar"
+  },
+  {
+    "id": "KUP-002",
+    "sifra": "KUP-002",
+    "naziv": "Elektrodistribucija Sarajevo",
+    "adresa": "Zmaja od Bosne 49, Sarajevo",
+    "pdvBroj": "4200225150005",
+    "kontakt": "A. Avdić"
+  },
+  {
+    "id": "KUP-003",
+    "sifra": "KUP-003",
+    "naziv": "Građevinar Kakanj d.o.o.",
+    "adresa": "Rudarska 12, Kakanj",
+    "pdvBroj": "4218035670001",
+    "kontakt": "K. Kovač"
+  },
+  {
+    "id": "KUP-004",
+    "sifra": "KUP-004",
+    "naziv": "Toplana Zenica d.o.o.",
+    "adresa": "Bilmišće 107, Zenica",
+    "pdvBroj": "4218091130002",
+    "kontakt": "Z. Zorić"
+  }
+]

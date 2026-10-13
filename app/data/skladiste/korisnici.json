@@ -1,0 +1,72 @@
+{
+  "osobe": {
+    "referent": {
+      "ime": "R. Referent",
+      "uloga": "referent skladišta"
+    },
+    "glavni": {
+      "ime": "G. Glavni",
+      "uloga": "glavni skladištar"
+    },
+    "skladistar": {
+      "ime": "S. Skladištar",
+      "uloga": "skladištar"
+    },
+    "tehnicki": {
+      "ime": "T. Tehnički",
+      "uloga": "tehnički primalac"
+    },
+    "knjigovodja": {
+      "ime": "K. Knjigovođa",
+      "uloga": "računovodstvo"
+    }
+  },
+  "osobeZaDodjelu": [
+    "E. Električar",
+    "G. Glavni",
+    "H. Hidrauličar",
+    "K. Knjigovođa",
+    "M. Majstor",
+    "R. Referent",
+    "S. Skladištar",
+    "T. Tehnički"
+  ],
+  "primaoci": [
+    "M. Majstor · ekipa održavanja 2",
+    "E. Električar · ekipa održavanja 1",
+    "V. Vozač · transport",
+    "H. Hidrauličar · servis pumpi"
+  ],
+  "odgovorne": [
+    {
+      "id": "zap-058",
+      "ime": "Sead",
+      "prezime": "Grbić"
+    },
+    {
+      "id": "zap-059",
+      "ime": "Admir",
+      "prezime": "Ramić"
+    },
+    {
+      "id": "zap-072",
+      "ime": "Osman",
+      "prezime": "Berkić"
+    },
+    {
+      "id": "zap-073",
+      "ime": "Elmir",
+      "prezime": "Šarić"
+    },
+    {
+      "id": "zap-074",
+      "ime": "Vahid",
+      "prezime": "Imamović"
+    },
+    {
+      "id": "zap-080",
+      "ime": "Nermin",
+      "prezime": "Hasić"
+    }
+  ]
+}

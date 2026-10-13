@@ -1,0 +1,873 @@
+{
+  "skladiste/sifrarnici.ts": {
+    "JEDINICE_MJERE": [
+      "kom",
+      "m",
+      "m2",
+      "kg",
+      "l",
+      "par",
+      "vreća",
+      "set",
+      "pak"
+    ],
+    "KARANTIN_LOKACIJA": "QUARANTINE",
+    "KUPCI": [
+      {
+        "id": "KUP-001",
+        "sifra": "KUP-001",
+        "naziv": "Vodovod i kanalizacija d.o.o.",
+        "adresa": "Jaroslava Černija 8, Sarajevo",
+        "pdvBroj": "4200151360000",
+        "kontakt": "D. Dizdar"
+      },
+      {
+        "id": "KUP-002",
+        "sifra": "KUP-002",
+        "naziv": "Elektrodistribucija Sarajevo",
+        "adresa": "Zmaja od Bosne 49, Sarajevo",
+        "pdvBroj": "4200225150005",
+        "kontakt": "A. Avdić"
+      },
+      {
+        "id": "KUP-003",
+        "sifra": "KUP-003",
+        "naziv": "Građevinar Kakanj d.o.o.",
+        "adresa": "Rudarska 12, Kakanj",
+        "pdvBroj": "4218035670001",
+        "kontakt": "K. Kovač"
+      },
+      {
+        "id": "KUP-004",
+        "sifra": "KUP-004",
+        "naziv": "Toplana Zenica d.o.o.",
+        "adresa": "Bilmišće 107, Zenica",
+        "pdvBroj": "4218091130002",
+        "kontakt": "Z. Zorić"
+      }
+    ],
+    "LOKACIJA_VRSTA_LABELS": {
+      "POLICA": "Polica",
+      "POD": "Podna pozicija",
+      "KARANTIN": "Karantin · bez stanja",
+      "CUSTODY": "Custody · bez stanja"
+    },
+    "OSOBE": {
+      "referent": {
+        "ime": "R. Referent",
+        "uloga": "referent skladišta"
+      },
+      "glavni": {
+        "ime": "G. Glavni",
+        "uloga": "glavni skladištar"
+      },
+      "skladistar": {
+        "ime": "S. Skladištar",
+        "uloga": "skladištar"
+      },
+      "tehnicki": {
+        "ime": "T. Tehnički",
+        "uloga": "tehnički primalac"
+      },
+      "knjigovodja": {
+        "ime": "K. Knjigovođa",
+        "uloga": "računovodstvo"
+      }
+    },
+    "PRACENJA": [
+      "BEZ",
+      "LOT",
+      "LOT_ROK",
+      "SERIJSKI"
+    ],
+    "PRACENJE_LABELS": {
+      "BEZ": "bez praćenja",
+      "LOT": "lot",
+      "LOT_ROK": "lot i rok trajanja",
+      "SERIJSKI": "serijski broj"
+    },
+    "PRIMAOCI": [
+      "M. Majstor · ekipa održavanja 2",
+      "E. Električar · ekipa održavanja 1",
+      "V. Vozač · transport",
+      "H. Hidrauličar · servis pumpi"
+    ],
+    "PROFILI": [
+      "Materijal 1010",
+      "Rezervni dijelovi 1020",
+      "Goriva i maziva 1014",
+      "Sitni inventar 10401",
+      "Alati 10402",
+      "Mjerila 10403"
+    ],
+    "RETURN_HOLD_LOKACIJA": "RETURN-HOLD",
+    "SKLADISTE_VRSTA_LABELS": {
+      "GLAVNO": "Glavno",
+      "PODSKLADISTE": "Podskladište"
+    },
+    "TRANZIT_LOKACIJA": "TRANZIT",
+    "VRSTA_ULAZA_LABELS": {
+      "KUPOVINA": "Kupovina",
+      "POCETNO_STANJE": "Početno stanje",
+      "POVRAT_KUPCA": "Povrat od kupca",
+      "DRUGI_OSNOV": "Drugi odobreni osnov"
+    },
+    "VRSTE_ULAZA": [
+      "KUPOVINA",
+      "POCETNO_STANJE",
+      "POVRAT_KUPCA",
+      "DRUGI_OSNOV"
+    ]
+  },
+  "skladiste/granice.ts": {
+    "POLOZAJ_LABELS": {
+      "ISPOD_MINIMUMA": "ispod minimuma",
+      "ISPOD_SIGNALNE": "ispod signalne",
+      "NA_SIGNALNOJ": "na signalnoj",
+      "OK": "u granicama",
+      "IZNAD_MAKSIMUMA": "iznad maksimuma"
+    }
+  },
+  "skladiste/prijemnice.ts": {
+    "PRIJEMNICA_STATUS_LABELS": {
+      "NACRT": "Nacrt",
+      "FIZICKI_PRIMLJENO": "Fizički primljeno · čeka količinsku kontrolu",
+      "CEKA_KVALITATIVNU": "Čeka kvalitativnu kontrolu",
+      "U_KARANTINU": "U karantinu",
+      "CEKA_EVIDENCIJU": "Prihvaćeno · čeka evidentiranje",
+      "DJELIMICNO_PROKNJIZENO": "Djelimično proknjiženo",
+      "PROKNJIZENO": "Proknjiženo",
+      "ODBIJENO": "Odbijeno",
+      "OTKAZANO": "Otkazano"
+    },
+    "PRIJEMNICA_STATUS_TONES": {
+      "NACRT": "neutral",
+      "FIZICKI_PRIMLJENO": "warning",
+      "CEKA_KVALITATIVNU": "warning",
+      "U_KARANTINU": "warning",
+      "CEKA_EVIDENCIJU": "info",
+      "DJELIMICNO_PROKNJIZENO": "info",
+      "PROKNJIZENO": "success",
+      "ODBIJENO": "danger",
+      "OTKAZANO": "neutral"
+    },
+    "STATUS_GRUPA_LABELS": {
+      "NACRT": "Nacrt",
+      "U_TOKU": "U toku",
+      "PROKNJIZENO": "Proknjiženo",
+      "OTKAZANO": "Otkazano"
+    }
+  },
+  "skladiste/izdatnice.ts": {
+    "DISPOZICIJA_LABELS": {
+      "UTROSAK": "Utrošak",
+      "REVERS": "Povratna oprema (revers)"
+    },
+    "IZDATNICA_STATUS_LABELS": {
+      "PRIPREMLJENA": "Nacrt · čeka ovjeru",
+      "OVJERENA": "Ovjerena · čeka knjiženje",
+      "KNJIZEN_CEKA_PREDAJU": "Proknjiženo · čeka predaju",
+      "DJELIMICNO_PREDATA": "Djelimično predano",
+      "PREDATA": "Predano",
+      "OTKAZANA": "Otkazano"
+    },
+    "IZDATNICA_STATUS_TONES": {
+      "PRIPREMLJENA": "neutral",
+      "OVJERENA": "warning",
+      "KNJIZEN_CEKA_PREDAJU": "info",
+      "DJELIMICNO_PREDATA": "info",
+      "PREDATA": "success",
+      "OTKAZANA": "neutral"
+    },
+    "IZVOR_LABELS": {
+      "RADNI_NALOG": "Radni nalog",
+      "ODOBRENI_ZAHTJEV": "Odobreni zahtjev",
+      "DISTRIBUCIJA_OJ": "Distribucija org. jedinici"
+    }
+  },
+  "skladiste/povratnice.ts": {
+    "POVRATNICA_STATUS_LABELS": {
+      "PRIPREMLJENA": "Nacrt · čeka ovjeru",
+      "OVJERENA": "Ovjerena · čeka fizički prijem",
+      "FIZICKI_PRIMLJENA": "Fizički primljeno · čeka pregled",
+      "PREGLEDANA": "Pregledano · čeka knjiženje",
+      "KNJIZEN": "Proknjiženo",
+      "OTKAZANA": "Otkazano"
+    },
+    "POVRATNICA_STATUS_TONES": {
+      "PRIPREMLJENA": "neutral",
+      "OVJERENA": "warning",
+      "FIZICKI_PRIMLJENA": "warning",
+      "PREGLEDANA": "info",
+      "KNJIZEN": "success",
+      "OTKAZANA": "neutral"
+    },
+    "STANJE_LABELS": {
+      "DOBRO": "Dobro",
+      "OSTECENO_UPOTREBLJIVO": "Oštećeno · upotrebljivo",
+      "NEUPOTREBLJIVO": "Neupotrebljivo"
+    },
+    "TIP_POVRATA_LABELS": {
+      "NEUTROSENO": "Neutrošeno",
+      "VISAK": "Višak",
+      "OPREMA_REVERS": "Povratna oprema"
+    }
+  },
+  "skladiste/zahtjevi.ts": {
+    "IZVOR_POTREBE_VRSTE": [
+      {
+        "sifra": "RADNI_NALOG",
+        "naziv": "Radni nalog",
+        "trazi": true,
+        "placeholder": "RN-2026-0020"
+      },
+      {
+        "sifra": "ISPOD_SIGNALNE",
+        "naziv": "Ispod signalne granice",
+        "trazi": false
+      },
+      {
+        "sifra": "KVAR",
+        "naziv": "Kvar ili dotrajala oprema",
+        "trazi": true,
+        "placeholder": "npr. pumpa curi na spoju 2"
+      },
+      {
+        "sifra": "PLAN",
+        "naziv": "Planirana potreba / projekat",
+        "trazi": true,
+        "placeholder": "npr. remont sezona 2026"
+      },
+      {
+        "sifra": "OSTALO",
+        "naziv": "Ostalo",
+        "trazi": true,
+        "placeholder": "kratak opis"
+      }
+    ],
+    "NAZIV_ZAHTJEVA": {
+      "SA_ZALIHE": "Trebovanje",
+      "ZA_NABAVKU": "Zahtjev za nabavku"
+    },
+    "NOSILAC_TROSKA_TIPOVI": [
+      {
+        "sifra": "ODJEL",
+        "naziv": "Odjel / mjesto troška"
+      },
+      {
+        "sifra": "OBJEKAT",
+        "naziv": "Objekat"
+      },
+      {
+        "sifra": "PROJEKAT",
+        "naziv": "Projekat"
+      }
+    ],
+    "ODLUKA_LABELS": {
+      "CEKA": "Čeka odluku",
+      "ODOBRENO": "Odobreno",
+      "ODBIJENO": "Odbijeno",
+      "OTKAZANO": "Otkazano"
+    },
+    "PRIORITET_LABELS": {
+      "NIZAK": "Nizak",
+      "NORMALAN": "Normalan",
+      "VISOK": "Visok"
+    },
+    "REGISTAR_ZAHTJEVA": {
+      "SA_ZALIHE": {
+        "naziv": "Trebovanja",
+        "putanja": "/skladiste/izdavanje/trebovanja"
+      },
+      "ZA_NABAVKU": {
+        "naziv": "Zahtjevi za nabavku",
+        "putanja": "/skladiste/nabavka/zahtjevi"
+      }
+    },
+    "VRSTA_POTREBE_LABELS": {
+      "SA_ZALIHE": "Sa zalihe",
+      "ZA_NABAVKU": "Za nabavku"
+    },
+    "ZAHTJEV_STATUS_LABELS": {
+      "NACRT": "Nacrt",
+      "POSLANO": "Poslano · čeka ovjeru",
+      "OVJERENO": "Ovjereno · čeka odluku po stavci",
+      "ODOBRENO": "Odobreno",
+      "U_NABAVCI": "U nabavci",
+      "ZAVRSENO": "Završeno"
+    },
+    "ZAHTJEV_STATUS_TONES": {
+      "NACRT": "neutral",
+      "POSLANO": "warning",
+      "OVJERENO": "warning",
+      "ODOBRENO": "info",
+      "U_NABAVCI": "info",
+      "ZAVRSENO": "success"
+    }
+  },
+  "skladiste/otpremnice.ts": {
+    "OTPREMNICA_STATUS_LABELS": {
+      "PRIPREMLJENA": "Nacrt · čeka ovjeru",
+      "OVJERENA": "Ovjerena · čeka otpremu",
+      "OTPREMLJENA": "Otpremljena · roba na putu",
+      "ISPORUCENA": "Isporučena · potpisano",
+      "OTKAZANA": "Otkazana"
+    },
+    "OTPREMNICA_STATUS_TONES": {
+      "PRIPREMLJENA": "info",
+      "OVJERENA": "info",
+      "OTPREMLJENA": "warning",
+      "ISPORUCENA": "success",
+      "OTKAZANA": "neutral"
+    },
+    "VRSTA_OTPREMNICE_LABELS": {
+      "PRODAJA": "Prodaja kupcu",
+      "POVRAT_DOBAVLJACU": "Povrat dobavljaču"
+    },
+    "VRSTE_OTPREMNICE": [
+      "PRODAJA",
+      "POVRAT_DOBAVLJACU"
+    ]
+  },
+  "skladiste/prenosnice.ts": {
+    "PRENOSNICA_STATUS_LABELS": {
+      "PRIPREMLJENA": "Nacrt · čeka ovjeru",
+      "OVJERENA": "Ovjerena · čeka otpremu",
+      "U_TRANZITU": "U tranzitu · čeka prijem",
+      "PRENESENA": "Prenesena",
+      "OTKAZANA": "Otkazana"
+    },
+    "PRENOSNICA_STATUS_TONES": {
+      "PRIPREMLJENA": "info",
+      "OVJERENA": "info",
+      "U_TRANZITU": "warning",
+      "PRENESENA": "success",
+      "OTKAZANA": "neutral"
+    }
+  },
+  "skladiste/popisi.ts": {
+    "POPIS_STATUS_LABELS": {
+      "PLANIRAN": "Planiran",
+      "U_TOKU": "Brojanje u toku",
+      "BROJANJE_ZATVORENO": "Brojanje zatvoreno · razlike",
+      "PROKNJIZEN": "Proknjižen",
+      "OTKAZAN": "Otkazan"
+    },
+    "POPIS_STATUS_TONES": {
+      "PLANIRAN": "info",
+      "U_TOKU": "warning",
+      "BROJANJE_ZATVORENO": "warning",
+      "PROKNJIZEN": "success",
+      "OTKAZAN": "neutral"
+    },
+    "VRSTA_POPISA_LABELS": {
+      "REDOVNI": "Redovni",
+      "VANREDNI": "Vanredni"
+    },
+    "VRSTE_POPISA": [
+      "REDOVNI",
+      "VANREDNI"
+    ]
+  },
+  "skladiste/korekcije.ts": {
+    "UZROCI": [
+      "OSTECENJE",
+      "MANJAK",
+      "PRONADJENO",
+      "ISTEK_ROKA",
+      "GRESKA_POPISA",
+      "OSTALO"
+    ],
+    "UZROK_LABELS": {
+      "OSTECENJE": "oštećenje",
+      "MANJAK": "manjak",
+      "PRONADJENO": "pronađeno",
+      "ISTEK_ROKA": "istek roka",
+      "GRESKA_POPISA": "popisna razlika",
+      "OSTALO": "ostalo"
+    }
+  },
+  "skladiste/otpisi.ts": {
+    "MIN_KOMISIJA": 2,
+    "OTPIS_STATUS_LABELS": {
+      "PRIPREMLJEN": "Pripremljen · čeka odobrenje komisije",
+      "ODOBREN": "Odobren · čeka knjiženje",
+      "PROKNJIZEN": "Proknjižen · vrijednost izašla sa zalihe",
+      "OTKAZAN": "Otkazan"
+    },
+    "OTPIS_STATUS_TONES": {
+      "PRIPREMLJEN": "info",
+      "ODOBREN": "warning",
+      "PROKNJIZEN": "success",
+      "OTKAZAN": "neutral"
+    },
+    "RAZLOG_OTPISA_LABELS": {
+      "ISTEK_ROKA": "istek roka",
+      "OSTECENJE": "oštećenje",
+      "NEUPOTREBLJIVO": "neupotrebljivo",
+      "ZASTARJELO": "zastarjelo"
+    },
+    "RAZLOZI_OTPISA": [
+      "ISTEK_ROKA",
+      "OSTECENJE",
+      "NEUPOTREBLJIVO",
+      "ZASTARJELO"
+    ]
+  },
+  "skladiste/pocetna-stanja.ts": {
+    "POCETNO_STANJE_DATUM": "2026-02-15",
+    "PST_STATUS_LABELS": {
+      "NACRT": "Nacrt · unos stavki",
+      "ODOBRENO": "Odobreno · čeka knjiženje",
+      "PROKNJIZENO": "Proknjiženo · skladište je otvoreno",
+      "OTKAZANO": "Otkazano"
+    },
+    "PST_STATUS_TONES": {
+      "NACRT": "info",
+      "ODOBRENO": "warning",
+      "PROKNJIZENO": "success",
+      "OTKAZANO": "neutral"
+    }
+  },
+  "skladiste/rezervacije.ts": {
+    "IZVOR_REZERVACIJE_LABELS": {
+      "ODOBRENI_ZAHTJEV": "odobren zahtjev",
+      "RADNI_NALOG": "radni nalog"
+    },
+    "REZERVACIJA_STATUSI": [
+      "CEKA_ZALIHU",
+      "DJELIMICNO",
+      "OTVORENA",
+      "ZATVORENA",
+      "OTPUSTENA"
+    ],
+    "REZERVACIJA_STATUS_LABELS": {
+      "OTVORENA": "Pokrivena",
+      "DJELIMICNO": "Djelimično pokrivena",
+      "CEKA_ZALIHU": "Čeka zalihu",
+      "ZATVORENA": "Zatvorena",
+      "OTPUSTENA": "Otpuštena"
+    },
+    "REZERVACIJA_STATUS_OPISI": {
+      "OTVORENA": "zaliha drži cijelu traženu količinu — čeka izdatnicu",
+      "DJELIMICNO": "zaliha drži dio, ostatak čeka prijem",
+      "CEKA_ZALIHU": "ništa još nije rezervisano — nema raspoložive zalihe",
+      "ZATVORENA": "izdato u cijelosti",
+      "OTPUSTENA": "potreba je otpala — rezervacija više ne drži zalihu"
+    },
+    "REZERVACIJA_STATUS_TONES": {
+      "OTVORENA": "info",
+      "DJELIMICNO": "warning",
+      "CEKA_ZALIHU": "danger",
+      "ZATVORENA": "neutral",
+      "OTPUSTENA": "neutral"
+    }
+  },
+  "skladiste/zalihe.ts": {
+    "POCETNO_STANJE_DATUM": "2026-02-15"
+  },
+  "skladiste/izvjestaji.ts": {
+    "IZVJESTAJI": [
+      {
+        "kljuc": "stanje-prema-granicama",
+        "naslov": "Stanje prema granicama",
+        "opis": "Artikli ispod minimuma i ispod signalne, po skladištu, s danima pokrivenosti",
+        "pojam": "granice",
+        "period": true
+      },
+      {
+        "kljuc": "mrtva-zaliha",
+        "naslov": "Mrtva zaliha",
+        "opis": "Artikli bez ijednog izlaza u periodu, s količinom i vrijednošću",
+        "pojam": "mrtvaZaliha",
+        "period": true
+      },
+      {
+        "kljuc": "fill-rate",
+        "naslov": "Pokrivenost potreba i dani bez zalihe",
+        "opis": "Potrebe pokrivene sa zalihe naspram podignutih potreba; artikli bez zalihe",
+        "pojam": "fillRate",
+        "period": true
+      },
+      {
+        "kljuc": "stopa-povrata",
+        "naslov": "Stopa povrata",
+        "opis": "Povratnice naspram izdatnica u periodu, po vrsti povrata",
+        "pojam": "stopaPovrata",
+        "period": true
+      },
+      {
+        "kljuc": "kontrolni-signali",
+        "naslov": "Kontrolni signali",
+        "opis": "Karantin, custody, tranzit, popis u toku i nepokrivene potrebe — sve što čeka nečiju radnju",
+        "pojam": "kontrolneTacke",
+        "period": false
+      },
+      {
+        "kljuc": "privremene-vrijednosti",
+        "naslov": "Privremene vrijednosti",
+        "opis": "Proknjižene stavke koje još nose privremenu cijenu i čekaju priznavanje po fakturi",
+        "pojam": "privremenaCijena",
+        "period": false
+      },
+      {
+        "kljuc": "pomocna-knjiga",
+        "naslov": "Pomoćna knjiga naspram GK",
+        "opis": "Vrijednost zaliha po skladištu naspram glavne knjige",
+        "pojam": "pomocnaKnjiga",
+        "period": false
+      }
+    ],
+    "PERIODI_DANA": [
+      30,
+      90,
+      180
+    ],
+    "ZADANI_FILTER": {
+      "skladiste": "",
+      "periodDana": 30
+    }
+  },
+  "skladiste/administracija.ts": {
+    "DODJELA_STATUSI": [
+      "AKTIVNA",
+      "BUDUCA",
+      "ISTEKLA"
+    ],
+    "DODJELA_STATUS_LABELS": {
+      "AKTIVNA": "Aktivna",
+      "BUDUCA": "Buduća",
+      "ISTEKLA": "Istekla"
+    },
+    "DODJELA_STATUS_OPISI": {
+      "AKTIVNA": "važi danas — osoba smije raditi ono što uloga dozvoljava",
+      "BUDUCA": "počinje kasnije — do tada osoba nema prava uloge",
+      "ISTEKLA": "završena — prava su prestala, dodjela ostaje u evidenciji"
+    },
+    "DODJELA_STATUS_TONES": {
+      "AKTIVNA": "success",
+      "BUDUCA": "info",
+      "ISTEKLA": "neutral"
+    },
+    "INTEGRACIJA_ID": "finansije",
+    "KONTROLNA_TACKA_LABELS": {
+      "1": "kreiraj",
+      "2": "odobri",
+      "3": "izdaj",
+      "4": "proknjiži"
+    },
+    "KONTROLNE_TACKE_SVE": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "LEG_STATUSI": [
+      "BLOKIRANO",
+      "SPREMNO",
+      "POSLANO"
+    ],
+    "LEG_STATUS_LABELS": {
+      "BLOKIRANO": "blokirano",
+      "SPREMNO": "spremno",
+      "POSLANO": "poslano"
+    },
+    "LEG_STATUS_OPISI": {
+      "BLOKIRANO": "čeka u outboxu — ugovor s finansijama nije aktiviran",
+      "SPREMNO": "ugovor je aktivan — leg čeka predaju glavnoj knjizi",
+      "POSLANO": "predan glavnoj knjizi"
+    },
+    "LEG_STATUS_TONES": {
+      "BLOKIRANO": "warning",
+      "SPREMNO": "info",
+      "POSLANO": "success"
+    },
+    "OPISI_VRSTA_POLITIKA": {
+      "Vrednovanje": "kojom cijenom izlazi zaliha (prosječna nabavna, FIFO…)",
+      "Granice zaliha": "ko postavlja min / signalnu / max i po kojem pravilu",
+      "Ishodi": "šta smije biti ishod pregleda povrata"
+    },
+    "POLITIKA_STATUSI": [
+      "NACRT",
+      "ODOBRENA",
+      "POVUCENA"
+    ],
+    "POLITIKA_STATUS_LABELS": {
+      "NACRT": "nacrt",
+      "ODOBRENA": "odobrena",
+      "POVUCENA": "povučena"
+    },
+    "POLITIKA_STATUS_OPISI": {
+      "NACRT": "napisana, čeka odobrenje druge osobe — još ne važi",
+      "ODOBRENA": "važi od datuma odobrenja — po njoj se knjiži",
+      "POVUCENA": "zamijenjena novom verzijom ili povučena s razlogom — ostaje u evidenciji"
+    },
+    "POLITIKA_STATUS_TONES": {
+      "NACRT": "warning",
+      "ODOBRENA": "success",
+      "POVUCENA": "neutral"
+    },
+    "PORUKA_BLOKIRANO": "Ugovor s finansijama nije aktiviran",
+    "SVA_SKLADISTA_OBUHVAT": "sva skladišta",
+    "VLASNICI_POLITIKA": {
+      "Vrednovanje": "računovodstvo",
+      "Granice zaliha": "glavni skladištar",
+      "Ishodi": "glavni skladištar"
+    },
+    "VRSTE_LEGOVA": [
+      "Ulaz zaliha",
+      "Izlaz zaliha",
+      "Povrat na zalihu",
+      "Izlaz zaliha — otprema",
+      "Korekcija",
+      "Popisne razlike",
+      "Storno ulaza",
+      "Storno izlaza",
+      "Storno povrata",
+      "Otpis",
+      "Početno stanje"
+    ],
+    "VRSTE_POLITIKA": [
+      "Vrednovanje",
+      "Granice zaliha",
+      "Ishodi"
+    ]
+  },
+  "skladiste/naljepnice-ispis.ts": {
+    "VRSTA_KODA_LABELS": {
+      "QR_BARKOD": "QR kod i barkod",
+      "QR": "Samo QR kod",
+      "BARKOD": "Samo barkod"
+    },
+    "VRSTA_KODA_OPIS": {
+      "QR_BARKOD": "Čita je svaki skener i kamera telefona. Preporučeno.",
+      "QR": "Za 2D skener i kameru. Skener koji čita samo barkod (1D) je ne čita.",
+      "BARKOD": "Za skener koji čita samo barkod (1D). Kamera ga čita, ali oštećen barkod teže od QR koda."
+    },
+    "VRSTE_KODA": [
+      "QR_BARKOD",
+      "QR",
+      "BARKOD"
+    ]
+  },
+  "skladiste/numeracija.ts": {
+    "APLIKACIJA_SKLADISTA": "skladiste"
+  },
+  "skladiste/sken.ts": {
+    "DOKUMENTI_SKLADISTA": {
+      "PRIJEMNICA": {
+        "vrsta": "PRIJEMNICA",
+        "naziv": "Prijemnica",
+        "lista": "/skladiste/prijem/prijemnice"
+      },
+      "IZDATNICA": {
+        "vrsta": "IZDATNICA",
+        "naziv": "Izdatnica",
+        "lista": "/skladiste/izdavanje/izdatnice"
+      },
+      "POVRATNICA": {
+        "vrsta": "POVRATNICA",
+        "naziv": "Povratnica",
+        "lista": "/skladiste/prijem/povratnice"
+      },
+      "OTPREMNICA": {
+        "vrsta": "OTPREMNICA",
+        "naziv": "Otpremnica",
+        "lista": "/skladiste/izdavanje/otpremnice"
+      },
+      "PRENOSNICA": {
+        "vrsta": "PRENOSNICA",
+        "naziv": "Prenosnica",
+        "lista": "/skladiste/interno/prenosnice"
+      },
+      "KOREKCIJA_ZALIHA": {
+        "vrsta": "KOREKCIJA",
+        "naziv": "Korekcija",
+        "lista": "/skladiste/interno/korekcije"
+      },
+      "POPIS_ZALIHA": {
+        "vrsta": "POPIS",
+        "naziv": "Popis",
+        "lista": "/skladiste/interno/popisi"
+      },
+      "TREBOVANJE": {
+        "vrsta": "ZAHTJEV",
+        "naziv": "Zahtjev",
+        "lista": "/skladiste/izdavanje/trebovanja"
+      },
+      "OTPIS_ZALIHA": {
+        "vrsta": "OTPIS",
+        "naziv": "Otpis",
+        "lista": "/skladiste/interno/otpisi"
+      },
+      "POCETNO_STANJE_ZALIHA": {
+        "vrsta": "POCETNO_STANJE",
+        "naziv": "Početno stanje",
+        "lista": "/skladiste/postavke/pocetna-stanja"
+      }
+    }
+  },
+  "maticni-podaci/artikli.ts": {
+    "GRUPE_ZAMJENE": {
+      "GZ-VENT-25": "ventili sigurnosti DN25, bilo koji proizvođač",
+      "GZ-ZAPT-03": "zaptivke klingerit 3 mm, bilo koji proizvođač",
+      "GZ-LEZ-6205": "ležajevi 6205, bilo koji proizvođač",
+      "GZ-MAN-16": "manometri 0–16 bar ø100, bilo koji proizvođač"
+    }
+  },
+  "maticni-podaci/grupe-artikala.ts": {
+    "NAJDUZA_SIFRA_GRUPE": 20,
+    "PROFILI_ARTIKALA": [
+      "Materijal 1010",
+      "Rezervni dijelovi 1020",
+      "Goriva i maziva 1014",
+      "Sitni inventar 10401",
+      "Alati 10402",
+      "Mjerila 10403"
+    ],
+    "SEED_GRUPA": {
+      "alati": "GA-001",
+      "elektro": "GA-002",
+      "goriva": "GA-003",
+      "gradjevinski": "GA-004",
+      "mjerila": "GA-005",
+      "potrosni": "GA-006",
+      "rezervni": "GA-007",
+      "zastitna": "GA-008",
+      "kablovi": "GA-009",
+      "osiguraci": "GA-010",
+      "zavarivanje": "GA-011",
+      "brtveni": "GA-012",
+      "lezajevi": "GA-013",
+      "ventili": "GA-014"
+    },
+    "SEED_GRUPE_ARTIKALA": [
+      {
+        "id": "GA-001",
+        "sifra": "01",
+        "naziv": "Alati",
+        "nadredjena": null,
+        "profil": "Alati 10402",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-002",
+        "sifra": "02",
+        "naziv": "Elektro materijal",
+        "nadredjena": null,
+        "profil": "Materijal 1010",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-009",
+        "sifra": "02.01",
+        "naziv": "Kablovi",
+        "nadredjena": "GA-002",
+        "profil": "Materijal 1010",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-010",
+        "sifra": "02.02",
+        "naziv": "Osigurači i sklopke",
+        "nadredjena": "GA-002",
+        "profil": "Materijal 1010",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-003",
+        "sifra": "03",
+        "naziv": "Goriva i ulja",
+        "nadredjena": null,
+        "profil": "Goriva i maziva 1014",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-004",
+        "sifra": "04",
+        "naziv": "Građevinski materijal",
+        "nadredjena": null,
+        "profil": "Materijal 1010",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-005",
+        "sifra": "05",
+        "naziv": "Mjerila",
+        "nadredjena": null,
+        "profil": "Mjerila 10403",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-006",
+        "sifra": "06",
+        "naziv": "Potrošni materijal",
+        "nadredjena": null,
+        "profil": "Materijal 1010",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-011",
+        "sifra": "06.01",
+        "naziv": "Materijal za zavarivanje",
+        "nadredjena": "GA-006",
+        "profil": "Materijal 1010",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-012",
+        "sifra": "06.02",
+        "naziv": "Brtveni materijal",
+        "nadredjena": "GA-006",
+        "profil": "Materijal 1010",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-007",
+        "sifra": "07",
+        "naziv": "Rezervni dijelovi",
+        "nadredjena": null,
+        "profil": "Rezervni dijelovi 1020",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-013",
+        "sifra": "07.01",
+        "naziv": "Ležajevi",
+        "nadredjena": "GA-007",
+        "profil": "Rezervni dijelovi 1020",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-014",
+        "sifra": "07.02",
+        "naziv": "Ventili",
+        "nadredjena": "GA-007",
+        "profil": "Rezervni dijelovi 1020",
+        "aktivna": true,
+        "napomena": ""
+      },
+      {
+        "id": "GA-008",
+        "sifra": "08",
+        "naziv": "Zaštitna oprema",
+        "nadredjena": null,
+        "profil": "Sitni inventar 10401",
+        "aktivna": true,
+        "napomena": ""
+      }
+    ]
+  }
+}

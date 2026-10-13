@@ -1,4 +1,5 @@
-import { useCallback, useId, type ReactNode } from "react";
+import { useCallback, useEffect, useId, useState, type ReactNode } from "react";
+import { createPortal } from "react-dom";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { LuX } from "react-icons/lu";
 import { useEscape } from "~/hooks/useEscape";
@@ -17,15 +18,21 @@ export interface SheetProps {
 /**
  * A panel that slides in from the right over the page, for filters and settings.
  * The page stays visible beside it, so changes made in the sheet show at once.
- * It closes on Escape, on the X, or on a click outside it.
+ * It closes on Escape, on the X, or on a click outside it. It is drawn at the end of
+ * the document, so a table deep in a page, such as in a details page's tab, still
+ * opens it over the whole window and not inside its own column.
  */
 export function Sheet({ open, title, description, children, footer, onClose }: SheetProps) {
   const titleId = useId();
   const close = useCallback(() => onClose(), [onClose]);
   const reduceMotion = useReducedMotion();
   useEscape(open, close);
+  // The document exists only in the browser, after the first render.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  if (!mounted) return null;
 
-  return (
+  return createPortal(
     <AnimatePresence>
       {open && (
         <motion.div
@@ -69,6 +76,7 @@ export function Sheet({ open, title, description, children, footer, onClose }: S
           </motion.section>
         </motion.div>
       )}
-    </AnimatePresence>
+    </AnimatePresence>,
+    document.body,
   );
 }

@@ -1,0 +1,361 @@
+[
+  {
+    "id": "otp-2026-00025",
+    "broj": "OTP-2026-00025",
+    "datum": "2026-10-13",
+    "skladiste": "SK-06",
+    "vrsta": "PRODAJA",
+    "primalac": "Toplana Zenica d.o.o.",
+    "primalacSifra": "KUP-004",
+    "adresaIsporuke": "Bilmišće 107, Zenica",
+    "osnov": "NRK-2026-137",
+    "prijevoznik": "",
+    "vozac": "",
+    "faktura": "",
+    "napomena": "",
+    "status": "PRIPREMLJENA",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "",
+    "datumIsporuke": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-13T03:00:00.000Z"
+    },
+    "ovjerio": null,
+    "otpremio": null,
+    "isporukuPotvrdio": null,
+    "stavke": [
+      {
+        "id": "otp-2026-00025-s1",
+        "artikl": "ART-4008",
+        "lokacija": "E-02-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 30,
+        "cijena": 0,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-323",
+        "kad": "2026-10-13T03:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "otp-2026-00024",
+    "broj": "OTP-2026-00024",
+    "datum": "2026-10-12",
+    "skladiste": "SK-01",
+    "vrsta": "PRODAJA",
+    "primalac": "Elektrodistribucija Sarajevo",
+    "primalacSifra": "KUP-002",
+    "adresaIsporuke": "Zmaja od Bosne 49, Sarajevo",
+    "osnov": "NRK-2026-134",
+    "prijevoznik": "",
+    "vozac": "",
+    "faktura": "",
+    "napomena": "",
+    "status": "OVJERENA",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "",
+    "datumIsporuke": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-11T21:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-12T02:00:00.000Z"
+    },
+    "otpremio": null,
+    "isporukuPotvrdio": null,
+    "stavke": [
+      {
+        "id": "otp-2026-00024-s1",
+        "artikl": "ART-2044",
+        "lokacija": "A-03-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 10,
+        "cijena": 0,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-325",
+        "kad": "2026-10-12T02:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-324",
+        "kad": "2026-10-11T21:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "otp-2026-00023",
+    "broj": "OTP-2026-00023",
+    "datum": "2026-10-11",
+    "skladiste": "SK-01",
+    "vrsta": "PRODAJA",
+    "primalac": "Građevinar Kakanj d.o.o.",
+    "primalacSifra": "KUP-003",
+    "adresaIsporuke": "Rudarska 12, Kakanj",
+    "osnov": "NRK-2026-131",
+    "prijevoznik": "Špedicija Bosna d.o.o. · E45-M-221",
+    "vozac": "A. Ahmetović",
+    "faktura": "",
+    "napomena": "",
+    "status": "OTPREMLJENA",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "2026-10-11",
+    "datumIsporuke": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-10T16:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-10T21:00:00.000Z"
+    },
+    "otpremio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-11T02:00:00.000Z"
+    },
+    "isporukuPotvrdio": null,
+    "stavke": [
+      {
+        "id": "otp-2026-00023-s1",
+        "artikl": "ART-6640",
+        "lokacija": "B-05-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 30,
+        "cijena": 11.4,
+        "napomena": ""
+      },
+      {
+        "id": "otp-2026-00023-s2",
+        "artikl": "ART-5006",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 20,
+        "cijena": 2.6,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-328",
+        "kad": "2026-10-11T02:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Otpremljeno",
+        "napomena": "roba napustila skladište · Špedicija Bosna d.o.o. · E45-M-221"
+      },
+      {
+        "id": "h-mv69uio0-327",
+        "kad": "2026-10-10T21:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-326",
+        "kad": "2026-10-10T16:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "otp-2026-00022",
+    "broj": "OTP-2026-00022",
+    "datum": "2026-10-05",
+    "skladiste": "SK-01",
+    "vrsta": "POVRAT_DOBAVLJACU",
+    "primalac": "Hidraulika BH d.o.o.",
+    "primalacSifra": "DOB-002",
+    "adresaIsporuke": "Industrijska 4, Zenica",
+    "osnov": "REK-2026-004",
+    "prijevoznik": "vlastiti prijevoz · A12-K-345",
+    "vozac": "V. Vozač",
+    "faktura": "",
+    "napomena": "Ventili odbijeni na kvalitativnom prijemu PRJ-2026-00005 — vraćeni dobavljaču.",
+    "status": "ISPORUCENA",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "2026-10-05",
+    "datumIsporuke": "2026-10-06",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-04T16:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-04T21:00:00.000Z"
+    },
+    "otpremio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-05T02:00:00.000Z"
+    },
+    "isporukuPotvrdio": {
+      "ko": "Hidraulika BH d.o.o.",
+      "uloga": "primalac",
+      "kad": "2026-10-06T02:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "otp-2026-00022-s1",
+        "artikl": "ART-6030",
+        "lokacija": "B-01-02",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 5,
+        "cijena": 24.5,
+        "napomena": "odbijeni ventili · PRJ-2026-00005"
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-332",
+        "kad": "2026-10-06T02:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Isporuka potvrđena",
+        "napomena": "primio Hidraulika BH d.o.o."
+      },
+      {
+        "id": "h-mv69uio0-331",
+        "kad": "2026-10-05T02:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Otpremljeno",
+        "napomena": "roba napustila skladište · vlastiti prijevoz · A12-K-345"
+      },
+      {
+        "id": "h-mv69uio0-330",
+        "kad": "2026-10-04T21:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-329",
+        "kad": "2026-10-04T16:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "otp-2026-00021",
+    "broj": "OTP-2026-00021",
+    "datum": "2026-10-01",
+    "skladiste": "SK-01",
+    "vrsta": "PRODAJA",
+    "primalac": "Vodovod i kanalizacija d.o.o.",
+    "primalacSifra": "KUP-001",
+    "adresaIsporuke": "Jaroslava Černija 8, Sarajevo",
+    "osnov": "NRK-2026-118",
+    "prijevoznik": "vlastiti prijevoz · A12-K-345",
+    "vozac": "V. Vozač",
+    "faktura": "IF-2026-0310",
+    "napomena": "",
+    "status": "ISPORUCENA",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "2026-10-01",
+    "datumIsporuke": "2026-10-02",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-30T16:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-30T21:00:00.000Z"
+    },
+    "otpremio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-01T02:00:00.000Z"
+    },
+    "isporukuPotvrdio": {
+      "ko": "Vodovod i kanalizacija d.o.o.",
+      "uloga": "primalac",
+      "kad": "2026-10-02T02:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "otp-2026-00021-s1",
+        "artikl": "ART-4008",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 40,
+        "cijena": 3.9,
+        "napomena": ""
+      },
+      {
+        "id": "otp-2026-00021-s2",
+        "artikl": "ART-8230",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 5,
+        "cijena": 14,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-336",
+        "kad": "2026-10-02T02:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Isporuka potvrđena",
+        "napomena": "primio Vodovod i kanalizacija d.o.o. · faktura IF-2026-0310"
+      },
+      {
+        "id": "h-mv69uio0-335",
+        "kad": "2026-10-01T02:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Otpremljeno",
+        "napomena": "roba napustila skladište · vlastiti prijevoz · A12-K-345"
+      },
+      {
+        "id": "h-mv69uio0-334",
+        "kad": "2026-09-30T21:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-333",
+        "kad": "2026-09-30T16:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  }
+]

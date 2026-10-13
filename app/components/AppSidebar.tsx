@@ -10,9 +10,8 @@ import {
 import { RailMenu, type RailMenuItem } from "~/components/RailMenu";
 import { WorkspaceSwitcher } from "~/components/WorkspaceSwitcher";
 import { useElementSize } from "~/hooks/useElementSize";
-import { useViewportWidth } from "~/hooks/useViewportWidth";
 import type { AppEntry, AppSection } from "~/lib/apps";
-import { SIDEBAR_ROW, SIDEBAR_WIDE_FROM, sidebarFit } from "~/lib/sidebar";
+import { SIDEBAR_ROW, sidebarFit } from "~/lib/sidebar";
 
 export interface AppSidebarProps {
   app: AppEntry;
@@ -114,7 +113,7 @@ const toMenuItems = (sections: AppSection[]): RailMenuItem[] =>
 
 /**
  * The sidebar of the open app, like the macOS Finder sidebar: the app's name and its
- * sections, by name or, on narrow windows or after the collapse button, as icons.
+ * sections. It starts closed, as icons only; the button at the bottom shows the names.
  * Pointing at a section shows its screens at once in a menu beside the sidebar; nothing
  * unfolds inside it. It never scrolls: sections that do not fit go into "Više".
  */
@@ -124,18 +123,13 @@ export const AppSidebar = ({
   activeScreenUrl,
 }: AppSidebarProps) => {
   const navigate = useNavigate();
-  const viewport = useViewportWidth();
-  // "auto" follows the window width; the button pins names on or off.
-  const [mode, setMode] = useState<"auto" | "icons" | "names">("auto");
+  // It starts closed, as icons only; the button at the bottom shows the names.
+  const [wide, setWide] = useState(false);
   // The section (or the "more" row) whose menu is open, and whether it opens upward.
   const [menu, setMenu] = useState<{ id: string; up: boolean } | null>(null);
   const listRef = useRef<HTMLDivElement>(null);
   const { height } = useElementSize(listRef);
 
-  const wide =
-    mode === "auto"
-      ? (viewport ?? SIDEBAR_WIDE_FROM) >= SIDEBAR_WIDE_FROM
-      : mode === "names";
   const activeIndex = app.sections.findIndex(
     (section) => section.url === activeSectionUrl,
   );
@@ -261,7 +255,7 @@ export const AppSidebar = ({
 
       <button
         type="button"
-        onClick={() => setMode(wide ? "icons" : "names")}
+        onClick={() => setWide(!wide)}
         aria-label={wide ? "Prikaži samo ikone" : "Prikaži nazive"}
         title={wide ? "Prikaži samo ikone" : "Prikaži nazive"}
         className={`mt-2 flex size-9 shrink-0 items-center justify-center rounded-lg ${rowIdle} ${wide ? "self-start" : ""}`}

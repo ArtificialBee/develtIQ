@@ -1,0 +1,163 @@
+[
+  {
+    "id": "ots-2026-00003",
+    "broj": "OTS-2026-00003",
+    "datum": "2026-10-12",
+    "skladiste": "SK-03",
+    "razlog": "ISTEK_ROKA",
+    "obrazlozenje": "mast EP-2, lot L-0390 — rok istekao, ne smije se izdati",
+    "izvor": "Stanje zaliha",
+    "komisija": [],
+    "zapisnik": "",
+    "status": "PRIPREMLJEN",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-12T06:00:00.000Z"
+    },
+    "odobrio": null,
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "ots-2026-00003-s1",
+        "artikl": "ART-5120",
+        "lokacija": "",
+        "lot": "L-0390",
+        "kolicina": 2,
+        "cijena": 0,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-361",
+        "kad": "2026-10-12T06:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran prijedlog otpisa",
+        "napomena": "Stanje zaliha"
+      }
+    ]
+  },
+  {
+    "id": "ots-2026-00002",
+    "broj": "OTS-2026-00002",
+    "datum": "2026-10-07",
+    "skladiste": "SK-01",
+    "razlog": "ZASTARJELO",
+    "obrazlozenje": "brtveni papir starog formata, zamijenjen novim standardom",
+    "izvor": "Mrtva zaliha",
+    "komisija": [
+      "G. Glavni",
+      "T. Tehnički",
+      "S. Skladištar"
+    ],
+    "zapisnik": "zapisnik-otpis-2026-02.pdf",
+    "status": "ODOBREN",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-07T06:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-07T12:00:00.000Z"
+    },
+    "proknjizio": null,
+    "stavke": [
+      {
+        "id": "ots-2026-00002-s1",
+        "artikl": "ART-9520",
+        "lokacija": "C-02-04",
+        "lot": "",
+        "kolicina": 2,
+        "cijena": 0,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-363",
+        "kad": "2026-10-07T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno — komisija",
+        "napomena": "G. Glavni, T. Tehnički, S. Skladištar · zapisnik zapisnik-otpis-2026-02.pdf"
+      },
+      {
+        "id": "h-mv69uio0-362",
+        "kad": "2026-10-07T06:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran prijedlog otpisa",
+        "napomena": "Mrtva zaliha"
+      }
+    ]
+  },
+  {
+    "id": "ots-2026-00001",
+    "broj": "OTS-2026-00001",
+    "datum": "2026-09-17",
+    "skladiste": "SK-01",
+    "razlog": "OSTECENJE",
+    "obrazlozenje": "šljemovi napukli pri padu police, pregledala komisija",
+    "izvor": "",
+    "komisija": [
+      "G. Glavni",
+      "T. Tehnički",
+      "S. Skladištar"
+    ],
+    "zapisnik": "zapisnik-otpis-2026-01.pdf",
+    "status": "PROKNJIZEN",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-17T06:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-17T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-17T18:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "ots-2026-00001-s1",
+        "artikl": "ART-8230",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "kolicina": 2,
+        "cijena": 14,
+        "napomena": "napukla školjka"
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-366",
+        "kad": "2026-09-17T18:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "vrijednost izašla sa zalihe"
+      },
+      {
+        "id": "h-mv69uio0-365",
+        "kad": "2026-09-17T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno — komisija",
+        "napomena": "G. Glavni, T. Tehnički, S. Skladištar · zapisnik zapisnik-otpis-2026-01.pdf"
+      },
+      {
+        "id": "h-mv69uio0-364",
+        "kad": "2026-09-17T06:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran prijedlog otpisa",
+        "napomena": ""
+      }
+    ]
+  }
+]
