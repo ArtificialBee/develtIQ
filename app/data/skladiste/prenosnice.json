@@ -1,0 +1,260 @@
+[
+  {
+    "id": "pre-2026-00014",
+    "broj": "PRE-2026-00014",
+    "datum": "2026-10-13",
+    "izvornoSkladiste": "SK-06",
+    "ciljnoSkladiste": "SK-07",
+    "razlog": "terenska zaliha za gradilište Sjever",
+    "napomena": "",
+    "status": "PRIPREMLJENA",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "",
+    "datumPrijema": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-13T04:00:00.000Z"
+    },
+    "ovjerio": null,
+    "otpremio": null,
+    "primio": null,
+    "stavke": [
+      {
+        "id": "pre-2026-00014-s1",
+        "artikl": "ART-4008",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 20,
+        "izvornaLokacija": "E-02-01",
+        "ciljnaLokacija": "",
+        "primljeno": 0,
+        "cijena": 0,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-337",
+        "kad": "2026-10-13T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": "SK-06 → SK-07"
+      }
+    ]
+  },
+  {
+    "id": "pre-2026-00013",
+    "broj": "PRE-2026-00013",
+    "datum": "2026-10-12",
+    "izvornoSkladiste": "SK-01",
+    "ciljnoSkladiste": "SK-06",
+    "razlog": "početna oprema pogona Zenica",
+    "napomena": "",
+    "status": "U_TRANZITU",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "2026-10-12",
+    "datumPrijema": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-12T00:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-12T05:00:00.000Z"
+    },
+    "otpremio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-12T10:00:00.000Z"
+    },
+    "primio": null,
+    "stavke": [
+      {
+        "id": "pre-2026-00013-s1",
+        "artikl": "ART-2051",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 2,
+        "izvornaLokacija": "A-03-02",
+        "ciljnaLokacija": "E-01-02",
+        "primljeno": 0,
+        "cijena": 42,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-340",
+        "kad": "2026-10-12T10:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Otpremljeno u tranzit",
+        "napomena": "zaliha izašla iz SK-01 · u tranzitu za SK-06 · datum otpreme 2026-10-12"
+      },
+      {
+        "id": "h-mv69uio0-339",
+        "kad": "2026-10-12T05:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-338",
+        "kad": "2026-10-12T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": "SK-01 → SK-06"
+      }
+    ]
+  },
+  {
+    "id": "pre-2026-00012",
+    "broj": "PRE-2026-00012",
+    "datum": "2026-10-08",
+    "izvornoSkladiste": "SK-01",
+    "ciljnoSkladiste": "SK-01",
+    "razlog": "preslagivanje zone C",
+    "napomena": "",
+    "status": "PRENESENA",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "2026-10-08",
+    "datumPrijema": "2026-10-08",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-08T03:00:00.000Z"
+    },
+    "ovjerio": null,
+    "otpremio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-08T08:00:00.000Z"
+    },
+    "primio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-08T08:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pre-2026-00012-s1",
+        "artikl": "ART-5121",
+        "lot": "L-9012",
+        "serijskiBrojevi": "",
+        "kolicina": 10,
+        "izvornaLokacija": "C-02-04",
+        "ciljnaLokacija": "C-02-03",
+        "primljeno": 10,
+        "cijena": 7.2,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-342",
+        "kad": "2026-10-08T08:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Premješteno",
+        "napomena": "unutar SK-01 · 2026-10-08"
+      },
+      {
+        "id": "h-mv69uio0-341",
+        "kad": "2026-10-08T03:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": "unutar SK-01"
+      }
+    ]
+  },
+  {
+    "id": "pre-2026-00011",
+    "broj": "PRE-2026-00011",
+    "datum": "2026-10-04",
+    "izvornoSkladiste": "SK-01",
+    "ciljnoSkladiste": "SK-04",
+    "razlog": "popuna priručne zalihe servisa pumpi",
+    "napomena": "",
+    "status": "PRENESENA",
+    "razlogZatvaranja": "",
+    "datumOtpreme": "2026-10-04",
+    "datumPrijema": "2026-10-05",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-04T11:00:00.000Z"
+    },
+    "ovjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-04T16:00:00.000Z"
+    },
+    "otpremio": {
+      "ko": "S. Skladištar",
+      "uloga": "skladištar",
+      "kad": "2026-10-04T21:00:00.000Z"
+    },
+    "primio": {
+      "ko": "Nermin Hasić",
+      "uloga": "skladištar",
+      "kad": "2026-10-05T02:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pre-2026-00011-s1",
+        "artikl": "ART-3402",
+        "lot": "L-7690",
+        "serijskiBrojevi": "",
+        "kolicina": 4,
+        "izvornaLokacija": "B-02-01",
+        "ciljnaLokacija": "D-01-01",
+        "primljeno": 4,
+        "cijena": 12.8,
+        "napomena": ""
+      },
+      {
+        "id": "pre-2026-00011-s2",
+        "artikl": "ART-7420",
+        "lot": "",
+        "serijskiBrojevi": "",
+        "kolicina": 6,
+        "izvornaLokacija": "B-02-01",
+        "ciljnaLokacija": "D-01-02",
+        "primljeno": 6,
+        "cijena": 8.9,
+        "napomena": ""
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-346",
+        "kad": "2026-10-05T02:00:00.000Z",
+        "ko": "Nermin Hasić",
+        "radnja": "Primljeno u skladište",
+        "napomena": "primljeno u cijelosti · datum prijema 2026-10-05"
+      },
+      {
+        "id": "h-mv69uio0-345",
+        "kad": "2026-10-04T21:00:00.000Z",
+        "ko": "S. Skladištar",
+        "radnja": "Otpremljeno u tranzit",
+        "napomena": "zaliha izašla iz SK-01 · u tranzitu za SK-04 · datum otpreme 2026-10-04"
+      },
+      {
+        "id": "h-mv69uio0-344",
+        "kad": "2026-10-04T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Ovjerena",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-343",
+        "kad": "2026-10-04T11:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": "SK-01 → SK-04"
+      }
+    ]
+  }
+]

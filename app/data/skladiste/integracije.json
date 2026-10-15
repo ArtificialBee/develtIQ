@@ -1,0 +1,33 @@
+[
+  {
+    "id": "finansije",
+    "ugovorAktivan": false,
+    "aktiviran": "",
+    "poslano": {
+      "PRJ-2026-00005": "2026-09-18T06:00:00.000Z"
+    },
+    "historija": [
+      {
+        "id": "h-mv69uio0-424",
+        "kad": "2026-09-23T06:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Ugovor deaktiviran",
+        "napomena": "testno okruženje finansija zatvoreno — čeka produkcijski ugovor"
+      },
+      {
+        "id": "h-mv69uio0-425",
+        "kad": "2026-09-18T06:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Leg poslan",
+        "napomena": "PRJ-2026-00005 · prihvaćeno u testnom okruženju"
+      },
+      {
+        "id": "h-mv69uio0-426",
+        "kad": "2026-09-13T06:00:00.000Z",
+        "ko": "A. Administrator",
+        "radnja": "Ugovor aktiviran",
+        "napomena": "testno okruženje finansija"
+      }
+    ]
+  }
+]

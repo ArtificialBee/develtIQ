@@ -1,0 +1,167 @@
+[
+  {
+    "artikl": "ART-5120",
+    "skladiste": "SK-01",
+    "raspolozivo": 2,
+    "granica": {
+      "id": "gr-ART-5120-SK-01",
+      "artikl": "ART-5120",
+      "skladiste": "SK-01",
+      "min": 4,
+      "signalna": 6,
+      "max": 40,
+      "vaziOd": "2026-02-15",
+      "verzija": 1,
+      "postavio": "G. Glavni"
+    },
+    "polozaj": "ISPOD_MINIMUMA",
+    "uZahtjevu": {
+      "id": "zzn-2026-00031",
+      "broj": "ZZN-2026-00031",
+      "skladiste": "SK-01",
+      "vrsta": "SA_ZALIHE",
+      "prioritet": "NORMALAN",
+      "trazilac": "R. Referent · referent skladišta",
+      "obrazlozenje": "Materijal za remont pumpne stanice, sedmica 38",
+      "poslano": "2026-10-09",
+      "narudzba": "",
+      "status": "OVJERENO",
+      "ovjerio": {
+        "ko": "G. Glavni",
+        "uloga": "glavni skladištar",
+        "kad": "2026-10-09T12:00:00.000Z"
+      },
+      "stavke": [
+        {
+          "id": "zzn-2026-00031-s1",
+          "artikl": "ART-2044",
+          "trazeno": 20,
+          "odobreno": null,
+          "odluka": "CEKA",
+          "razlog": "",
+          "izvorVrsta": "RADNI_NALOG",
+          "izvorDetalj": "RN-2026-0015",
+          "nosilacTroskaTip": "ODJEL",
+          "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+          "naruceno": 0,
+          "primljeno": 0
+        },
+        {
+          "id": "zzn-2026-00031-s2",
+          "artikl": "ART-5120",
+          "trazeno": 12,
+          "odobreno": null,
+          "odluka": "CEKA",
+          "razlog": "",
+          "izvorVrsta": "ISPOD_SIGNALNE",
+          "izvorDetalj": "",
+          "nosilacTroskaTip": "ODJEL",
+          "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+          "naruceno": 0,
+          "primljeno": 0
+        },
+        {
+          "id": "zzn-2026-00031-s3",
+          "artikl": "ART-1001",
+          "trazeno": 200,
+          "odobreno": null,
+          "odluka": "CEKA",
+          "razlog": "",
+          "izvorVrsta": "RADNI_NALOG",
+          "izvorDetalj": "RN-2026-0015",
+          "nosilacTroskaTip": "ODJEL",
+          "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+          "naruceno": 0,
+          "primljeno": 0
+        },
+        {
+          "id": "zzn-2026-00031-s4",
+          "artikl": "ART-3310",
+          "trazeno": 6,
+          "odobreno": null,
+          "odluka": "CEKA",
+          "razlog": "",
+          "izvorVrsta": "ISPOD_SIGNALNE",
+          "izvorDetalj": "",
+          "nosilacTroskaTip": "ODJEL",
+          "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+          "naruceno": 0,
+          "primljeno": 0
+        },
+        {
+          "id": "zzn-2026-00031-s5",
+          "artikl": "ART-6030",
+          "trazeno": 4,
+          "odobreno": null,
+          "odluka": "CEKA",
+          "razlog": "",
+          "izvorVrsta": "RADNI_NALOG",
+          "izvorDetalj": "RN-2026-0015",
+          "nosilacTroskaTip": "ODJEL",
+          "nosilacTroskaId": "Održavanje · mjesto troška 4200",
+          "naruceno": 0,
+          "primljeno": 0
+        }
+      ],
+      "historija": [
+        {
+          "id": "h-mv69uio0-304",
+          "kad": "2026-10-09T12:00:00.000Z",
+          "ko": "G. Glavni",
+          "radnja": "Ovjereno",
+          "napomena": ""
+        },
+        {
+          "id": "h-mv69uio0-303",
+          "kad": "2026-10-09T04:00:00.000Z",
+          "ko": "R. Referent",
+          "radnja": "Poslano na ovjeru",
+          "napomena": ""
+        },
+        {
+          "id": "h-mv69uio0-302",
+          "kad": "2026-10-08T20:00:00.000Z",
+          "ko": "R. Referent",
+          "radnja": "Kreiran nacrt",
+          "napomena": ""
+        }
+      ]
+    }
+  },
+  {
+    "artikl": "ART-5121",
+    "skladiste": "SK-01",
+    "raspolozivo": 21,
+    "granica": {
+      "id": "gr-ART-5121-SK-01",
+      "artikl": "ART-5121",
+      "skladiste": "SK-01",
+      "min": 20,
+      "signalna": 40,
+      "max": 240,
+      "vaziOd": "2026-02-15",
+      "verzija": 1,
+      "postavio": "G. Glavni"
+    },
+    "polozaj": "ISPOD_SIGNALNE",
+    "uZahtjevu": null
+  },
+  {
+    "artikl": "ART-6030",
+    "skladiste": "SK-04",
+    "raspolozivo": 6,
+    "granica": {
+      "id": "gr-ART-6030-SK-04",
+      "artikl": "ART-6030",
+      "skladiste": "SK-04",
+      "min": 4,
+      "signalna": 8,
+      "max": 30,
+      "vaziOd": "2026-02-15",
+      "verzija": 1,
+      "postavio": "G. Glavni"
+    },
+    "polozaj": "ISPOD_SIGNALNE",
+    "uZahtjevu": null
+  }
+]

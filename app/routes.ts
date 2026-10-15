@@ -6,14 +6,18 @@ export default [
   route("profile", "routes/profile.tsx"),
   route("home", "routes/home/layout.tsx", [
     index("routes/home/index.tsx"), // /home
-    route("ceka-na-mene", "routes/home/ceka-na-mene.tsx"), // /home/ceka-na-mene
-    route("ceka-na-mene/:akcijaId", "routes/home/ceka-na-mene.$akcijaId.tsx"), // /home/ceka-na-mene/:id
-    route("kartica/:kljuc", "routes/home/kartica.$kljuc.tsx"), // /home/kartica/<stat key>
+    route("zadaci", "routes/home/zadaci.tsx"), // /home/zadaci?stanje=kasni&app=protocol
+    route("zadaci/:id", "routes/home/zadaci.$id.tsx"), // /home/zadaci/<action id>
     route("kpi", "routes/home/kpi.tsx"), // /home/kpi
     route("pokazatelji", "routes/home/pokazatelji.tsx"), // /home/pokazatelji
   ]),
   // Moj planer's calendar is built: today and tomorrow on the same day timeline as the home page.
   route("app/moj-prostor/kalendar", "routes/moj-planer/kalendar.tsx"),
+  // Skladište, rebuilt from divetiq-cicak's data: its home, every list and every record, on the demo's URLs.
+  route("app/skladiste", "routes/skladiste/index.tsx"),
+  route("app/skladiste/pocetna", "routes/skladiste/pocetna.tsx"),
+  route("app/skladiste/:sekcija/:ekran", "routes/skladiste/ekran.tsx"), // /app/skladiste/prijem/prijemnice
+  route("app/skladiste/:sekcija/:ekran/:id", "routes/skladiste/zapis.tsx"), // /app/skladiste/prijem/prijemnice/prj-2026-00010
   // Apps not built in edvin yet: /app/protocol, /app/protocol/arhiva, /app/protocol/arhiva/kutije, ...
   route("app/:appKey/:sectionKey?/:subKey?", "routes/app.tsx"),
 ] satisfies RouteConfig;

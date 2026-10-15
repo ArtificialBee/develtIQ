@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import type { IconType } from "react-icons";
 import { Link } from "react-router";
 import { LuArrowDown, LuArrowUp, LuArrowUpRight } from "react-icons/lu";
-import { AreaSparkline } from "~/components/AreaSparkline";
+import { CHART_COLORS, Chart } from "~/components/Chart";
 import { Card } from "~/components/Card";
 import { StatusBadge, type StatusTone } from "~/components/StatusBadge";
 import { useCountUp } from "~/hooks/useCountUp";
@@ -31,8 +31,8 @@ export interface Stat {
   tone?: StatTone;
   /** An arrow next to the number. */
   direction?: "up" | "down";
-  /** A short series, oldest first, drawn as a glowing trend line. */
-  trend?: number[];
+  /** A short series, oldest first, drawn as a line chart with its axes, values and target. */
+  trend?: { labels: string[]; values: number[]; target?: number };
   /** What the number is made of, such as "Protokol 6", shown as small chips. */
   breakdown?: { label: string; value: number }[];
   /** The one record behind the number that matters most, so the card says what to do. */
@@ -73,7 +73,7 @@ const layouts = {
     bigNumber: "mt-4 flex",
     number: ["text-5xl", "text-4xl", "text-3xl"],
     chips: "mt-3 flex flex-wrap",
-    trend: "mt-4 block",
+    trend: "mt-4 block h-40",
     highlight: "mt-4 block",
     highlightLabel: "block",
     title: "line-clamp-2",
@@ -96,7 +96,7 @@ const layouts = {
     ],
     chips: "mt-2 hidden flex-nowrap overflow-hidden [@container(min-height:16rem)]:flex",
     // The trend line (80px) is the first thing to go: the record says more.
-    trend: "hidden [@container(min-height:18rem)]:mt-3 [@container(min-height:18rem)]:block",
+    trend: "hidden [@container(min-height:16rem)]:mt-3 [@container(min-height:16rem)]:block",
     highlight: "mt-2 hidden [@container(min-height:4.5rem)]:block",
     highlightLabel: "hidden [@container(min-height:8rem)]:block",
     title: "line-clamp-1 [@container(min-height:14.25rem)]:line-clamp-2",
@@ -235,7 +235,19 @@ export const StatCard = ({ stat, level = 2, fill = false, minimal = false }: Sta
           </ul>
         )}
 
-        {stat.trend && <AreaSparkline values={stat.trend} className={`shrink-0 ${l.trend}`} />}
+        {stat.trend && (
+          <Chart
+            label={`${stat.label} po mjesecu`}
+            labels={stat.trend.labels}
+            series={[
+              { key: "vrijednost", label: stat.label, values: stat.trend.values, kind: "line", color: CHART_COLORS.actual },
+              ...(stat.trend.target === undefined
+                ? []
+                : [{ key: "cilj", label: "Cilj", values: stat.trend.values.map(() => stat.trend!.target!), kind: "target" as const, color: CHART_COLORS.target }]),
+            ]}
+            className={`min-h-0 flex-1 ${l.trend}`}
+          />
+        )}
 
         {stat.highlight && (
           <div className={`flex shrink-0 items-start gap-2.5 rounded-lg border-l-2 bg-gray-50 px-3 py-2 dark:bg-slate-800/60 ${highlightAccents[tone]} ${l.highlight}`}>
@@ -262,8 +274,8 @@ export const StatCard = ({ stat, level = 2, fill = false, minimal = false }: Sta
           </div>
         )}
 
-        {/* Pushes the fact to the bottom, so facts line up across a row of cards. */}
-        <div className="flex-1" />
+        {/* Pushes the fact to the bottom, so facts line up across a row of cards. A chart takes that room itself. */}
+        {!stat.trend && <div className="flex-1" />}
 
         {stat.fact && (
           <div

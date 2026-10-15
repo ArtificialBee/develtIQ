@@ -1,0 +1,1035 @@
+{
+  "danas": "2026-10-13",
+  "podnaslov": "Danas 13.10.2026. · pogled administratora",
+  "pokazatelji": {
+    "ispodSignalne": 3,
+    "ispodMinimuma": 1,
+    "uGranicama": 24,
+    "iznadMaksimuma": 3,
+    "naNuli": 0,
+    "uZahtjevu": 2,
+    "pokrivenostPotreba": 78,
+    "popisNapredak": 71,
+    "popisSkladista": 2,
+    "rezervisanoOtvorene": 725,
+    "nepokrivene": 4,
+    "nepokriveniOsnovi": 4,
+    "nedostajeJedinica": 210,
+    "otvoreniPopisi": 2,
+    "popisStavki": 7,
+    "popisPrebrojano": 5
+  },
+  "plocice": [
+    {
+      "key": "ispod-signalne",
+      "naslov": "Ispod signalne",
+      "opis": "Artikli ispod signalne granice po skladištu · 2 već u zahtjevu",
+      "icon": "TriangleAlert",
+      "badge": {
+        "label": "Otvorene potrebe",
+        "tone": "warning"
+      },
+      "vrijednost": 3,
+      "chart": {
+        "kind": "bars",
+        "values": [
+          1,
+          2,
+          27
+        ],
+        "highlightedIndex": 0
+      },
+      "facts": [
+        {
+          "label": "Ispod minimuma",
+          "value": "1"
+        },
+        {
+          "label": "Ispod signalne, iznad minimuma",
+          "value": "2"
+        },
+        {
+          "label": "U granicama i iznad",
+          "value": "27"
+        }
+      ],
+      "path": "/skladiste/zalihe/stanje?granice=ispod-signalne"
+    },
+    {
+      "key": "ceka-moju-radnju",
+      "naslov": "Čeka moju radnju",
+      "opis": "Dokumenti koji čekaju moj korak · najduže čeka 11 dana",
+      "icon": "UserCheck",
+      "badge": {
+        "label": "Dokumenti",
+        "tone": "info"
+      },
+      "vrijednost": 28,
+      "chart": {
+        "kind": "bars",
+        "values": [
+          16,
+          5,
+          7
+        ],
+        "highlightedIndex": 2
+      },
+      "facts": [
+        {
+          "label": "Do 1 dan",
+          "value": "16"
+        },
+        {
+          "label": "2–3 dana",
+          "value": "5"
+        },
+        {
+          "label": "Preko 3 dana",
+          "value": "7"
+        }
+      ],
+      "path": "/skladiste/prijem/prijemnice"
+    },
+    {
+      "key": "nepokrivene-potrebe",
+      "naslov": "Nepokrivene potrebe",
+      "opis": "Rezervisano, a nema zalihe iza toga",
+      "icon": "Hourglass",
+      "badge": {
+        "label": "Rezervacije",
+        "tone": "danger"
+      },
+      "vrijednost": 4,
+      "chart": {
+        "kind": "gradient-bar",
+        "percent": 78
+      },
+      "facts": [
+        {
+          "label": "Osnova (nalozi, zahtjevi)",
+          "value": "4"
+        },
+        {
+          "label": "Nedostaje jedinica",
+          "value": "210"
+        },
+        {
+          "label": "Rezervisano jedinica",
+          "value": "725"
+        }
+      ],
+      "path": "/skladiste/zalihe/rezervacije"
+    },
+    {
+      "key": "otvoreni-popisi",
+      "naslov": "Otvoreni popisi",
+      "opis": "Brojanje počelo, nije zatvoreno",
+      "icon": "ClipboardCheck",
+      "badge": {
+        "label": "Popisi",
+        "tone": "neutral"
+      },
+      "vrijednost": 2,
+      "chart": {
+        "kind": "gradient-bar",
+        "percent": 71
+      },
+      "facts": [
+        {
+          "label": "Izbrojano stavki",
+          "value": "5 / 7"
+        },
+        {
+          "label": "Preostalo za brojanje",
+          "value": "2"
+        },
+        {
+          "label": "Skladišta u popisu",
+          "value": "2"
+        }
+      ],
+      "path": "/skladiste/interno/popisi"
+    }
+  ],
+  "starostZadataka": [
+    16,
+    5,
+    7
+  ],
+  "zadaci": [
+    {
+      "id": "zad-zzn-2026-00087",
+      "radnja": "Izdaj sa zalihe",
+      "dokument": {
+        "broj": "ZZN-2026-00087",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-01",
+        "status": "Odobreno",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00087"
+      },
+      "cekaOd": "2026-10-01T12:00:00.000Z",
+      "trajanje": "11 dana",
+      "odDatum": "01.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-zzn-2026-00093",
+      "radnja": "Izdaj sa zalihe",
+      "dokument": {
+        "broj": "ZZN-2026-00093",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-03",
+        "status": "Odobreno",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00093"
+      },
+      "cekaOd": "2026-10-03T12:00:00.000Z",
+      "trajanje": "9 dana",
+      "odDatum": "03.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-prj-2026-00010",
+      "radnja": "Materijalno evidentiraj",
+      "dokument": {
+        "broj": "PRJ-2026-00010",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-02",
+        "kontekst": "Alati Plus d.o.o.",
+        "datum": "2026-10-04",
+        "status": "Djelimično proknjiženo",
+        "tone": "info",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+      },
+      "cekaOd": "2026-10-05T08:00:00.000Z",
+      "trajanje": "7 dana",
+      "odDatum": "05.10.2026.",
+      "skladisteNaziv": "Terensko skladište"
+    },
+    {
+      "id": "zad-zzn-2026-00013",
+      "radnja": "Završi",
+      "dokument": {
+        "broj": "ZZN-2026-00013",
+        "vrsta": "Zahtjev za nabavku",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-06",
+        "status": "U nabavci",
+        "tone": "info",
+        "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00013"
+      },
+      "cekaOd": "2026-10-06T12:00:00.000Z",
+      "trajanje": "6 dana",
+      "odDatum": "06.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-ots-2026-00002",
+      "radnja": "Proknjiži otpis",
+      "dokument": {
+        "broj": "OTS-2026-00002",
+        "vrsta": "Otpis",
+        "skladiste": "SK-01",
+        "kontekst": "zastarjelo · ART-9520",
+        "datum": "2026-10-07",
+        "status": "Odobren · čeka knjiženje",
+        "tone": "warning",
+        "path": "/skladiste/interno/otpisi/ots-2026-00002"
+      },
+      "cekaOd": "2026-10-07T12:00:00.000Z",
+      "trajanje": "5 dana",
+      "odDatum": "07.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-zzn-2026-00091",
+      "radnja": "Izdaj sa zalihe",
+      "dokument": {
+        "broj": "ZZN-2026-00091",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-08",
+        "status": "Odobreno",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00091"
+      },
+      "cekaOd": "2026-10-08T12:00:00.000Z",
+      "trajanje": "4 dana",
+      "odDatum": "08.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-izd-2026-00085",
+      "radnja": "Predaj",
+      "dokument": {
+        "broj": "IZD-2026-00085",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov ZZN-2026-00087",
+        "datum": "2026-10-07",
+        "status": "Djelimično predano",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00085"
+      },
+      "cekaOd": "2026-10-09T02:00:00.000Z",
+      "trajanje": "4 dana",
+      "odDatum": "09.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-zzn-2026-00031",
+      "radnja": "Odobri stavke",
+      "dokument": {
+        "broj": "ZZN-2026-00031",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "5 stavki",
+        "datum": "2026-10-09",
+        "status": "Ovjereno · čeka odluku po stavci",
+        "tone": "warning",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00031"
+      },
+      "cekaOd": "2026-10-09T12:00:00.000Z",
+      "trajanje": "3 dana",
+      "odDatum": "09.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-zzn-2026-00014",
+      "radnja": "Izdaj sa zalihe",
+      "dokument": {
+        "broj": "ZZN-2026-00014",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-10",
+        "status": "Odobreno",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00014"
+      },
+      "cekaOd": "2026-10-10T12:00:00.000Z",
+      "trajanje": "2 dana",
+      "odDatum": "10.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-pov-2026-00003",
+      "radnja": "Proknjiži",
+      "dokument": {
+        "broj": "POV-2026-00003",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00081",
+        "datum": "2026-10-07",
+        "status": "Pregledano · čeka knjiženje",
+        "tone": "info",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00003"
+      },
+      "cekaOd": "2026-10-10T18:00:00.000Z",
+      "trajanje": "2 dana",
+      "odDatum": "10.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-otp-2026-00023",
+      "radnja": "Potvrdi isporuku",
+      "dokument": {
+        "broj": "OTP-2026-00023",
+        "vrsta": "Otpremnica",
+        "skladiste": "SK-01",
+        "kontekst": "Prodaja kupcu · Građevinar Kakanj d.o.o.",
+        "datum": "2026-10-11",
+        "status": "Otpremljena · roba na putu",
+        "tone": "warning",
+        "path": "/skladiste/izdavanje/otpremnice/otp-2026-00023"
+      },
+      "cekaOd": "2026-10-11T02:00:00.000Z",
+      "trajanje": "2 dana",
+      "odDatum": "11.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-prj-2026-00012",
+      "radnja": "Kvalitativna kontrola",
+      "dokument": {
+        "broj": "PRJ-2026-00012",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Elektro d.o.o.",
+        "datum": "2026-10-11",
+        "status": "Čeka kvalitativnu kontrolu",
+        "tone": "warning",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00012"
+      },
+      "cekaOd": "2026-10-11T04:00:00.000Z",
+      "trajanje": "2 dana",
+      "odDatum": "11.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-zzn-2026-00015",
+      "radnja": "Ovjeri",
+      "dokument": {
+        "broj": "ZZN-2026-00015",
+        "vrsta": "Zahtjev za nabavku",
+        "skladiste": "SK-01",
+        "kontekst": "2 stavki",
+        "datum": "2026-10-11",
+        "status": "Poslano · čeka ovjeru",
+        "tone": "warning",
+        "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00015"
+      },
+      "cekaOd": "2026-10-11T12:00:00.000Z",
+      "trajanje": "1 dan",
+      "odDatum": "11.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-izd-2026-00086",
+      "radnja": "Predaj",
+      "dokument": {
+        "broj": "IZD-2026-00086",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0014",
+        "datum": "2026-10-10",
+        "status": "Proknjiženo · čeka predaju",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00086"
+      },
+      "cekaOd": "2026-10-11T14:00:00.000Z",
+      "trajanje": "1 dan",
+      "odDatum": "11.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-inv-2026-00003",
+      "radnja": "Unesi brojanje",
+      "dokument": {
+        "broj": "INV-2026-00003",
+        "vrsta": "Popis",
+        "skladiste": "SK-04",
+        "kontekst": "4 / 5 izbrojano",
+        "datum": "2026-10-11",
+        "status": "Brojanje u toku",
+        "tone": "warning",
+        "path": "/skladiste/interno/popisi/inv-2026-00003"
+      },
+      "cekaOd": "2026-10-11T18:00:00.000Z",
+      "trajanje": "1 dan",
+      "odDatum": "11.10.2026.",
+      "skladisteNaziv": "Skladište rezervnih dijelova"
+    },
+    {
+      "id": "zad-izd-2026-00088",
+      "radnja": "Ovjeri",
+      "dokument": {
+        "broj": "IZD-2026-00088",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-02",
+        "kontekst": "osnov RN-2026-0017",
+        "datum": "2026-10-11",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "neutral",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00088"
+      },
+      "cekaOd": "2026-10-12T00:00:00.000Z",
+      "trajanje": "1 dan",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Terensko skladište"
+    },
+    {
+      "id": "zad-otp-2026-00024",
+      "radnja": "Otpremi robu",
+      "dokument": {
+        "broj": "OTP-2026-00024",
+        "vrsta": "Otpremnica",
+        "skladiste": "SK-01",
+        "kontekst": "Prodaja kupcu · Elektrodistribucija Sarajevo",
+        "datum": "2026-10-12",
+        "status": "Ovjerena · čeka otpremu",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/otpremnice/otp-2026-00024"
+      },
+      "cekaOd": "2026-10-12T02:00:00.000Z",
+      "trajanje": "1 dan",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-izd-2026-00087",
+      "radnja": "Ovjeri",
+      "dokument": {
+        "broj": "IZD-2026-00087",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0015",
+        "datum": "2026-10-12",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "neutral",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00087"
+      },
+      "cekaOd": "2026-10-12T04:00:00.000Z",
+      "trajanje": "1 dan",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-ots-2026-00003",
+      "radnja": "Odobri (komisija)",
+      "dokument": {
+        "broj": "OTS-2026-00003",
+        "vrsta": "Otpis",
+        "skladiste": "SK-03",
+        "kontekst": "istek roka · ART-5120",
+        "datum": "2026-10-12",
+        "status": "Pripremljen · čeka odobrenje komisije",
+        "tone": "info",
+        "path": "/skladiste/interno/otpisi/ots-2026-00003"
+      },
+      "cekaOd": "2026-10-12T06:00:00.000Z",
+      "trajanje": "1 dan",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Skladište goriva i maziva"
+    },
+    {
+      "id": "zad-prj-2026-00013",
+      "radnja": "Količinska kontrola",
+      "dokument": {
+        "broj": "PRJ-2026-00013",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Termo Servis d.o.o.",
+        "datum": "2026-10-12",
+        "status": "Fizički primljeno · čeka količinsku kontrolu",
+        "tone": "warning",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00013"
+      },
+      "cekaOd": "2026-10-12T10:00:00.000Z",
+      "trajanje": "20 sati",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-pre-2026-00013",
+      "radnja": "Primi u skladište",
+      "dokument": {
+        "broj": "PRE-2026-00013",
+        "vrsta": "Prenosnica",
+        "skladiste": "SK-01",
+        "kontekst": "→ SK-06",
+        "datum": "2026-10-12",
+        "status": "U tranzitu · čeka prijem",
+        "tone": "warning",
+        "path": "/skladiste/interno/prenosnice/pre-2026-00013"
+      },
+      "cekaOd": "2026-10-12T10:00:00.000Z",
+      "trajanje": "20 sati",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-zzn-2026-00011",
+      "radnja": "Pošalji",
+      "dokument": {
+        "broj": "ZZN-2026-00011",
+        "vrsta": "Zahtjev za nabavku",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-13",
+        "status": "Nacrt",
+        "tone": "neutral",
+        "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00011"
+      },
+      "cekaOd": "2026-10-12T12:00:00.000Z",
+      "trajanje": "18 sati",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-inv-2026-00004",
+      "radnja": "Unesi brojanje",
+      "dokument": {
+        "broj": "INV-2026-00004",
+        "vrsta": "Popis",
+        "skladiste": "SK-02",
+        "kontekst": "1 / 2 izbrojano",
+        "datum": "2026-10-12",
+        "status": "Brojanje u toku",
+        "tone": "warning",
+        "path": "/skladiste/interno/popisi/inv-2026-00004"
+      },
+      "cekaOd": "2026-10-12T14:00:00.000Z",
+      "trajanje": "16 sati",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Terensko skladište"
+    },
+    {
+      "id": "zad-pov-2026-00007",
+      "radnja": "Fizički primi",
+      "dokument": {
+        "broj": "POV-2026-00007",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00085",
+        "datum": "2026-10-12",
+        "status": "Ovjerena · čeka fizički prijem",
+        "tone": "warning",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00007"
+      },
+      "cekaOd": "2026-10-12T18:00:00.000Z",
+      "trajanje": "12 sati",
+      "odDatum": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-pov-2026-00009",
+      "radnja": "Pregledaj i prihvati",
+      "dokument": {
+        "broj": "POV-2026-00009",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00081",
+        "datum": "2026-10-10",
+        "status": "Fizički primljeno · čeka pregled",
+        "tone": "warning",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00009"
+      },
+      "cekaOd": "2026-10-13T00:00:00.000Z",
+      "trajanje": "6 sati",
+      "odDatum": "13.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-pov-2026-00006",
+      "radnja": "Ovjeri",
+      "dokument": {
+        "broj": "POV-2026-00006",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00084",
+        "datum": "2026-10-13",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "neutral",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00006"
+      },
+      "cekaOd": "2026-10-13T03:00:00.000Z",
+      "trajanje": "3 sata",
+      "odDatum": "13.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "id": "zad-otp-2026-00025",
+      "radnja": "Ovjeri otpremnicu",
+      "dokument": {
+        "broj": "OTP-2026-00025",
+        "vrsta": "Otpremnica",
+        "skladiste": "SK-06",
+        "kontekst": "Prodaja kupcu · Toplana Zenica d.o.o.",
+        "datum": "2026-10-13",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/otpremnice/otp-2026-00025"
+      },
+      "cekaOd": "2026-10-13T03:00:00.000Z",
+      "trajanje": "3 sata",
+      "odDatum": "13.10.2026.",
+      "skladisteNaziv": "Glavno skladište Zenica"
+    },
+    {
+      "id": "zad-pre-2026-00014",
+      "radnja": "Ovjeri prenosnicu",
+      "dokument": {
+        "broj": "PRE-2026-00014",
+        "vrsta": "Prenosnica",
+        "skladiste": "SK-06",
+        "kontekst": "→ SK-07",
+        "datum": "2026-10-13",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "info",
+        "path": "/skladiste/interno/prenosnice/pre-2026-00014"
+      },
+      "cekaOd": "2026-10-13T04:00:00.000Z",
+      "trajanje": "2 sata",
+      "odDatum": "13.10.2026.",
+      "skladisteNaziv": "Glavno skladište Zenica"
+    }
+  ],
+  "nedavniDokumenti": [
+    {
+      "broj": "PRJ-2026-00014",
+      "vrsta": "Prijemnica",
+      "skladiste": "SK-01",
+      "kontekst": "Metal Trade d.o.o.",
+      "datum": "2026-10-13",
+      "status": "Nacrt",
+      "tone": "neutral",
+      "path": "/skladiste/prijem/prijemnice/prj-2026-00014",
+      "datumPrikaz": "13.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "PRE-2026-00014",
+      "vrsta": "Prenosnica",
+      "skladiste": "SK-06",
+      "kontekst": "→ SK-07",
+      "datum": "2026-10-13",
+      "status": "Nacrt · čeka ovjeru",
+      "tone": "info",
+      "path": "/skladiste/interno/prenosnice/pre-2026-00014",
+      "datumPrikaz": "13.10.2026.",
+      "skladisteNaziv": "Glavno skladište Zenica"
+    },
+    {
+      "broj": "POV-2026-00006",
+      "vrsta": "Povratnica",
+      "skladiste": "SK-01",
+      "kontekst": "iz IZD-2026-00084",
+      "datum": "2026-10-13",
+      "status": "Nacrt · čeka ovjeru",
+      "tone": "neutral",
+      "path": "/skladiste/prijem/povratnice/pov-2026-00006",
+      "datumPrikaz": "13.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "OTP-2026-00025",
+      "vrsta": "Otpremnica",
+      "skladiste": "SK-06",
+      "kontekst": "Prodaja kupcu · Toplana Zenica d.o.o.",
+      "datum": "2026-10-13",
+      "status": "Nacrt · čeka ovjeru",
+      "tone": "info",
+      "path": "/skladiste/izdavanje/otpremnice/otp-2026-00025",
+      "datumPrikaz": "13.10.2026.",
+      "skladisteNaziv": "Glavno skladište Zenica"
+    },
+    {
+      "broj": "USK-2026-00006",
+      "vrsta": "Korekcija",
+      "skladiste": "SK-01",
+      "kontekst": "pronađeno · ART-9520 · +2",
+      "datum": "2026-10-12",
+      "status": "Proknjiženo",
+      "tone": "success",
+      "path": "/skladiste/interno/korekcije/usk-2026-00006",
+      "datumPrikaz": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "PRJ-2026-00013",
+      "vrsta": "Prijemnica",
+      "skladiste": "SK-01",
+      "kontekst": "Termo Servis d.o.o.",
+      "datum": "2026-10-12",
+      "status": "Fizički primljeno · čeka količinsku kontrolu",
+      "tone": "warning",
+      "path": "/skladiste/prijem/prijemnice/prj-2026-00013",
+      "datumPrikaz": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "PRE-2026-00013",
+      "vrsta": "Prenosnica",
+      "skladiste": "SK-01",
+      "kontekst": "→ SK-06",
+      "datum": "2026-10-12",
+      "status": "U tranzitu · čeka prijem",
+      "tone": "warning",
+      "path": "/skladiste/interno/prenosnice/pre-2026-00013",
+      "datumPrikaz": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "POV-2026-00007",
+      "vrsta": "Povratnica",
+      "skladiste": "SK-01",
+      "kontekst": "iz IZD-2026-00085",
+      "datum": "2026-10-12",
+      "status": "Ovjerena · čeka fizički prijem",
+      "tone": "warning",
+      "path": "/skladiste/prijem/povratnice/pov-2026-00007",
+      "datumPrikaz": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "OTS-2026-00003",
+      "vrsta": "Otpis",
+      "skladiste": "SK-03",
+      "kontekst": "istek roka · ART-5120",
+      "datum": "2026-10-12",
+      "status": "Pripremljen · čeka odobrenje komisije",
+      "tone": "info",
+      "path": "/skladiste/interno/otpisi/ots-2026-00003",
+      "datumPrikaz": "12.10.2026.",
+      "skladisteNaziv": "Skladište goriva i maziva"
+    },
+    {
+      "broj": "OTP-2026-00024",
+      "vrsta": "Otpremnica",
+      "skladiste": "SK-01",
+      "kontekst": "Prodaja kupcu · Elektrodistribucija Sarajevo",
+      "datum": "2026-10-12",
+      "status": "Ovjerena · čeka otpremu",
+      "tone": "info",
+      "path": "/skladiste/izdavanje/otpremnice/otp-2026-00024",
+      "datumPrikaz": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "IZD-2026-00087",
+      "vrsta": "Izdatnica",
+      "skladiste": "SK-01",
+      "kontekst": "osnov RN-2026-0015",
+      "datum": "2026-10-12",
+      "status": "Nacrt · čeka ovjeru",
+      "tone": "neutral",
+      "path": "/skladiste/izdavanje/izdatnice/izd-2026-00087",
+      "datumPrikaz": "12.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "INV-2026-00004",
+      "vrsta": "Popis",
+      "skladiste": "SK-02",
+      "kontekst": "1 / 2 izbrojano",
+      "datum": "2026-10-12",
+      "status": "Brojanje u toku",
+      "tone": "warning",
+      "path": "/skladiste/interno/popisi/inv-2026-00004",
+      "datumPrikaz": "12.10.2026.",
+      "skladisteNaziv": "Terensko skladište"
+    },
+    {
+      "broj": "ZZN-2026-00015",
+      "vrsta": "Zahtjev za nabavku",
+      "skladiste": "SK-01",
+      "kontekst": "2 stavki",
+      "datum": "2026-10-11",
+      "status": "Poslano · čeka ovjeru",
+      "tone": "warning",
+      "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00015",
+      "datumPrikaz": "11.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "PRJ-2026-00012",
+      "vrsta": "Prijemnica",
+      "skladiste": "SK-01",
+      "kontekst": "Elektro d.o.o.",
+      "datum": "2026-10-11",
+      "status": "Čeka kvalitativnu kontrolu",
+      "tone": "warning",
+      "path": "/skladiste/prijem/prijemnice/prj-2026-00012",
+      "datumPrikaz": "11.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "OTP-2026-00023",
+      "vrsta": "Otpremnica",
+      "skladiste": "SK-01",
+      "kontekst": "Prodaja kupcu · Građevinar Kakanj d.o.o.",
+      "datum": "2026-10-11",
+      "status": "Otpremljena · roba na putu",
+      "tone": "warning",
+      "path": "/skladiste/izdavanje/otpremnice/otp-2026-00023",
+      "datumPrikaz": "11.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "IZD-2026-00088",
+      "vrsta": "Izdatnica",
+      "skladiste": "SK-02",
+      "kontekst": "osnov RN-2026-0017",
+      "datum": "2026-10-11",
+      "status": "Nacrt · čeka ovjeru",
+      "tone": "neutral",
+      "path": "/skladiste/izdavanje/izdatnice/izd-2026-00088",
+      "datumPrikaz": "11.10.2026.",
+      "skladisteNaziv": "Terensko skladište"
+    },
+    {
+      "broj": "INV-2026-00003",
+      "vrsta": "Popis",
+      "skladiste": "SK-04",
+      "kontekst": "4 / 5 izbrojano",
+      "datum": "2026-10-11",
+      "status": "Brojanje u toku",
+      "tone": "warning",
+      "path": "/skladiste/interno/popisi/inv-2026-00003",
+      "datumPrikaz": "11.10.2026.",
+      "skladisteNaziv": "Skladište rezervnih dijelova"
+    },
+    {
+      "broj": "ZZN-2026-00014",
+      "vrsta": "Trebovanje",
+      "skladiste": "SK-01",
+      "kontekst": "1 stavki",
+      "datum": "2026-10-10",
+      "status": "Odobreno",
+      "tone": "info",
+      "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00014",
+      "datumPrikaz": "10.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "POV-2026-00009",
+      "vrsta": "Povratnica",
+      "skladiste": "SK-01",
+      "kontekst": "iz IZD-2026-00081",
+      "datum": "2026-10-10",
+      "status": "Fizički primljeno · čeka pregled",
+      "tone": "warning",
+      "path": "/skladiste/prijem/povratnice/pov-2026-00009",
+      "datumPrikaz": "10.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "IZD-2026-00086",
+      "vrsta": "Izdatnica",
+      "skladiste": "SK-01",
+      "kontekst": "osnov RN-2026-0014",
+      "datum": "2026-10-10",
+      "status": "Proknjiženo · čeka predaju",
+      "tone": "info",
+      "path": "/skladiste/izdavanje/izdatnice/izd-2026-00086",
+      "datumPrikaz": "10.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "ZZN-2026-00031",
+      "vrsta": "Trebovanje",
+      "skladiste": "SK-01",
+      "kontekst": "5 stavki",
+      "datum": "2026-10-09",
+      "status": "Ovjereno · čeka odluku po stavci",
+      "tone": "warning",
+      "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00031",
+      "datumPrikaz": "09.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "USK-2026-00005",
+      "vrsta": "Korekcija",
+      "skladiste": "SK-01",
+      "kontekst": "oštećenje · ART-5006 · -4",
+      "datum": "2026-10-09",
+      "status": "Proknjiženo",
+      "tone": "success",
+      "path": "/skladiste/interno/korekcije/usk-2026-00005",
+      "datumPrikaz": "09.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "ZZN-2026-00091",
+      "vrsta": "Trebovanje",
+      "skladiste": "SK-01",
+      "kontekst": "1 stavki",
+      "datum": "2026-10-08",
+      "status": "Odobreno",
+      "tone": "info",
+      "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00091",
+      "datumPrikaz": "08.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "PRE-2026-00012",
+      "vrsta": "Prenosnica",
+      "skladiste": "SK-01",
+      "kontekst": "unutar skladišta",
+      "datum": "2026-10-08",
+      "status": "Prenesena",
+      "tone": "success",
+      "path": "/skladiste/interno/prenosnice/pre-2026-00012",
+      "datumPrikaz": "08.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "POV-2026-00003",
+      "vrsta": "Povratnica",
+      "skladiste": "SK-01",
+      "kontekst": "iz IZD-2026-00081",
+      "datum": "2026-10-07",
+      "status": "Pregledano · čeka knjiženje",
+      "tone": "info",
+      "path": "/skladiste/prijem/povratnice/pov-2026-00003",
+      "datumPrikaz": "07.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "OTS-2026-00002",
+      "vrsta": "Otpis",
+      "skladiste": "SK-01",
+      "kontekst": "zastarjelo · ART-9520",
+      "datum": "2026-10-07",
+      "status": "Odobren · čeka knjiženje",
+      "tone": "warning",
+      "path": "/skladiste/interno/otpisi/ots-2026-00002",
+      "datumPrikaz": "07.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "IZD-2026-00085",
+      "vrsta": "Izdatnica",
+      "skladiste": "SK-01",
+      "kontekst": "osnov ZZN-2026-00087",
+      "datum": "2026-10-07",
+      "status": "Djelimično predano",
+      "tone": "info",
+      "path": "/skladiste/izdavanje/izdatnice/izd-2026-00085",
+      "datumPrikaz": "07.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "ZZN-2026-00013",
+      "vrsta": "Zahtjev za nabavku",
+      "skladiste": "SK-01",
+      "kontekst": "1 stavki",
+      "datum": "2026-10-06",
+      "status": "U nabavci",
+      "tone": "info",
+      "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00013",
+      "datumPrikaz": "06.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "PRJ-2026-00101",
+      "vrsta": "Prijemnica",
+      "skladiste": "SK-01",
+      "kontekst": "Elektro d.o.o.",
+      "datum": "2026-10-06",
+      "status": "Proknjiženo",
+      "tone": "success",
+      "path": "/skladiste/prijem/prijemnice/prj-2026-00101",
+      "datumPrikaz": "06.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    },
+    {
+      "broj": "PRJ-2026-00011",
+      "vrsta": "Prijemnica",
+      "skladiste": "SK-01",
+      "kontekst": "Hidraulika BH d.o.o.",
+      "datum": "2026-10-06",
+      "status": "Proknjiženo",
+      "tone": "success",
+      "path": "/skladiste/prijem/prijemnice/prj-2026-00011",
+      "datumPrikaz": "06.10.2026.",
+      "skladisteNaziv": "Centralno skladište"
+    }
+  ],
+  "napomeneZadaci": [
+    "28 zadataka · red otvara dokument na koraku koji čeka.",
+    "Administrator vidi svaki korak. U produkciji svako vidi samo korake svoje uloge."
+  ],
+  "napomeneNedavni": [
+    "Zadnjih 7 dana · svi dokumenti skladišta · red otvara dokument.",
+    "Proknjižen dokument se samo čita. Ispravka je storno ili povratnica, nikad izmjena."
+  ]
+}

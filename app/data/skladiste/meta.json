@@ -1,0 +1,177 @@
+{
+  "zamrznutoVrijeme": "2026-10-13T08:00:00+02:00",
+  "zamrznutoUtc": "2026-10-13T06:00:00.000Z",
+  "vremenskaZona": "Europe/Sarajevo",
+  "danas": "2026-10-13",
+  "izvor": "divetiq-cicak/src (Skladište demo seed)",
+  "datoteke": [
+    {
+      "datoteka": "artikli.json",
+      "zapisa": 27
+    },
+    {
+      "datoteka": "grupe-artikala.json",
+      "zapisa": 14
+    },
+    {
+      "datoteka": "skladista.json",
+      "zapisa": 8
+    },
+    {
+      "datoteka": "lokacije.json",
+      "zapisa": 42
+    },
+    {
+      "datoteka": "dobavljaci.json",
+      "zapisa": 7
+    },
+    {
+      "datoteka": "kupci.json",
+      "zapisa": 4
+    },
+    {
+      "datoteka": "radne-lokacije.json",
+      "zapisa": 6
+    },
+    {
+      "datoteka": "granice.json",
+      "zapisa": 30
+    },
+    {
+      "datoteka": "prijemnice.json",
+      "zapisa": 26
+    },
+    {
+      "datoteka": "izdatnice.json",
+      "zapisa": 39
+    },
+    {
+      "datoteka": "povratnice.json",
+      "zapisa": 7
+    },
+    {
+      "datoteka": "zahtjevi.json",
+      "zapisa": 10
+    },
+    {
+      "datoteka": "otpremnice.json",
+      "zapisa": 5
+    },
+    {
+      "datoteka": "prenosnice.json",
+      "zapisa": 4
+    },
+    {
+      "datoteka": "popisi.json",
+      "zapisa": 4
+    },
+    {
+      "datoteka": "korekcije.json",
+      "zapisa": 6
+    },
+    {
+      "datoteka": "otpisi.json",
+      "zapisa": 3
+    },
+    {
+      "datoteka": "pocetna-stanja.json",
+      "zapisa": 7
+    },
+    {
+      "datoteka": "rezervacije.json",
+      "zapisa": 9
+    },
+    {
+      "datoteka": "uloge.json",
+      "zapisa": 6
+    },
+    {
+      "datoteka": "dodjele.json",
+      "zapisa": 9
+    },
+    {
+      "datoteka": "korisnici.json",
+      "zapisa": 8
+    },
+    {
+      "datoteka": "politike.json",
+      "zapisa": 6
+    },
+    {
+      "datoteka": "integracije.json",
+      "zapisa": 1
+    },
+    {
+      "datoteka": "outbox.json",
+      "zapisa": 77
+    },
+    {
+      "datoteka": "naljepnice.json",
+      "zapisa": 2
+    },
+    {
+      "datoteka": "naljepnice-primjeri.json",
+      "zapisa": 3
+    },
+    {
+      "datoteka": "numeracija.json",
+      "zapisa": 13
+    },
+    {
+      "datoteka": "zalihe.json",
+      "zapisa": 61
+    },
+    {
+      "datoteka": "kartice.json",
+      "zapisa": 27
+    },
+    {
+      "datoteka": "pocetna.json",
+      "zapisa": 58
+    },
+    {
+      "datoteka": "izvjestaji.json",
+      "zapisa": 135
+    },
+    {
+      "datoteka": "sheme.json",
+      "zapisa": 8
+    },
+    {
+      "datoteka": "otvorene-potrebe.json",
+      "zapisa": 3
+    },
+    {
+      "datoteka": "dokumenti-izvedeno.json",
+      "zapisa": 120
+    },
+    {
+      "datoteka": "sifrarnici-izvedeno.json",
+      "zapisa": 63
+    },
+    {
+      "datoteka": "opcije.json",
+      "zapisa": 7
+    },
+    {
+      "datoteka": "pojmovi.json",
+      "zapisa": 152
+    },
+    {
+      "datoteka": "oznake.json",
+      "zapisa": 95
+    },
+    {
+      "datoteka": "protokol-zapisi.json",
+      "zapisa": 4
+    },
+    {
+      "datoteka": "prilozi.json",
+      "zapisa": 88
+    },
+    {
+      "datoteka": "prostorije.json",
+      "zapisa": 8
+    }
+  ]
+}

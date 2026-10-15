@@ -16,14 +16,17 @@ export interface ToolbarSelectProps {
   /** Highlights the button, for a choice that narrows the list. */
   active?: boolean;
   onChange: (value: string) => void;
+  /** As wide as its box and as tall as a form field, for a sheet's form. */
+  wide?: boolean;
   className?: string;
 }
 
 /**
- * A compact single-select for a panel header, as tall as the search field next to it.
+ * A compact single-select for a panel header, as tall as the search field next to it;
+ * `wide`, a full-width field of a sheet's form.
  * One click on an option picks it and closes the menu. It closes on Escape or a click outside.
  */
-export function ToolbarSelect({ label, value, options, fallback, active = false, onChange, className = "" }: ToolbarSelectProps) {
+export function ToolbarSelect({ label, value, options, fallback, active = false, onChange, wide = false, className = "" }: ToolbarSelectProps) {
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
@@ -51,7 +54,7 @@ export function ToolbarSelect({ label, value, options, fallback, active = false,
   }, [open]);
 
   return (
-    <div ref={rootRef} className={`relative ${className}`}>
+    <div ref={rootRef} className={`relative ${wide ? "w-full" : ""} ${className}`}>
       <button
         ref={buttonRef}
         type="button"
@@ -60,11 +63,11 @@ export function ToolbarSelect({ label, value, options, fallback, active = false,
         aria-expanded={open}
         aria-controls={listId}
         onClick={() => setOpen((current) => !current)}
-        className={`flex h-8 items-center gap-1.5 whitespace-nowrap rounded-lg border bg-white/70 pl-2.5 pr-2 text-xs transition hover:border-slate-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3B9DF8]/40 ${
-          active ? "border-[#3B9DF8]/50 text-gray-900" : "border-slate-200 text-gray-600"
-        }`}
+        className={`flex items-center gap-1.5 whitespace-nowrap rounded-lg border bg-white/70 pl-2.5 pr-2 transition hover:border-slate-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3B9DF8]/40 ${
+          wide ? "h-9 w-full justify-between text-sm" : "h-8 text-xs"
+        } ${active ? "border-[#3B9DF8]/50 text-gray-900" : "border-slate-200 text-gray-600"}`}
       >
-        <span className="flex items-center gap-1.5">{selected?.label ?? fallback}</span>
+        <span className="flex min-w-0 items-center gap-1.5 truncate">{selected?.label ?? fallback}</span>
         <LuChevronDown aria-hidden className={`size-3.5 text-gray-400 transition-transform ${open ? "rotate-180" : ""}`} />
       </button>
       {open && (
@@ -86,7 +89,7 @@ export function ToolbarSelect({ label, value, options, fallback, active = false,
                   onChange(option.value);
                   setOpen(false);
                 }}
-                className={`flex w-full items-center gap-3 rounded-lg px-2.5 py-1.5 text-left text-xs transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#3B9DF8] ${
+                className={`flex w-full items-center gap-3 rounded-lg px-2.5 py-1.5 text-left ${wide ? "text-sm" : "text-xs"} transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#3B9DF8] ${
                   isSelected ? "bg-[#3B9DF8]/10 font-medium text-[#3B9DF8]" : "text-gray-700 hover:bg-slate-100"
                 }`}
               >

@@ -1,0 +1,6791 @@
+{
+  "prijemnice": {
+    "prj-2026-00014": {
+      "red": {
+        "broj": "PRJ-2026-00014",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Metal Trade d.o.o.",
+        "datum": "2026-10-13",
+        "status": "Nacrt",
+        "tone": "neutral",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00014"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-13T04:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-13T04:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": null,
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": null,
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null,
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "NACRT",
+      "vrijednost": 180,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": false,
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "proknjizenihStavki": 0,
+      "kontrolaZbira": {
+        "isporuceno": 25,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": false
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "stavke": {
+        "prj-2026-00014-s1": {
+          "cijena": 7.2,
+          "kolicinaZaVrijednost": 25,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00013": {
+      "red": {
+        "broj": "PRJ-2026-00013",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Termo Servis d.o.o.",
+        "datum": "2026-10-12",
+        "status": "Fizički primljeno · čeka količinsku kontrolu",
+        "tone": "warning",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00013"
+      },
+      "sljedecaRadnja": "Količinska kontrola",
+      "cekaOd": "2026-10-12T10:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-12T06:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": null,
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": null,
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null,
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "U_TOKU",
+      "vrijednost": 776,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": false,
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "proknjizenihStavki": 0,
+      "kontrolaZbira": {
+        "isporuceno": 46,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": false
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "stavke": {
+        "prj-2026-00013-s1": {
+          "cijena": 24.5,
+          "kolicinaZaVrijednost": 16,
+          "privremena": true
+        },
+        "prj-2026-00013-s2": {
+          "cijena": 12.8,
+          "kolicinaZaVrijednost": 30,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00012": {
+      "red": {
+        "broj": "PRJ-2026-00012",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Elektro d.o.o.",
+        "datum": "2026-10-11",
+        "status": "Čeka kvalitativnu kontrolu",
+        "tone": "warning",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00012"
+      },
+      "sljedecaRadnja": "Kvalitativna kontrola",
+      "cekaOd": "2026-10-11T04:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-10T20:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-11T04:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": null,
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null,
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "U_TOKU",
+      "vrijednost": 1492,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": false,
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "proknjizenihStavki": 0,
+      "kontrolaZbira": {
+        "isporuceno": 552,
+        "prihvaceno": 528,
+        "odbijeno": 20,
+        "karantin": 4,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "stavke": {
+        "prj-2026-00012-s1": {
+          "cijena": 1.2,
+          "kolicinaZaVrijednost": 500,
+          "privremena": true
+        },
+        "prj-2026-00012-s2": {
+          "cijena": 8.5,
+          "kolicinaZaVrijednost": 40,
+          "privremena": true
+        },
+        "prj-2026-00012-s3": {
+          "cijena": 46,
+          "kolicinaZaVrijednost": 12,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00011": {
+      "red": {
+        "broj": "PRJ-2026-00011",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Hidraulika BH d.o.o.",
+        "datum": "2026-10-06",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00011"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-07T00:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-06T08:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-06T16:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-10-06T20:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-07T00:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 2494,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 2,
+      "kontrolaZbira": {
+        "isporuceno": 140,
+        "prihvaceno": 140,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00011-s1": {
+          "cijena": 24.5,
+          "kolicinaZaVrijednost": 60,
+          "privremena": true
+        },
+        "prj-2026-00011-s2": {
+          "cijena": 12.8,
+          "kolicinaZaVrijednost": 80,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00010": {
+      "red": {
+        "broj": "PRJ-2026-00010",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-02",
+        "kontekst": "Alati Plus d.o.o.",
+        "datum": "2026-10-04",
+        "status": "Djelimično proknjiženo",
+        "tone": "info",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+      },
+      "sljedecaRadnja": "Materijalno evidentiraj",
+      "cekaOd": "2026-10-05T08:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-04T16:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-05T00:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-10-05T04:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-05T08:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "U_TOKU",
+      "vrijednost": 1018,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "proknjizenihStavki": 2,
+      "kontrolaZbira": {
+        "isporuceno": 186,
+        "prihvaceno": 186,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "stavke": {
+        "prj-2026-00010-s1": {
+          "cijena": 3.9,
+          "kolicinaZaVrijednost": 60,
+          "privremena": true
+        },
+        "prj-2026-00010-s2": {
+          "cijena": 9.6,
+          "kolicinaZaVrijednost": 20,
+          "privremena": true
+        },
+        "prj-2026-00010-s3": {
+          "cijena": 42,
+          "kolicinaZaVrijednost": 6,
+          "privremena": true
+        },
+        "prj-2026-00010-s4": {
+          "cijena": 3.4,
+          "kolicinaZaVrijednost": 100,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00009": {
+      "red": {
+        "broj": "PRJ-2026-00009",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "—",
+        "datum": "2026-09-30",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00009"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-30T18:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-30T02:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-30T10:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-30T14:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-30T18:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 5869,
+      "cijenaPrivremena": false,
+      "mozePriznatiCijene": false,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 4,
+      "kontrolaZbira": {
+        "isporuceno": 1274,
+        "prihvaceno": 1274,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [
+        {
+          "razlog": "ART-1001 · A-01-02 · L-2551: storno skida 1000, a raspoloživo je 900 (rezervisano 100) — roba je u međuvremenu izdata, premještena ili rezervisana.",
+          "rjesenje": "Prvo vratite robu na tu poziciju (povratnica, prenosnica nazad) ili otpustite rezervaciju, pa stornirajte.",
+          "path": "/skladiste/zalihe/stanje?skladiste=SK-01&artikl=ART-1001&lokacija=A-01-02"
+        }
+      ],
+      "stavke": {
+        "prj-2026-00009-s1": {
+          "cijena": 1.2,
+          "kolicinaZaVrijednost": 1000,
+          "privremena": false
+        },
+        "prj-2026-00009-s2": {
+          "cijena": 8.5,
+          "kolicinaZaVrijednost": 160,
+          "privremena": false
+        },
+        "prj-2026-00009-s3": {
+          "cijena": 46,
+          "kolicinaZaVrijednost": 24,
+          "privremena": false
+        },
+        "prj-2026-00009-s4": {
+          "cijena": 24.5,
+          "kolicinaZaVrijednost": 90,
+          "privremena": false
+        }
+      }
+    },
+    "prj-2026-00008": {
+      "red": {
+        "broj": "PRJ-2026-00008",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Elektro d.o.o.",
+        "datum": "2026-09-28",
+        "status": "Nacrt",
+        "tone": "neutral",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00008"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-28T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-28T16:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": null,
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": null,
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null,
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "NACRT",
+      "vrijednost": 310.4,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": false,
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "proknjizenihStavki": 0,
+      "kontrolaZbira": {
+        "isporuceno": 137,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": false
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "stavke": {
+        "prj-2026-00008-s1": {
+          "cijena": 8.5,
+          "kolicinaZaVrijednost": 20,
+          "privremena": true
+        },
+        "prj-2026-00008-s2": {
+          "cijena": 1.2,
+          "kolicinaZaVrijednost": 117,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00007": {
+      "red": {
+        "broj": "PRJ-2026-00007",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Akt o donaciji 12/26",
+        "datum": "2026-09-23",
+        "status": "Otkazano",
+        "tone": "neutral",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00007"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-23T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-23T12:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": null,
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": null,
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null,
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "OTKAZANO",
+      "vrijednost": 0,
+      "cijenaPrivremena": false,
+      "mozePriznatiCijene": false,
+      "jeZaCitanje": true,
+      "mozeStorno": false,
+      "proknjizenihStavki": 0,
+      "kontrolaZbira": {
+        "isporuceno": 200,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": false
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "stavke": {
+        "prj-2026-00007-s1": {
+          "cijena": 0,
+          "kolicinaZaVrijednost": 0,
+          "privremena": false
+        }
+      }
+    },
+    "prj-2026-00006": {
+      "red": {
+        "broj": "PRJ-2026-00006",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Energo Plus d.o.o.",
+        "datum": "2026-09-21",
+        "status": "Odbijeno",
+        "tone": "danger",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00006"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-22T00:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-21T12:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-21T20:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-22T00:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null,
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "OTKAZANO",
+      "vrijednost": 0,
+      "cijenaPrivremena": false,
+      "mozePriznatiCijene": false,
+      "jeZaCitanje": true,
+      "mozeStorno": false,
+      "proknjizenihStavki": 0,
+      "kontrolaZbira": {
+        "isporuceno": 10,
+        "prihvaceno": 0,
+        "odbijeno": 10,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "stavke": {
+        "prj-2026-00006-s1": {
+          "cijena": 42,
+          "kolicinaZaVrijednost": 0,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00005": {
+      "red": {
+        "broj": "PRJ-2026-00005",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Hidraulika BH d.o.o.",
+        "datum": "2026-09-17",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00005"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-19T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-17T04:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-17T12:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-17T16:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-17T20:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": {
+            "ko": "K. Knjigovođa",
+            "uloga": "računovodstvo",
+            "kad": "2026-09-19T02:00:00.000Z"
+          },
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 1102.5,
+      "cijenaPrivremena": false,
+      "mozePriznatiCijene": false,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 45,
+        "prihvaceno": 45,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00005-s1": {
+          "cijena": 24.5,
+          "kolicinaZaVrijednost": 45,
+          "privremena": false
+        }
+      }
+    },
+    "prj-2026-00101": {
+      "red": {
+        "broj": "PRJ-2026-00101",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Elektro d.o.o.",
+        "datum": "2026-10-06",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00101"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-06T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-06T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-06T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-10-06T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-06T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 255,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 30,
+        "prihvaceno": 30,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00101-s1": {
+          "cijena": 8.5,
+          "kolicinaZaVrijednost": 30,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00102": {
+      "red": {
+        "broj": "PRJ-2026-00102",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Energo Plus d.o.o.",
+        "datum": "2026-10-05",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00102"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-05T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-05T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-05T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-10-05T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-05T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 312,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 80,
+        "prihvaceno": 80,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00102-s1": {
+          "cijena": 3.9,
+          "kolicinaZaVrijednost": 80,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00103": {
+      "red": {
+        "broj": "PRJ-2026-00103",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-06",
+        "kontekst": "Gradnja Komerc d.o.o.",
+        "datum": "2026-10-04",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00103"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-04T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-04T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-04T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-10-04T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-04T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 156,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 40,
+        "prihvaceno": 40,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00103-s1": {
+          "cijena": 3.9,
+          "kolicinaZaVrijednost": 40,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00104": {
+      "red": {
+        "broj": "PRJ-2026-00104",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Termo Servis d.o.o.",
+        "datum": "2026-09-29",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00104"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-29T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-29T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-29T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-29T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-29T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 294,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 12,
+        "prihvaceno": 12,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00104-s1": {
+          "cijena": 24.5,
+          "kolicinaZaVrijednost": 12,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00105": {
+      "red": {
+        "broj": "PRJ-2026-00105",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Metal Trade d.o.o.",
+        "datum": "2026-09-22",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00105"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-22T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-22T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-22T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-22T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-22T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 684,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 60,
+        "prihvaceno": 60,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00105-s1": {
+          "cijena": 11.4,
+          "kolicinaZaVrijednost": 60,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00106": {
+      "red": {
+        "broj": "PRJ-2026-00106",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Hidraulika BH d.o.o.",
+        "datum": "2026-09-21",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00106"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-21T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-21T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-21T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-21T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-21T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 178,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00106-s1": {
+          "cijena": 8.9,
+          "kolicinaZaVrijednost": 20,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00107": {
+      "red": {
+        "broj": "PRJ-2026-00107",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Elektro d.o.o.",
+        "datum": "2026-09-20",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00107"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-20T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-20T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-20T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-20T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-20T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 255,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 30,
+        "prihvaceno": 30,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00107-s1": {
+          "cijena": 8.5,
+          "kolicinaZaVrijednost": 30,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00108": {
+      "red": {
+        "broj": "PRJ-2026-00108",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-06",
+        "kontekst": "Elektro d.o.o.",
+        "datum": "2026-09-19",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00108"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-19T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-19T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-19T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-19T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-19T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 170,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00108-s1": {
+          "cijena": 8.5,
+          "kolicinaZaVrijednost": 20,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00109": {
+      "red": {
+        "broj": "PRJ-2026-00109",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Energo Plus d.o.o.",
+        "datum": "2026-09-15",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00109"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-15T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-15T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-15T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-15T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-15T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 312,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 80,
+        "prihvaceno": 80,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00109-s1": {
+          "cijena": 3.9,
+          "kolicinaZaVrijednost": 80,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00110": {
+      "red": {
+        "broj": "PRJ-2026-00110",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Termo Servis d.o.o.",
+        "datum": "2026-09-14",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00110"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-14T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-14T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-14T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-14T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-14T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 294,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 12,
+        "prihvaceno": 12,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00110-s1": {
+          "cijena": 24.5,
+          "kolicinaZaVrijednost": 12,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00111": {
+      "red": {
+        "broj": "PRJ-2026-00111",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-06",
+        "kontekst": "Gradnja Komerc d.o.o.",
+        "datum": "2026-09-13",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00111"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-13T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-13T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-13T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-13T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-13T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 156,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 40,
+        "prihvaceno": 40,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00111-s1": {
+          "cijena": 3.9,
+          "kolicinaZaVrijednost": 40,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00112": {
+      "red": {
+        "broj": "PRJ-2026-00112",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Hidraulika BH d.o.o.",
+        "datum": "2026-09-08",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00112"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-08T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-08T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-08T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-08T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-08T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 178,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00112-s1": {
+          "cijena": 8.9,
+          "kolicinaZaVrijednost": 20,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00113": {
+      "red": {
+        "broj": "PRJ-2026-00113",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Elektro d.o.o.",
+        "datum": "2026-09-01",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00113"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-01T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-01T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-01T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-09-01T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-01T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 255,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 30,
+        "prihvaceno": 30,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00113-s1": {
+          "cijena": 8.5,
+          "kolicinaZaVrijednost": 30,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00114": {
+      "red": {
+        "broj": "PRJ-2026-00114",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Metal Trade d.o.o.",
+        "datum": "2026-08-31",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00114"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-31T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-31T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-31T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-08-31T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-31T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 684,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 60,
+        "prihvaceno": 60,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00114-s1": {
+          "cijena": 11.4,
+          "kolicinaZaVrijednost": 60,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00115": {
+      "red": {
+        "broj": "PRJ-2026-00115",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-06",
+        "kontekst": "Elektro d.o.o.",
+        "datum": "2026-08-30",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00115"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-30T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-30T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-30T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-08-30T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-30T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 170,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00115-s1": {
+          "cijena": 8.5,
+          "kolicinaZaVrijednost": 20,
+          "privremena": true
+        }
+      }
+    },
+    "prj-2026-00116": {
+      "red": {
+        "broj": "PRJ-2026-00116",
+        "vrsta": "Prijemnica",
+        "skladiste": "SK-01",
+        "kontekst": "Energo Plus d.o.o.",
+        "datum": "2026-08-25",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/prijemnice/prj-2026-00116"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-25T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-25T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Količinski provjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-25T08:00:00.000Z"
+          },
+          "pojam": "kolicinskaKontrola"
+        },
+        {
+          "label": "Kvalitativno prihvatio",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-08-25T12:00:00.000Z"
+          },
+          "pojam": "kvalitativnaKontrola"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-25T16:00:00.000Z"
+          },
+          "pojam": "materijalnoEvidentiranje"
+        },
+        {
+          "label": "Cijene priznao",
+          "potpis": null,
+          "pojam": "priznavanjeCijene"
+        }
+      ],
+      "statusGrupa": "PROKNJIZENO",
+      "vrijednost": 312,
+      "cijenaPrivremena": true,
+      "mozePriznatiCijene": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "proknjizenihStavki": 1,
+      "kontrolaZbira": {
+        "isporuceno": 80,
+        "prihvaceno": 80,
+        "odbijeno": 0,
+        "karantin": 0,
+        "uskladjeno": true
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "stavke": {
+        "prj-2026-00116-s1": {
+          "cijena": 3.9,
+          "kolicinaZaVrijednost": 80,
+          "privremena": true
+        }
+      }
+    }
+  },
+  "izdatnice": {
+    "izd-2026-00088": {
+      "red": {
+        "broj": "IZD-2026-00088",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-02",
+        "kontekst": "osnov RN-2026-0017",
+        "datum": "2026-10-11",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "neutral",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00088"
+      },
+      "sljedecaRadnja": "Ovjeri",
+      "cekaOd": "2026-10-12T00:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-12T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": null,
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": null,
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": false,
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "vrijednost": 0,
+      "preostaloZaPredaju": 40,
+      "ukupnoPredano": 0,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "provjere": [
+        {
+          "stavkaId": "izd-2026-00088-s1",
+          "artikl": "ART-4102",
+          "trazeno": 40,
+          "raspolozivo": 0,
+          "dozvoljeno": 0,
+          "ok": false,
+          "poruka": "Traženo 40, dozvoljeno 0 (raspoloživo 0 + rezervisano za osnov 0)."
+        }
+      ],
+      "mozeVratiti": {
+        "izd-2026-00088-s1": 0
+      }
+    },
+    "izd-2026-00087": {
+      "red": {
+        "broj": "IZD-2026-00087",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0015",
+        "datum": "2026-10-12",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "neutral",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00087"
+      },
+      "sljedecaRadnja": "Ovjeri",
+      "cekaOd": "2026-10-12T04:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-12T04:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": null,
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": null,
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": false,
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "vrijednost": 0,
+      "preostaloZaPredaju": 134,
+      "ukupnoPredano": 0,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "provjere": [
+        {
+          "stavkaId": "izd-2026-00087-s1",
+          "artikl": "ART-1001",
+          "trazeno": 120,
+          "raspolozivo": 900,
+          "dozvoljeno": 920,
+          "ok": true,
+          "poruka": "OK"
+        },
+        {
+          "stavkaId": "izd-2026-00087-s2",
+          "artikl": "ART-2044",
+          "trazeno": 10,
+          "raspolozivo": 201,
+          "dozvoljeno": 211,
+          "ok": true,
+          "poruka": "OK"
+        },
+        {
+          "stavkaId": "izd-2026-00087-s3",
+          "artikl": "ART-3310",
+          "trazeno": 4,
+          "raspolozivo": 24,
+          "dozvoljeno": 24,
+          "ok": true,
+          "poruka": "Lot S-91…S-94 nije na stanju — knjiži se sa prvog dostupnog lota."
+        }
+      ],
+      "mozeVratiti": {
+        "izd-2026-00087-s1": 0,
+        "izd-2026-00087-s2": 0,
+        "izd-2026-00087-s3": 0
+      }
+    },
+    "izd-2026-00086": {
+      "red": {
+        "broj": "IZD-2026-00086",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0014",
+        "datum": "2026-10-10",
+        "status": "Proknjiženo · čeka predaju",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00086"
+      },
+      "sljedecaRadnja": "Predaj",
+      "cekaOd": "2026-10-11T14:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-11T04:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-11T09:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": null,
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": false,
+      "mozeStorno": true,
+      "vrijednost": 144,
+      "preostaloZaPredaju": 3,
+      "ukupnoPredano": 0,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00086-s1": 0,
+        "izd-2026-00086-s2": 0
+      }
+    },
+    "izd-2026-00085": {
+      "red": {
+        "broj": "IZD-2026-00085",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov ZZN-2026-00087",
+        "datum": "2026-10-07",
+        "status": "Djelimično predano",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00085"
+      },
+      "sljedecaRadnja": "Predaj",
+      "cekaOd": "2026-10-09T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-08T11:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-08T16:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-09T02:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "H. Hidrauličar · servis pumpi",
+            "uloga": "primalac",
+            "kad": "2026-10-09T02:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": false,
+      "mozeStorno": true,
+      "vrijednost": 240,
+      "preostaloZaPredaju": 80,
+      "ukupnoPredano": 120,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [
+        {
+          "razlog": "Po izdatnici postoji povratnica POV-2026-00007.",
+          "rjesenje": "Prvo otkažite povratnicu u toku ili stornirajte proknjiženu, pa stornirajte izdatnicu.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00007"
+        }
+      ],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00085-s1": 105
+      }
+    },
+    "izd-2026-00084": {
+      "red": {
+        "broj": "IZD-2026-00084",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov ZZN-2026-00093",
+        "datum": "2026-10-05",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00084"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-06T04:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-05T13:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-05T18:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-06T04:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-10-06T04:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 195,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 50,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [
+        {
+          "razlog": "Po izdatnici postoji povratnica POV-2026-00006.",
+          "rjesenje": "Prvo otkažite povratnicu u toku ili stornirajte proknjiženu, pa stornirajte izdatnicu.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00006"
+        }
+      ],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00084-s1": 40
+      }
+    },
+    "izd-2026-00083": {
+      "red": {
+        "broj": "IZD-2026-00083",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov ZZN-2026-00079",
+        "datum": "2026-09-27",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00083"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-28T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-27T15:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-27T20:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-28T06:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "V. Vozač · transport",
+            "uloga": "primalac",
+            "kad": "2026-09-28T06:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 576,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 80,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [
+        {
+          "razlog": "Po izdatnici postoji povratnica POV-2026-00008.",
+          "rjesenje": "Prvo otkažite povratnicu u toku ili stornirajte proknjiženu, pa stornirajte izdatnicu.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00008"
+        }
+      ],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00083-s1": 75
+      }
+    },
+    "izd-2026-00082": {
+      "red": {
+        "broj": "IZD-2026-00082",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0001",
+        "datum": "2026-10-03",
+        "status": "Otkazano",
+        "tone": "neutral",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00082"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-04T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-04T02:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": null,
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": null,
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": false,
+      "jeZaCitanje": true,
+      "mozeStorno": false,
+      "vrijednost": 0,
+      "preostaloZaPredaju": 4,
+      "ukupnoPredano": 0,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00082-s1": 0
+      }
+    },
+    "izd-2026-00081": {
+      "red": {
+        "broj": "IZD-2026-00081",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0009",
+        "datum": "2026-09-25",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00081"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-26T04:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-25T13:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-25T18:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-26T04:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-09-26T04:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 378,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 18,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [
+        {
+          "razlog": "Po izdatnici postoji povratnica POV-2026-00009, POV-2026-00003.",
+          "rjesenje": "Prvo otkažite povratnicu u toku ili stornirajte proknjiženu, pa stornirajte izdatnicu.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00009"
+        }
+      ],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00081-s1": 9,
+        "izd-2026-00081-s2": 3
+      }
+    },
+    "izd-2026-00080": {
+      "red": {
+        "broj": "IZD-2026-00080",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-02",
+        "kontekst": "osnov RN-2026-0007",
+        "datum": "2026-09-22",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00080"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-23T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-22T15:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-22T20:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-23T06:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-09-23T06:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 258,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 60,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [
+        {
+          "razlog": "Po izdatnici postoji povratnica POV-2026-00005.",
+          "rjesenje": "Prvo otkažite povratnicu u toku ili stornirajte proknjiženu, pa stornirajte izdatnicu.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00005"
+        },
+        {
+          "razlog": "ART-4102 · bez lokacija · L-3120: pozicija je zamrznuto popisom INV-2026-00004.",
+          "rjesenje": "Završite popis, pa stornirajte.",
+          "path": "/skladiste/interno/popisi"
+        }
+      ],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00080-s1": 48
+      }
+    },
+    "izd-2026-00079": {
+      "red": {
+        "broj": "IZD-2026-00079",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov OJ Održavanje",
+        "datum": "2026-09-18",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00079"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-19T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-18T11:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-18T16:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-19T02:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-09-19T02:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 136,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 26,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00079-s1": 6,
+        "izd-2026-00079-s2": 20
+      }
+    },
+    "izd-2026-00201": {
+      "red": {
+        "broj": "IZD-2026-00201",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0022",
+        "datum": "2026-10-05",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00201"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-05T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-04T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-05T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-05T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-10-05T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 46.8,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 12,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00201-s1": 12
+      }
+    },
+    "izd-2026-00202": {
+      "red": {
+        "broj": "IZD-2026-00202",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0023",
+        "datum": "2026-10-04",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00202"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-04T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-03T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-04T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-04T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-10-04T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 17,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00202-s1": 2
+      }
+    },
+    "izd-2026-00203": {
+      "red": {
+        "broj": "IZD-2026-00203",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0024",
+        "datum": "2026-10-03",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00203"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-03T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-02T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-03T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-03T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-10-03T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 26,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 10,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00203-s1": 10
+      }
+    },
+    "izd-2026-00204": {
+      "red": {
+        "broj": "IZD-2026-00204",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0025",
+        "datum": "2026-10-02",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00204"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-02T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-01T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-02T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-02T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-10-02T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 23.4,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 6,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00204-s1": 6
+      }
+    },
+    "izd-2026-00205": {
+      "red": {
+        "broj": "IZD-2026-00205",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0026",
+        "datum": "2026-10-01",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00205"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-01T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-30T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-01T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-01T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-10-01T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 14,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 1,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00205-s1": 1
+      }
+    },
+    "izd-2026-00206": {
+      "red": {
+        "broj": "IZD-2026-00206",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0027",
+        "datum": "2026-09-28",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00206"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-28T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-27T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-28T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-28T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-09-28T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 91.2,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 8,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00206-s1": 8
+      }
+    },
+    "izd-2026-00207": {
+      "red": {
+        "broj": "IZD-2026-00207",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0028",
+        "datum": "2026-09-27",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00207"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-27T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-26T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-27T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-27T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-09-27T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 49,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00207-s1": 2
+      }
+    },
+    "izd-2026-00208": {
+      "red": {
+        "broj": "IZD-2026-00208",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0029",
+        "datum": "2026-09-26",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00208"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-26T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-25T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-26T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-26T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-09-26T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 17,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00208-s1": 2
+      }
+    },
+    "izd-2026-00209": {
+      "red": {
+        "broj": "IZD-2026-00209",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0030",
+        "datum": "2026-09-21",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00209"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-21T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-20T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-21T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-21T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-09-21T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 26,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 10,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00209-s1": 10
+      }
+    },
+    "izd-2026-00210": {
+      "red": {
+        "broj": "IZD-2026-00210",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0031",
+        "datum": "2026-09-20",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00210"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-20T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-19T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-20T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-20T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-09-20T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 46.8,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 12,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00210-s1": 12
+      }
+    },
+    "izd-2026-00211": {
+      "red": {
+        "broj": "IZD-2026-00211",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0032",
+        "datum": "2026-09-19",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00211"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-19T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-18T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-19T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-19T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-09-19T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 91.2,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 8,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00211-s1": 8
+      }
+    },
+    "izd-2026-00212": {
+      "red": {
+        "broj": "IZD-2026-00212",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0033",
+        "datum": "2026-09-18",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00212"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-18T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-17T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-18T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-18T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-09-18T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 17,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00212-s1": 2
+      }
+    },
+    "izd-2026-00213": {
+      "red": {
+        "broj": "IZD-2026-00213",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0034",
+        "datum": "2026-09-17",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00213"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-17T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-16T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-17T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-17T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-09-17T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 45.6,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 4,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00213-s1": 4
+      }
+    },
+    "izd-2026-00214": {
+      "red": {
+        "broj": "IZD-2026-00214",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0035",
+        "datum": "2026-09-16",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00214"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-16T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-15T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-16T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-16T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-09-16T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 23.4,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 6,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00214-s1": 6
+      }
+    },
+    "izd-2026-00215": {
+      "red": {
+        "broj": "IZD-2026-00215",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0036",
+        "datum": "2026-09-14",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00215"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-14T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-13T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-14T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-14T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-09-14T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 49,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00215-s1": 2
+      }
+    },
+    "izd-2026-00216": {
+      "red": {
+        "broj": "IZD-2026-00216",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0001",
+        "datum": "2026-09-13",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00216"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-13T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-12T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-13T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-13T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-09-13T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 46.8,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 12,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00216-s1": 12
+      }
+    },
+    "izd-2026-00217": {
+      "red": {
+        "broj": "IZD-2026-00217",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0002",
+        "datum": "2026-09-12",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00217"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-12T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-11T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-12T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-12T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-09-12T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 26,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 10,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00217-s1": 10
+      }
+    },
+    "izd-2026-00218": {
+      "red": {
+        "broj": "IZD-2026-00218",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0003",
+        "datum": "2026-09-11",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00218"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-11T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-10T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-11T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-11T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-09-11T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 14,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 1,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00218-s1": 1
+      }
+    },
+    "izd-2026-00219": {
+      "red": {
+        "broj": "IZD-2026-00219",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0004",
+        "datum": "2026-09-07",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00219"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-07T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-06T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-07T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-07T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-09-07T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 91.2,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 8,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00219-s1": 8
+      }
+    },
+    "izd-2026-00220": {
+      "red": {
+        "broj": "IZD-2026-00220",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0005",
+        "datum": "2026-09-06",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00220"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-06T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-05T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-06T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-06T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-09-06T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 17,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00220-s1": 2
+      }
+    },
+    "izd-2026-00221": {
+      "red": {
+        "broj": "IZD-2026-00221",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0006",
+        "datum": "2026-09-05",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00221"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-05T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-04T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-05T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-09-05T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-09-05T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 23.4,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 6,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00221-s1": 6
+      }
+    },
+    "izd-2026-00222": {
+      "red": {
+        "broj": "IZD-2026-00222",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0007",
+        "datum": "2026-08-31",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00222"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-31T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-30T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-31T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-08-31T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-08-31T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 46.8,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 12,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00222-s1": 12
+      }
+    },
+    "izd-2026-00223": {
+      "red": {
+        "broj": "IZD-2026-00223",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0008",
+        "datum": "2026-08-30",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00223"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-30T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-29T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-30T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-08-30T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-08-30T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 26,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 10,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00223-s1": 10
+      }
+    },
+    "izd-2026-00224": {
+      "red": {
+        "broj": "IZD-2026-00224",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0009",
+        "datum": "2026-08-29",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00224"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-29T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-28T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-29T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-08-29T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-08-29T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 49,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00224-s1": 2
+      }
+    },
+    "izd-2026-00225": {
+      "red": {
+        "broj": "IZD-2026-00225",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0010",
+        "datum": "2026-08-28",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00225"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-28T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-27T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-28T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-08-28T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-08-28T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 17,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00225-s1": 2
+      }
+    },
+    "izd-2026-00226": {
+      "red": {
+        "broj": "IZD-2026-00226",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0011",
+        "datum": "2026-08-27",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00226"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-27T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-26T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-27T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-08-27T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-08-27T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 45.6,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 4,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00226-s1": 4
+      }
+    },
+    "izd-2026-00227": {
+      "red": {
+        "broj": "IZD-2026-00227",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0012",
+        "datum": "2026-08-24",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00227"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-24T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-23T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-24T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-08-24T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "M. Majstor · ekipa održavanja 2",
+            "uloga": "primalac",
+            "kad": "2026-08-24T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 17,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 2,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00227-s1": 2
+      }
+    },
+    "izd-2026-00228": {
+      "red": {
+        "broj": "IZD-2026-00228",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-01",
+        "kontekst": "osnov RN-2026-0013",
+        "datum": "2026-08-23",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00228"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-23T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-22T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-23T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-08-23T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "E. Električar · ekipa održavanja 1",
+            "uloga": "primalac",
+            "kad": "2026-08-23T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 91.2,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 8,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00228-s1": 8
+      }
+    },
+    "izd-2026-00229": {
+      "red": {
+        "broj": "IZD-2026-00229",
+        "vrsta": "Izdatnica",
+        "skladiste": "SK-06",
+        "kontekst": "osnov RN-2026-0014",
+        "datum": "2026-08-22",
+        "status": "Predano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/izdatnice/izd-2026-00229"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-08-22T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-08-21T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-22T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Predao",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-08-22T12:00:00.000Z"
+          },
+          "pojam": "predaja"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Z. Zenički · ekipa pogona Zenica",
+            "uloga": "primalac",
+            "kad": "2026-08-22T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeProknjizena": true,
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 14,
+      "preostaloZaPredaju": 0,
+      "ukupnoPredano": 1,
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "provjere": null,
+      "mozeVratiti": {
+        "izd-2026-00229-s1": 1
+      }
+    }
+  },
+  "povratnice": {
+    "pov-2026-00009": {
+      "red": {
+        "broj": "POV-2026-00009",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00081",
+        "datum": "2026-10-10",
+        "status": "Fizički primljeno · čeka pregled",
+        "tone": "warning",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00009"
+      },
+      "sljedecaRadnja": "Pregledaj i prihvati",
+      "cekaOd": "2026-10-13T00:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-12T14:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-12T19:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-13T00:00:00.000Z"
+          },
+          "pojam": "custody"
+        },
+        {
+          "label": "Pregledao",
+          "potpis": null,
+          "pojam": "pregledPovrata"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null
+        }
+      ],
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "vrijednost": 117.5,
+      "zbir": {
+        "primljeno": 5,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "preostalo": 5
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "izvornaIzdatnicaBroj": "IZD-2026-00081"
+    },
+    "pov-2026-00008": {
+      "red": {
+        "broj": "POV-2026-00008",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00083",
+        "datum": "2026-10-04",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00008"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-04T22:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-04T02:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-04T07:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-04T12:00:00.000Z"
+          },
+          "pojam": "custody"
+        },
+        {
+          "label": "Pregledao",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-10-04T17:00:00.000Z"
+          },
+          "pojam": "pregledPovrata"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-04T22:00:00.000Z"
+          }
+        }
+      ],
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 36,
+      "zbir": {
+        "primljeno": 5,
+        "prihvaceno": 5,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "preostalo": 0
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [],
+      "izvornaIzdatnicaBroj": "IZD-2026-00083"
+    },
+    "pov-2026-00007": {
+      "red": {
+        "broj": "POV-2026-00007",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00085",
+        "datum": "2026-10-12",
+        "status": "Ovjerena · čeka fizički prijem",
+        "tone": "warning",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00007"
+      },
+      "sljedecaRadnja": "Fizički primi",
+      "cekaOd": "2026-10-12T18:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-12T13:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-12T18:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        },
+        {
+          "label": "Pregledao",
+          "potpis": null,
+          "pojam": "pregledPovrata"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null
+        }
+      ],
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "vrijednost": 18,
+      "zbir": {
+        "primljeno": 0,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "preostalo": 0
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "izvornaIzdatnicaBroj": "IZD-2026-00085"
+    },
+    "pov-2026-00006": {
+      "red": {
+        "broj": "POV-2026-00006",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00084",
+        "datum": "2026-10-13",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "neutral",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00006"
+      },
+      "sljedecaRadnja": "Ovjeri",
+      "cekaOd": "2026-10-13T03:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-13T03:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": null,
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        },
+        {
+          "label": "Pregledao",
+          "potpis": null,
+          "pojam": "pregledPovrata"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null
+        }
+      ],
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "vrijednost": 39,
+      "zbir": {
+        "primljeno": 0,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "preostalo": 0
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "izvornaIzdatnicaBroj": "IZD-2026-00084"
+    },
+    "pov-2026-00005": {
+      "red": {
+        "broj": "POV-2026-00005",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-02",
+        "kontekst": "iz IZD-2026-00080",
+        "datum": "2026-10-01",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00005"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-02T00:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-01T04:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-01T09:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-01T14:00:00.000Z"
+          },
+          "pojam": "custody"
+        },
+        {
+          "label": "Pregledao",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-10-01T19:00:00.000Z"
+          },
+          "pojam": "pregledPovrata"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-02T00:00:00.000Z"
+          }
+        }
+      ],
+      "jeZaCitanje": true,
+      "mozeStorno": true,
+      "vrijednost": 43,
+      "zbir": {
+        "primljeno": 12,
+        "prihvaceno": 10,
+        "vracenoNazad": 0,
+        "otpisano": 2,
+        "preostalo": 0
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": [
+        {
+          "razlog": "ART-4102 · bez lokacija · L-3120: pozicija je zamrznuto popisom INV-2026-00004.",
+          "rjesenje": "Završite popis, pa stornirajte — dok se broji, na poziciji nema knjiženja.",
+          "path": "/skladiste/interno/popisi"
+        }
+      ],
+      "izvornaIzdatnicaBroj": "IZD-2026-00080"
+    },
+    "pov-2026-00004": {
+      "red": {
+        "broj": "POV-2026-00004",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00079",
+        "datum": "2026-09-23",
+        "status": "Otkazano",
+        "tone": "neutral",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00004"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-23T16:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-23T16:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": null,
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        },
+        {
+          "label": "Pregledao",
+          "potpis": null,
+          "pojam": "pregledPovrata"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null
+        }
+      ],
+      "jeZaCitanje": true,
+      "mozeStorno": false,
+      "vrijednost": 14,
+      "zbir": {
+        "primljeno": 0,
+        "prihvaceno": 0,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "preostalo": 0
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "izvornaIzdatnicaBroj": "IZD-2026-00079"
+    },
+    "pov-2026-00003": {
+      "red": {
+        "broj": "POV-2026-00003",
+        "vrsta": "Povratnica",
+        "skladiste": "SK-01",
+        "kontekst": "iz IZD-2026-00081",
+        "datum": "2026-10-07",
+        "status": "Pregledano · čeka knjiženje",
+        "tone": "info",
+        "path": "/skladiste/prijem/povratnice/pov-2026-00003"
+      },
+      "sljedecaRadnja": "Proknjiži",
+      "cekaOd": "2026-10-10T18:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-10T03:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-10T08:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-10T13:00:00.000Z"
+          },
+          "pojam": "custody"
+        },
+        {
+          "label": "Pregledao",
+          "potpis": {
+            "ko": "T. Tehnički",
+            "uloga": "tehnički primalac",
+            "kad": "2026-10-10T18:00:00.000Z"
+          },
+          "pojam": "pregledPovrata"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null
+        }
+      ],
+      "jeZaCitanje": false,
+      "mozeStorno": false,
+      "vrijednost": 46,
+      "zbir": {
+        "primljeno": 1,
+        "prihvaceno": 1,
+        "vracenoNazad": 0,
+        "otpisano": 0,
+        "preostalo": 0
+      },
+      "stornoOznaka": null,
+      "parStorna": null,
+      "preprekeStorna": null,
+      "izvornaIzdatnicaBroj": "IZD-2026-00081"
+    }
+  },
+  "otpremnice": {
+    "otp-2026-00025": {
+      "red": {
+        "broj": "OTP-2026-00025",
+        "vrsta": "Otpremnica",
+        "skladiste": "SK-06",
+        "kontekst": "Prodaja kupcu · Toplana Zenica d.o.o.",
+        "datum": "2026-10-13",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/otpremnice/otp-2026-00025"
+      },
+      "sljedecaRadnja": "Ovjeri otpremnicu",
+      "cekaOd": "2026-10-13T03:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-13T03:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": null,
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Otpremio",
+          "potpis": null
+        },
+        {
+          "label": "Isporuku potvrdio",
+          "potpis": null,
+          "pojam": "otpremnicaNasa"
+        }
+      ],
+      "jeOtpremljena": false,
+      "jeZaCitanje": false,
+      "vrijednost": 0,
+      "provjere": [
+        {
+          "stavkaId": "otp-2026-00025-s1",
+          "artikl": "ART-4008",
+          "trazeno": 30,
+          "raspolozivo": 332,
+          "dozvoljeno": 332,
+          "ok": true,
+          "poruka": "OK"
+        }
+      ]
+    },
+    "otp-2026-00024": {
+      "red": {
+        "broj": "OTP-2026-00024",
+        "vrsta": "Otpremnica",
+        "skladiste": "SK-01",
+        "kontekst": "Prodaja kupcu · Elektrodistribucija Sarajevo",
+        "datum": "2026-10-12",
+        "status": "Ovjerena · čeka otpremu",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/otpremnice/otp-2026-00024"
+      },
+      "sljedecaRadnja": "Otpremi robu",
+      "cekaOd": "2026-10-12T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-11T21:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-12T02:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Otpremio",
+          "potpis": null
+        },
+        {
+          "label": "Isporuku potvrdio",
+          "potpis": null,
+          "pojam": "otpremnicaNasa"
+        }
+      ],
+      "jeOtpremljena": false,
+      "jeZaCitanje": true,
+      "vrijednost": 0,
+      "provjere": [
+        {
+          "stavkaId": "otp-2026-00024-s1",
+          "artikl": "ART-2044",
+          "trazeno": 10,
+          "raspolozivo": 201,
+          "dozvoljeno": 201,
+          "ok": true,
+          "poruka": "OK"
+        }
+      ]
+    },
+    "otp-2026-00023": {
+      "red": {
+        "broj": "OTP-2026-00023",
+        "vrsta": "Otpremnica",
+        "skladiste": "SK-01",
+        "kontekst": "Prodaja kupcu · Građevinar Kakanj d.o.o.",
+        "datum": "2026-10-11",
+        "status": "Otpremljena · roba na putu",
+        "tone": "warning",
+        "path": "/skladiste/izdavanje/otpremnice/otp-2026-00023"
+      },
+      "sljedecaRadnja": "Potvrdi isporuku",
+      "cekaOd": "2026-10-11T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-10T16:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-10T21:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Otpremio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-11T02:00:00.000Z"
+          }
+        },
+        {
+          "label": "Isporuku potvrdio",
+          "potpis": null,
+          "pojam": "otpremnicaNasa"
+        }
+      ],
+      "jeOtpremljena": true,
+      "jeZaCitanje": true,
+      "vrijednost": 394,
+      "provjere": null
+    },
+    "otp-2026-00022": {
+      "red": {
+        "broj": "OTP-2026-00022",
+        "vrsta": "Otpremnica",
+        "skladiste": "SK-01",
+        "kontekst": "Povrat dobavljaču · Hidraulika BH d.o.o.",
+        "datum": "2026-10-05",
+        "status": "Isporučena · potpisano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/otpremnice/otp-2026-00022"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-06T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-04T16:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-04T21:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Otpremio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-05T02:00:00.000Z"
+          }
+        },
+        {
+          "label": "Isporuku potvrdio",
+          "potpis": {
+            "ko": "Hidraulika BH d.o.o.",
+            "uloga": "primalac",
+            "kad": "2026-10-06T02:00:00.000Z"
+          },
+          "pojam": "otpremnicaNasa"
+        }
+      ],
+      "jeOtpremljena": true,
+      "jeZaCitanje": true,
+      "vrijednost": 122.5,
+      "provjere": null
+    },
+    "otp-2026-00021": {
+      "red": {
+        "broj": "OTP-2026-00021",
+        "vrsta": "Otpremnica",
+        "skladiste": "SK-01",
+        "kontekst": "Prodaja kupcu · Vodovod i kanalizacija d.o.o.",
+        "datum": "2026-10-01",
+        "status": "Isporučena · potpisano",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/otpremnice/otp-2026-00021"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-02T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-30T16:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-30T21:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Otpremio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-01T02:00:00.000Z"
+          }
+        },
+        {
+          "label": "Isporuku potvrdio",
+          "potpis": {
+            "ko": "Vodovod i kanalizacija d.o.o.",
+            "uloga": "primalac",
+            "kad": "2026-10-02T02:00:00.000Z"
+          },
+          "pojam": "otpremnicaNasa"
+        }
+      ],
+      "jeOtpremljena": true,
+      "jeZaCitanje": true,
+      "vrijednost": 226,
+      "provjere": null
+    }
+  },
+  "prenosnice": {
+    "pre-2026-00014": {
+      "red": {
+        "broj": "PRE-2026-00014",
+        "vrsta": "Prenosnica",
+        "skladiste": "SK-06",
+        "kontekst": "→ SK-07",
+        "datum": "2026-10-13",
+        "status": "Nacrt · čeka ovjeru",
+        "tone": "info",
+        "path": "/skladiste/interno/prenosnice/pre-2026-00014"
+      },
+      "sljedecaRadnja": "Ovjeri prenosnicu",
+      "cekaOd": "2026-10-13T04:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-13T04:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": null,
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Otpremio",
+          "potpis": null,
+          "pojam": "tranzit"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        }
+      ],
+      "jeUnutarSkladista": false,
+      "jeOtpremljena": false,
+      "jeZaCitanje": false,
+      "vrijednost": 0,
+      "gubitakUTranzitu": {
+        "kolicina": 0,
+        "vrijednost": 0
+      },
+      "provjere": [
+        {
+          "stavkaId": "pre-2026-00014-s1",
+          "artikl": "ART-4008",
+          "trazeno": 20,
+          "raspolozivo": 182,
+          "dozvoljeno": 182,
+          "ok": true,
+          "poruka": "OK"
+        }
+      ]
+    },
+    "pre-2026-00013": {
+      "red": {
+        "broj": "PRE-2026-00013",
+        "vrsta": "Prenosnica",
+        "skladiste": "SK-01",
+        "kontekst": "→ SK-06",
+        "datum": "2026-10-12",
+        "status": "U tranzitu · čeka prijem",
+        "tone": "warning",
+        "path": "/skladiste/interno/prenosnice/pre-2026-00013"
+      },
+      "sljedecaRadnja": "Primi u skladište",
+      "cekaOd": "2026-10-12T10:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-12T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-12T05:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Otpremio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-12T10:00:00.000Z"
+          },
+          "pojam": "tranzit"
+        },
+        {
+          "label": "Primio",
+          "potpis": null,
+          "pojam": "custody"
+        }
+      ],
+      "jeUnutarSkladista": false,
+      "jeOtpremljena": true,
+      "jeZaCitanje": true,
+      "vrijednost": 84,
+      "gubitakUTranzitu": {
+        "kolicina": 0,
+        "vrijednost": 0
+      },
+      "provjere": null
+    },
+    "pre-2026-00012": {
+      "red": {
+        "broj": "PRE-2026-00012",
+        "vrsta": "Prenosnica",
+        "skladiste": "SK-01",
+        "kontekst": "unutar skladišta",
+        "datum": "2026-10-08",
+        "status": "Prenesena",
+        "tone": "success",
+        "path": "/skladiste/interno/prenosnice/pre-2026-00012"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-08T08:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-08T03:00:00.000Z"
+          }
+        },
+        {
+          "label": "Premjestio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-08T08:00:00.000Z"
+          },
+          "pojam": "pozicijaZaliha"
+        }
+      ],
+      "jeUnutarSkladista": true,
+      "jeOtpremljena": true,
+      "jeZaCitanje": true,
+      "vrijednost": 72,
+      "gubitakUTranzitu": {
+        "kolicina": 0,
+        "vrijednost": 0
+      },
+      "provjere": null
+    },
+    "pre-2026-00011": {
+      "red": {
+        "broj": "PRE-2026-00011",
+        "vrsta": "Prenosnica",
+        "skladiste": "SK-01",
+        "kontekst": "→ SK-04",
+        "datum": "2026-10-05",
+        "status": "Prenesena",
+        "tone": "success",
+        "path": "/skladiste/interno/prenosnice/pre-2026-00011"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-05T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-04T11:00:00.000Z"
+          }
+        },
+        {
+          "label": "Ovjerio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-04T16:00:00.000Z"
+          },
+          "pojam": "ovjera"
+        },
+        {
+          "label": "Otpremio",
+          "potpis": {
+            "ko": "S. Skladištar",
+            "uloga": "skladištar",
+            "kad": "2026-10-04T21:00:00.000Z"
+          },
+          "pojam": "tranzit"
+        },
+        {
+          "label": "Primio",
+          "potpis": {
+            "ko": "Nermin Hasić",
+            "uloga": "skladištar",
+            "kad": "2026-10-05T02:00:00.000Z"
+          },
+          "pojam": "custody"
+        }
+      ],
+      "jeUnutarSkladista": false,
+      "jeOtpremljena": true,
+      "jeZaCitanje": true,
+      "vrijednost": 104.6,
+      "gubitakUTranzitu": {
+        "kolicina": 0,
+        "vrijednost": 0
+      },
+      "provjere": null
+    }
+  },
+  "popisi": {
+    "inv-2026-00004": {
+      "red": {
+        "broj": "INV-2026-00004",
+        "vrsta": "Popis",
+        "skladiste": "SK-02",
+        "kontekst": "1 / 2 izbrojano",
+        "datum": "2026-10-12",
+        "status": "Brojanje u toku",
+        "tone": "warning",
+        "path": "/skladiste/interno/popisi/inv-2026-00004"
+      },
+      "sljedecaRadnja": "Unesi brojanje",
+      "cekaOd": "2026-10-12T14:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Otvorio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-12T10:00:00.000Z"
+          },
+          "pojam": "popis"
+        },
+        {
+          "label": "Zatvorio brojanje",
+          "potpis": null,
+          "pojam": "slijepoBrojanje"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null,
+          "pojam": "korekcija"
+        }
+      ],
+      "jeOtvoren": true,
+      "zbir": {
+        "stavki": 2,
+        "prebrojano": 1,
+        "manjak": 1,
+        "visak": 0,
+        "razlikaKolicina": -5,
+        "razlikaVrijednost": -21.5
+      },
+      "opisZbira": "1 manjak · -21,50 KM",
+      "opisObuhvata": "grupa artikala Goriva i ulja",
+      "opisSlijepog": "slijepo",
+      "razlike": {
+        "inv-2026-00004-s1": -5,
+        "inv-2026-00004-s2": -1800
+      },
+      "pozicijeZaPopis": null
+    },
+    "inv-2026-00003": {
+      "red": {
+        "broj": "INV-2026-00003",
+        "vrsta": "Popis",
+        "skladiste": "SK-04",
+        "kontekst": "4 / 5 izbrojano",
+        "datum": "2026-10-11",
+        "status": "Brojanje u toku",
+        "tone": "warning",
+        "path": "/skladiste/interno/popisi/inv-2026-00003"
+      },
+      "sljedecaRadnja": "Unesi brojanje",
+      "cekaOd": "2026-10-11T18:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Otvorio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-11T14:00:00.000Z"
+          },
+          "pojam": "popis"
+        },
+        {
+          "label": "Zatvorio brojanje",
+          "potpis": null,
+          "pojam": "slijepoBrojanje"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null,
+          "pojam": "korekcija"
+        }
+      ],
+      "jeOtvoren": true,
+      "zbir": {
+        "stavki": 5,
+        "prebrojano": 4,
+        "manjak": 1,
+        "visak": 0,
+        "razlikaKolicina": -1,
+        "razlikaVrijednost": -8.9
+      },
+      "opisZbira": "1 manjak · -8,90 KM",
+      "opisObuhvata": "cijelo skladište",
+      "opisSlijepog": "otvoreno",
+      "razlike": {
+        "inv-2026-00003-s1": 0,
+        "inv-2026-00003-s2": 0,
+        "inv-2026-00003-s3": -1,
+        "inv-2026-00003-s4": 0,
+        "inv-2026-00003-s5": -2
+      },
+      "pozicijeZaPopis": null
+    },
+    "inv-2026-00002": {
+      "red": {
+        "broj": "INV-2026-00002",
+        "vrsta": "Popis",
+        "skladiste": "SK-01",
+        "kontekst": "4 / 4 izbrojano",
+        "datum": "2026-09-21",
+        "status": "Proknjižen",
+        "tone": "success",
+        "path": "/skladiste/interno/popisi/inv-2026-00002"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-22T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Otvorio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-21T14:00:00.000Z"
+          },
+          "pojam": "popis"
+        },
+        {
+          "label": "Zatvorio brojanje",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "predsjednik komisije",
+            "kad": "2026-09-21T20:00:00.000Z"
+          },
+          "pojam": "slijepoBrojanje"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-22T02:00:00.000Z"
+          },
+          "pojam": "korekcija"
+        }
+      ],
+      "jeOtvoren": false,
+      "zbir": {
+        "stavki": 4,
+        "prebrojano": 4,
+        "manjak": 1,
+        "visak": 0,
+        "razlikaKolicina": -2,
+        "razlikaVrijednost": -22.8
+      },
+      "opisZbira": "1 manjak · -22,80 KM",
+      "opisObuhvata": "lokacije B-05-01, B-02-01",
+      "opisSlijepog": "slijepo",
+      "razlike": {
+        "inv-2026-00002-s1": -2,
+        "inv-2026-00002-s2": 0,
+        "inv-2026-00002-s3": 0,
+        "inv-2026-00002-s4": 0
+      },
+      "pozicijeZaPopis": null
+    },
+    "inv-2026-00001": {
+      "red": {
+        "broj": "INV-2026-00001",
+        "vrsta": "Popis",
+        "skladiste": "SK-01",
+        "kontekst": "3 / 3 izbrojano",
+        "datum": "2026-09-03",
+        "status": "Proknjižen",
+        "tone": "success",
+        "path": "/skladiste/interno/popisi/inv-2026-00001"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-04T02:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Otvorio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-03T14:00:00.000Z"
+          },
+          "pojam": "popis"
+        },
+        {
+          "label": "Zatvorio brojanje",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "predsjednik komisije",
+            "kad": "2026-09-03T20:00:00.000Z"
+          },
+          "pojam": "slijepoBrojanje"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-04T02:00:00.000Z"
+          },
+          "pojam": "korekcija"
+        }
+      ],
+      "jeOtvoren": false,
+      "zbir": {
+        "stavki": 3,
+        "prebrojano": 3,
+        "manjak": 0,
+        "visak": 1,
+        "razlikaKolicina": 5,
+        "razlikaVrijednost": 32
+      },
+      "opisZbira": "1 višak · 32,00 KM",
+      "opisObuhvata": "lokacije C-02-04",
+      "opisSlijepog": "slijepo",
+      "razlike": {
+        "inv-2026-00001-s1": 5,
+        "inv-2026-00001-s2": 0,
+        "inv-2026-00001-s3": 0
+      },
+      "pozicijeZaPopis": null
+    }
+  },
+  "korekcije": {
+    "usk-2026-00006": {
+      "red": {
+        "broj": "USK-2026-00006",
+        "vrsta": "Korekcija",
+        "skladiste": "SK-01",
+        "kontekst": "pronađeno · ART-9520 · +2",
+        "datum": "2026-10-12",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/interno/korekcije/usk-2026-00006"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": null,
+      "potpisi": [
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-12T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeStorno": false,
+      "storno": null
+    },
+    "usk-2026-00005": {
+      "red": {
+        "broj": "USK-2026-00005",
+        "vrsta": "Korekcija",
+        "skladiste": "SK-01",
+        "kontekst": "oštećenje · ART-5006 · -4",
+        "datum": "2026-10-09",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/interno/korekcije/usk-2026-00005"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": null,
+      "potpisi": [
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-09T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeStorno": false,
+      "storno": null
+    },
+    "usk-2026-00004": {
+      "red": {
+        "broj": "USK-2026-00004",
+        "vrsta": "Korekcija",
+        "skladiste": "SK-01",
+        "kontekst": "oštećenje · ART-2044 · -3",
+        "datum": "2026-09-28",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/interno/korekcije/usk-2026-00004"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": null,
+      "potpisi": [
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-28T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeStorno": false,
+      "storno": null
+    },
+    "usk-2026-00003": {
+      "red": {
+        "broj": "USK-2026-00003",
+        "vrsta": "Korekcija",
+        "skladiste": "SK-01",
+        "kontekst": "popisna razlika · ART-6640 · -2",
+        "datum": "2026-09-21",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/interno/korekcije/usk-2026-00003"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": null,
+      "potpisi": [
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-21T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeStorno": false,
+      "storno": null
+    },
+    "usk-2026-00002": {
+      "red": {
+        "broj": "USK-2026-00002",
+        "vrsta": "Korekcija",
+        "skladiste": "SK-01",
+        "kontekst": "popisna razlika · ART-8115 · +5",
+        "datum": "2026-09-03",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/interno/korekcije/usk-2026-00002"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": null,
+      "potpisi": [
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-03T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeStorno": false,
+      "storno": null
+    },
+    "usk-2026-00001": {
+      "red": {
+        "broj": "USK-2026-00001",
+        "vrsta": "Korekcija",
+        "skladiste": "SK-01",
+        "kontekst": "ostalo · ART-7420 · -1",
+        "datum": "2026-08-13",
+        "status": "Proknjiženo",
+        "tone": "success",
+        "path": "/skladiste/interno/korekcije/usk-2026-00001"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": null,
+      "potpisi": [
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-08-13T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeStorno": false,
+      "storno": null
+    }
+  },
+  "otpisi": {
+    "ots-2026-00003": {
+      "red": {
+        "broj": "OTS-2026-00003",
+        "vrsta": "Otpis",
+        "skladiste": "SK-03",
+        "kontekst": "istek roka · ART-5120",
+        "datum": "2026-10-12",
+        "status": "Pripremljen · čeka odobrenje komisije",
+        "tone": "info",
+        "path": "/skladiste/interno/otpisi/ots-2026-00003"
+      },
+      "sljedecaRadnja": "Odobri (komisija)",
+      "cekaOd": "2026-10-12T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-12T06:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrila komisija",
+          "potpis": null,
+          "pojam": "komisija"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null
+        }
+      ],
+      "jeProknjizen": false,
+      "jeZaCitanje": false,
+      "vrijednost": 19.2,
+      "kolicina": 2,
+      "provjere": []
+    },
+    "ots-2026-00002": {
+      "red": {
+        "broj": "OTS-2026-00002",
+        "vrsta": "Otpis",
+        "skladiste": "SK-01",
+        "kontekst": "zastarjelo · ART-9520",
+        "datum": "2026-10-07",
+        "status": "Odobren · čeka knjiženje",
+        "tone": "warning",
+        "path": "/skladiste/interno/otpisi/ots-2026-00002"
+      },
+      "sljedecaRadnja": "Proknjiži otpis",
+      "cekaOd": "2026-10-07T12:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-10-07T06:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrila komisija",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-10-07T12:00:00.000Z"
+          },
+          "pojam": "komisija"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": null
+        }
+      ],
+      "jeProknjizen": false,
+      "jeZaCitanje": true,
+      "vrijednost": 36,
+      "kolicina": 2,
+      "provjere": []
+    },
+    "ots-2026-00001": {
+      "red": {
+        "broj": "OTS-2026-00001",
+        "vrsta": "Otpis",
+        "skladiste": "SK-01",
+        "kontekst": "oštećenje · ART-8230",
+        "datum": "2026-09-17",
+        "status": "Proknjižen · vrijednost izašla sa zalihe",
+        "tone": "success",
+        "path": "/skladiste/interno/otpisi/ots-2026-00001"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-17T18:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-09-17T06:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrila komisija",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-17T12:00:00.000Z"
+          },
+          "pojam": "komisija"
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-09-17T18:00:00.000Z"
+          }
+        }
+      ],
+      "jeProknjizen": true,
+      "jeZaCitanje": true,
+      "vrijednost": 28,
+      "kolicina": 2,
+      "provjere": null
+    }
+  },
+  "pocetnaStanja": {
+    "pst-2026-00007": {
+      "red": {
+        "broj": "PST-2026-00007",
+        "vrsta": "Početno stanje",
+        "skladiste": "SK-08",
+        "kontekst": "2 stavki · CSV · stanje-sk-08.csv",
+        "datum": "2026-02-15",
+        "status": "Proknjiženo · skladište je otvoreno",
+        "tone": "success",
+        "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00007"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-02-15T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-02-14T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeProknjizeno": true,
+      "vrijednost": 2549,
+      "kolicina": 980,
+      "provjere": null
+    },
+    "pst-2026-00006": {
+      "red": {
+        "broj": "PST-2026-00006",
+        "vrsta": "Početno stanje",
+        "skladiste": "SK-07",
+        "kontekst": "2 stavki · CSV · stanje-sk-07.csv",
+        "datum": "2026-02-15",
+        "status": "Proknjiženo · skladište je otvoreno",
+        "tone": "success",
+        "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00006"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-02-15T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-02-14T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeProknjizeno": true,
+      "vrijednost": 462,
+      "kolicina": 150,
+      "provjere": null
+    },
+    "pst-2026-00005": {
+      "red": {
+        "broj": "PST-2026-00005",
+        "vrsta": "Početno stanje",
+        "skladiste": "SK-06",
+        "kontekst": "10 stavki · CSV · stanje-sk-06.csv",
+        "datum": "2026-02-15",
+        "status": "Proknjiženo · skladište je otvoreno",
+        "tone": "success",
+        "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00005"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-02-15T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-02-14T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeProknjizeno": true,
+      "vrijednost": 5323,
+      "kolicina": 1059,
+      "provjere": null
+    },
+    "pst-2026-00004": {
+      "red": {
+        "broj": "PST-2026-00004",
+        "vrsta": "Početno stanje",
+        "skladiste": "SK-04",
+        "kontekst": "4 stavki · CSV · stanje-sk-04.csv",
+        "datum": "2026-02-15",
+        "status": "Proknjiženo · skladište je otvoreno",
+        "tone": "success",
+        "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00004"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-02-15T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-02-14T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeProknjizeno": true,
+      "vrijednost": 466,
+      "kolicina": 30,
+      "provjere": null
+    },
+    "pst-2026-00003": {
+      "red": {
+        "broj": "PST-2026-00003",
+        "vrsta": "Početno stanje",
+        "skladiste": "SK-03",
+        "kontekst": "3 stavki · CSV · stanje-sk-03.csv",
+        "datum": "2026-02-15",
+        "status": "Proknjiženo · skladište je otvoreno",
+        "tone": "success",
+        "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00003"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-02-15T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-02-14T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeProknjizeno": true,
+      "vrijednost": 2166.1,
+      "kolicina": 776,
+      "provjere": null
+    },
+    "pst-2026-00002": {
+      "red": {
+        "broj": "PST-2026-00002",
+        "vrsta": "Početno stanje",
+        "skladiste": "SK-02",
+        "kontekst": "3 stavki · CSV · stanje-sk-02.csv",
+        "datum": "2026-02-15",
+        "status": "Proknjiženo · skladište je otvoreno",
+        "tone": "success",
+        "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00002"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-02-15T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-02-14T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeProknjizeno": true,
+      "vrijednost": 6604,
+      "kolicina": 2440,
+      "provjere": null
+    },
+    "pst-2026-00001": {
+      "red": {
+        "broj": "PST-2026-00001",
+        "vrsta": "Početno stanje",
+        "skladiste": "SK-01",
+        "kontekst": "25 stavki · CSV · stanje-sk-01.csv",
+        "datum": "2026-02-15",
+        "status": "Proknjiženo · skladište je otvoreno",
+        "tone": "success",
+        "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00001"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-02-15T06:00:00.000Z",
+      "potpisi": [
+        {
+          "label": "Pripremio",
+          "potpis": {
+            "ko": "R. Referent",
+            "uloga": "referent skladišta",
+            "kad": "2026-02-14T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Odobrio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T00:00:00.000Z"
+          }
+        },
+        {
+          "label": "Proknjižio",
+          "potpis": {
+            "ko": "G. Glavni",
+            "uloga": "glavni skladištar",
+            "kad": "2026-02-15T06:00:00.000Z"
+          }
+        }
+      ],
+      "jeProknjizeno": true,
+      "vrijednost": 12606.4,
+      "kolicina": 2159,
+      "provjere": null
+    }
+  },
+  "zahtjevi": {
+    "zzn-2026-00093": {
+      "red": {
+        "broj": "ZZN-2026-00093",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-03",
+        "status": "Odobreno",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00093"
+      },
+      "sljedecaRadnja": "Izdaj sa zalihe",
+      "cekaOd": "2026-10-03T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": true,
+      "naziv": "Trebovanje",
+      "putanja": "/skladiste/izdavanje/trebovanja/zzn-2026-00093",
+      "odobreneStavke": [
+        "zzn-2026-00093-s1"
+      ],
+      "stavke": {
+        "zzn-2026-00093-s1": {
+          "opisIzvora": "Planirana potreba / projekat · zaštitna oprema za ekipe održavanja, kvartal 3",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": "rez-005"
+        }
+      }
+    },
+    "zzn-2026-00091": {
+      "red": {
+        "broj": "ZZN-2026-00091",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-08",
+        "status": "Odobreno",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00091"
+      },
+      "sljedecaRadnja": "Izdaj sa zalihe",
+      "cekaOd": "2026-10-08T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": true,
+      "naziv": "Trebovanje",
+      "putanja": "/skladiste/izdavanje/trebovanja/zzn-2026-00091",
+      "odobreneStavke": [
+        "zzn-2026-00091-s1"
+      ],
+      "stavke": {
+        "zzn-2026-00091-s1": {
+          "opisIzvora": "Kvar ili dotrajala oprema · sanacija razvodnog ormara",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": "rez-002"
+        }
+      }
+    },
+    "zzn-2026-00087": {
+      "red": {
+        "broj": "ZZN-2026-00087",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-01",
+        "status": "Odobreno",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00087"
+      },
+      "sljedecaRadnja": "Izdaj sa zalihe",
+      "cekaOd": "2026-10-01T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": true,
+      "naziv": "Trebovanje",
+      "putanja": "/skladiste/izdavanje/trebovanja/zzn-2026-00087",
+      "odobreneStavke": [
+        "zzn-2026-00087-s1"
+      ],
+      "stavke": {
+        "zzn-2026-00087-s1": {
+          "opisIzvora": "Radni nalog · servis pumpi",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": "rez-001"
+        }
+      }
+    },
+    "zzn-2026-00079": {
+      "red": {
+        "broj": "ZZN-2026-00079",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-09-23",
+        "status": "Završeno",
+        "tone": "success",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00079"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-09-23T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": false,
+      "naziv": "Trebovanje",
+      "putanja": "/skladiste/izdavanje/trebovanja/zzn-2026-00079",
+      "odobreneStavke": [
+        "zzn-2026-00079-s1"
+      ],
+      "stavke": {
+        "zzn-2026-00079-s1": {
+          "opisIzvora": "Planirana potreba / projekat · radionica transporta",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": "rez-004"
+        }
+      }
+    },
+    "zzn-2026-00031": {
+      "red": {
+        "broj": "ZZN-2026-00031",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "5 stavki",
+        "datum": "2026-10-09",
+        "status": "Ovjereno · čeka odluku po stavci",
+        "tone": "warning",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00031"
+      },
+      "sljedecaRadnja": "Odobri stavke",
+      "cekaOd": "2026-10-09T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": true,
+      "naziv": "Trebovanje",
+      "putanja": "/skladiste/izdavanje/trebovanja/zzn-2026-00031",
+      "odobreneStavke": [],
+      "stavke": {
+        "zzn-2026-00031-s1": {
+          "opisIzvora": "Radni nalog · RN-2026-0015",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        },
+        "zzn-2026-00031-s2": {
+          "opisIzvora": "Ispod signalne granice",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        },
+        "zzn-2026-00031-s3": {
+          "opisIzvora": "Radni nalog · RN-2026-0015",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        },
+        "zzn-2026-00031-s4": {
+          "opisIzvora": "Ispod signalne granice",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        },
+        "zzn-2026-00031-s5": {
+          "opisIzvora": "Radni nalog · RN-2026-0015",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        }
+      }
+    },
+    "zzn-2026-00015": {
+      "red": {
+        "broj": "ZZN-2026-00015",
+        "vrsta": "Zahtjev za nabavku",
+        "skladiste": "SK-01",
+        "kontekst": "2 stavki",
+        "datum": "2026-10-11",
+        "status": "Poslano · čeka ovjeru",
+        "tone": "warning",
+        "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00015"
+      },
+      "sljedecaRadnja": "Ovjeri",
+      "cekaOd": "2026-10-11T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": true,
+      "naziv": "Zahtjev za nabavku",
+      "putanja": "/skladiste/nabavka/zahtjevi/zzn-2026-00015",
+      "odobreneStavke": [],
+      "stavke": {
+        "zzn-2026-00015-s1": {
+          "opisIzvora": "Ispod signalne granice",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        },
+        "zzn-2026-00015-s2": {
+          "opisIzvora": "Ispod signalne granice",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        }
+      }
+    },
+    "zzn-2026-00014": {
+      "red": {
+        "broj": "ZZN-2026-00014",
+        "vrsta": "Trebovanje",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-10",
+        "status": "Odobreno",
+        "tone": "info",
+        "path": "/skladiste/izdavanje/trebovanja/zzn-2026-00014"
+      },
+      "sljedecaRadnja": "Izdaj sa zalihe",
+      "cekaOd": "2026-10-10T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": true,
+      "naziv": "Trebovanje",
+      "putanja": "/skladiste/izdavanje/trebovanja/zzn-2026-00014",
+      "odobreneStavke": [
+        "zzn-2026-00014-s1"
+      ],
+      "stavke": {
+        "zzn-2026-00014-s1": {
+          "opisIzvora": "Kvar ili dotrajala oprema · servis kotlovnice",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": "rez-009"
+        }
+      }
+    },
+    "zzn-2026-00013": {
+      "red": {
+        "broj": "ZZN-2026-00013",
+        "vrsta": "Zahtjev za nabavku",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-06",
+        "status": "U nabavci",
+        "tone": "info",
+        "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00013"
+      },
+      "sljedecaRadnja": "Završi",
+      "cekaOd": "2026-10-06T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": true,
+      "naziv": "Zahtjev za nabavku",
+      "putanja": "/skladiste/nabavka/zahtjevi/zzn-2026-00013",
+      "odobreneStavke": [
+        "zzn-2026-00013-s1"
+      ],
+      "stavke": {
+        "zzn-2026-00013-s1": {
+          "opisIzvora": "Planirana potreba / projekat · zamjena vodomjera u zgradi B",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        }
+      }
+    },
+    "zzn-2026-00012": {
+      "red": {
+        "broj": "ZZN-2026-00012",
+        "vrsta": "Zahtjev za nabavku",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-03",
+        "status": "Završeno",
+        "tone": "success",
+        "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00012"
+      },
+      "sljedecaRadnja": null,
+      "cekaOd": "2026-10-03T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": false,
+      "naziv": "Zahtjev za nabavku",
+      "putanja": "/skladiste/nabavka/zahtjevi/zzn-2026-00012",
+      "odobreneStavke": [
+        "zzn-2026-00012-s1"
+      ],
+      "stavke": {
+        "zzn-2026-00012-s1": {
+          "opisIzvora": "Planirana potreba / projekat · redovna potrošnja radionice",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        }
+      }
+    },
+    "zzn-2026-00011": {
+      "red": {
+        "broj": "ZZN-2026-00011",
+        "vrsta": "Zahtjev za nabavku",
+        "skladiste": "SK-01",
+        "kontekst": "1 stavki",
+        "datum": "2026-10-13",
+        "status": "Nacrt",
+        "tone": "neutral",
+        "path": "/skladiste/nabavka/zahtjevi/zzn-2026-00011"
+      },
+      "sljedecaRadnja": "Pošalji",
+      "cekaOd": "2026-10-12T12:00:00.000Z",
+      "potpisi": [],
+      "jeOtvoren": true,
+      "naziv": "Zahtjev za nabavku",
+      "putanja": "/skladiste/nabavka/zahtjevi/zzn-2026-00011",
+      "odobreneStavke": [],
+      "stavke": {
+        "zzn-2026-00011-s1": {
+          "opisIzvora": "Kvar ili dotrajala oprema · dotrajao alat",
+          "opisNosioca": "Odjel / mjesto troška · Održavanje · mjesto troška 4200",
+          "rezervacija": null
+        }
+      }
+    }
+  },
+  "rezervacije": {
+    "rez-001": {
+      "status": "OTVORENA",
+      "nepokriveno": 0,
+      "drziSe": 300,
+      "preostalo": 300,
+      "jeOtvorena": true,
+      "putIzvora": "/skladiste/izdavanje/trebovanja/zzn-2026-00087",
+      "starostDana": 12,
+      "raspolozivo": 900
+    },
+    "rez-002": {
+      "status": "DJELIMICNO",
+      "nepokriveno": 20,
+      "drziSe": 40,
+      "preostalo": 60,
+      "jeOtvorena": true,
+      "putIzvora": "/skladiste/izdavanje/trebovanja/zzn-2026-00091",
+      "starostDana": 5,
+      "raspolozivo": 201
+    },
+    "rez-003": {
+      "status": "CEKA_ZALIHU",
+      "nepokriveno": 40,
+      "drziSe": 0,
+      "preostalo": 40,
+      "jeOtvorena": true,
+      "putIzvora": null,
+      "starostDana": 6,
+      "raspolozivo": 0
+    },
+    "rez-004": {
+      "status": "ZATVORENA",
+      "nepokriveno": 0,
+      "drziSe": 0,
+      "preostalo": 0,
+      "jeOtvorena": false,
+      "putIzvora": "/skladiste/izdavanje/trebovanja/zzn-2026-00079",
+      "starostDana": 20,
+      "raspolozivo": 21
+    },
+    "rez-005": {
+      "status": "DJELIMICNO",
+      "nepokriveno": 50,
+      "drziSe": 100,
+      "preostalo": 150,
+      "jeOtvorena": true,
+      "putIzvora": "/skladiste/izdavanje/trebovanja/zzn-2026-00093",
+      "starostDana": 9,
+      "raspolozivo": 262
+    },
+    "rez-006": {
+      "status": "OTVORENA",
+      "nepokriveno": 0,
+      "drziSe": 10,
+      "preostalo": 10,
+      "jeOtvorena": true,
+      "putIzvora": null,
+      "starostDana": 2,
+      "raspolozivo": 201
+    },
+    "rez-007": {
+      "status": "DJELIMICNO",
+      "nepokriveno": 100,
+      "drziSe": 20,
+      "preostalo": 120,
+      "jeOtvorena": true,
+      "putIzvora": null,
+      "starostDana": 2,
+      "raspolozivo": 900
+    },
+    "rez-008": {
+      "status": "OTPUSTENA",
+      "nepokriveno": 0,
+      "drziSe": 0,
+      "preostalo": 4,
+      "jeOtvorena": false,
+      "putIzvora": null,
+      "starostDana": 11,
+      "raspolozivo": 221
+    },
+    "rez-009": {
+      "status": "OTVORENA",
+      "nepokriveno": 0,
+      "drziSe": 5,
+      "preostalo": 5,
+      "jeOtvorena": true,
+      "putIzvora": "/skladiste/izdavanje/trebovanja/zzn-2026-00014",
+      "starostDana": 2,
+      "raspolozivo": 221
+    }
+  }
+}

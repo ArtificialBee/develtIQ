@@ -1,0 +1,744 @@
+[
+  {
+    "id": "pst-2026-00007",
+    "broj": "PST-2026-00007",
+    "datum": "2026-02-15",
+    "skladiste": "SK-08",
+    "napomena": "Preuzimanje stanja iz starog programa na dan presjeka",
+    "izvor": "CSV · stanje-sk-08.csv",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-02-14T00:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T00:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pst-2026-00007-s1",
+        "artikl": "ART-9004",
+        "lokacija": "",
+        "lot": "L-D09",
+        "kolicina": 900,
+        "cijena": 2.45
+      },
+      {
+        "id": "pst-2026-00007-s2",
+        "artikl": "ART-4102",
+        "lokacija": "",
+        "lot": "L-3130",
+        "kolicina": 80,
+        "cijena": 4.3
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-385",
+        "kad": "2026-02-15T06:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "skladište otvoreno · normalni dokumenti počinju"
+      },
+      {
+        "id": "h-mv69uio0-386",
+        "kad": "2026-02-15T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno",
+        "napomena": "stanje provjereno s popisnom listom starog programa"
+      },
+      {
+        "id": "h-mv69uio0-387",
+        "kad": "2026-02-14T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Uvezeno iz CSV-a",
+        "napomena": "stanje-sk-08.csv"
+      }
+    ]
+  },
+  {
+    "id": "pst-2026-00006",
+    "broj": "PST-2026-00006",
+    "datum": "2026-02-15",
+    "skladiste": "SK-07",
+    "napomena": "Preuzimanje stanja iz starog programa na dan presjeka",
+    "izvor": "CSV · stanje-sk-07.csv",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-02-14T00:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T00:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pst-2026-00006-s1",
+        "artikl": "ART-1002",
+        "lokacija": "",
+        "lot": "L-5500",
+        "kolicina": 90,
+        "cijena": 3.4
+      },
+      {
+        "id": "pst-2026-00006-s2",
+        "artikl": "ART-5006",
+        "lokacija": "",
+        "lot": "",
+        "kolicina": 60,
+        "cijena": 2.6
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-382",
+        "kad": "2026-02-15T06:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "skladište otvoreno · normalni dokumenti počinju"
+      },
+      {
+        "id": "h-mv69uio0-383",
+        "kad": "2026-02-15T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno",
+        "napomena": "stanje provjereno s popisnom listom starog programa"
+      },
+      {
+        "id": "h-mv69uio0-384",
+        "kad": "2026-02-14T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Uvezeno iz CSV-a",
+        "napomena": "stanje-sk-07.csv"
+      }
+    ]
+  },
+  {
+    "id": "pst-2026-00005",
+    "broj": "PST-2026-00005",
+    "datum": "2026-02-15",
+    "skladiste": "SK-06",
+    "napomena": "Preuzimanje stanja iz starog programa na dan presjeka",
+    "izvor": "CSV · stanje-sk-06.csv",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-02-14T00:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T00:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pst-2026-00005-s1",
+        "artikl": "ART-1001",
+        "lokacija": "E-01-01",
+        "lot": "L-2701",
+        "kolicina": 300,
+        "cijena": 1.2
+      },
+      {
+        "id": "pst-2026-00005-s2",
+        "artikl": "ART-2044",
+        "lokacija": "E-01-02",
+        "lot": "",
+        "kolicina": 40,
+        "cijena": 8.5
+      },
+      {
+        "id": "pst-2026-00005-s3",
+        "artikl": "ART-4008",
+        "lokacija": "E-02-01",
+        "lot": "",
+        "kolicina": 120,
+        "cijena": 3.9
+      },
+      {
+        "id": "pst-2026-00005-s4",
+        "artikl": "ART-8230",
+        "lokacija": "E-02-02",
+        "lot": "",
+        "kolicina": 15,
+        "cijena": 14
+      },
+      {
+        "id": "pst-2026-00005-s5",
+        "artikl": "ART-6640",
+        "lokacija": "E-03-01",
+        "lot": "",
+        "kolicina": 60,
+        "cijena": 11.4
+      },
+      {
+        "id": "pst-2026-00005-s6",
+        "artikl": "ART-2051",
+        "lokacija": "E-01-03",
+        "lot": "",
+        "kolicina": 10,
+        "cijena": 42
+      },
+      {
+        "id": "pst-2026-00005-s7",
+        "artikl": "ART-6030",
+        "lokacija": "E-02-03",
+        "lot": "",
+        "kolicina": 24,
+        "cijena": 24.5
+      },
+      {
+        "id": "pst-2026-00005-s8",
+        "artikl": "ART-7001",
+        "lokacija": "F-01-01",
+        "lot": "L-C611",
+        "kolicina": 80,
+        "cijena": 9.8
+      },
+      {
+        "id": "pst-2026-00005-s9",
+        "artikl": "ART-4008",
+        "lokacija": "F-01-02",
+        "lot": "",
+        "kolicina": 150,
+        "cijena": 3.9
+      },
+      {
+        "id": "pst-2026-00005-s10",
+        "artikl": "ART-1002",
+        "lokacija": "F-02-01",
+        "lot": "L-5510",
+        "kolicina": 260,
+        "cijena": 3.4
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-379",
+        "kad": "2026-02-15T06:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "skladište otvoreno · normalni dokumenti počinju"
+      },
+      {
+        "id": "h-mv69uio0-380",
+        "kad": "2026-02-15T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno",
+        "napomena": "stanje provjereno s popisnom listom starog programa"
+      },
+      {
+        "id": "h-mv69uio0-381",
+        "kad": "2026-02-14T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Uvezeno iz CSV-a",
+        "napomena": "stanje-sk-06.csv"
+      }
+    ]
+  },
+  {
+    "id": "pst-2026-00004",
+    "broj": "PST-2026-00004",
+    "datum": "2026-02-15",
+    "skladiste": "SK-04",
+    "napomena": "Preuzimanje stanja iz starog programa na dan presjeka",
+    "izvor": "CSV · stanje-sk-04.csv",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-02-14T00:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T00:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pst-2026-00004-s1",
+        "artikl": "ART-3402",
+        "lokacija": "D-01-01",
+        "lot": "L-7702",
+        "kolicina": 8,
+        "cijena": 12.8
+      },
+      {
+        "id": "pst-2026-00004-s2",
+        "artikl": "ART-7420",
+        "lokacija": "D-01-02",
+        "lot": "",
+        "kolicina": 14,
+        "cijena": 8.9
+      },
+      {
+        "id": "pst-2026-00004-s3",
+        "artikl": "ART-6030",
+        "lokacija": "D-02-01",
+        "lot": "",
+        "kolicina": 6,
+        "cijena": 24.5
+      },
+      {
+        "id": "pst-2026-00004-s4",
+        "artikl": "ART-3310",
+        "lokacija": "D-01-01",
+        "lot": "S-31 · S-32",
+        "kolicina": 2,
+        "cijena": 46
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-376",
+        "kad": "2026-02-15T06:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "skladište otvoreno · normalni dokumenti počinju"
+      },
+      {
+        "id": "h-mv69uio0-377",
+        "kad": "2026-02-15T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno",
+        "napomena": "stanje provjereno s popisnom listom starog programa"
+      },
+      {
+        "id": "h-mv69uio0-378",
+        "kad": "2026-02-14T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Uvezeno iz CSV-a",
+        "napomena": "stanje-sk-04.csv"
+      }
+    ]
+  },
+  {
+    "id": "pst-2026-00003",
+    "broj": "PST-2026-00003",
+    "datum": "2026-02-15",
+    "skladiste": "SK-03",
+    "napomena": "Preuzimanje stanja iz starog programa na dan presjeka",
+    "izvor": "CSV · stanje-sk-03.csv",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-02-14T00:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T00:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pst-2026-00003-s1",
+        "artikl": "ART-9004",
+        "lokacija": "",
+        "lot": "L-D08",
+        "kolicina": 650,
+        "cijena": 2.45
+      },
+      {
+        "id": "pst-2026-00003-s2",
+        "artikl": "ART-4102",
+        "lokacija": "",
+        "lot": "L-3121",
+        "kolicina": 120,
+        "cijena": 4.3
+      },
+      {
+        "id": "pst-2026-00003-s3",
+        "artikl": "ART-5120",
+        "lokacija": "",
+        "lot": "L-0390",
+        "kolicina": 6,
+        "cijena": 9.6
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-373",
+        "kad": "2026-02-15T06:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "skladište otvoreno · normalni dokumenti počinju"
+      },
+      {
+        "id": "h-mv69uio0-374",
+        "kad": "2026-02-15T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno",
+        "napomena": "stanje provjereno s popisnom listom starog programa"
+      },
+      {
+        "id": "h-mv69uio0-375",
+        "kad": "2026-02-14T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Uvezeno iz CSV-a",
+        "napomena": "stanje-sk-03.csv"
+      }
+    ]
+  },
+  {
+    "id": "pst-2026-00002",
+    "broj": "PST-2026-00002",
+    "datum": "2026-02-15",
+    "skladiste": "SK-02",
+    "napomena": "Preuzimanje stanja iz starog programa na dan presjeka",
+    "izvor": "CSV · stanje-sk-02.csv",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-02-14T00:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T00:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pst-2026-00002-s1",
+        "artikl": "ART-1001",
+        "lokacija": "",
+        "lot": "L-2588",
+        "kolicina": 180,
+        "cijena": 1.2
+      },
+      {
+        "id": "pst-2026-00002-s2",
+        "artikl": "ART-4102",
+        "lokacija": "",
+        "lot": "L-3120",
+        "kolicina": 460,
+        "cijena": 4.3
+      },
+      {
+        "id": "pst-2026-00002-s3",
+        "artikl": "ART-9004",
+        "lokacija": "",
+        "lot": "L-D07",
+        "kolicina": 1800,
+        "cijena": 2.45
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-370",
+        "kad": "2026-02-15T06:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "skladište otvoreno · normalni dokumenti počinju"
+      },
+      {
+        "id": "h-mv69uio0-371",
+        "kad": "2026-02-15T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno",
+        "napomena": "stanje provjereno s popisnom listom starog programa"
+      },
+      {
+        "id": "h-mv69uio0-372",
+        "kad": "2026-02-14T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Uvezeno iz CSV-a",
+        "napomena": "stanje-sk-02.csv"
+      }
+    ]
+  },
+  {
+    "id": "pst-2026-00001",
+    "broj": "PST-2026-00001",
+    "datum": "2026-02-15",
+    "skladiste": "SK-01",
+    "napomena": "Preuzimanje stanja iz starog programa na dan presjeka",
+    "izvor": "CSV · stanje-sk-01.csv",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-02-14T00:00:00.000Z"
+    },
+    "odobrio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T00:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-02-15T06:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "pst-2026-00001-s1",
+        "artikl": "ART-1001",
+        "lokacija": "A-01-02",
+        "lot": "L-2609",
+        "kolicina": 420,
+        "cijena": 1.2
+      },
+      {
+        "id": "pst-2026-00001-s2",
+        "artikl": "ART-1002",
+        "lokacija": "A-01-03",
+        "lot": "L-5410",
+        "kolicina": 240,
+        "cijena": 3.4
+      },
+      {
+        "id": "pst-2026-00001-s3",
+        "artikl": "ART-2044",
+        "lokacija": "A-03-01",
+        "lot": "",
+        "kolicina": 24,
+        "cijena": 8.5
+      },
+      {
+        "id": "pst-2026-00001-s4",
+        "artikl": "ART-2051",
+        "lokacija": "A-03-02",
+        "lot": "",
+        "kolicina": 8,
+        "cijena": 42
+      },
+      {
+        "id": "pst-2026-00001-s5",
+        "artikl": "ART-3310",
+        "lokacija": "B-02-04",
+        "lot": "S-25…S-30",
+        "kolicina": 6,
+        "cijena": 46
+      },
+      {
+        "id": "pst-2026-00001-s6",
+        "artikl": "ART-3402",
+        "lokacija": "B-02-01",
+        "lot": "L-7690",
+        "kolicina": 12,
+        "cijena": 12.8
+      },
+      {
+        "id": "pst-2026-00001-s7",
+        "artikl": "ART-4008",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "kolicina": 260,
+        "cijena": 3.9
+      },
+      {
+        "id": "pst-2026-00001-s8",
+        "artikl": "ART-5006",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "kolicina": 140,
+        "cijena": 2.6
+      },
+      {
+        "id": "pst-2026-00001-s9",
+        "artikl": "ART-5120",
+        "lokacija": "C-02-03",
+        "lot": "L-0388",
+        "kolicina": 2,
+        "cijena": 9.6
+      },
+      {
+        "id": "pst-2026-00001-s10",
+        "artikl": "ART-5121",
+        "lokacija": "C-02-04",
+        "lot": "L-9012",
+        "kolicina": 96,
+        "cijena": 7.2
+      },
+      {
+        "id": "pst-2026-00001-s11",
+        "artikl": "ART-5501",
+        "lokacija": "B-01-02",
+        "lot": "S-1001…S-1003",
+        "kolicina": 3,
+        "cijena": 210
+      },
+      {
+        "id": "pst-2026-00001-s12",
+        "artikl": "ART-6030",
+        "lokacija": "B-01-02",
+        "lot": "",
+        "kolicina": 20,
+        "cijena": 24.5
+      },
+      {
+        "id": "pst-2026-00001-s13",
+        "artikl": "ART-6220",
+        "lokacija": "B-02-01",
+        "lot": "S-4401…S-4405",
+        "kolicina": 5,
+        "cijena": 68
+      },
+      {
+        "id": "pst-2026-00001-s14",
+        "artikl": "ART-6640",
+        "lokacija": "B-05-01",
+        "lot": "",
+        "kolicina": 90,
+        "cijena": 11.4
+      },
+      {
+        "id": "pst-2026-00001-s15",
+        "artikl": "ART-7420",
+        "lokacija": "B-02-01",
+        "lot": "",
+        "kolicina": 36,
+        "cijena": 8.9
+      },
+      {
+        "id": "pst-2026-00001-s16",
+        "artikl": "ART-8115",
+        "lokacija": "C-02-04",
+        "lot": "L-9001",
+        "kolicina": 55,
+        "cijena": 6.4
+      },
+      {
+        "id": "pst-2026-00001-s17",
+        "artikl": "ART-8230",
+        "lokacija": "C-01-01",
+        "lot": "",
+        "kolicina": 22,
+        "cijena": 14
+      },
+      {
+        "id": "pst-2026-00001-s18",
+        "artikl": "ART-9310",
+        "lokacija": "B-01-02",
+        "lot": "S-104 · S-105",
+        "kolicina": 2,
+        "cijena": 95
+      },
+      {
+        "id": "pst-2026-00001-s19",
+        "artikl": "ART-9520",
+        "lokacija": "C-02-04",
+        "lot": "",
+        "kolicina": 12,
+        "cijena": 18
+      },
+      {
+        "id": "pst-2026-00001-s20",
+        "artikl": "ART-1002",
+        "lokacija": "A-02-01",
+        "lot": "L-5411",
+        "kolicina": 300,
+        "cijena": 3.4
+      },
+      {
+        "id": "pst-2026-00001-s21",
+        "artikl": "ART-2051",
+        "lokacija": "A-02-02",
+        "lot": "",
+        "kolicina": 16,
+        "cijena": 42
+      },
+      {
+        "id": "pst-2026-00001-s22",
+        "artikl": "ART-6640",
+        "lokacija": "B-03-01",
+        "lot": "",
+        "kolicina": 120,
+        "cijena": 11.4
+      },
+      {
+        "id": "pst-2026-00001-s23",
+        "artikl": "ART-7420",
+        "lokacija": "B-03-02",
+        "lot": "",
+        "kolicina": 40,
+        "cijena": 8.9
+      },
+      {
+        "id": "pst-2026-00001-s24",
+        "artikl": "ART-8230",
+        "lokacija": "C-03-02",
+        "lot": "",
+        "kolicina": 30,
+        "cijena": 14
+      },
+      {
+        "id": "pst-2026-00001-s25",
+        "artikl": "ART-5006",
+        "lokacija": "C-04-01",
+        "lot": "",
+        "kolicina": 200,
+        "cijena": 2.6
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-367",
+        "kad": "2026-02-15T06:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "skladište otvoreno · normalni dokumenti počinju"
+      },
+      {
+        "id": "h-mv69uio0-368",
+        "kad": "2026-02-15T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Odobreno",
+        "napomena": "stanje provjereno s popisnom listom starog programa"
+      },
+      {
+        "id": "h-mv69uio0-369",
+        "kad": "2026-02-14T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Uvezeno iz CSV-a",
+        "napomena": "stanje-sk-01.csv"
+      }
+    ]
+  }
+]

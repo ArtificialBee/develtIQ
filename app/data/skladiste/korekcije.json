@@ -1,0 +1,128 @@
+[
+  {
+    "id": "usk-2026-00006",
+    "broj": "USK-2026-00006",
+    "datum": "2026-10-12",
+    "skladiste": "SK-01",
+    "lokacija": "C-02-04",
+    "artikl": "ART-9520",
+    "lot": "",
+    "kolicina": 2,
+    "uzrok": "PRONADJENO",
+    "razlog": "pronađeno iza police pri čišćenju, vidio S. Skladištar",
+    "izvor": "",
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-12T06:00:00.000Z"
+    },
+    "vrijednost": 36,
+    "stornirana": false,
+    "stornoOd": ""
+  },
+  {
+    "id": "usk-2026-00005",
+    "broj": "USK-2026-00005",
+    "datum": "2026-10-09",
+    "skladiste": "SK-01",
+    "lokacija": "C-01-01",
+    "artikl": "ART-5006",
+    "lot": "",
+    "kolicina": -4,
+    "uzrok": "OSTECENJE",
+    "razlog": "pokidane pri istovaru, zapisnik 14/26",
+    "izvor": "",
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-09T06:00:00.000Z"
+    },
+    "vrijednost": -10.4,
+    "stornirana": false,
+    "stornoOd": ""
+  },
+  {
+    "id": "usk-2026-00004",
+    "broj": "USK-2026-00004",
+    "datum": "2026-09-28",
+    "skladiste": "SK-01",
+    "lokacija": "A-03-01",
+    "artikl": "ART-2044",
+    "lot": "",
+    "kolicina": -3,
+    "uzrok": "OSTECENJE",
+    "razlog": "zgnječeno pri istovaru, vidio S. Skladištar",
+    "izvor": "",
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-28T06:00:00.000Z"
+    },
+    "vrijednost": -25.5,
+    "stornirana": false,
+    "stornoOd": ""
+  },
+  {
+    "id": "usk-2026-00003",
+    "broj": "USK-2026-00003",
+    "datum": "2026-09-21",
+    "skladiste": "SK-01",
+    "lokacija": "B-05-01",
+    "artikl": "ART-6640",
+    "lot": "",
+    "kolicina": -2,
+    "uzrok": "GRESKA_POPISA",
+    "razlog": "manjak nakon popisa INV-2026-00002",
+    "izvor": "INV-2026-00002",
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-21T06:00:00.000Z"
+    },
+    "vrijednost": -22.8,
+    "stornirana": false,
+    "stornoOd": ""
+  },
+  {
+    "id": "usk-2026-00002",
+    "broj": "USK-2026-00002",
+    "datum": "2026-09-03",
+    "skladiste": "SK-01",
+    "lokacija": "C-02-04",
+    "artikl": "ART-8115",
+    "lot": "L-9001",
+    "kolicina": 5,
+    "uzrok": "GRESKA_POPISA",
+    "razlog": "ispravka pogrešno unesenog brojanja",
+    "izvor": "INV-2026-00001",
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-03T06:00:00.000Z"
+    },
+    "vrijednost": 32,
+    "stornirana": false,
+    "stornoOd": ""
+  },
+  {
+    "id": "usk-2026-00001",
+    "broj": "USK-2026-00001",
+    "datum": "2026-08-13",
+    "skladiste": "SK-01",
+    "lokacija": "B-02-01",
+    "artikl": "ART-7420",
+    "lot": "",
+    "kolicina": -1,
+    "uzrok": "OSTALO",
+    "razlog": "uzorak poslan dobavljaču na reklamaciju",
+    "izvor": "",
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-13T06:00:00.000Z"
+    },
+    "vrijednost": -8.9,
+    "stornirana": false,
+    "stornoOd": ""
+  }
+]

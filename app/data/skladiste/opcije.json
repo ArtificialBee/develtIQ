@@ -1,0 +1,143 @@
+{
+  "kandidatiPrimaoca": {
+    "PRODAJA": [
+      {
+        "sifra": "KUP-001",
+        "naziv": "Vodovod i kanalizacija d.o.o.",
+        "adresa": "Jaroslava Černija 8, Sarajevo"
+      },
+      {
+        "sifra": "KUP-002",
+        "naziv": "Elektrodistribucija Sarajevo",
+        "adresa": "Zmaja od Bosne 49, Sarajevo"
+      },
+      {
+        "sifra": "KUP-003",
+        "naziv": "Građevinar Kakanj d.o.o.",
+        "adresa": "Rudarska 12, Kakanj"
+      },
+      {
+        "sifra": "KUP-004",
+        "naziv": "Toplana Zenica d.o.o.",
+        "adresa": "Bilmišće 107, Zenica"
+      }
+    ],
+    "POVRAT_DOBAVLJACU": [
+      {
+        "sifra": "DOB-001",
+        "naziv": "Elektro d.o.o.",
+        "adresa": "Rajlovačka 12, Sarajevo"
+      },
+      {
+        "sifra": "DOB-002",
+        "naziv": "Hidraulika BH d.o.o.",
+        "adresa": "Industrijska 4, Zenica"
+      },
+      {
+        "sifra": "DOB-003",
+        "naziv": "Alati Plus d.o.o.",
+        "adresa": "Bulevar Meše Selimovića 8, Sarajevo"
+      },
+      {
+        "sifra": "DOB-004",
+        "naziv": "Energo Plus d.o.o.",
+        "adresa": "Tvornička 1, Tuzla"
+      },
+      {
+        "sifra": "DOB-005",
+        "naziv": "Metal Trade d.o.o.",
+        "adresa": "Zona B bb, Vogošća"
+      },
+      {
+        "sifra": "DOB-006",
+        "naziv": "Termo Servis d.o.o.",
+        "adresa": "Halilovići 21, Sarajevo"
+      }
+    ]
+  },
+  "skladistaZaOtpremu": [
+    "SK-01",
+    "SK-06"
+  ],
+  "glavnaSkladista": [
+    "SK-01",
+    "SK-06"
+  ],
+  "lokacijeSkladista": {
+    "SK-01": [
+      "A-01-02",
+      "A-01-03",
+      "A-02-01",
+      "A-02-02",
+      "A-03-01",
+      "A-03-02",
+      "A-04-01",
+      "A-04-02",
+      "B-01-02",
+      "B-02-01",
+      "B-02-04",
+      "B-03-01",
+      "B-03-02",
+      "B-04-01",
+      "B-05-01",
+      "C-01-01",
+      "C-02-03",
+      "C-02-04",
+      "C-03-02",
+      "C-04-01"
+    ],
+    "SK-02": [],
+    "SK-03": [],
+    "SK-04": [
+      "D-01-01",
+      "D-01-02",
+      "D-02-01",
+      "D-03-01"
+    ],
+    "SK-05": [],
+    "SK-06": [
+      "E-01-01",
+      "E-01-02",
+      "E-01-03",
+      "E-02-01",
+      "E-02-02",
+      "E-02-03",
+      "E-03-01",
+      "F-01-01",
+      "F-01-02",
+      "F-02-01",
+      "F-02-02"
+    ],
+    "SK-07": [],
+    "SK-08": []
+  },
+  "domeniUloga": [
+    "Finansije",
+    "Kvalitet",
+    "Logistika",
+    "Skladište"
+  ],
+  "vrstePolitika": [
+    "Vrednovanje",
+    "Granice zaliha",
+    "Ishodi"
+  ],
+  "nosilacTroskaOpcije": {
+    "ODJEL": [
+      "Održavanje · mjesto troška 4200",
+      "Proizvodnja · mjesto troška 3100",
+      "Transport · mjesto troška 4500",
+      "Administracija · mjesto troška 1000"
+    ],
+    "OBJEKAT": [
+      "Pumpna stanica PS-1",
+      "Pumpna stanica PS-2",
+      "Kotlovnica K-2",
+      "Trafostanica TS-3"
+    ],
+    "PROJEKAT": [
+      "PRJ-2026-01 — Remont sezona",
+      "PRJ-2026-02 — Energetska efikasnost"
+    ]
+  }
+}

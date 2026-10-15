@@ -1,0 +1,50 @@
+[
+  {
+    "id": "PRS-0052",
+    "lokacija": "SA-SKL",
+    "naziv": "skladišna hala",
+    "aktivna": true
+  },
+  {
+    "id": "PRS-0053",
+    "lokacija": "SA-REJON-1",
+    "naziv": "kontejner 4, gradilište Istok",
+    "aktivna": true
+  },
+  {
+    "id": "PRS-0054",
+    "lokacija": "SA-KOTL",
+    "naziv": "rezervoar 2",
+    "aktivna": true
+  },
+  {
+    "id": "PRS-0055",
+    "lokacija": "SA-KOTL",
+    "naziv": "hala održavanja",
+    "aktivna": true
+  },
+  {
+    "id": "PRS-0056",
+    "lokacija": "SA-SKL",
+    "naziv": "zgrada 3 starog pogona",
+    "aktivna": true
+  },
+  {
+    "id": "PRS-0057",
+    "lokacija": "ZE-SKL",
+    "naziv": "skladišna hala",
+    "aktivna": true
+  },
+  {
+    "id": "PRS-0058",
+    "lokacija": "ZE-REJON-1",
+    "naziv": "kontejner 2, gradilište Sjever",
+    "aktivna": true
+  },
+  {
+    "id": "PRS-0059",
+    "lokacija": "ZE-POGON",
+    "naziv": "rezervoar 1",
+    "aktivna": true
+  }
+]

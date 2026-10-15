@@ -1,5 +1,6 @@
 import { useCallback, useEffect, type ReactNode } from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router";
 import { LuChevronDown, LuChevronUp, LuChevronsUpDown } from "react-icons/lu";
 import { Card } from "~/components/Card";
 import { PageNumbers } from "~/components/PageNumbers";
@@ -37,6 +38,10 @@ export interface TableProps<T> {
    * each, and page through the rest with the page numbers under the table.
    */
   fill?: boolean;
+  /** Makes each row open this page on click. Give the row a link too, for the keyboard. */
+  getRowHref?: (row: T) => string;
+  /** Only the table, with no card around it, for a table inside another card such as a tab. */
+  bare?: boolean;
   className?: string;
 }
 
@@ -98,8 +103,11 @@ export function Table<T>({
   emptyText = "Nema podataka.",
   action,
   fill = false,
+  getRowHref,
+  bare = false,
   className = "",
 }: TableProps<T>) {
+  const navigate = useNavigate();
   const getSortValue = useCallback(
     (row: T, key: string) => columns.find((c) => c.key === key)?.sortValue?.(row),
     [columns],
@@ -148,7 +156,15 @@ export function Table<T>({
               layout="position"
               transition={{ duration: 0.25, ease: "easeInOut" }}
               style={fill ? { height: ROW_HEIGHT } : undefined}
-              className="border-b last:border-0 border-[#e5eaf2] dark:border-slate-700/60 transition-colors hover:bg-gray-50 dark:hover:bg-slate-900/40"
+              // A link or button inside the row keeps its own click; the rest of the row opens the row's page.
+              onClick={
+                getRowHref
+                  ? (event) => {
+                      if (!(event.target as HTMLElement).closest("a,button")) navigate(getRowHref(row));
+                    }
+                  : undefined
+              }
+              className={`border-b last:border-0 border-[#e5eaf2] dark:border-slate-700/60 transition-colors hover:bg-gray-50 dark:hover:bg-slate-900/40 ${getRowHref ? "cursor-pointer" : ""}`}
             >
               {columns.map((column) => (
                 <Cell key={column.key} column={column} row={row} fill={fill} />
@@ -178,6 +194,20 @@ export function Table<T>({
   ) : (
     table
   );
+
+  // Inside a tab: the line and the tools over the rows, where a card would have its header.
+  if (bare)
+    return (
+      <div className={className}>
+        {(description || action) && (
+          <div className="mb-2 flex flex-wrap items-center justify-between gap-2 px-1">
+            {description ? <p className="min-w-0 text-xs text-gray-500">{description}</p> : <span />}
+            {action && <div className="flex shrink-0 items-center gap-1">{action}</div>}
+          </div>
+        )}
+        {body}
+      </div>
+    );
 
   return title ? (
     <Panel

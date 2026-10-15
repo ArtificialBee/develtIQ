@@ -1,0 +1,361 @@
+{
+  "aplikacija": "skladiste",
+  "serije": [
+    {
+      "id": "PRIJEMNICA-PRJ",
+      "predmet": "PRIJEMNICA",
+      "aplikacija": "skladiste",
+      "oznaka": "PRJ",
+      "oblici": [
+        {
+          "obrazac": "PRJ-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "IZDATNICA-IZD",
+      "predmet": "IZDATNICA",
+      "aplikacija": "skladiste",
+      "oznaka": "IZD",
+      "oblici": [
+        {
+          "obrazac": "IZD-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "POVRATNICA-POV",
+      "predmet": "POVRATNICA",
+      "aplikacija": "skladiste",
+      "oznaka": "POV",
+      "oblici": [
+        {
+          "obrazac": "POV-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "PRENOSNICA-PRE",
+      "predmet": "PRENOSNICA",
+      "aplikacija": "skladiste",
+      "oznaka": "PRE",
+      "oblici": [
+        {
+          "obrazac": "PRE-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "OTPREMNICA-OTP",
+      "predmet": "OTPREMNICA",
+      "aplikacija": "skladiste",
+      "oznaka": "OTP",
+      "oblici": [
+        {
+          "obrazac": "OTP-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "TREBOVANJE-ZZN",
+      "predmet": "TREBOVANJE",
+      "aplikacija": "skladiste",
+      "oznaka": "ZZN",
+      "oblici": [
+        {
+          "obrazac": "ZZN-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "Trebovanja sa zalihe i zahtjevi za nabavku — jedna serija.",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "POPIS_ZALIHA-INV",
+      "predmet": "POPIS_ZALIHA",
+      "aplikacija": "skladiste",
+      "oznaka": "INV",
+      "oblici": [
+        {
+          "obrazac": "INV-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "Inventura zaliha.",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "KOREKCIJA_ZALIHA-USK",
+      "predmet": "KOREKCIJA_ZALIHA",
+      "aplikacija": "skladiste",
+      "oznaka": "USK",
+      "oblici": [
+        {
+          "obrazac": "USK-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "Korekcije zaliha i razlike popisa.",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "OTPIS_ZALIHA-OTS",
+      "predmet": "OTPIS_ZALIHA",
+      "aplikacija": "skladiste",
+      "oznaka": "OTS",
+      "oblici": [
+        {
+          "obrazac": "OTS-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "POCETNO_STANJE_ZALIHA-PST",
+      "predmet": "POCETNO_STANJE_ZALIHA",
+      "aplikacija": "skladiste",
+      "oznaka": "PST",
+      "oblici": [
+        {
+          "obrazac": "PST-{GGGG}-{NNNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "ARTIKAL-ART",
+      "predmet": "ARTIKAL",
+      "aplikacija": "skladiste",
+      "oznaka": "ART",
+      "oblici": [
+        {
+          "obrazac": "ART-{NNNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "SKLADISTE-SK",
+      "predmet": "SKLADISTE",
+      "aplikacija": "skladiste",
+      "oznaka": "SK",
+      "oblici": [
+        {
+          "obrazac": "SK-{NN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    },
+    {
+      "id": "DOBAVLJAC-DOB",
+      "predmet": "DOBAVLJAC",
+      "aplikacija": "skladiste",
+      "oznaka": "DOB",
+      "oblici": [
+        {
+          "obrazac": "DOB-{NNN}",
+          "vaziOd": "2010-01-01"
+        }
+      ],
+      "pocetniBroj": 1,
+      "aktivna": true,
+      "napomena": "",
+      "historija": [
+        {
+          "kad": "2025-12-20T09:00:00",
+          "ko": "zap-033",
+          "sta": "Serija je upisana u šifrarnik brojeva.",
+          "vrsta": "UPIS"
+        }
+      ]
+    }
+  ],
+  "brojaci": [],
+  "sljedeciBrojevi": {
+    "PRIJEMNICA": {
+      "ok": true,
+      "vrijednost": "PRJ-2026-00117"
+    },
+    "IZDATNICA": {
+      "ok": true,
+      "vrijednost": "IZD-2026-00230"
+    },
+    "POVRATNICA": {
+      "ok": true,
+      "vrijednost": "POV-2026-00010"
+    },
+    "PRENOSNICA": {
+      "ok": true,
+      "vrijednost": "PRE-2026-00015"
+    },
+    "OTPREMNICA": {
+      "ok": true,
+      "vrijednost": "OTP-2026-00026"
+    },
+    "TREBOVANJE": {
+      "ok": true,
+      "vrijednost": "ZZN-2026-00094"
+    },
+    "POPIS_ZALIHA": {
+      "ok": true,
+      "vrijednost": "INV-2026-00005"
+    },
+    "KOREKCIJA_ZALIHA": {
+      "ok": true,
+      "vrijednost": "USK-2026-00007"
+    },
+    "OTPIS_ZALIHA": {
+      "ok": true,
+      "vrijednost": "OTS-2026-00004"
+    },
+    "POCETNO_STANJE_ZALIHA": {
+      "ok": true,
+      "vrijednost": "PST-2026-00008"
+    }
+  },
+  "sljedeceSifre": {
+    "ARTIKAL": {
+      "ok": true,
+      "vrijednost": "ART-9522"
+    },
+    "SKLADISTE": {
+      "ok": true,
+      "vrijednost": "SK-09"
+    },
+    "DOBAVLJAC": {
+      "ok": true,
+      "vrijednost": "DOB-008"
+    }
+  }
+}

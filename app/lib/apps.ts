@@ -2,8 +2,7 @@ import type { IconType } from "react-icons";
 import { LuChartColumn, LuGauge, LuLayoutDashboard } from "react-icons/lu";
 import data from "~/data/apps.json";
 import { iconFor } from "~/lib/app-icons";
-import { homeView } from "~/lib/moj-dan";
-import { SNAPSHOT } from "~/lib/snapshot";
+import { WORK_ITEMS } from "~/lib/work-items";
 
 /**
  * The applications and their sections, exported from divetiq-cicak's
@@ -48,8 +47,22 @@ const HOME_SECTIONS: AppSection[] = [
   { key: "pokazatelji", label: "Pokazatelji i obim", url: "/home/pokazatelji", icon: LuChartColumn, children: [] },
 ];
 
-// What waits on the person in Moj planer, counted the same way as on the home page.
-const waitingOnMe = homeView(SNAPSHOT).mojDan.find((stat) => stat.key === "ceka-na-mene")?.value;
+// The app each snapshot module lives in. Personal items and mail sit in Moj planer.
+const MODUL_APP: Record<string, string> = {
+  protokol: "protocol",
+  "radni-nalozi": "nalozi",
+  licno: "moj-prostor",
+  email: "moj-prostor",
+  hr: "hr",
+  "vozni-park": "vozni-park",
+  plate: "plate",
+  finansije: "finance",
+  skladiste: "skladiste",
+  "stalna-sredstva": "stalna-sredstva",
+};
+
+/** How many of the person's open items an app holds: the number on its dock icon. */
+const otvoreno = (appKey: string) => WORK_ITEMS.filter((item) => MODUL_APP[item.modul] === appKey).length || undefined;
 
 export const APPS: AppEntry[] = data.apps.map((app) =>
   app.key === "home"
@@ -72,24 +85,10 @@ export const APPS: AppEntry[] = data.apps.map((app) =>
             description: child.description ?? undefined,
           })),
         })),
-        badge: app.key === "moj-prostor" ? waitingOnMe : undefined,
+        badge: otvoreno(app.key),
         ready: false,
       },
 );
-
-// The app each snapshot module lives in. Personal items and mail sit in Moj planer.
-const MODUL_APP: Record<string, string> = {
-  protokol: "protocol",
-  "radni-nalozi": "nalozi",
-  licno: "moj-prostor",
-  email: "moj-prostor",
-  hr: "hr",
-  "vozni-park": "vozni-park",
-  plate: "plate",
-  finansije: "finance",
-  skladiste: "skladiste",
-  "stalna-sredstva": "stalna-sredstva",
-};
 
 /** The app a snapshot module, such as "email" or "protokol", belongs to; Početna when none matches. */
 export const appForModul = (modul: string) => APPS.find((app) => app.key === MODUL_APP[modul]) ?? APPS[0];

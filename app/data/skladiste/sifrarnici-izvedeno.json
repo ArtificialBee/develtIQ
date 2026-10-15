@@ -1,0 +1,2592 @@
+{
+  "artikli": {
+    "ART-1001": {
+      "raspolozivo": 1380,
+      "imaPrometa": true,
+      "grupaNaziv": "Elektro materijal › Kablovi",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-02",
+        "SK-06"
+      ],
+      "granice": [
+        "gr-ART-1001-SK-01",
+        "gr-ART-1001-SK-02",
+        "gr-ART-1001-SK-06"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 220 · SK-01 · A-01-02 · L-2609.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 1000 · SK-01 · A-01-02 · L-2551.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 180 · SK-02 · L-2588.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 300 · SK-06 · E-01-01 · L-2701.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00012.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00012"
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00008.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00008"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00087.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00087"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00085.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00085"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00007.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00007"
+        },
+        {
+          "razlog": "Otvorena rezervacija za ZZN-2026-00087 drži 300.",
+          "rjesenje": "Izdajte rezervisano ili otpustite rezervaciju.",
+          "path": "/skladiste/zalihe/rezervacije/rez-001"
+        },
+        {
+          "razlog": "Otvorena rezervacija za RN-2026-0015 drži 20.",
+          "rjesenje": "Izdajte rezervisano ili otpustite rezervaciju.",
+          "path": "/skladiste/zalihe/rezervacije/rez-007"
+        }
+      ]
+    },
+    "ART-1002": {
+      "raspolozivo": 890,
+      "imaPrometa": true,
+      "grupaNaziv": "Elektro materijal › Kablovi",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-06",
+        "SK-07"
+      ],
+      "granice": [
+        "gr-ART-1002-SK-01",
+        "gr-ART-1002-SK-07"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 240 · SK-01 · A-01-03 · L-5410.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 300 · SK-01 · A-02-01 · L-5411.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 260 · SK-06 · F-02-01 · L-5510.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 90 · SK-07 · L-5500.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00010.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+        }
+      ]
+    },
+    "ART-2044": {
+      "raspolozivo": 277,
+      "imaPrometa": true,
+      "grupaNaziv": "Elektro materijal › Osigurači i sklopke",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-06"
+      ],
+      "granice": [
+        "gr-ART-2044-SK-01",
+        "gr-ART-2044-SK-06"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 251 · SK-01 · A-03-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 3 · SK-01 · RETURN-HOLD (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 76 · SK-06 · E-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00012.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00012"
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00008.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00008"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00087.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00087"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00009.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00009"
+        },
+        {
+          "razlog": "Otvorena otpremnica OTP-2026-00024.",
+          "rjesenje": "Potvrdite isporuku ili je otkažite.",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00024"
+        },
+        {
+          "razlog": "Otvorena rezervacija za ZZN-2026-00091 drži 40.",
+          "rjesenje": "Izdajte rezervisano ili otpustite rezervaciju.",
+          "path": "/skladiste/zalihe/rezervacije/rez-002"
+        },
+        {
+          "razlog": "Otvorena rezervacija za RN-2026-0015 drži 10.",
+          "rjesenje": "Izdajte rezervisano ili otpustite rezervaciju.",
+          "path": "/skladiste/zalihe/rezervacije/rez-006"
+        }
+      ]
+    },
+    "ART-2051": {
+      "raspolozivo": 34,
+      "imaPrometa": true,
+      "grupaNaziv": "Elektro materijal › Osigurači i sklopke",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-02",
+        "SK-06"
+      ],
+      "granice": [
+        "gr-ART-2051-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 16 · SK-01 · A-02-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 6 · SK-01 · A-03-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 2 · SK-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 10 · SK-06 · E-01-03.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 2 · SK-06 · TRANZIT (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00010.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+        },
+        {
+          "razlog": "Otvorena prenosnica PRE-2026-00013.",
+          "rjesenje": "Primite je u ciljno skladište ili je otkažite.",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00013"
+        }
+      ]
+    },
+    "ART-3310": {
+      "raspolozivo": 24,
+      "imaPrometa": true,
+      "grupaNaziv": "Rezervni dijelovi",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-04"
+      ],
+      "granice": [
+        "gr-ART-3310-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 24 · SK-01 · B-02-04 · S-01…S-24.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 4 · SK-01 · QUARANTINE · S-77…S-88 (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 2 · SK-01 · RETURN-HOLD · S-29 · S-30 (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 1 · SK-01 · RETURN-HOLD · S-25 (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 2 · SK-04 · D-01-01 · S-31 · S-32.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00012.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00012"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00087.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00087"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00009.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00009"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00003.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00003"
+        }
+      ]
+    },
+    "ART-3402": {
+      "raspolozivo": 88,
+      "imaPrometa": true,
+      "grupaNaziv": "Rezervni dijelovi › Ležajevi",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-04"
+      ],
+      "granice": [
+        "gr-ART-3402-SK-01",
+        "gr-ART-3402-SK-04"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 8 · SK-01 · B-02-01 · L-7690.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 80 · SK-01 · B-02-01 · L-7702.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 8 · SK-04 · D-01-01 · L-7702.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 4 · SK-04 · D-01-01 · L-7690.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00013.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00013"
+        }
+      ]
+    },
+    "ART-4008": {
+      "raspolozivo": 654,
+      "imaPrometa": true,
+      "grupaNaziv": "Zaštitna oprema",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-02",
+        "SK-06"
+      ],
+      "granice": [
+        "gr-ART-4008-SK-01",
+        "gr-ART-4008-SK-06"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 362 · SK-01 · C-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 60 · SK-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 182 · SK-06 · E-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 150 · SK-06 · F-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00010.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00006.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00006"
+        },
+        {
+          "razlog": "Otvorena otpremnica OTP-2026-00025.",
+          "rjesenje": "Potvrdite isporuku ili je otkažite.",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00025"
+        },
+        {
+          "razlog": "Otvorena prenosnica PRE-2026-00014.",
+          "rjesenje": "Primite je u ciljno skladište ili je otkažite.",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00014"
+        },
+        {
+          "razlog": "Otvorena rezervacija za ZZN-2026-00093 drži 100.",
+          "rjesenje": "Izdajte rezervisano ili otpustite rezervaciju.",
+          "path": "/skladiste/zalihe/rezervacije/rez-005"
+        }
+      ]
+    },
+    "ART-4102": {
+      "raspolozivo": 200,
+      "imaPrometa": true,
+      "grupaNaziv": "Goriva i ulja",
+      "skladistaKartice": [
+        "SK-02",
+        "SK-03",
+        "SK-08"
+      ],
+      "granice": [
+        "gr-ART-4102-SK-02",
+        "gr-ART-4102-SK-03"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 410 · SK-02 · L-3120.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 120 · SK-03 · L-3121.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 80 · SK-08 · L-3130.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00088.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00088"
+        }
+      ]
+    },
+    "ART-4103": {
+      "raspolozivo": 0,
+      "imaPrometa": false,
+      "grupaNaziv": "Goriva i ulja",
+      "skladistaKartice": [],
+      "granice": [],
+      "preprekeDeaktivacije": []
+    },
+    "ART-5006": {
+      "raspolozivo": 316,
+      "imaPrometa": true,
+      "grupaNaziv": "Zaštitna oprema",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-07"
+      ],
+      "granice": [
+        "gr-ART-5006-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 56 · SK-01 · C-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 200 · SK-01 · C-04-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 60 · SK-07.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena otpremnica OTP-2026-00023.",
+          "rjesenje": "Potvrdite isporuku ili je otkažite.",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00023"
+        }
+      ]
+    },
+    "ART-5120": {
+      "raspolozivo": 28,
+      "imaPrometa": true,
+      "grupaNaziv": "Potrošni materijal",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-02",
+        "SK-03"
+      ],
+      "granice": [
+        "gr-ART-5120-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 2 · SK-01 · C-02-03 · L-0388.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 20 · SK-02 · L-0415.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 6 · SK-03 · L-0390.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00010.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+        }
+      ]
+    },
+    "ART-5121": {
+      "raspolozivo": 21,
+      "imaPrometa": true,
+      "grupaNaziv": "Potrošni materijal › Materijal za zavarivanje",
+      "skladistaKartice": [
+        "SK-01"
+      ],
+      "granice": [
+        "gr-ART-5121-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 10 · SK-01 · C-02-03 · L-9012.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 11 · SK-01 · C-02-04 · L-9012.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00014.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00014"
+        }
+      ]
+    },
+    "ART-5501": {
+      "raspolozivo": 3,
+      "imaPrometa": true,
+      "grupaNaziv": "Alati",
+      "skladistaKartice": [
+        "SK-01"
+      ],
+      "granice": [],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 3 · SK-01 · B-01-02 · S-1001…S-1003.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "ART-6030": {
+      "raspolozivo": 245,
+      "imaPrometa": true,
+      "grupaNaziv": "Rezervni dijelovi › Ventili",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-04",
+        "SK-06"
+      ],
+      "granice": [
+        "gr-ART-6030-SK-01",
+        "gr-ART-6030-SK-04"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 226 · SK-01 · B-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 6 · SK-04 · D-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 24 · SK-06 · E-02-03.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00013.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00013"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00086.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00086"
+        },
+        {
+          "razlog": "Otvorena rezervacija za ZZN-2026-00014 drži 5.",
+          "rjesenje": "Izdajte rezervisano ili otpustite rezervaciju.",
+          "path": "/skladiste/zalihe/rezervacije/rez-009"
+        }
+      ]
+    },
+    "ART-6031": {
+      "raspolozivo": 0,
+      "imaPrometa": false,
+      "grupaNaziv": "Rezervni dijelovi › Ventili",
+      "skladistaKartice": [],
+      "granice": [],
+      "preprekeDeaktivacije": []
+    },
+    "ART-6220": {
+      "raspolozivo": 5,
+      "imaPrometa": true,
+      "grupaNaziv": "Mjerila",
+      "skladistaKartice": [
+        "SK-01"
+      ],
+      "granice": [
+        "gr-ART-6220-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 5 · SK-01 · B-02-01 · S-4401…S-4405.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "ART-6221": {
+      "raspolozivo": 0,
+      "imaPrometa": false,
+      "grupaNaziv": "Mjerila",
+      "skladistaKartice": [],
+      "granice": [],
+      "preprekeDeaktivacije": []
+    },
+    "ART-6640": {
+      "raspolozivo": 318,
+      "imaPrometa": true,
+      "grupaNaziv": "Građevinski materijal",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-06"
+      ],
+      "granice": [
+        "gr-ART-6640-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 120 · SK-01 · B-03-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 146 · SK-01 · B-05-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 52 · SK-06 · E-03-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena otpremnica OTP-2026-00023.",
+          "rjesenje": "Potvrdite isporuku ili je otkažite.",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00023"
+        }
+      ]
+    },
+    "ART-7001": {
+      "raspolozivo": 80,
+      "imaPrometa": true,
+      "grupaNaziv": "Građevinski materijal",
+      "skladistaKartice": [
+        "SK-06"
+      ],
+      "granice": [],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 80 · SK-06 · F-01-01 · L-C611.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "ART-7420": {
+      "raspolozivo": 109,
+      "imaPrometa": true,
+      "grupaNaziv": "Rezervni dijelovi › Ležajevi",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-04"
+      ],
+      "granice": [
+        "gr-ART-7420-SK-01",
+        "gr-ART-7420-SK-04"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 69 · SK-01 · B-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 40 · SK-01 · B-03-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 20 · SK-04 · D-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "ART-8115": {
+      "raspolozivo": 60,
+      "imaPrometa": true,
+      "grupaNaziv": "Potrošni materijal › Materijal za zavarivanje",
+      "skladistaKartice": [
+        "SK-01"
+      ],
+      "granice": [
+        "gr-ART-8115-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 60 · SK-01 · C-02-04 · L-9001.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "ART-8116": {
+      "raspolozivo": 0,
+      "imaPrometa": false,
+      "grupaNaziv": "Potrošni materijal › Materijal za zavarivanje",
+      "skladistaKartice": [],
+      "granice": [],
+      "preprekeDeaktivacije": []
+    },
+    "ART-8230": {
+      "raspolozivo": 51,
+      "imaPrometa": true,
+      "grupaNaziv": "Zaštitna oprema",
+      "skladistaKartice": [
+        "SK-01",
+        "SK-06"
+      ],
+      "granice": [
+        "gr-ART-8230-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 9 · SK-01 · C-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 30 · SK-01 · C-03-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 12 · SK-06 · E-02-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "ART-9004": {
+      "raspolozivo": 1550,
+      "imaPrometa": true,
+      "grupaNaziv": "Goriva i ulja",
+      "skladistaKartice": [
+        "SK-02",
+        "SK-03",
+        "SK-08"
+      ],
+      "granice": [
+        "gr-ART-9004-SK-02",
+        "gr-ART-9004-SK-03",
+        "gr-ART-9004-SK-08"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 1800 · SK-02 · L-D07.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 650 · SK-03 · L-D08.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 900 · SK-08 · L-D09.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "ART-9310": {
+      "raspolozivo": 1,
+      "imaPrometa": true,
+      "grupaNaziv": "Alati",
+      "skladistaKartice": [
+        "SK-01"
+      ],
+      "granice": [],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 1 · SK-01 · B-01-02 · S-104 · S-105.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00086.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00086"
+        }
+      ]
+    },
+    "ART-9520": {
+      "raspolozivo": 14,
+      "imaPrometa": true,
+      "grupaNaziv": "Potrošni materijal › Brtveni materijal",
+      "skladistaKartice": [
+        "SK-01"
+      ],
+      "granice": [
+        "gr-ART-9520-SK-01"
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 14 · SK-01 · C-02-04.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "ART-9521": {
+      "raspolozivo": 0,
+      "imaPrometa": false,
+      "grupaNaziv": "Potrošni materijal › Brtveni materijal",
+      "skladistaKartice": [],
+      "granice": [],
+      "preprekeDeaktivacije": []
+    }
+  },
+  "skladista": {
+    "SK-01": {
+      "adresa": "Rajlovačka bb, Sarajevo",
+      "grad": "Sarajevo",
+      "odgovornaIme": "Osman Berkić",
+      "mjesto": "Centralno skladište Rajlovac · Rajlovačka bb, Sarajevo",
+      "lokacija": 21,
+      "redova": 28,
+      "vrijednost": 22622.2,
+      "podskladista": [
+        "SK-02",
+        "SK-03",
+        "SK-04",
+        "SK-05"
+      ],
+      "ispodSignalne": 2,
+      "dokumenti": [
+        {
+          "broj": "PRJ-2026-00014",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Metal Trade d.o.o.",
+          "datum": "2026-10-13",
+          "status": "Nacrt",
+          "tone": "neutral",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00014"
+        },
+        {
+          "broj": "POV-2026-00006",
+          "vrsta": "Povratnica",
+          "skladiste": "SK-01",
+          "kontekst": "iz IZD-2026-00084",
+          "datum": "2026-10-13",
+          "status": "Nacrt · čeka ovjeru",
+          "tone": "neutral",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00006"
+        },
+        {
+          "broj": "USK-2026-00006",
+          "vrsta": "Korekcija",
+          "skladiste": "SK-01",
+          "kontekst": "pronađeno · ART-9520 · +2",
+          "datum": "2026-10-12",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/interno/korekcije/usk-2026-00006"
+        },
+        {
+          "broj": "PRJ-2026-00013",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Termo Servis d.o.o.",
+          "datum": "2026-10-12",
+          "status": "Fizički primljeno · čeka količinsku kontrolu",
+          "tone": "warning",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00013"
+        },
+        {
+          "broj": "PRE-2026-00013",
+          "vrsta": "Prenosnica",
+          "skladiste": "SK-01",
+          "kontekst": "→ SK-06",
+          "datum": "2026-10-12",
+          "status": "U tranzitu · čeka prijem",
+          "tone": "warning",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00013"
+        },
+        {
+          "broj": "POV-2026-00007",
+          "vrsta": "Povratnica",
+          "skladiste": "SK-01",
+          "kontekst": "iz IZD-2026-00085",
+          "datum": "2026-10-12",
+          "status": "Ovjerena · čeka fizički prijem",
+          "tone": "warning",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00007"
+        },
+        {
+          "broj": "OTP-2026-00024",
+          "vrsta": "Otpremnica",
+          "skladiste": "SK-01",
+          "kontekst": "Prodaja kupcu · Elektrodistribucija Sarajevo",
+          "datum": "2026-10-12",
+          "status": "Ovjerena · čeka otpremu",
+          "tone": "info",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00024"
+        },
+        {
+          "broj": "IZD-2026-00087",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0015",
+          "datum": "2026-10-12",
+          "status": "Nacrt · čeka ovjeru",
+          "tone": "neutral",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00087"
+        },
+        {
+          "broj": "PRJ-2026-00012",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Elektro d.o.o.",
+          "datum": "2026-10-11",
+          "status": "Čeka kvalitativnu kontrolu",
+          "tone": "warning",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00012"
+        },
+        {
+          "broj": "OTP-2026-00023",
+          "vrsta": "Otpremnica",
+          "skladiste": "SK-01",
+          "kontekst": "Prodaja kupcu · Građevinar Kakanj d.o.o.",
+          "datum": "2026-10-11",
+          "status": "Otpremljena · roba na putu",
+          "tone": "warning",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00023"
+        },
+        {
+          "broj": "POV-2026-00009",
+          "vrsta": "Povratnica",
+          "skladiste": "SK-01",
+          "kontekst": "iz IZD-2026-00081",
+          "datum": "2026-10-10",
+          "status": "Fizički primljeno · čeka pregled",
+          "tone": "warning",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00009"
+        },
+        {
+          "broj": "IZD-2026-00086",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0014",
+          "datum": "2026-10-10",
+          "status": "Proknjiženo · čeka predaju",
+          "tone": "info",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00086"
+        },
+        {
+          "broj": "USK-2026-00005",
+          "vrsta": "Korekcija",
+          "skladiste": "SK-01",
+          "kontekst": "oštećenje · ART-5006 · -4",
+          "datum": "2026-10-09",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/interno/korekcije/usk-2026-00005"
+        },
+        {
+          "broj": "PRE-2026-00012",
+          "vrsta": "Prenosnica",
+          "skladiste": "SK-01",
+          "kontekst": "unutar skladišta",
+          "datum": "2026-10-08",
+          "status": "Prenesena",
+          "tone": "success",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00012"
+        },
+        {
+          "broj": "POV-2026-00003",
+          "vrsta": "Povratnica",
+          "skladiste": "SK-01",
+          "kontekst": "iz IZD-2026-00081",
+          "datum": "2026-10-07",
+          "status": "Pregledano · čeka knjiženje",
+          "tone": "info",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00003"
+        },
+        {
+          "broj": "IZD-2026-00085",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov ZZN-2026-00087",
+          "datum": "2026-10-07",
+          "status": "Djelimično predano",
+          "tone": "info",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00085"
+        },
+        {
+          "broj": "PRJ-2026-00101",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Elektro d.o.o.",
+          "datum": "2026-10-06",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00101"
+        },
+        {
+          "broj": "PRJ-2026-00011",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Hidraulika BH d.o.o.",
+          "datum": "2026-10-06",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00011"
+        },
+        {
+          "broj": "PRJ-2026-00102",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Energo Plus d.o.o.",
+          "datum": "2026-10-05",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00102"
+        },
+        {
+          "broj": "PRE-2026-00011",
+          "vrsta": "Prenosnica",
+          "skladiste": "SK-01",
+          "kontekst": "→ SK-04",
+          "datum": "2026-10-05",
+          "status": "Prenesena",
+          "tone": "success",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00011"
+        },
+        {
+          "broj": "OTP-2026-00022",
+          "vrsta": "Otpremnica",
+          "skladiste": "SK-01",
+          "kontekst": "Povrat dobavljaču · Hidraulika BH d.o.o.",
+          "datum": "2026-10-05",
+          "status": "Isporučena · potpisano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00022"
+        },
+        {
+          "broj": "IZD-2026-00201",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0022",
+          "datum": "2026-10-05",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00201"
+        },
+        {
+          "broj": "IZD-2026-00084",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov ZZN-2026-00093",
+          "datum": "2026-10-05",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00084"
+        },
+        {
+          "broj": "POV-2026-00008",
+          "vrsta": "Povratnica",
+          "skladiste": "SK-01",
+          "kontekst": "iz IZD-2026-00083",
+          "datum": "2026-10-04",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00008"
+        },
+        {
+          "broj": "IZD-2026-00202",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0023",
+          "datum": "2026-10-04",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00202"
+        },
+        {
+          "broj": "IZD-2026-00203",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0024",
+          "datum": "2026-10-03",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00203"
+        },
+        {
+          "broj": "IZD-2026-00082",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0001",
+          "datum": "2026-10-03",
+          "status": "Otkazano",
+          "tone": "neutral",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00082"
+        },
+        {
+          "broj": "OTP-2026-00021",
+          "vrsta": "Otpremnica",
+          "skladiste": "SK-01",
+          "kontekst": "Prodaja kupcu · Vodovod i kanalizacija d.o.o.",
+          "datum": "2026-10-01",
+          "status": "Isporučena · potpisano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00021"
+        },
+        {
+          "broj": "PRJ-2026-00009",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "—",
+          "datum": "2026-09-30",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00009"
+        },
+        {
+          "broj": "PRJ-2026-00104",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Termo Servis d.o.o.",
+          "datum": "2026-09-29",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00104"
+        },
+        {
+          "broj": "USK-2026-00004",
+          "vrsta": "Korekcija",
+          "skladiste": "SK-01",
+          "kontekst": "oštećenje · ART-2044 · -3",
+          "datum": "2026-09-28",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/interno/korekcije/usk-2026-00004"
+        },
+        {
+          "broj": "PRJ-2026-00008",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Elektro d.o.o.",
+          "datum": "2026-09-28",
+          "status": "Nacrt",
+          "tone": "neutral",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00008"
+        },
+        {
+          "broj": "IZD-2026-00206",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0027",
+          "datum": "2026-09-28",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00206"
+        },
+        {
+          "broj": "IZD-2026-00207",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0028",
+          "datum": "2026-09-27",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00207"
+        },
+        {
+          "broj": "IZD-2026-00083",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov ZZN-2026-00079",
+          "datum": "2026-09-27",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00083"
+        },
+        {
+          "broj": "IZD-2026-00081",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0009",
+          "datum": "2026-09-25",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00081"
+        },
+        {
+          "broj": "PRJ-2026-00007",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Akt o donaciji 12/26",
+          "datum": "2026-09-23",
+          "status": "Otkazano",
+          "tone": "neutral",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00007"
+        },
+        {
+          "broj": "POV-2026-00004",
+          "vrsta": "Povratnica",
+          "skladiste": "SK-01",
+          "kontekst": "iz IZD-2026-00079",
+          "datum": "2026-09-23",
+          "status": "Otkazano",
+          "tone": "neutral",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00004"
+        },
+        {
+          "broj": "PRJ-2026-00105",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Metal Trade d.o.o.",
+          "datum": "2026-09-22",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00105"
+        },
+        {
+          "broj": "USK-2026-00003",
+          "vrsta": "Korekcija",
+          "skladiste": "SK-01",
+          "kontekst": "popisna razlika · ART-6640 · -2",
+          "datum": "2026-09-21",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/interno/korekcije/usk-2026-00003"
+        },
+        {
+          "broj": "PRJ-2026-00106",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Hidraulika BH d.o.o.",
+          "datum": "2026-09-21",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00106"
+        },
+        {
+          "broj": "PRJ-2026-00006",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Energo Plus d.o.o.",
+          "datum": "2026-09-21",
+          "status": "Odbijeno",
+          "tone": "danger",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00006"
+        },
+        {
+          "broj": "IZD-2026-00209",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0030",
+          "datum": "2026-09-21",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00209"
+        },
+        {
+          "broj": "INV-2026-00002",
+          "vrsta": "Popis",
+          "skladiste": "SK-01",
+          "kontekst": "4 / 4 izbrojano",
+          "datum": "2026-09-21",
+          "status": "Proknjižen",
+          "tone": "success",
+          "path": "/skladiste/interno/popisi/inv-2026-00002"
+        },
+        {
+          "broj": "PRJ-2026-00107",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Elektro d.o.o.",
+          "datum": "2026-09-20",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00107"
+        },
+        {
+          "broj": "IZD-2026-00210",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0031",
+          "datum": "2026-09-20",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00210"
+        },
+        {
+          "broj": "IZD-2026-00211",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0032",
+          "datum": "2026-09-19",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00211"
+        },
+        {
+          "broj": "IZD-2026-00212",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0033",
+          "datum": "2026-09-18",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00212"
+        },
+        {
+          "broj": "IZD-2026-00079",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov OJ Održavanje",
+          "datum": "2026-09-18",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00079"
+        },
+        {
+          "broj": "PRJ-2026-00005",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Hidraulika BH d.o.o.",
+          "datum": "2026-09-17",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00005"
+        },
+        {
+          "broj": "PRJ-2026-00109",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Energo Plus d.o.o.",
+          "datum": "2026-09-15",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00109"
+        },
+        {
+          "broj": "PRJ-2026-00110",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Termo Servis d.o.o.",
+          "datum": "2026-09-14",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00110"
+        },
+        {
+          "broj": "IZD-2026-00215",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0036",
+          "datum": "2026-09-14",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00215"
+        },
+        {
+          "broj": "IZD-2026-00216",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0001",
+          "datum": "2026-09-13",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00216"
+        },
+        {
+          "broj": "IZD-2026-00217",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0002",
+          "datum": "2026-09-12",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00217"
+        },
+        {
+          "broj": "PRJ-2026-00112",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Hidraulika BH d.o.o.",
+          "datum": "2026-09-08",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00112"
+        },
+        {
+          "broj": "IZD-2026-00219",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0004",
+          "datum": "2026-09-07",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00219"
+        },
+        {
+          "broj": "IZD-2026-00220",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0005",
+          "datum": "2026-09-06",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00220"
+        },
+        {
+          "broj": "USK-2026-00002",
+          "vrsta": "Korekcija",
+          "skladiste": "SK-01",
+          "kontekst": "popisna razlika · ART-8115 · +5",
+          "datum": "2026-09-03",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/interno/korekcije/usk-2026-00002"
+        },
+        {
+          "broj": "INV-2026-00001",
+          "vrsta": "Popis",
+          "skladiste": "SK-01",
+          "kontekst": "3 / 3 izbrojano",
+          "datum": "2026-09-03",
+          "status": "Proknjižen",
+          "tone": "success",
+          "path": "/skladiste/interno/popisi/inv-2026-00001"
+        },
+        {
+          "broj": "PRJ-2026-00113",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Elektro d.o.o.",
+          "datum": "2026-09-01",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00113"
+        },
+        {
+          "broj": "PRJ-2026-00114",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Metal Trade d.o.o.",
+          "datum": "2026-08-31",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00114"
+        },
+        {
+          "broj": "IZD-2026-00222",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0007",
+          "datum": "2026-08-31",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00222"
+        },
+        {
+          "broj": "IZD-2026-00223",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0008",
+          "datum": "2026-08-30",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00223"
+        },
+        {
+          "broj": "IZD-2026-00224",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0009",
+          "datum": "2026-08-29",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00224"
+        },
+        {
+          "broj": "PRJ-2026-00116",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-01",
+          "kontekst": "Energo Plus d.o.o.",
+          "datum": "2026-08-25",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00116"
+        },
+        {
+          "broj": "IZD-2026-00227",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0012",
+          "datum": "2026-08-24",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00227"
+        },
+        {
+          "broj": "IZD-2026-00228",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-01",
+          "kontekst": "osnov RN-2026-0013",
+          "datum": "2026-08-23",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00228"
+        },
+        {
+          "broj": "USK-2026-00001",
+          "vrsta": "Korekcija",
+          "skladiste": "SK-01",
+          "kontekst": "ostalo · ART-7420 · -1",
+          "datum": "2026-08-13",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/interno/korekcije/usk-2026-00001"
+        }
+      ],
+      "otvoreniDokumenti": 21,
+      "mozePocetnoStanje": false,
+      "preprekePocetnogStanja": [
+        {
+          "razlog": "SK-01 već ima početno stanje PST-2026-00001.",
+          "rjesenje": "Početno stanje je jedno po skladištu — dalje zalihu mijenjaju dokumenti.",
+          "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00001"
+        },
+        {
+          "razlog": "U SK-01 je već proknjižen promet (PRJ-2026-00011, PRJ-2026-00009, PRJ-2026-00005 i još 53).",
+          "rjesenje": "Početno stanje se unosi samo prije prvog prometa. Nađenu robu knjižite korekcijom, novu prijemnicom."
+        }
+      ],
+      "pocetnoUToku": null,
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Aktivna podskladišta: SK-02, SK-03, SK-04.",
+          "rjesenje": "Prvo deaktivirajte podskladišta ili ih premjestite pod drugo glavno.",
+          "path": "/skladiste/postavke/skladista"
+        },
+        {
+          "razlog": "Na stanju je 220 · ART-1001 · A-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 1000 · ART-1001 · A-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 240 · ART-1002 · A-01-03.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 300 · ART-1002 · A-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 251 · ART-2044 · A-03-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 3 · ART-2044 · RETURN-HOLD (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 16 · ART-2051 · A-02-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 6 · ART-2051 · A-03-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 24 · ART-3310 · B-02-04.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 4 · ART-3310 · QUARANTINE (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 2 · ART-3310 · RETURN-HOLD (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 1 · ART-3310 · RETURN-HOLD (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 8 · ART-3402 · B-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 80 · ART-3402 · B-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 362 · ART-4008 · C-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 56 · ART-5006 · C-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 200 · ART-5006 · C-04-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 2 · ART-5120 · C-02-03.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 10 · ART-5121 · C-02-03.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 11 · ART-5121 · C-02-04.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 3 · ART-5501 · B-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 226 · ART-6030 · B-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 5 · ART-6220 · B-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 120 · ART-6640 · B-03-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 146 · ART-6640 · B-05-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 69 · ART-7420 · B-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 40 · ART-7420 · B-03-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 60 · ART-8115 · C-02-04.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 9 · ART-8230 · C-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 30 · ART-8230 · C-03-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 1 · ART-9310 · B-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 14 · ART-9520 · C-02-04.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00014.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00014"
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00013.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00013"
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00012.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00012"
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00008.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00008"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00087.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00087"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00086.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00086"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00085.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00085"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00009.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00009"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00007.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00007"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00006.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00006"
+        },
+        {
+          "razlog": "Otvorena povratnica POV-2026-00003.",
+          "rjesenje": "Proknjižite je ili je otkažite.",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00003"
+        },
+        {
+          "razlog": "Otvorena otpremnica OTP-2026-00024.",
+          "rjesenje": "Potvrdite isporuku ili je otkažite.",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00024"
+        },
+        {
+          "razlog": "Otvorena otpremnica OTP-2026-00023.",
+          "rjesenje": "Potvrdite isporuku ili je otkažite.",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00023"
+        },
+        {
+          "razlog": "Otvorena prenosnica PRE-2026-00013.",
+          "rjesenje": "Primite je u ciljno skladište ili je otkažite.",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00013"
+        }
+      ]
+    },
+    "SK-02": {
+      "adresa": "Kolodvorska bb, Sarajevo",
+      "grad": "Sarajevo",
+      "odgovornaIme": "Osman Berkić",
+      "mjesto": "Toplanski rejon Novo Sarajevo · Kolodvorska bb, Sarajevo",
+      "lokacija": 0,
+      "redova": 6,
+      "vrijednost": 6899,
+      "podskladista": [],
+      "ispodSignalne": 0,
+      "dokumenti": [
+        {
+          "broj": "INV-2026-00004",
+          "vrsta": "Popis",
+          "skladiste": "SK-02",
+          "kontekst": "1 / 2 izbrojano",
+          "datum": "2026-10-12",
+          "status": "Brojanje u toku",
+          "tone": "warning",
+          "path": "/skladiste/interno/popisi/inv-2026-00004"
+        },
+        {
+          "broj": "IZD-2026-00088",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-02",
+          "kontekst": "osnov RN-2026-0017",
+          "datum": "2026-10-11",
+          "status": "Nacrt · čeka ovjeru",
+          "tone": "neutral",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00088"
+        },
+        {
+          "broj": "PRJ-2026-00010",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-02",
+          "kontekst": "Alati Plus d.o.o.",
+          "datum": "2026-10-04",
+          "status": "Djelimično proknjiženo",
+          "tone": "info",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+        },
+        {
+          "broj": "POV-2026-00005",
+          "vrsta": "Povratnica",
+          "skladiste": "SK-02",
+          "kontekst": "iz IZD-2026-00080",
+          "datum": "2026-10-01",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/povratnice/pov-2026-00005"
+        },
+        {
+          "broj": "IZD-2026-00080",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-02",
+          "kontekst": "osnov RN-2026-0007",
+          "datum": "2026-09-22",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00080"
+        }
+      ],
+      "otvoreniDokumenti": 3,
+      "mozePocetnoStanje": false,
+      "preprekePocetnogStanja": [
+        {
+          "razlog": "SK-02 već ima početno stanje PST-2026-00002.",
+          "rjesenje": "Početno stanje je jedno po skladištu — dalje zalihu mijenjaju dokumenti.",
+          "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00002"
+        },
+        {
+          "razlog": "U SK-02 je već proknjižen promet (PRJ-2026-00010, IZD-2026-00080, POV-2026-00005).",
+          "rjesenje": "Početno stanje se unosi samo prije prvog prometa. Nađenu robu knjižite korekcijom, novu prijemnicom."
+        }
+      ],
+      "pocetnoUToku": null,
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 180 · ART-1001.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 2 · ART-2051.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 60 · ART-4008.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 410 · ART-4102.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 20 · ART-5120.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 1800 · ART-9004.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00010.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+        },
+        {
+          "razlog": "Otvorena izdatnica IZD-2026-00088.",
+          "rjesenje": "Predajte je u cijelosti ili je otkažite.",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00088"
+        }
+      ]
+    },
+    "SK-03": {
+      "adresa": "Trg solidarnosti bb, Sarajevo",
+      "grad": "Sarajevo",
+      "odgovornaIme": "Admir Ramić",
+      "mjesto": "Kotlovnica Alipašino Polje · Trg solidarnosti bb, Sarajevo",
+      "lokacija": 0,
+      "redova": 3,
+      "vrijednost": 2166.1,
+      "podskladista": [],
+      "ispodSignalne": 0,
+      "dokumenti": [],
+      "otvoreniDokumenti": 0,
+      "mozePocetnoStanje": false,
+      "preprekePocetnogStanja": [
+        {
+          "razlog": "SK-03 već ima početno stanje PST-2026-00003.",
+          "rjesenje": "Početno stanje je jedno po skladištu — dalje zalihu mijenjaju dokumenti.",
+          "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00003"
+        }
+      ],
+      "pocetnoUToku": null,
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 120 · ART-4102.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 6 · ART-5120.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 650 · ART-9004.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "SK-04": {
+      "adresa": "Trg solidarnosti bb, Sarajevo",
+      "grad": "Sarajevo",
+      "odgovornaIme": "Nermin Hasić",
+      "mjesto": "Kotlovnica Alipašino Polje · Trg solidarnosti bb, Sarajevo",
+      "lokacija": 4,
+      "redova": 5,
+      "vrijednost": 570.6,
+      "podskladista": [],
+      "ispodSignalne": 1,
+      "dokumenti": [
+        {
+          "broj": "INV-2026-00003",
+          "vrsta": "Popis",
+          "skladiste": "SK-04",
+          "kontekst": "4 / 5 izbrojano",
+          "datum": "2026-10-11",
+          "status": "Brojanje u toku",
+          "tone": "warning",
+          "path": "/skladiste/interno/popisi/inv-2026-00003"
+        },
+        {
+          "broj": "PRE-2026-00011",
+          "vrsta": "Prenosnica",
+          "skladiste": "SK-01",
+          "kontekst": "→ SK-04",
+          "datum": "2026-10-05",
+          "status": "Prenesena",
+          "tone": "success",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00011"
+        }
+      ],
+      "otvoreniDokumenti": 2,
+      "mozePocetnoStanje": false,
+      "preprekePocetnogStanja": [
+        {
+          "razlog": "SK-04 već ima početno stanje PST-2026-00004.",
+          "rjesenje": "Početno stanje je jedno po skladištu — dalje zalihu mijenjaju dokumenti.",
+          "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00004"
+        },
+        {
+          "razlog": "U SK-04 je već proknjižen promet (PRE-2026-00011).",
+          "rjesenje": "Početno stanje se unosi samo prije prvog prometa. Nađenu robu knjižite korekcijom, novu prijemnicom."
+        }
+      ],
+      "pocetnoUToku": null,
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 2 · ART-3310 · D-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 8 · ART-3402 · D-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 4 · ART-3402 · D-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 6 · ART-6030 · D-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 20 · ART-7420 · D-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    },
+    "SK-05": {
+      "adresa": "Rajlovačka bb, Sarajevo",
+      "grad": "Sarajevo",
+      "odgovornaIme": "Osman Berkić",
+      "mjesto": "Centralno skladište Rajlovac · Rajlovačka bb, Sarajevo",
+      "lokacija": 0,
+      "redova": 0,
+      "vrijednost": 0,
+      "podskladista": [],
+      "ispodSignalne": 0,
+      "dokumenti": [],
+      "otvoreniDokumenti": 0,
+      "mozePocetnoStanje": false,
+      "preprekePocetnogStanja": [
+        {
+          "razlog": "SK-05 nije aktivno.",
+          "rjesenje": "Aktivirajte skladište, pa unesite početno stanje."
+        }
+      ],
+      "pocetnoUToku": null,
+      "preprekeDeaktivacije": []
+    },
+    "SK-06": {
+      "adresa": "Industrijska zona bb, Zenica",
+      "grad": "Zenica",
+      "odgovornaIme": "Elmir Šarić",
+      "mjesto": "Skladište Zenica · Industrijska zona bb, Zenica",
+      "lokacija": 11,
+      "redova": 10,
+      "vrijednost": 5737.6,
+      "podskladista": [
+        "SK-07",
+        "SK-08"
+      ],
+      "ispodSignalne": 0,
+      "dokumenti": [
+        {
+          "broj": "PRE-2026-00014",
+          "vrsta": "Prenosnica",
+          "skladiste": "SK-06",
+          "kontekst": "→ SK-07",
+          "datum": "2026-10-13",
+          "status": "Nacrt · čeka ovjeru",
+          "tone": "info",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00014"
+        },
+        {
+          "broj": "OTP-2026-00025",
+          "vrsta": "Otpremnica",
+          "skladiste": "SK-06",
+          "kontekst": "Prodaja kupcu · Toplana Zenica d.o.o.",
+          "datum": "2026-10-13",
+          "status": "Nacrt · čeka ovjeru",
+          "tone": "info",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00025"
+        },
+        {
+          "broj": "PRE-2026-00013",
+          "vrsta": "Prenosnica",
+          "skladiste": "SK-01",
+          "kontekst": "→ SK-06",
+          "datum": "2026-10-12",
+          "status": "U tranzitu · čeka prijem",
+          "tone": "warning",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00013"
+        },
+        {
+          "broj": "PRJ-2026-00103",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-06",
+          "kontekst": "Gradnja Komerc d.o.o.",
+          "datum": "2026-10-04",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00103"
+        },
+        {
+          "broj": "IZD-2026-00204",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0025",
+          "datum": "2026-10-02",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00204"
+        },
+        {
+          "broj": "IZD-2026-00205",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0026",
+          "datum": "2026-10-01",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00205"
+        },
+        {
+          "broj": "IZD-2026-00208",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0029",
+          "datum": "2026-09-26",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00208"
+        },
+        {
+          "broj": "PRJ-2026-00108",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-06",
+          "kontekst": "Elektro d.o.o.",
+          "datum": "2026-09-19",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00108"
+        },
+        {
+          "broj": "IZD-2026-00213",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0034",
+          "datum": "2026-09-17",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00213"
+        },
+        {
+          "broj": "IZD-2026-00214",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0035",
+          "datum": "2026-09-16",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00214"
+        },
+        {
+          "broj": "PRJ-2026-00111",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-06",
+          "kontekst": "Gradnja Komerc d.o.o.",
+          "datum": "2026-09-13",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00111"
+        },
+        {
+          "broj": "IZD-2026-00218",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0003",
+          "datum": "2026-09-11",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00218"
+        },
+        {
+          "broj": "IZD-2026-00221",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0006",
+          "datum": "2026-09-05",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00221"
+        },
+        {
+          "broj": "PRJ-2026-00115",
+          "vrsta": "Prijemnica",
+          "skladiste": "SK-06",
+          "kontekst": "Elektro d.o.o.",
+          "datum": "2026-08-30",
+          "status": "Proknjiženo",
+          "tone": "success",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00115"
+        },
+        {
+          "broj": "IZD-2026-00225",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0010",
+          "datum": "2026-08-28",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00225"
+        },
+        {
+          "broj": "IZD-2026-00226",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0011",
+          "datum": "2026-08-27",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00226"
+        },
+        {
+          "broj": "IZD-2026-00229",
+          "vrsta": "Izdatnica",
+          "skladiste": "SK-06",
+          "kontekst": "osnov RN-2026-0014",
+          "datum": "2026-08-22",
+          "status": "Predano",
+          "tone": "success",
+          "path": "/skladiste/izdavanje/izdatnice/izd-2026-00229"
+        }
+      ],
+      "otvoreniDokumenti": 3,
+      "mozePocetnoStanje": false,
+      "preprekePocetnogStanja": [
+        {
+          "razlog": "SK-06 već ima početno stanje PST-2026-00005.",
+          "rjesenje": "Početno stanje je jedno po skladištu — dalje zalihu mijenjaju dokumenti.",
+          "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00005"
+        },
+        {
+          "razlog": "U SK-06 je već proknjižen promet (PRJ-2026-00103, PRJ-2026-00108, PRJ-2026-00111 i još 12).",
+          "rjesenje": "Početno stanje se unosi samo prije prvog prometa. Nađenu robu knjižite korekcijom, novu prijemnicom."
+        }
+      ],
+      "pocetnoUToku": null,
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Aktivna podskladišta: SK-07, SK-08.",
+          "rjesenje": "Prvo deaktivirajte podskladišta ili ih premjestite pod drugo glavno.",
+          "path": "/skladiste/postavke/skladista"
+        },
+        {
+          "razlog": "Na stanju je 300 · ART-1001 · E-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 260 · ART-1002 · F-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 76 · ART-2044 · E-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 10 · ART-2051 · E-01-03.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 2 · ART-2051 · TRANZIT (u custody).",
+          "rjesenje": "Završite dokument koji drži robu u custody."
+        },
+        {
+          "razlog": "Na stanju je 182 · ART-4008 · E-02-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 150 · ART-4008 · F-01-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 24 · ART-6030 · E-02-03.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 52 · ART-6640 · E-03-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 80 · ART-7001 · F-01-01.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 12 · ART-8230 · E-02-02.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena otpremnica OTP-2026-00025.",
+          "rjesenje": "Potvrdite isporuku ili je otkažite.",
+          "path": "/skladiste/izdavanje/otpremnice/otp-2026-00025"
+        },
+        {
+          "razlog": "Otvorena prenosnica PRE-2026-00014.",
+          "rjesenje": "Primite je u ciljno skladište ili je otkažite.",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00014"
+        },
+        {
+          "razlog": "Otvorena prenosnica PRE-2026-00013.",
+          "rjesenje": "Primite je u ciljno skladište ili je otkažite.",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00013"
+        }
+      ]
+    },
+    "SK-07": {
+      "adresa": "Zenica — Blatuša",
+      "grad": "Zenica",
+      "odgovornaIme": "Vahid Imamović",
+      "mjesto": "Toplanski rejon Zenica 1 · Zenica — Blatuša",
+      "lokacija": 0,
+      "redova": 2,
+      "vrijednost": 462,
+      "podskladista": [],
+      "ispodSignalne": 0,
+      "dokumenti": [
+        {
+          "broj": "PRE-2026-00014",
+          "vrsta": "Prenosnica",
+          "skladiste": "SK-06",
+          "kontekst": "→ SK-07",
+          "datum": "2026-10-13",
+          "status": "Nacrt · čeka ovjeru",
+          "tone": "info",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00014"
+        }
+      ],
+      "otvoreniDokumenti": 1,
+      "mozePocetnoStanje": false,
+      "preprekePocetnogStanja": [
+        {
+          "razlog": "SK-07 već ima početno stanje PST-2026-00006.",
+          "rjesenje": "Početno stanje je jedno po skladištu — dalje zalihu mijenjaju dokumenti.",
+          "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00006"
+        }
+      ],
+      "pocetnoUToku": null,
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 90 · ART-1002.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 60 · ART-5006.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Otvorena prenosnica PRE-2026-00014.",
+          "rjesenje": "Primite je u ciljno skladište ili je otkažite.",
+          "path": "/skladiste/interno/prenosnice/pre-2026-00014"
+        }
+      ]
+    },
+    "SK-08": {
+      "adresa": "Bulevar Kralja Tvrtka I 4, Zenica",
+      "grad": "Zenica",
+      "odgovornaIme": "Sead Grbić",
+      "mjesto": "Pogon Zenica · Bulevar Kralja Tvrtka I 4, Zenica",
+      "lokacija": 0,
+      "redova": 2,
+      "vrijednost": 2549,
+      "podskladista": [],
+      "ispodSignalne": 0,
+      "dokumenti": [],
+      "otvoreniDokumenti": 0,
+      "mozePocetnoStanje": false,
+      "preprekePocetnogStanja": [
+        {
+          "razlog": "SK-08 već ima početno stanje PST-2026-00007.",
+          "rjesenje": "Početno stanje je jedno po skladištu — dalje zalihu mijenjaju dokumenti.",
+          "path": "/skladiste/postavke/pocetna-stanja/pst-2026-00007"
+        }
+      ],
+      "pocetnoUToku": null,
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Na stanju je 80 · ART-4102.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        },
+        {
+          "razlog": "Na stanju je 900 · ART-9004.",
+          "rjesenje": "Izdajte ili korigujte zalihu do nule — količina se mijenja samo dokumentom."
+        }
+      ]
+    }
+  },
+  "dobavljaci": {
+    "DOB-001": {
+      "prijemnica": 7,
+      "vrijednost": 1105,
+      "prijemnice": [
+        "prj-2026-00012",
+        "prj-2026-00008",
+        "prj-2026-00101",
+        "prj-2026-00107",
+        "prj-2026-00108",
+        "prj-2026-00113",
+        "prj-2026-00115"
+      ],
+      "preprekeBrisanja": [
+        {
+          "razlog": "7 prijemnica pokazuje na ovog dobavljača.",
+          "rjesenje": "Dobavljač s historijom se ne briše — deaktivirajte ga.",
+          "path": "/skladiste/nabavka/dobavljaci/DOB-001"
+        }
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00012.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00012"
+        },
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00008.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00008"
+        }
+      ]
+    },
+    "DOB-002": {
+      "prijemnica": 4,
+      "vrijednost": 3952.5,
+      "prijemnice": [
+        "prj-2026-00011",
+        "prj-2026-00005",
+        "prj-2026-00106",
+        "prj-2026-00112"
+      ],
+      "preprekeBrisanja": [
+        {
+          "razlog": "4 prijemnica pokazuje na ovog dobavljača.",
+          "rjesenje": "Dobavljač s historijom se ne briše — deaktivirajte ga.",
+          "path": "/skladiste/nabavka/dobavljaci/DOB-002"
+        }
+      ],
+      "preprekeDeaktivacije": []
+    },
+    "DOB-003": {
+      "prijemnica": 1,
+      "vrijednost": 0,
+      "prijemnice": [
+        "prj-2026-00010"
+      ],
+      "preprekeBrisanja": [
+        {
+          "razlog": "1 prijemnica pokazuje na ovog dobavljača.",
+          "rjesenje": "Dobavljač s historijom se ne briše — deaktivirajte ga.",
+          "path": "/skladiste/nabavka/dobavljaci/DOB-003"
+        }
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00010.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00010"
+        }
+      ]
+    },
+    "DOB-004": {
+      "prijemnica": 4,
+      "vrijednost": 936,
+      "prijemnice": [
+        "prj-2026-00006",
+        "prj-2026-00102",
+        "prj-2026-00109",
+        "prj-2026-00116"
+      ],
+      "preprekeBrisanja": [
+        {
+          "razlog": "4 prijemnica pokazuje na ovog dobavljača.",
+          "rjesenje": "Dobavljač s historijom se ne briše — deaktivirajte ga.",
+          "path": "/skladiste/nabavka/dobavljaci/DOB-004"
+        }
+      ],
+      "preprekeDeaktivacije": []
+    },
+    "DOB-005": {
+      "prijemnica": 3,
+      "vrijednost": 1368,
+      "prijemnice": [
+        "prj-2026-00014",
+        "prj-2026-00105",
+        "prj-2026-00114"
+      ],
+      "preprekeBrisanja": [
+        {
+          "razlog": "3 prijemnica pokazuje na ovog dobavljača.",
+          "rjesenje": "Dobavljač s historijom se ne briše — deaktivirajte ga.",
+          "path": "/skladiste/nabavka/dobavljaci/DOB-005"
+        }
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00014.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00014"
+        }
+      ]
+    },
+    "DOB-006": {
+      "prijemnica": 3,
+      "vrijednost": 588,
+      "prijemnice": [
+        "prj-2026-00013",
+        "prj-2026-00104",
+        "prj-2026-00110"
+      ],
+      "preprekeBrisanja": [
+        {
+          "razlog": "3 prijemnica pokazuje na ovog dobavljača.",
+          "rjesenje": "Dobavljač s historijom se ne briše — deaktivirajte ga.",
+          "path": "/skladiste/nabavka/dobavljaci/DOB-006"
+        }
+      ],
+      "preprekeDeaktivacije": [
+        {
+          "razlog": "Otvorena prijemnica PRJ-2026-00013.",
+          "rjesenje": "Završite je do knjiženja ili je otkažite.",
+          "path": "/skladiste/prijem/prijemnice/prj-2026-00013"
+        }
+      ]
+    },
+    "DOB-007": {
+      "prijemnica": 2,
+      "vrijednost": 312,
+      "prijemnice": [
+        "prj-2026-00103",
+        "prj-2026-00111"
+      ],
+      "preprekeBrisanja": [
+        {
+          "razlog": "2 prijemnica pokazuje na ovog dobavljača.",
+          "rjesenje": "Dobavljač s historijom se ne briše — deaktivirajte ga.",
+          "path": "/skladiste/nabavka/dobavljaci/DOB-007"
+        }
+      ],
+      "preprekeDeaktivacije": []
+    }
+  },
+  "uloge": {
+    "REFERENT_SKLADISTA": {
+      "opisKontrolnihTacaka": "kreiraj",
+      "dodjela": 2,
+      "preprekeBrisanja": [
+        {
+          "razlog": "Referent skladišta ima 2 dodjela u registru (R. Referent, M. Majstor).",
+          "rjesenje": "Obrišite ili završite dodjele te uloge, ili je samo deaktivirajte — neaktivna uloga ostaje u katalogu radi historije."
+        }
+      ]
+    },
+    "GLAVNI_SKLADISTAR": {
+      "opisKontrolnihTacaka": "odobri + proknjiži",
+      "dodjela": 1,
+      "preprekeBrisanja": [
+        {
+          "razlog": "Glavni skladištar ima 1 dodjelu u registru (G. Glavni).",
+          "rjesenje": "Obrišite ili završite dodjele te uloge, ili je samo deaktivirajte — neaktivna uloga ostaje u katalogu radi historije."
+        }
+      ]
+    },
+    "SKLADISTAR": {
+      "opisKontrolnihTacaka": "izdaj",
+      "dodjela": 2,
+      "preprekeBrisanja": [
+        {
+          "razlog": "Skladištar ima 2 dodjela u registru (S. Skladištar, E. Električar).",
+          "rjesenje": "Obrišite ili završite dodjele te uloge, ili je samo deaktivirajte — neaktivna uloga ostaje u katalogu radi historije."
+        }
+      ]
+    },
+    "TEHNICKI_PRIMALAC": {
+      "opisKontrolnihTacaka": "—",
+      "dodjela": 3,
+      "preprekeBrisanja": [
+        {
+          "razlog": "Tehnički primalac ima 3 dodjela u registru (T. Tehnički, S. Skladištar, H. Hidrauličar).",
+          "rjesenje": "Obrišite ili završite dodjele te uloge, ili je samo deaktivirajte — neaktivna uloga ostaje u katalogu radi historije."
+        }
+      ]
+    },
+    "KNJIGOVODJA": {
+      "opisKontrolnihTacaka": "—",
+      "dodjela": 1,
+      "preprekeBrisanja": [
+        {
+          "razlog": "Računovodstvo ima 1 dodjelu u registru (K. Knjigovođa).",
+          "rjesenje": "Obrišite ili završite dodjele te uloge, ili je samo deaktivirajte — neaktivna uloga ostaje u katalogu radi historije."
+        }
+      ]
+    },
+    "VOZAC_TRANSPORT": {
+      "opisKontrolnihTacaka": "—",
+      "dodjela": 0,
+      "preprekeBrisanja": []
+    }
+  },
+  "dodjele": {
+    "d1": {
+      "status": "AKTIVNA",
+      "danaDoIsteka": null,
+      "nazivUloge": "Referent skladišta",
+      "opisSkladista": "SK-01",
+      "opisKontrolnihTacaka": "kreiraj"
+    },
+    "d2": {
+      "status": "AKTIVNA",
+      "danaDoIsteka": null,
+      "nazivUloge": "Glavni skladištar",
+      "opisSkladista": "SK-01",
+      "opisKontrolnihTacaka": "odobri + proknjiži"
+    },
+    "d3": {
+      "status": "AKTIVNA",
+      "danaDoIsteka": null,
+      "nazivUloge": "Skladištar",
+      "opisSkladista": "SK-01",
+      "opisKontrolnihTacaka": "izdaj"
+    },
+    "d4": {
+      "status": "AKTIVNA",
+      "danaDoIsteka": 79,
+      "nazivUloge": "Tehnički primalac",
+      "opisSkladista": "SK-01",
+      "opisKontrolnihTacaka": "—"
+    },
+    "d5": {
+      "status": "AKTIVNA",
+      "danaDoIsteka": null,
+      "nazivUloge": "Računovodstvo",
+      "opisSkladista": "sva skladišta",
+      "opisKontrolnihTacaka": "—"
+    },
+    "d6": {
+      "status": "AKTIVNA",
+      "danaDoIsteka": null,
+      "nazivUloge": "Skladištar",
+      "opisSkladista": "SK-02",
+      "opisKontrolnihTacaka": "izdaj"
+    },
+    "d7": {
+      "status": "AKTIVNA",
+      "danaDoIsteka": 40,
+      "nazivUloge": "Tehnički primalac",
+      "opisSkladista": "SK-02",
+      "opisKontrolnihTacaka": "—"
+    },
+    "d8": {
+      "status": "BUDUCA",
+      "danaDoIsteka": null,
+      "nazivUloge": "Referent skladišta",
+      "opisSkladista": "SK-02",
+      "opisKontrolnihTacaka": "kreiraj"
+    },
+    "d9": {
+      "status": "ISTEKLA",
+      "danaDoIsteka": -255,
+      "nazivUloge": "Tehnički primalac",
+      "opisSkladista": "SK-01",
+      "opisKontrolnihTacaka": "—"
+    }
+  },
+  "politike": {
+    "p1": {
+      "autorNacrta": "K. Knjigovođa"
+    },
+    "p2": {
+      "autorNacrta": "G. Glavni"
+    },
+    "p3": {
+      "autorNacrta": "G. Glavni"
+    },
+    "p5": {
+      "autorNacrta": "G. Glavni"
+    },
+    "p6": {
+      "autorNacrta": "G. Glavni"
+    },
+    "p7": {
+      "autorNacrta": "G. Glavni"
+    }
+  }
+}

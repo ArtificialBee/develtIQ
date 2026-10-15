@@ -3,9 +3,6 @@
 /** Row heights in px: a section by name, and a section in the icon-only sidebar. */
 export const SIDEBAR_ROW = { section: 36, icon: 44 };
 
-/** From this window width the sidebar shows names; below it, icons only. */
-export const SIDEBAR_WIDE_FROM = 1180;
-
 /**
  * Splits sections into the ones that fit `height` and the rest, which go into a
  * "Više" row at the end. The open section always stays. Before the box is

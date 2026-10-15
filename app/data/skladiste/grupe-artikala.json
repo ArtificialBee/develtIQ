@@ -1,0 +1,128 @@
+[
+  {
+    "id": "GA-001",
+    "sifra": "01",
+    "naziv": "Alati",
+    "nadredjena": null,
+    "profil": "Alati 10402",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-002",
+    "sifra": "02",
+    "naziv": "Elektro materijal",
+    "nadredjena": null,
+    "profil": "Materijal 1010",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-009",
+    "sifra": "02.01",
+    "naziv": "Kablovi",
+    "nadredjena": "GA-002",
+    "profil": "Materijal 1010",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-010",
+    "sifra": "02.02",
+    "naziv": "Osigurači i sklopke",
+    "nadredjena": "GA-002",
+    "profil": "Materijal 1010",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-003",
+    "sifra": "03",
+    "naziv": "Goriva i ulja",
+    "nadredjena": null,
+    "profil": "Goriva i maziva 1014",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-004",
+    "sifra": "04",
+    "naziv": "Građevinski materijal",
+    "nadredjena": null,
+    "profil": "Materijal 1010",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-005",
+    "sifra": "05",
+    "naziv": "Mjerila",
+    "nadredjena": null,
+    "profil": "Mjerila 10403",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-006",
+    "sifra": "06",
+    "naziv": "Potrošni materijal",
+    "nadredjena": null,
+    "profil": "Materijal 1010",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-011",
+    "sifra": "06.01",
+    "naziv": "Materijal za zavarivanje",
+    "nadredjena": "GA-006",
+    "profil": "Materijal 1010",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-012",
+    "sifra": "06.02",
+    "naziv": "Brtveni materijal",
+    "nadredjena": "GA-006",
+    "profil": "Materijal 1010",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-007",
+    "sifra": "07",
+    "naziv": "Rezervni dijelovi",
+    "nadredjena": null,
+    "profil": "Rezervni dijelovi 1020",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-013",
+    "sifra": "07.01",
+    "naziv": "Ležajevi",
+    "nadredjena": "GA-007",
+    "profil": "Rezervni dijelovi 1020",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-014",
+    "sifra": "07.02",
+    "naziv": "Ventili",
+    "nadredjena": "GA-007",
+    "profil": "Rezervni dijelovi 1020",
+    "aktivna": true,
+    "napomena": ""
+  },
+  {
+    "id": "GA-008",
+    "sifra": "08",
+    "naziv": "Zaštitna oprema",
+    "nadredjena": null,
+    "profil": "Sitni inventar 10401",
+    "aktivna": true,
+    "napomena": ""
+  }
+]

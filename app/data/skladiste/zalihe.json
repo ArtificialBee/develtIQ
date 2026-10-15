@@ -1,0 +1,2207 @@
+{
+  "pozicije": [
+    {
+      "kljuc": "ART-1001|SK-01|A-01-02|L-2609",
+      "artikl": "ART-1001",
+      "skladiste": "SK-01",
+      "lokacija": "A-01-02",
+      "lot": "L-2609",
+      "naStanju": 220,
+      "blokirano": 0,
+      "rezervisano": 220,
+      "raspolozivo": 0,
+      "vrijednost": 264,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-1001|SK-01|A-01-02|L-2551",
+      "artikl": "ART-1001",
+      "skladiste": "SK-01",
+      "lokacija": "A-01-02",
+      "lot": "L-2551",
+      "naStanju": 1000,
+      "blokirano": 0,
+      "rezervisano": 100,
+      "raspolozivo": 900,
+      "vrijednost": 1200,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-1001|SK-02||L-2588",
+      "artikl": "ART-1001",
+      "skladiste": "SK-02",
+      "lokacija": "",
+      "lot": "L-2588",
+      "naStanju": 180,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 180,
+      "vrijednost": 216,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-1001|SK-06|E-01-01|L-2701",
+      "artikl": "ART-1001",
+      "skladiste": "SK-06",
+      "lokacija": "E-01-01",
+      "lot": "L-2701",
+      "naStanju": 300,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 300,
+      "vrijednost": 360,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-1002|SK-01|A-01-03|L-5410",
+      "artikl": "ART-1002",
+      "skladiste": "SK-01",
+      "lokacija": "A-01-03",
+      "lot": "L-5410",
+      "naStanju": 240,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 240,
+      "vrijednost": 816,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-1002|SK-01|A-02-01|L-5411",
+      "artikl": "ART-1002",
+      "skladiste": "SK-01",
+      "lokacija": "A-02-01",
+      "lot": "L-5411",
+      "naStanju": 300,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 300,
+      "vrijednost": 1020,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-1002|SK-06|F-02-01|L-5510",
+      "artikl": "ART-1002",
+      "skladiste": "SK-06",
+      "lokacija": "F-02-01",
+      "lot": "L-5510",
+      "naStanju": 260,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 260,
+      "vrijednost": 884,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-1002|SK-07||L-5500",
+      "artikl": "ART-1002",
+      "skladiste": "SK-07",
+      "lokacija": "",
+      "lot": "L-5500",
+      "naStanju": 90,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 90,
+      "vrijednost": 306,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-2044|SK-01|A-03-01|",
+      "artikl": "ART-2044",
+      "skladiste": "SK-01",
+      "lokacija": "A-03-01",
+      "lot": "",
+      "naStanju": 251,
+      "blokirano": 0,
+      "rezervisano": 50,
+      "raspolozivo": 201,
+      "vrijednost": 2133.5,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-2044|SK-01|RETURN-HOLD|POV-2026-00009",
+      "artikl": "ART-2044",
+      "skladiste": "SK-01",
+      "lokacija": "RETURN-HOLD",
+      "lot": "",
+      "naStanju": 3,
+      "blokirano": 3,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 0,
+      "privremeno": false,
+      "bezStanja": true,
+      "napomena": "custody povratnice POV-2026-00009"
+    },
+    {
+      "kljuc": "ART-2044|SK-06|E-01-02|",
+      "artikl": "ART-2044",
+      "skladiste": "SK-06",
+      "lokacija": "E-01-02",
+      "lot": "",
+      "naStanju": 76,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 76,
+      "vrijednost": 646,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-2051|SK-01|A-02-02|",
+      "artikl": "ART-2051",
+      "skladiste": "SK-01",
+      "lokacija": "A-02-02",
+      "lot": "",
+      "naStanju": 16,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 16,
+      "vrijednost": 672,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-2051|SK-01|A-03-02|",
+      "artikl": "ART-2051",
+      "skladiste": "SK-01",
+      "lokacija": "A-03-02",
+      "lot": "",
+      "naStanju": 6,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 6,
+      "vrijednost": 252,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-2051|SK-02||",
+      "artikl": "ART-2051",
+      "skladiste": "SK-02",
+      "lokacija": "",
+      "lot": "",
+      "naStanju": 2,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 2,
+      "vrijednost": 84,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-2051|SK-06|E-01-03|",
+      "artikl": "ART-2051",
+      "skladiste": "SK-06",
+      "lokacija": "E-01-03",
+      "lot": "",
+      "naStanju": 10,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 10,
+      "vrijednost": 420,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-2051|SK-06|TRANZIT|PRE-2026-00013",
+      "artikl": "ART-2051",
+      "skladiste": "SK-06",
+      "lokacija": "TRANZIT",
+      "lot": "",
+      "naStanju": 2,
+      "blokirano": 2,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 0,
+      "privremeno": false,
+      "bezStanja": true,
+      "napomena": "u tranzitu iz SK-01 · PRE-2026-00013"
+    },
+    {
+      "kljuc": "ART-3310|SK-01|B-02-04|S-01…S-24",
+      "artikl": "ART-3310",
+      "skladiste": "SK-01",
+      "lokacija": "B-02-04",
+      "lot": "S-01…S-24",
+      "naStanju": 24,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 24,
+      "vrijednost": 1104,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-3310|SK-01|QUARANTINE|PRJ-2026-00012",
+      "artikl": "ART-3310",
+      "skladiste": "SK-01",
+      "lokacija": "QUARANTINE",
+      "lot": "S-77…S-88",
+      "naStanju": 4,
+      "blokirano": 4,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 0,
+      "privremeno": false,
+      "bezStanja": true,
+      "napomena": "zadržano za kvalitativnu kontrolu PRJ-2026-00012"
+    },
+    {
+      "kljuc": "ART-3310|SK-01|RETURN-HOLD|POV-2026-00009",
+      "artikl": "ART-3310",
+      "skladiste": "SK-01",
+      "lokacija": "RETURN-HOLD",
+      "lot": "S-29 · S-30",
+      "naStanju": 2,
+      "blokirano": 2,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 0,
+      "privremeno": false,
+      "bezStanja": true,
+      "napomena": "custody povratnice POV-2026-00009"
+    },
+    {
+      "kljuc": "ART-3310|SK-01|RETURN-HOLD|POV-2026-00003",
+      "artikl": "ART-3310",
+      "skladiste": "SK-01",
+      "lokacija": "RETURN-HOLD",
+      "lot": "S-25",
+      "naStanju": 1,
+      "blokirano": 1,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 0,
+      "privremeno": false,
+      "bezStanja": true,
+      "napomena": "custody povratnice POV-2026-00003"
+    },
+    {
+      "kljuc": "ART-3310|SK-04|D-01-01|S-31 · S-32",
+      "artikl": "ART-3310",
+      "skladiste": "SK-04",
+      "lokacija": "D-01-01",
+      "lot": "S-31 · S-32",
+      "naStanju": 2,
+      "blokirano": 2,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 92,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": "zamrznuto popisom INV-2026-00003"
+    },
+    {
+      "kljuc": "ART-3402|SK-01|B-02-01|L-7690",
+      "artikl": "ART-3402",
+      "skladiste": "SK-01",
+      "lokacija": "B-02-01",
+      "lot": "L-7690",
+      "naStanju": 8,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 8,
+      "vrijednost": 102.4,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-3402|SK-01|B-02-01|L-7702",
+      "artikl": "ART-3402",
+      "skladiste": "SK-01",
+      "lokacija": "B-02-01",
+      "lot": "L-7702",
+      "naStanju": 80,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 80,
+      "vrijednost": 1024,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-3402|SK-04|D-01-01|L-7702",
+      "artikl": "ART-3402",
+      "skladiste": "SK-04",
+      "lokacija": "D-01-01",
+      "lot": "L-7702",
+      "naStanju": 8,
+      "blokirano": 8,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 102.4,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": "zamrznuto popisom INV-2026-00003"
+    },
+    {
+      "kljuc": "ART-3402|SK-04|D-01-01|L-7690",
+      "artikl": "ART-3402",
+      "skladiste": "SK-04",
+      "lokacija": "D-01-01",
+      "lot": "L-7690",
+      "naStanju": 4,
+      "blokirano": 4,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 51.2,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": "zamrznuto popisom INV-2026-00003"
+    },
+    {
+      "kljuc": "ART-4008|SK-01|C-01-01|",
+      "artikl": "ART-4008",
+      "skladiste": "SK-01",
+      "lokacija": "C-01-01",
+      "lot": "",
+      "naStanju": 362,
+      "blokirano": 0,
+      "rezervisano": 100,
+      "raspolozivo": 262,
+      "vrijednost": 1411.8,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-4008|SK-02||",
+      "artikl": "ART-4008",
+      "skladiste": "SK-02",
+      "lokacija": "",
+      "lot": "",
+      "naStanju": 60,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 60,
+      "vrijednost": 234,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-4008|SK-06|E-02-01|",
+      "artikl": "ART-4008",
+      "skladiste": "SK-06",
+      "lokacija": "E-02-01",
+      "lot": "",
+      "naStanju": 182,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 182,
+      "vrijednost": 709.8,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-4008|SK-06|F-01-02|",
+      "artikl": "ART-4008",
+      "skladiste": "SK-06",
+      "lokacija": "F-01-02",
+      "lot": "",
+      "naStanju": 150,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 150,
+      "vrijednost": 585,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-4102|SK-02||L-3120",
+      "artikl": "ART-4102",
+      "skladiste": "SK-02",
+      "lokacija": "",
+      "lot": "L-3120",
+      "naStanju": 410,
+      "blokirano": 410,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 1763,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": "zamrznuto popisom INV-2026-00004"
+    },
+    {
+      "kljuc": "ART-4102|SK-03||L-3121",
+      "artikl": "ART-4102",
+      "skladiste": "SK-03",
+      "lokacija": "",
+      "lot": "L-3121",
+      "naStanju": 120,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 120,
+      "vrijednost": 516,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-4102|SK-08||L-3130",
+      "artikl": "ART-4102",
+      "skladiste": "SK-08",
+      "lokacija": "",
+      "lot": "L-3130",
+      "naStanju": 80,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 80,
+      "vrijednost": 344,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5006|SK-01|C-01-01|",
+      "artikl": "ART-5006",
+      "skladiste": "SK-01",
+      "lokacija": "C-01-01",
+      "lot": "",
+      "naStanju": 56,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 56,
+      "vrijednost": 145.6,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5006|SK-01|C-04-01|",
+      "artikl": "ART-5006",
+      "skladiste": "SK-01",
+      "lokacija": "C-04-01",
+      "lot": "",
+      "naStanju": 200,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 200,
+      "vrijednost": 520,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5006|SK-07||",
+      "artikl": "ART-5006",
+      "skladiste": "SK-07",
+      "lokacija": "",
+      "lot": "",
+      "naStanju": 60,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 60,
+      "vrijednost": 156,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5120|SK-01|C-02-03|L-0388",
+      "artikl": "ART-5120",
+      "skladiste": "SK-01",
+      "lokacija": "C-02-03",
+      "lot": "L-0388",
+      "naStanju": 2,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 2,
+      "vrijednost": 19.2,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5120|SK-02||L-0415",
+      "artikl": "ART-5120",
+      "skladiste": "SK-02",
+      "lokacija": "",
+      "lot": "L-0415",
+      "naStanju": 20,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 20,
+      "vrijednost": 192,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5120|SK-03||L-0390",
+      "artikl": "ART-5120",
+      "skladiste": "SK-03",
+      "lokacija": "",
+      "lot": "L-0390",
+      "naStanju": 6,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 6,
+      "vrijednost": 57.6,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5121|SK-01|C-02-03|L-9012",
+      "artikl": "ART-5121",
+      "skladiste": "SK-01",
+      "lokacija": "C-02-03",
+      "lot": "L-9012",
+      "naStanju": 10,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 10,
+      "vrijednost": 72,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5121|SK-01|C-02-04|L-9012",
+      "artikl": "ART-5121",
+      "skladiste": "SK-01",
+      "lokacija": "C-02-04",
+      "lot": "L-9012",
+      "naStanju": 11,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 11,
+      "vrijednost": 79.2,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-5501|SK-01|B-01-02|S-1001…S-1003",
+      "artikl": "ART-5501",
+      "skladiste": "SK-01",
+      "lokacija": "B-01-02",
+      "lot": "S-1001…S-1003",
+      "naStanju": 3,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 3,
+      "vrijednost": 630,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-6030|SK-01|B-01-02|",
+      "artikl": "ART-6030",
+      "skladiste": "SK-01",
+      "lokacija": "B-01-02",
+      "lot": "",
+      "naStanju": 226,
+      "blokirano": 0,
+      "rezervisano": 5,
+      "raspolozivo": 221,
+      "vrijednost": 5537,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-6030|SK-04|D-02-01|",
+      "artikl": "ART-6030",
+      "skladiste": "SK-04",
+      "lokacija": "D-02-01",
+      "lot": "",
+      "naStanju": 6,
+      "blokirano": 6,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 147,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": "zamrznuto popisom INV-2026-00003"
+    },
+    {
+      "kljuc": "ART-6030|SK-06|E-02-03|",
+      "artikl": "ART-6030",
+      "skladiste": "SK-06",
+      "lokacija": "E-02-03",
+      "lot": "",
+      "naStanju": 24,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 24,
+      "vrijednost": 588,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-6220|SK-01|B-02-01|S-4401…S-4405",
+      "artikl": "ART-6220",
+      "skladiste": "SK-01",
+      "lokacija": "B-02-01",
+      "lot": "S-4401…S-4405",
+      "naStanju": 5,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 5,
+      "vrijednost": 340,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-6640|SK-01|B-03-01|",
+      "artikl": "ART-6640",
+      "skladiste": "SK-01",
+      "lokacija": "B-03-01",
+      "lot": "",
+      "naStanju": 120,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 120,
+      "vrijednost": 1368,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-6640|SK-01|B-05-01|",
+      "artikl": "ART-6640",
+      "skladiste": "SK-01",
+      "lokacija": "B-05-01",
+      "lot": "",
+      "naStanju": 146,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 146,
+      "vrijednost": 1664.4,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-6640|SK-06|E-03-01|",
+      "artikl": "ART-6640",
+      "skladiste": "SK-06",
+      "lokacija": "E-03-01",
+      "lot": "",
+      "naStanju": 52,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 52,
+      "vrijednost": 592.8,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-7001|SK-06|F-01-01|L-C611",
+      "artikl": "ART-7001",
+      "skladiste": "SK-06",
+      "lokacija": "F-01-01",
+      "lot": "L-C611",
+      "naStanju": 80,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 80,
+      "vrijednost": 784,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-7420|SK-01|B-02-01|",
+      "artikl": "ART-7420",
+      "skladiste": "SK-01",
+      "lokacija": "B-02-01",
+      "lot": "",
+      "naStanju": 69,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 69,
+      "vrijednost": 614.1,
+      "privremeno": true,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-7420|SK-01|B-03-02|",
+      "artikl": "ART-7420",
+      "skladiste": "SK-01",
+      "lokacija": "B-03-02",
+      "lot": "",
+      "naStanju": 40,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 40,
+      "vrijednost": 356,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-7420|SK-04|D-01-02|",
+      "artikl": "ART-7420",
+      "skladiste": "SK-04",
+      "lokacija": "D-01-02",
+      "lot": "",
+      "naStanju": 20,
+      "blokirano": 20,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 178,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": "zamrznuto popisom INV-2026-00003"
+    },
+    {
+      "kljuc": "ART-8115|SK-01|C-02-04|L-9001",
+      "artikl": "ART-8115",
+      "skladiste": "SK-01",
+      "lokacija": "C-02-04",
+      "lot": "L-9001",
+      "naStanju": 60,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 60,
+      "vrijednost": 384,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-8230|SK-01|C-01-01|",
+      "artikl": "ART-8230",
+      "skladiste": "SK-01",
+      "lokacija": "C-01-01",
+      "lot": "",
+      "naStanju": 9,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 9,
+      "vrijednost": 126,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-8230|SK-01|C-03-02|",
+      "artikl": "ART-8230",
+      "skladiste": "SK-01",
+      "lokacija": "C-03-02",
+      "lot": "",
+      "naStanju": 30,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 30,
+      "vrijednost": 420,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-8230|SK-06|E-02-02|",
+      "artikl": "ART-8230",
+      "skladiste": "SK-06",
+      "lokacija": "E-02-02",
+      "lot": "",
+      "naStanju": 12,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 12,
+      "vrijednost": 168,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-9004|SK-02||L-D07",
+      "artikl": "ART-9004",
+      "skladiste": "SK-02",
+      "lokacija": "",
+      "lot": "L-D07",
+      "naStanju": 1800,
+      "blokirano": 1800,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "vrijednost": 4410,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": "zamrznuto popisom INV-2026-00004"
+    },
+    {
+      "kljuc": "ART-9004|SK-03||L-D08",
+      "artikl": "ART-9004",
+      "skladiste": "SK-03",
+      "lokacija": "",
+      "lot": "L-D08",
+      "naStanju": 650,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 650,
+      "vrijednost": 1592.5,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-9004|SK-08||L-D09",
+      "artikl": "ART-9004",
+      "skladiste": "SK-08",
+      "lokacija": "",
+      "lot": "L-D09",
+      "naStanju": 900,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 900,
+      "vrijednost": 2205,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-9310|SK-01|B-01-02|S-104 · S-105",
+      "artikl": "ART-9310",
+      "skladiste": "SK-01",
+      "lokacija": "B-01-02",
+      "lot": "S-104 · S-105",
+      "naStanju": 1,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 1,
+      "vrijednost": 95,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    },
+    {
+      "kljuc": "ART-9520|SK-01|C-02-04|",
+      "artikl": "ART-9520",
+      "skladiste": "SK-01",
+      "lokacija": "C-02-04",
+      "lot": "",
+      "naStanju": 14,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 14,
+      "vrijednost": 252,
+      "privremeno": false,
+      "bezStanja": false,
+      "napomena": ""
+    }
+  ],
+  "poArtikluISkladistu": [
+    {
+      "artikl": "ART-1001",
+      "skladiste": "SK-01",
+      "naStanju": 1220,
+      "blokirano": 0,
+      "rezervisano": 320,
+      "raspolozivo": 900,
+      "raspolozivoZaGranice": 900,
+      "vrijednost": 1464,
+      "granica": {
+        "id": "gr-ART-1001-SK-01",
+        "artikl": "ART-1001",
+        "skladiste": "SK-01",
+        "min": 200,
+        "signalna": 400,
+        "max": 2000,
+        "vaziOd": "2026-09-29",
+        "verzija": 3,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-1001",
+      "skladiste": "SK-02",
+      "naStanju": 180,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 180,
+      "raspolozivoZaGranice": 180,
+      "vrijednost": 216,
+      "granica": {
+        "id": "gr-ART-1001-SK-02",
+        "artikl": "ART-1001",
+        "skladiste": "SK-02",
+        "min": 100,
+        "signalna": 150,
+        "max": 600,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-1001",
+      "skladiste": "SK-06",
+      "naStanju": 300,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 300,
+      "raspolozivoZaGranice": 300,
+      "vrijednost": 360,
+      "granica": {
+        "id": "gr-ART-1001-SK-06",
+        "artikl": "ART-1001",
+        "skladiste": "SK-06",
+        "min": 150,
+        "signalna": 300,
+        "max": 1500,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "NA_SIGNALNOJ"
+    },
+    {
+      "artikl": "ART-1002",
+      "skladiste": "SK-01",
+      "naStanju": 540,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 540,
+      "raspolozivoZaGranice": 540,
+      "vrijednost": 1836,
+      "granica": {
+        "id": "gr-ART-1002-SK-01",
+        "artikl": "ART-1002",
+        "skladiste": "SK-01",
+        "min": 100,
+        "signalna": 200,
+        "max": 800,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-1002",
+      "skladiste": "SK-06",
+      "naStanju": 260,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 260,
+      "raspolozivoZaGranice": 260,
+      "vrijednost": 884,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-1002",
+      "skladiste": "SK-07",
+      "naStanju": 90,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 90,
+      "raspolozivoZaGranice": 90,
+      "vrijednost": 306,
+      "granica": {
+        "id": "gr-ART-1002-SK-07",
+        "artikl": "ART-1002",
+        "skladiste": "SK-07",
+        "min": 40,
+        "signalna": 80,
+        "max": 300,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-2044",
+      "skladiste": "SK-01",
+      "naStanju": 251,
+      "blokirano": 3,
+      "rezervisano": 50,
+      "raspolozivo": 201,
+      "raspolozivoZaGranice": 201,
+      "vrijednost": 2133.5,
+      "granica": {
+        "id": "gr-ART-2044-SK-01",
+        "artikl": "ART-2044",
+        "skladiste": "SK-01",
+        "min": 25,
+        "signalna": 40,
+        "max": 200,
+        "vaziOd": "2026-09-29",
+        "verzija": 2,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "IZNAD_MAKSIMUMA"
+    },
+    {
+      "artikl": "ART-2044",
+      "skladiste": "SK-06",
+      "naStanju": 76,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 76,
+      "raspolozivoZaGranice": 76,
+      "vrijednost": 646,
+      "granica": {
+        "id": "gr-ART-2044-SK-06",
+        "artikl": "ART-2044",
+        "skladiste": "SK-06",
+        "min": 20,
+        "signalna": 30,
+        "max": 150,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-2051",
+      "skladiste": "SK-01",
+      "naStanju": 22,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 22,
+      "raspolozivoZaGranice": 22,
+      "vrijednost": 924,
+      "granica": {
+        "id": "gr-ART-2051-SK-01",
+        "artikl": "ART-2051",
+        "skladiste": "SK-01",
+        "min": 4,
+        "signalna": 8,
+        "max": 30,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-2051",
+      "skladiste": "SK-02",
+      "naStanju": 2,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 2,
+      "raspolozivoZaGranice": 2,
+      "vrijednost": 84,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-2051",
+      "skladiste": "SK-06",
+      "naStanju": 10,
+      "blokirano": 2,
+      "rezervisano": 0,
+      "raspolozivo": 10,
+      "raspolozivoZaGranice": 10,
+      "vrijednost": 420,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-3310",
+      "skladiste": "SK-01",
+      "naStanju": 24,
+      "blokirano": 7,
+      "rezervisano": 0,
+      "raspolozivo": 24,
+      "raspolozivoZaGranice": 24,
+      "vrijednost": 1104,
+      "granica": {
+        "id": "gr-ART-3310-SK-01",
+        "artikl": "ART-3310",
+        "skladiste": "SK-01",
+        "min": 6,
+        "signalna": 12,
+        "max": 60,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-3310",
+      "skladiste": "SK-04",
+      "naStanju": 2,
+      "blokirano": 2,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "raspolozivoZaGranice": 2,
+      "vrijednost": 92,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-3402",
+      "skladiste": "SK-01",
+      "naStanju": 88,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 88,
+      "raspolozivoZaGranice": 88,
+      "vrijednost": 1126.4,
+      "granica": {
+        "id": "gr-ART-3402-SK-01",
+        "artikl": "ART-3402",
+        "skladiste": "SK-01",
+        "min": 20,
+        "signalna": 40,
+        "max": 200,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-3402",
+      "skladiste": "SK-04",
+      "naStanju": 12,
+      "blokirano": 12,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "raspolozivoZaGranice": 12,
+      "vrijednost": 153.6,
+      "granica": {
+        "id": "gr-ART-3402-SK-04",
+        "artikl": "ART-3402",
+        "skladiste": "SK-04",
+        "min": 6,
+        "signalna": 10,
+        "max": 40,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-4008",
+      "skladiste": "SK-01",
+      "naStanju": 362,
+      "blokirano": 0,
+      "rezervisano": 100,
+      "raspolozivo": 262,
+      "raspolozivoZaGranice": 262,
+      "vrijednost": 1411.8,
+      "granica": {
+        "id": "gr-ART-4008-SK-01",
+        "artikl": "ART-4008",
+        "skladiste": "SK-01",
+        "min": 100,
+        "signalna": 150,
+        "max": 600,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-4008",
+      "skladiste": "SK-02",
+      "naStanju": 60,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 60,
+      "raspolozivoZaGranice": 60,
+      "vrijednost": 234,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-4008",
+      "skladiste": "SK-06",
+      "naStanju": 332,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 332,
+      "raspolozivoZaGranice": 332,
+      "vrijednost": 1294.8,
+      "granica": {
+        "id": "gr-ART-4008-SK-06",
+        "artikl": "ART-4008",
+        "skladiste": "SK-06",
+        "min": 50,
+        "signalna": 100,
+        "max": 400,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-4102",
+      "skladiste": "SK-02",
+      "naStanju": 410,
+      "blokirano": 410,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "raspolozivoZaGranice": 410,
+      "vrijednost": 1763,
+      "granica": {
+        "id": "gr-ART-4102-SK-02",
+        "artikl": "ART-4102",
+        "skladiste": "SK-02",
+        "min": 100,
+        "signalna": 200,
+        "max": 800,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-4102",
+      "skladiste": "SK-03",
+      "naStanju": 120,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 120,
+      "raspolozivoZaGranice": 120,
+      "vrijednost": 516,
+      "granica": {
+        "id": "gr-ART-4102-SK-03",
+        "artikl": "ART-4102",
+        "skladiste": "SK-03",
+        "min": 50,
+        "signalna": 100,
+        "max": 400,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-4102",
+      "skladiste": "SK-08",
+      "naStanju": 80,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 80,
+      "raspolozivoZaGranice": 80,
+      "vrijednost": 344,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-5006",
+      "skladiste": "SK-01",
+      "naStanju": 256,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 256,
+      "raspolozivoZaGranice": 256,
+      "vrijednost": 665.6,
+      "granica": {
+        "id": "gr-ART-5006-SK-01",
+        "artikl": "ART-5006",
+        "skladiste": "SK-01",
+        "min": 40,
+        "signalna": 80,
+        "max": 400,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-5006",
+      "skladiste": "SK-07",
+      "naStanju": 60,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 60,
+      "raspolozivoZaGranice": 60,
+      "vrijednost": 156,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-5120",
+      "skladiste": "SK-01",
+      "naStanju": 2,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 2,
+      "raspolozivoZaGranice": 2,
+      "vrijednost": 19.2,
+      "granica": {
+        "id": "gr-ART-5120-SK-01",
+        "artikl": "ART-5120",
+        "skladiste": "SK-01",
+        "min": 4,
+        "signalna": 6,
+        "max": 40,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "ISPOD_MINIMUMA"
+    },
+    {
+      "artikl": "ART-5120",
+      "skladiste": "SK-02",
+      "naStanju": 20,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 20,
+      "raspolozivoZaGranice": 20,
+      "vrijednost": 192,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-5120",
+      "skladiste": "SK-03",
+      "naStanju": 6,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 6,
+      "raspolozivoZaGranice": 6,
+      "vrijednost": 57.6,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-5121",
+      "skladiste": "SK-01",
+      "naStanju": 21,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 21,
+      "raspolozivoZaGranice": 21,
+      "vrijednost": 151.2,
+      "granica": {
+        "id": "gr-ART-5121-SK-01",
+        "artikl": "ART-5121",
+        "skladiste": "SK-01",
+        "min": 20,
+        "signalna": 40,
+        "max": 240,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "ISPOD_SIGNALNE"
+    },
+    {
+      "artikl": "ART-5501",
+      "skladiste": "SK-01",
+      "naStanju": 3,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 3,
+      "raspolozivoZaGranice": 3,
+      "vrijednost": 630,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-6030",
+      "skladiste": "SK-01",
+      "naStanju": 226,
+      "blokirano": 0,
+      "rezervisano": 5,
+      "raspolozivo": 221,
+      "raspolozivoZaGranice": 221,
+      "vrijednost": 5537,
+      "granica": {
+        "id": "gr-ART-6030-SK-01",
+        "artikl": "ART-6030",
+        "skladiste": "SK-01",
+        "min": 20,
+        "signalna": 30,
+        "max": 150,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "IZNAD_MAKSIMUMA"
+    },
+    {
+      "artikl": "ART-6030",
+      "skladiste": "SK-04",
+      "naStanju": 6,
+      "blokirano": 6,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "raspolozivoZaGranice": 6,
+      "vrijednost": 147,
+      "granica": {
+        "id": "gr-ART-6030-SK-04",
+        "artikl": "ART-6030",
+        "skladiste": "SK-04",
+        "min": 4,
+        "signalna": 8,
+        "max": 30,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "ISPOD_SIGNALNE"
+    },
+    {
+      "artikl": "ART-6030",
+      "skladiste": "SK-06",
+      "naStanju": 24,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 24,
+      "raspolozivoZaGranice": 24,
+      "vrijednost": 588,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-6220",
+      "skladiste": "SK-01",
+      "naStanju": 5,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 5,
+      "raspolozivoZaGranice": 5,
+      "vrijednost": 340,
+      "granica": {
+        "id": "gr-ART-6220-SK-01",
+        "artikl": "ART-6220",
+        "skladiste": "SK-01",
+        "min": 2,
+        "signalna": 4,
+        "max": 20,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-6640",
+      "skladiste": "SK-01",
+      "naStanju": 266,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 266,
+      "raspolozivoZaGranice": 266,
+      "vrijednost": 3032.4,
+      "granica": {
+        "id": "gr-ART-6640-SK-01",
+        "artikl": "ART-6640",
+        "skladiste": "SK-01",
+        "min": 30,
+        "signalna": 60,
+        "max": 300,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-6640",
+      "skladiste": "SK-06",
+      "naStanju": 52,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 52,
+      "raspolozivoZaGranice": 52,
+      "vrijednost": 592.8,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-7001",
+      "skladiste": "SK-06",
+      "naStanju": 80,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 80,
+      "raspolozivoZaGranice": 80,
+      "vrijednost": 784,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-7420",
+      "skladiste": "SK-01",
+      "naStanju": 109,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 109,
+      "raspolozivoZaGranice": 109,
+      "vrijednost": 970.1,
+      "granica": {
+        "id": "gr-ART-7420-SK-01",
+        "artikl": "ART-7420",
+        "skladiste": "SK-01",
+        "min": 10,
+        "signalna": 20,
+        "max": 100,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "IZNAD_MAKSIMUMA"
+    },
+    {
+      "artikl": "ART-7420",
+      "skladiste": "SK-04",
+      "naStanju": 20,
+      "blokirano": 20,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "raspolozivoZaGranice": 20,
+      "vrijednost": 178,
+      "granica": {
+        "id": "gr-ART-7420-SK-04",
+        "artikl": "ART-7420",
+        "skladiste": "SK-04",
+        "min": 5,
+        "signalna": 10,
+        "max": 50,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-8115",
+      "skladiste": "SK-01",
+      "naStanju": 60,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 60,
+      "raspolozivoZaGranice": 60,
+      "vrijednost": 384,
+      "granica": {
+        "id": "gr-ART-8115-SK-01",
+        "artikl": "ART-8115",
+        "skladiste": "SK-01",
+        "min": 20,
+        "signalna": 40,
+        "max": 200,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-8230",
+      "skladiste": "SK-01",
+      "naStanju": 39,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 39,
+      "raspolozivoZaGranice": 39,
+      "vrijednost": 546,
+      "granica": {
+        "id": "gr-ART-8230-SK-01",
+        "artikl": "ART-8230",
+        "skladiste": "SK-01",
+        "min": 10,
+        "signalna": 20,
+        "max": 80,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-8230",
+      "skladiste": "SK-06",
+      "naStanju": 12,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 12,
+      "raspolozivoZaGranice": 12,
+      "vrijednost": 168,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-9004",
+      "skladiste": "SK-02",
+      "naStanju": 1800,
+      "blokirano": 1800,
+      "rezervisano": 0,
+      "raspolozivo": 0,
+      "raspolozivoZaGranice": 1800,
+      "vrijednost": 4410,
+      "granica": {
+        "id": "gr-ART-9004-SK-02",
+        "artikl": "ART-9004",
+        "skladiste": "SK-02",
+        "min": 200,
+        "signalna": 400,
+        "max": 2000,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-9004",
+      "skladiste": "SK-03",
+      "naStanju": 650,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 650,
+      "raspolozivoZaGranice": 650,
+      "vrijednost": 1592.5,
+      "granica": {
+        "id": "gr-ART-9004-SK-03",
+        "artikl": "ART-9004",
+        "skladiste": "SK-03",
+        "min": 150,
+        "signalna": 300,
+        "max": 1200,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-9004",
+      "skladiste": "SK-08",
+      "naStanju": 900,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 900,
+      "raspolozivoZaGranice": 900,
+      "vrijednost": 2205,
+      "granica": {
+        "id": "gr-ART-9004-SK-08",
+        "artikl": "ART-9004",
+        "skladiste": "SK-08",
+        "min": 200,
+        "signalna": 400,
+        "max": 1500,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    },
+    {
+      "artikl": "ART-9310",
+      "skladiste": "SK-01",
+      "naStanju": 1,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 1,
+      "raspolozivoZaGranice": 1,
+      "vrijednost": 95,
+      "granica": null,
+      "polozaj": null
+    },
+    {
+      "artikl": "ART-9520",
+      "skladiste": "SK-01",
+      "naStanju": 14,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 14,
+      "raspolozivoZaGranice": 14,
+      "vrijednost": 252,
+      "granica": {
+        "id": "gr-ART-9520-SK-01",
+        "artikl": "ART-9520",
+        "skladiste": "SK-01",
+        "min": 5,
+        "signalna": 10,
+        "max": 40,
+        "vaziOd": "2026-02-15",
+        "verzija": 1,
+        "postavio": "G. Glavni"
+      },
+      "polozaj": "OK"
+    }
+  ],
+  "poArtiklu": [
+    {
+      "artikl": "ART-1001",
+      "naStanju": 1700,
+      "blokirano": 0,
+      "rezervisano": 320,
+      "raspolozivo": 1380,
+      "vrijednost": 2040,
+      "privremeno": false,
+      "pozicija": 4,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 1220
+        },
+        {
+          "skladiste": "SK-02",
+          "naStanju": 180
+        },
+        {
+          "skladiste": "SK-06",
+          "naStanju": 300
+        }
+      ]
+    },
+    {
+      "artikl": "ART-1002",
+      "naStanju": 890,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 890,
+      "vrijednost": 3026,
+      "privremeno": false,
+      "pozicija": 4,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 540
+        },
+        {
+          "skladiste": "SK-06",
+          "naStanju": 260
+        },
+        {
+          "skladiste": "SK-07",
+          "naStanju": 90
+        }
+      ]
+    },
+    {
+      "artikl": "ART-2044",
+      "naStanju": 327,
+      "blokirano": 3,
+      "rezervisano": 50,
+      "raspolozivo": 277,
+      "vrijednost": 2779.5,
+      "privremeno": true,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 251
+        },
+        {
+          "skladiste": "SK-06",
+          "naStanju": 76
+        }
+      ]
+    },
+    {
+      "artikl": "ART-2051",
+      "naStanju": 34,
+      "blokirano": 2,
+      "rezervisano": 0,
+      "raspolozivo": 34,
+      "vrijednost": 1428,
+      "privremeno": true,
+      "pozicija": 5,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 22
+        },
+        {
+          "skladiste": "SK-02",
+          "naStanju": 2
+        },
+        {
+          "skladiste": "SK-06",
+          "naStanju": 10
+        }
+      ]
+    },
+    {
+      "artikl": "ART-3310",
+      "naStanju": 26,
+      "blokirano": 9,
+      "rezervisano": 0,
+      "raspolozivo": 24,
+      "vrijednost": 1196,
+      "privremeno": false,
+      "pozicija": 5,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 24
+        },
+        {
+          "skladiste": "SK-04",
+          "naStanju": 2
+        }
+      ]
+    },
+    {
+      "artikl": "ART-3402",
+      "naStanju": 100,
+      "blokirano": 12,
+      "rezervisano": 0,
+      "raspolozivo": 88,
+      "vrijednost": 1280,
+      "privremeno": true,
+      "pozicija": 4,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 88
+        },
+        {
+          "skladiste": "SK-04",
+          "naStanju": 12
+        }
+      ]
+    },
+    {
+      "artikl": "ART-4008",
+      "naStanju": 754,
+      "blokirano": 0,
+      "rezervisano": 100,
+      "raspolozivo": 654,
+      "vrijednost": 2940.6,
+      "privremeno": true,
+      "pozicija": 4,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 362
+        },
+        {
+          "skladiste": "SK-02",
+          "naStanju": 60
+        },
+        {
+          "skladiste": "SK-06",
+          "naStanju": 332
+        }
+      ]
+    },
+    {
+      "artikl": "ART-4102",
+      "naStanju": 610,
+      "blokirano": 410,
+      "rezervisano": 0,
+      "raspolozivo": 200,
+      "vrijednost": 2623,
+      "privremeno": false,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-02",
+          "naStanju": 410
+        },
+        {
+          "skladiste": "SK-03",
+          "naStanju": 120
+        },
+        {
+          "skladiste": "SK-08",
+          "naStanju": 80
+        }
+      ]
+    },
+    {
+      "artikl": "ART-5006",
+      "naStanju": 316,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 316,
+      "vrijednost": 821.6,
+      "privremeno": false,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 256
+        },
+        {
+          "skladiste": "SK-07",
+          "naStanju": 60
+        }
+      ]
+    },
+    {
+      "artikl": "ART-5120",
+      "naStanju": 28,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 28,
+      "vrijednost": 268.8,
+      "privremeno": true,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 2
+        },
+        {
+          "skladiste": "SK-02",
+          "naStanju": 20
+        },
+        {
+          "skladiste": "SK-03",
+          "naStanju": 6
+        }
+      ]
+    },
+    {
+      "artikl": "ART-5121",
+      "naStanju": 21,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 21,
+      "vrijednost": 151.2,
+      "privremeno": false,
+      "pozicija": 2,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 21
+        }
+      ]
+    },
+    {
+      "artikl": "ART-5501",
+      "naStanju": 3,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 3,
+      "vrijednost": 630,
+      "privremeno": false,
+      "pozicija": 1,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 3
+        }
+      ]
+    },
+    {
+      "artikl": "ART-6030",
+      "naStanju": 256,
+      "blokirano": 6,
+      "rezervisano": 5,
+      "raspolozivo": 245,
+      "vrijednost": 6272,
+      "privremeno": true,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 226
+        },
+        {
+          "skladiste": "SK-04",
+          "naStanju": 6
+        },
+        {
+          "skladiste": "SK-06",
+          "naStanju": 24
+        }
+      ]
+    },
+    {
+      "artikl": "ART-6220",
+      "naStanju": 5,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 5,
+      "vrijednost": 340,
+      "privremeno": false,
+      "pozicija": 1,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 5
+        }
+      ]
+    },
+    {
+      "artikl": "ART-6640",
+      "naStanju": 318,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 318,
+      "vrijednost": 3625.2,
+      "privremeno": true,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 266
+        },
+        {
+          "skladiste": "SK-06",
+          "naStanju": 52
+        }
+      ]
+    },
+    {
+      "artikl": "ART-7001",
+      "naStanju": 80,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 80,
+      "vrijednost": 784,
+      "privremeno": false,
+      "pozicija": 1,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-06",
+          "naStanju": 80
+        }
+      ]
+    },
+    {
+      "artikl": "ART-7420",
+      "naStanju": 129,
+      "blokirano": 20,
+      "rezervisano": 0,
+      "raspolozivo": 109,
+      "vrijednost": 1148.1,
+      "privremeno": true,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 109
+        },
+        {
+          "skladiste": "SK-04",
+          "naStanju": 20
+        }
+      ]
+    },
+    {
+      "artikl": "ART-8115",
+      "naStanju": 60,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 60,
+      "vrijednost": 384,
+      "privremeno": false,
+      "pozicija": 1,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 60
+        }
+      ]
+    },
+    {
+      "artikl": "ART-8230",
+      "naStanju": 51,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 51,
+      "vrijednost": 714,
+      "privremeno": false,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 39
+        },
+        {
+          "skladiste": "SK-06",
+          "naStanju": 12
+        }
+      ]
+    },
+    {
+      "artikl": "ART-9004",
+      "naStanju": 3350,
+      "blokirano": 1800,
+      "rezervisano": 0,
+      "raspolozivo": 1550,
+      "vrijednost": 8207.5,
+      "privremeno": false,
+      "pozicija": 3,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-02",
+          "naStanju": 1800
+        },
+        {
+          "skladiste": "SK-03",
+          "naStanju": 650
+        },
+        {
+          "skladiste": "SK-08",
+          "naStanju": 900
+        }
+      ]
+    },
+    {
+      "artikl": "ART-9310",
+      "naStanju": 1,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 1,
+      "vrijednost": 95,
+      "privremeno": false,
+      "pozicija": 1,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 1
+        }
+      ]
+    },
+    {
+      "artikl": "ART-9520",
+      "naStanju": 14,
+      "blokirano": 0,
+      "rezervisano": 0,
+      "raspolozivo": 14,
+      "vrijednost": 252,
+      "privremeno": false,
+      "pozicija": 1,
+      "poSkladistu": [
+        {
+          "skladiste": "SK-01",
+          "naStanju": 14
+        }
+      ]
+    }
+  ]
+}

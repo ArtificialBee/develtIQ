@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "prj-2026-00014",
+    "broj": "PRJ-2026-00014",
+    "datumPrijema": "2026-10-13",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Metal Trade d.o.o.",
+    "osnov": "NAR-2026-124",
+    "otpremnica": "OTP-0917",
+    "napomena": "",
+    "status": "NACRT",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-13T04:00:00.000Z"
+    },
+    "kolicinskiProvjerio": null,
+    "kvalitativnoPrihvatio": null,
+    "proknjizio": null,
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00014-s1",
+        "artikl": "ART-5121",
+        "isporuceno": 25,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "L-3312",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "C-02-04",
+        "cijena": 7.2,
+        "osnovCijene": "narudžba",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-1",
+        "kad": "2026-10-13T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00013",
+    "broj": "PRJ-2026-00013",
+    "datumPrijema": "2026-10-12",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Termo Servis d.o.o.",
+    "osnov": "UG-NAB-2026-0003",
+    "otpremnica": "OTP-2204",
+    "napomena": "",
+    "status": "FIZICKI_PRIMLJENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-12T06:00:00.000Z"
+    },
+    "kolicinskiProvjerio": null,
+    "kvalitativnoPrihvatio": null,
+    "proknjizio": null,
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00013-s1",
+        "artikl": "ART-6030",
+        "isporuceno": 16,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-01-02",
+        "cijena": 24.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00013-s2",
+        "artikl": "ART-3402",
+        "isporuceno": 30,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "L-8841",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-02-01",
+        "cijena": 12.8,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-3",
+        "kad": "2026-10-12T10:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-2",
+        "kad": "2026-10-12T06:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00012",
+    "broj": "PRJ-2026-00012",
+    "datumPrijema": "2026-10-11",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Elektro d.o.o.",
+    "osnov": "UG-NAB-2026-0012",
+    "otpremnica": "OTP-5581",
+    "napomena": "",
+    "status": "CEKA_KVALITATIVNU",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-10T20:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-11T04:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": null,
+    "proknjizio": null,
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00012-s1",
+        "artikl": "ART-1001",
+        "isporuceno": 500,
+        "prihvaceno": 480,
+        "odbijeno": 20,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "L-2609",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-01-02",
+        "cijena": 1.2,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00012-s2",
+        "artikl": "ART-2044",
+        "isporuceno": 40,
+        "prihvaceno": 40,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-03-01",
+        "cijena": 8.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00012-s3",
+        "artikl": "ART-3310",
+        "isporuceno": 12,
+        "prihvaceno": 8,
+        "odbijeno": 0,
+        "karantin": 4,
+        "evidentirano": 0,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "S-77…S-88",
+        "lokacija": "B-02-04",
+        "cijena": 46,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-6",
+        "kad": "2026-10-11T04:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-5",
+        "kad": "2026-10-11T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-4",
+        "kad": "2026-10-10T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00011",
+    "broj": "PRJ-2026-00011",
+    "datumPrijema": "2026-10-06",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Hidraulika BH d.o.o.",
+    "osnov": "UG-NAB-2026-0006",
+    "otpremnica": "OTP-4410",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-10-06",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-06T08:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-06T16:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-10-06T20:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-07T00:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00011-s1",
+        "artikl": "ART-6030",
+        "isporuceno": 60,
+        "prihvaceno": 60,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 60,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-01-02",
+        "cijena": 24.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00011-s2",
+        "artikl": "ART-3402",
+        "isporuceno": 80,
+        "prihvaceno": 80,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 80,
+        "lot": "L-7702",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-02-01",
+        "cijena": 12.8,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-11",
+        "kad": "2026-10-07T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-10-06"
+      },
+      {
+        "id": "h-mv69uio0-10",
+        "kad": "2026-10-06T20:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-9",
+        "kad": "2026-10-06T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-8",
+        "kad": "2026-10-06T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-7",
+        "kad": "2026-10-06T08:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00010",
+    "broj": "PRJ-2026-00010",
+    "datumPrijema": "2026-10-04",
+    "skladiste": "SK-02",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Alati Plus d.o.o.",
+    "osnov": "NAR-2026-117",
+    "otpremnica": "OTP-1187",
+    "napomena": "",
+    "status": "DJELIMICNO_PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-10-04",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-04T16:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T00:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-10-05T04:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T08:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00010-s1",
+        "artikl": "ART-4008",
+        "isporuceno": 60,
+        "prihvaceno": 60,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 60,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "",
+        "cijena": 3.9,
+        "osnovCijene": "narudžba",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00010-s2",
+        "artikl": "ART-5120",
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 20,
+        "lot": "L-0415",
+        "rokTrajanja": "2027-10-31",
+        "serijskiBrojevi": "",
+        "lokacija": "",
+        "cijena": 9.6,
+        "osnovCijene": "narudžba",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00010-s3",
+        "artikl": "ART-2051",
+        "isporuceno": 6,
+        "prihvaceno": 6,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 2,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "",
+        "cijena": 42,
+        "osnovCijene": "narudžba",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00010-s4",
+        "artikl": "ART-1002",
+        "isporuceno": 100,
+        "prihvaceno": 100,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "L-5530",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "",
+        "cijena": 3.4,
+        "osnovCijene": "narudžba",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-16",
+        "kad": "2026-10-05T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Djelimično proknjiženo",
+        "napomena": "poslovni datum 2026-10-04"
+      },
+      {
+        "id": "h-mv69uio0-15",
+        "kad": "2026-10-05T04:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-14",
+        "kad": "2026-10-05T00:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-13",
+        "kad": "2026-10-04T20:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-12",
+        "kad": "2026-10-04T16:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00009",
+    "broj": "PRJ-2026-00009",
+    "datumPrijema": "2026-09-30",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "POCETNO_STANJE",
+    "dobavljac": "",
+    "osnov": "",
+    "otpremnica": "",
+    "napomena": "Preuzimanje stanja iz starog programa",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-30",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-30T02:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-30T10:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-30T14:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-30T18:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00009-s1",
+        "artikl": "ART-1001",
+        "isporuceno": 1000,
+        "prihvaceno": 1000,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 1000,
+        "lot": "L-2551",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-01-02",
+        "cijena": 1.2,
+        "osnovCijene": "početno stanje",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00009-s2",
+        "artikl": "ART-2044",
+        "isporuceno": 160,
+        "prihvaceno": 160,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 160,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-03-01",
+        "cijena": 8.5,
+        "osnovCijene": "početno stanje",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00009-s3",
+        "artikl": "ART-3310",
+        "isporuceno": 24,
+        "prihvaceno": 24,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 24,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "S-01…S-24",
+        "lokacija": "B-02-04",
+        "cijena": 46,
+        "osnovCijene": "početno stanje",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00009-s4",
+        "artikl": "ART-6030",
+        "isporuceno": 90,
+        "prihvaceno": 90,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 90,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-01-02",
+        "cijena": 24.5,
+        "osnovCijene": "početno stanje",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-21",
+        "kad": "2026-09-30T18:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-30"
+      },
+      {
+        "id": "h-mv69uio0-20",
+        "kad": "2026-09-30T14:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-19",
+        "kad": "2026-09-30T10:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-18",
+        "kad": "2026-09-30T06:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-17",
+        "kad": "2026-09-30T02:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00008",
+    "broj": "PRJ-2026-00008",
+    "datumPrijema": "2026-09-28",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Elektro d.o.o.",
+    "osnov": "UG-NAB-2026-0012",
+    "otpremnica": "",
+    "napomena": "",
+    "status": "NACRT",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-28T16:00:00.000Z"
+    },
+    "kolicinskiProvjerio": null,
+    "kvalitativnoPrihvatio": null,
+    "proknjizio": null,
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00008-s1",
+        "artikl": "ART-2044",
+        "isporuceno": 20,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-03-01",
+        "cijena": 8.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      },
+      {
+        "id": "prj-2026-00008-s2",
+        "artikl": "ART-1001",
+        "isporuceno": 117,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "L-2588",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-01-02",
+        "cijena": 1.2,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-22",
+        "kad": "2026-09-28T16:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00007",
+    "broj": "PRJ-2026-00007",
+    "datumPrijema": "2026-09-23",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "DRUGI_OSNOV",
+    "dobavljac": "",
+    "osnov": "Akt o donaciji 12/26",
+    "otpremnica": "",
+    "napomena": "",
+    "status": "OTKAZANO",
+    "razlogZatvaranja": "pogrešno skladište",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-23T12:00:00.000Z"
+    },
+    "kolicinskiProvjerio": null,
+    "kvalitativnoPrihvatio": null,
+    "proknjizio": null,
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00007-s1",
+        "artikl": "ART-4008",
+        "isporuceno": 200,
+        "prihvaceno": 0,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "C-01-01",
+        "cijena": 0,
+        "osnovCijene": "bez cijene",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-24",
+        "kad": "2026-09-23T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Otkazano",
+        "napomena": "pogrešno skladište"
+      },
+      {
+        "id": "h-mv69uio0-23",
+        "kad": "2026-09-23T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00006",
+    "broj": "PRJ-2026-00006",
+    "datumPrijema": "2026-09-21",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Energo Plus d.o.o.",
+    "osnov": "UG-NAB-2026-0002",
+    "otpremnica": "OTP-0310",
+    "napomena": "",
+    "status": "ODBIJENO",
+    "razlogZatvaranja": "oštećena ambalaža, vlaga u kutijama",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-21T12:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-21T20:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-22T00:00:00.000Z"
+    },
+    "proknjizio": null,
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00006-s1",
+        "artikl": "ART-2051",
+        "isporuceno": 10,
+        "prihvaceno": 0,
+        "odbijeno": 10,
+        "karantin": 0,
+        "evidentirano": 0,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-03-02",
+        "cijena": 42,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-28",
+        "kad": "2026-09-22T00:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Isporuka odbijena",
+        "napomena": "oštećena ambalaža, vlaga u kutijama"
+      },
+      {
+        "id": "h-mv69uio0-27",
+        "kad": "2026-09-21T20:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-26",
+        "kad": "2026-09-21T16:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-25",
+        "kad": "2026-09-21T12:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00005",
+    "broj": "PRJ-2026-00005",
+    "datumPrijema": "2026-09-17",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Hidraulika BH d.o.o.",
+    "osnov": "UG-NAB-2026-0006",
+    "otpremnica": "OTP-4302",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "Isporučeno 45 umjesto 50 ventila, dobavljač obaviješten",
+    "faktura": "FAK-2026-1180",
+    "poslovniDatum": "2026-09-17",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-17T04:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-17T12:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-17T16:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-17T20:00:00.000Z"
+    },
+    "cijenuPriznao": {
+      "ko": "K. Knjigovođa",
+      "uloga": "računovodstvo",
+      "kad": "2026-09-19T02:00:00.000Z"
+    },
+    "stavke": [
+      {
+        "id": "prj-2026-00005-s1",
+        "artikl": "ART-6030",
+        "isporuceno": 45,
+        "prihvaceno": 45,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 45,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-01-02",
+        "cijena": 24.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": 24.5
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-34",
+        "kad": "2026-09-19T02:00:00.000Z",
+        "ko": "K. Knjigovođa",
+        "radnja": "Cijene priznate po fakturi",
+        "napomena": "FAK-2026-1180"
+      },
+      {
+        "id": "h-mv69uio0-33",
+        "kad": "2026-09-17T20:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-17"
+      },
+      {
+        "id": "h-mv69uio0-32",
+        "kad": "2026-09-17T16:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-31",
+        "kad": "2026-09-17T12:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · odstupanje",
+        "napomena": "Isporučeno 45 umjesto 50 ventila, dobavljač obaviješten"
+      },
+      {
+        "id": "h-mv69uio0-30",
+        "kad": "2026-09-17T08:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-29",
+        "kad": "2026-09-17T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00101",
+    "broj": "PRJ-2026-00101",
+    "datumPrijema": "2026-10-06",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Elektro d.o.o.",
+    "osnov": "UG-NAB-2026-0012",
+    "otpremnica": "OTP-3101",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-10-06",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-06T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-06T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-10-06T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-06T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00101-s1",
+        "artikl": "ART-2044",
+        "isporuceno": 30,
+        "prihvaceno": 30,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 30,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-03-01",
+        "cijena": 8.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-39",
+        "kad": "2026-10-06T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-10-06"
+      },
+      {
+        "id": "h-mv69uio0-38",
+        "kad": "2026-10-06T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-37",
+        "kad": "2026-10-06T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-36",
+        "kad": "2026-10-06T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-35",
+        "kad": "2026-10-06T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00102",
+    "broj": "PRJ-2026-00102",
+    "datumPrijema": "2026-10-05",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Energo Plus d.o.o.",
+    "osnov": "UG-NAB-2026-0002",
+    "otpremnica": "OTP-3102",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-10-05",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-05T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-10-05T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-05T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00102-s1",
+        "artikl": "ART-4008",
+        "isporuceno": 80,
+        "prihvaceno": 80,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 80,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "C-01-01",
+        "cijena": 3.9,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-44",
+        "kad": "2026-10-05T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-10-05"
+      },
+      {
+        "id": "h-mv69uio0-43",
+        "kad": "2026-10-05T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-42",
+        "kad": "2026-10-05T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-41",
+        "kad": "2026-10-05T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-40",
+        "kad": "2026-10-05T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00103",
+    "broj": "PRJ-2026-00103",
+    "datumPrijema": "2026-10-04",
+    "skladiste": "SK-06",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Gradnja Komerc d.o.o.",
+    "osnov": "UG-NAB-2025-0001",
+    "otpremnica": "OTP-3103",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-10-04",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-10-04T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-04T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-10-04T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-10-04T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00103-s1",
+        "artikl": "ART-4008",
+        "isporuceno": 40,
+        "prihvaceno": 40,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 40,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "E-02-01",
+        "cijena": 3.9,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-49",
+        "kad": "2026-10-04T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-10-04"
+      },
+      {
+        "id": "h-mv69uio0-48",
+        "kad": "2026-10-04T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-47",
+        "kad": "2026-10-04T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-46",
+        "kad": "2026-10-04T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-45",
+        "kad": "2026-10-04T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00104",
+    "broj": "PRJ-2026-00104",
+    "datumPrijema": "2026-09-29",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Termo Servis d.o.o.",
+    "osnov": "UG-NAB-2026-0003",
+    "otpremnica": "OTP-3104",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-29",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-29T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-29T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-29T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-29T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00104-s1",
+        "artikl": "ART-6030",
+        "isporuceno": 12,
+        "prihvaceno": 12,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 12,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-01-02",
+        "cijena": 24.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-54",
+        "kad": "2026-09-29T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-29"
+      },
+      {
+        "id": "h-mv69uio0-53",
+        "kad": "2026-09-29T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-52",
+        "kad": "2026-09-29T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-51",
+        "kad": "2026-09-29T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-50",
+        "kad": "2026-09-29T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00105",
+    "broj": "PRJ-2026-00105",
+    "datumPrijema": "2026-09-22",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Metal Trade d.o.o.",
+    "osnov": "NAR-2026-124",
+    "otpremnica": "OTP-3105",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-22",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-22T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-22T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-22T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-22T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00105-s1",
+        "artikl": "ART-6640",
+        "isporuceno": 60,
+        "prihvaceno": 60,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 60,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-05-01",
+        "cijena": 11.4,
+        "osnovCijene": "narudžba",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-59",
+        "kad": "2026-09-22T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-22"
+      },
+      {
+        "id": "h-mv69uio0-58",
+        "kad": "2026-09-22T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-57",
+        "kad": "2026-09-22T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-56",
+        "kad": "2026-09-22T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-55",
+        "kad": "2026-09-22T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00106",
+    "broj": "PRJ-2026-00106",
+    "datumPrijema": "2026-09-21",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Hidraulika BH d.o.o.",
+    "osnov": "UG-NAB-2026-0006",
+    "otpremnica": "OTP-3106",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-21",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-21T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-21T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-21T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-21T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00106-s1",
+        "artikl": "ART-7420",
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 20,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-02-01",
+        "cijena": 8.9,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-64",
+        "kad": "2026-09-21T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-21"
+      },
+      {
+        "id": "h-mv69uio0-63",
+        "kad": "2026-09-21T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-62",
+        "kad": "2026-09-21T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-61",
+        "kad": "2026-09-21T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-60",
+        "kad": "2026-09-21T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00107",
+    "broj": "PRJ-2026-00107",
+    "datumPrijema": "2026-09-20",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Elektro d.o.o.",
+    "osnov": "UG-NAB-2026-0012",
+    "otpremnica": "OTP-3107",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-20",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-20T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-20T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-20T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-20T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00107-s1",
+        "artikl": "ART-2044",
+        "isporuceno": 30,
+        "prihvaceno": 30,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 30,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-03-01",
+        "cijena": 8.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-69",
+        "kad": "2026-09-20T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-20"
+      },
+      {
+        "id": "h-mv69uio0-68",
+        "kad": "2026-09-20T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-67",
+        "kad": "2026-09-20T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-66",
+        "kad": "2026-09-20T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-65",
+        "kad": "2026-09-20T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00108",
+    "broj": "PRJ-2026-00108",
+    "datumPrijema": "2026-09-19",
+    "skladiste": "SK-06",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Elektro d.o.o.",
+    "osnov": "UG-NAB-2026-0012",
+    "otpremnica": "OTP-3108",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-19",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-19T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-19T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-19T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-19T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00108-s1",
+        "artikl": "ART-2044",
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 20,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "E-01-02",
+        "cijena": 8.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-74",
+        "kad": "2026-09-19T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-19"
+      },
+      {
+        "id": "h-mv69uio0-73",
+        "kad": "2026-09-19T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-72",
+        "kad": "2026-09-19T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-71",
+        "kad": "2026-09-19T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-70",
+        "kad": "2026-09-19T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00109",
+    "broj": "PRJ-2026-00109",
+    "datumPrijema": "2026-09-15",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Energo Plus d.o.o.",
+    "osnov": "UG-NAB-2026-0002",
+    "otpremnica": "OTP-3109",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-15",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-15T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-15T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-15T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-15T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00109-s1",
+        "artikl": "ART-4008",
+        "isporuceno": 80,
+        "prihvaceno": 80,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 80,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "C-01-01",
+        "cijena": 3.9,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-79",
+        "kad": "2026-09-15T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-15"
+      },
+      {
+        "id": "h-mv69uio0-78",
+        "kad": "2026-09-15T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-77",
+        "kad": "2026-09-15T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-76",
+        "kad": "2026-09-15T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-75",
+        "kad": "2026-09-15T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00110",
+    "broj": "PRJ-2026-00110",
+    "datumPrijema": "2026-09-14",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Termo Servis d.o.o.",
+    "osnov": "UG-NAB-2026-0003",
+    "otpremnica": "OTP-3110",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-14",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-14T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-14T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-14T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-14T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00110-s1",
+        "artikl": "ART-6030",
+        "isporuceno": 12,
+        "prihvaceno": 12,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 12,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-01-02",
+        "cijena": 24.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-84",
+        "kad": "2026-09-14T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-14"
+      },
+      {
+        "id": "h-mv69uio0-83",
+        "kad": "2026-09-14T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-82",
+        "kad": "2026-09-14T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-81",
+        "kad": "2026-09-14T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-80",
+        "kad": "2026-09-14T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00111",
+    "broj": "PRJ-2026-00111",
+    "datumPrijema": "2026-09-13",
+    "skladiste": "SK-06",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Gradnja Komerc d.o.o.",
+    "osnov": "UG-NAB-2025-0001",
+    "otpremnica": "OTP-3111",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-13",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-13T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-13T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-13T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-13T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00111-s1",
+        "artikl": "ART-4008",
+        "isporuceno": 40,
+        "prihvaceno": 40,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 40,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "E-02-01",
+        "cijena": 3.9,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-89",
+        "kad": "2026-09-13T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-13"
+      },
+      {
+        "id": "h-mv69uio0-88",
+        "kad": "2026-09-13T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-87",
+        "kad": "2026-09-13T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-86",
+        "kad": "2026-09-13T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-85",
+        "kad": "2026-09-13T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00112",
+    "broj": "PRJ-2026-00112",
+    "datumPrijema": "2026-09-08",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Hidraulika BH d.o.o.",
+    "osnov": "UG-NAB-2026-0006",
+    "otpremnica": "OTP-3112",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-08",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-08T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-08T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-08T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-08T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00112-s1",
+        "artikl": "ART-7420",
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 20,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-02-01",
+        "cijena": 8.9,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-94",
+        "kad": "2026-09-08T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-08"
+      },
+      {
+        "id": "h-mv69uio0-93",
+        "kad": "2026-09-08T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-92",
+        "kad": "2026-09-08T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-91",
+        "kad": "2026-09-08T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-90",
+        "kad": "2026-09-08T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00113",
+    "broj": "PRJ-2026-00113",
+    "datumPrijema": "2026-09-01",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Elektro d.o.o.",
+    "osnov": "UG-NAB-2026-0012",
+    "otpremnica": "OTP-3113",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-09-01",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-09-01T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-01T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-09-01T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-09-01T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00113-s1",
+        "artikl": "ART-2044",
+        "isporuceno": 30,
+        "prihvaceno": 30,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 30,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "A-03-01",
+        "cijena": 8.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-99",
+        "kad": "2026-09-01T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-09-01"
+      },
+      {
+        "id": "h-mv69uio0-98",
+        "kad": "2026-09-01T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-97",
+        "kad": "2026-09-01T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-96",
+        "kad": "2026-09-01T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-95",
+        "kad": "2026-09-01T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00114",
+    "broj": "PRJ-2026-00114",
+    "datumPrijema": "2026-08-31",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Metal Trade d.o.o.",
+    "osnov": "NAR-2026-124",
+    "otpremnica": "OTP-3114",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-08-31",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-31T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-31T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-08-31T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-31T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00114-s1",
+        "artikl": "ART-6640",
+        "isporuceno": 60,
+        "prihvaceno": 60,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 60,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "B-05-01",
+        "cijena": 11.4,
+        "osnovCijene": "narudžba",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-104",
+        "kad": "2026-08-31T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-08-31"
+      },
+      {
+        "id": "h-mv69uio0-103",
+        "kad": "2026-08-31T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-102",
+        "kad": "2026-08-31T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-101",
+        "kad": "2026-08-31T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-100",
+        "kad": "2026-08-31T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00115",
+    "broj": "PRJ-2026-00115",
+    "datumPrijema": "2026-08-30",
+    "skladiste": "SK-06",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Elektro d.o.o.",
+    "osnov": "UG-NAB-2026-0012",
+    "otpremnica": "OTP-3115",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-08-30",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-30T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-30T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-08-30T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-30T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00115-s1",
+        "artikl": "ART-2044",
+        "isporuceno": 20,
+        "prihvaceno": 20,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 20,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "E-01-02",
+        "cijena": 8.5,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-109",
+        "kad": "2026-08-30T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-08-30"
+      },
+      {
+        "id": "h-mv69uio0-108",
+        "kad": "2026-08-30T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-107",
+        "kad": "2026-08-30T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-106",
+        "kad": "2026-08-30T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-105",
+        "kad": "2026-08-30T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  },
+  {
+    "id": "prj-2026-00116",
+    "broj": "PRJ-2026-00116",
+    "datumPrijema": "2026-08-25",
+    "skladiste": "SK-01",
+    "vrstaUlaza": "KUPOVINA",
+    "dobavljac": "Energo Plus d.o.o.",
+    "osnov": "UG-NAB-2026-0002",
+    "otpremnica": "OTP-3116",
+    "napomena": "",
+    "status": "PROKNJIZENO",
+    "razlogZatvaranja": "",
+    "odstupanje": "",
+    "faktura": "",
+    "poslovniDatum": "2026-08-25",
+    "pripremio": {
+      "ko": "R. Referent",
+      "uloga": "referent skladišta",
+      "kad": "2026-08-25T00:00:00.000Z"
+    },
+    "kolicinskiProvjerio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-25T08:00:00.000Z"
+    },
+    "kvalitativnoPrihvatio": {
+      "ko": "T. Tehnički",
+      "uloga": "tehnički primalac",
+      "kad": "2026-08-25T12:00:00.000Z"
+    },
+    "proknjizio": {
+      "ko": "G. Glavni",
+      "uloga": "glavni skladištar",
+      "kad": "2026-08-25T16:00:00.000Z"
+    },
+    "cijenuPriznao": null,
+    "stavke": [
+      {
+        "id": "prj-2026-00116-s1",
+        "artikl": "ART-4008",
+        "isporuceno": 80,
+        "prihvaceno": 80,
+        "odbijeno": 0,
+        "karantin": 0,
+        "evidentirano": 80,
+        "lot": "",
+        "rokTrajanja": "",
+        "serijskiBrojevi": "",
+        "lokacija": "C-01-01",
+        "cijena": 3.9,
+        "osnovCijene": "ugovor",
+        "konacnaCijena": null
+      }
+    ],
+    "historija": [
+      {
+        "id": "h-mv69uio0-114",
+        "kad": "2026-08-25T16:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Proknjiženo",
+        "napomena": "poslovni datum 2026-08-25"
+      },
+      {
+        "id": "h-mv69uio0-113",
+        "kad": "2026-08-25T12:00:00.000Z",
+        "ko": "T. Tehnički",
+        "radnja": "Kvalitativna kontrola · prihvaćeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-112",
+        "kad": "2026-08-25T08:00:00.000Z",
+        "ko": "G. Glavni",
+        "radnja": "Količinska kontrola · usklađeno",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-111",
+        "kad": "2026-08-25T04:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Potvrđen fizički prijem",
+        "napomena": ""
+      },
+      {
+        "id": "h-mv69uio0-110",
+        "kad": "2026-08-25T00:00:00.000Z",
+        "ko": "R. Referent",
+        "radnja": "Kreiran nacrt",
+        "napomena": ""
+      }
+    ]
+  }
+]

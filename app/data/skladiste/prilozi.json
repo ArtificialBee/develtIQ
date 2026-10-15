@@ -1,0 +1,1550 @@
+{
+  "PRJ-2026-00005": [
+    {
+      "id": "gen:skl:prj-2026-00005:2",
+      "naziv": "Faktura uz isporuku — Hidraulika BH d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-18T09:45:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Hidraulika BH d.o.o. za robu primljenu prijemnicom PRJ-2026-00005.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00005%3A2",
+      "linija": "18.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00005:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00005.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-17T15:41:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00005.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00005%3A1",
+      "linija": "17.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00005:0",
+      "naziv": "Otpremnica dobavljača — Hidraulika BH d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-17T13:23:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Hidraulika BH d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00005.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00005%3A0",
+      "linija": "17.09.2026. · u obradi · v1"
+    }
+  ],
+  "PRJ-2026-00006": [
+    {
+      "id": "gen:skl:prj-2026-00006:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00006.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-21T12:54:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00006.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00006%3A1",
+      "linija": "21.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00006:0",
+      "naziv": "Otpremnica dobavljača — Energo Plus d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-21T12:23:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Energo Plus d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00006.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00006%3A0",
+      "linija": "21.09.2026. · u obradi · v1"
+    }
+  ],
+  "PRJ-2026-00007": [
+    {
+      "id": "gen:skl:prj-2026-00007:2",
+      "naziv": "Faktura uz isporuku — .pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-07-27T12:14:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača  za robu primljenu prijemnicom PRJ-2026-00007.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00007%3A2",
+      "linija": "27.07.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00007:0",
+      "naziv": "Otpremnica dobavljača — .jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-07-26T13:42:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača  fotografisana na rampi uz prijemnicu PRJ-2026-00007.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00007%3A0",
+      "linija": "26.07.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00007:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00007.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-07-26T10:06:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00007.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00007%3A1",
+      "linija": "26.07.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00008": [
+    {
+      "id": "gen:skl:prj-2026-00008:3",
+      "naziv": "Faktura uz isporuku — Elektro d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-18T12:22:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Elektro d.o.o. za robu primljenu prijemnicom PRJ-2026-00008.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00008%3A3",
+      "linija": "18.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00008:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00008.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-17T12:25:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00008.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00008%3A1",
+      "linija": "17.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00008:2",
+      "naziv": "Certifikat kvaliteta — Elektro d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-17T11:26:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00008.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00008%3A2",
+      "linija": "17.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00008:0",
+      "naziv": "Otpremnica dobavljača — Elektro d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-17T10:41:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Elektro d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00008.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00008%3A0",
+      "linija": "17.08.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00009": [
+    {
+      "id": "gen:skl:prj-2026-00009:0",
+      "naziv": "Otpremnica dobavljača — .jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-07-05T11:57:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača  fotografisana na rampi uz prijemnicu PRJ-2026-00009.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00009%3A0",
+      "linija": "05.07.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00009:2",
+      "naziv": "Certifikat kvaliteta — .pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-07-05T11:21:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00009.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00009%3A2",
+      "linija": "05.07.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00009:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00009.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-07-05T07:41:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00009.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00009%3A1",
+      "linija": "05.07.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00010": [
+    {
+      "id": "gen:skl:prj-2026-00010:0",
+      "naziv": "Otpremnica dobavljača — Alati Plus d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-03-20T13:26:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Alati Plus d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00010.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00010%3A0",
+      "linija": "20.03.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00010:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00010.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-03-20T12:17:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00010.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00010%3A1",
+      "linija": "20.03.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00011": [
+    {
+      "id": "bib-0005",
+      "naziv": "Faktura 318-2026 — Aqua Hem.pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-18T08:05:00",
+      "verzija": 3,
+      "kontekst": "Slika računa za hemikalije za pripremu vode koja je stigla poštom na Protokol, skenirana na prijemu i poslana Finansijama na knjiženje. Prvi sken OCR nije mogao pouzdano pročitati, pa je skeniranje ponovljeno; nakon likvidature faktura je proknjižena.",
+      "autor": {
+        "ime": "Jasmina Terzić",
+        "uloga": "Pisarnica"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/bib-0005",
+      "linija": "18.09.2026. · obrađen · v3"
+    },
+    {
+      "id": "gen:skl:prj-2026-00011:0",
+      "naziv": "Otpremnica dobavljača — Hidraulika BH d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-07-19T07:32:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Hidraulika BH d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00011.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00011%3A0",
+      "linija": "19.07.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00011:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00011.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-07-19T07:16:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00011.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00011%3A1",
+      "linija": "19.07.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00012": [
+    {
+      "id": "gen:skl:prj-2026-00012:2",
+      "naziv": "Certifikat kvaliteta — Elektro d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-01-22T13:47:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00012.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00012%3A2",
+      "linija": "22.01.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00012:0",
+      "naziv": "Otpremnica dobavljača — Elektro d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-01-22T12:30:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Elektro d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00012.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00012%3A0",
+      "linija": "22.01.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00012:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00012.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-01-22T08:31:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00012.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00012%3A1",
+      "linija": "22.01.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00013": [
+    {
+      "id": "gen:skl:prj-2026-00013:3",
+      "naziv": "Faktura uz isporuku — Termo Servis d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-05T11:05:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Termo Servis d.o.o. za robu primljenu prijemnicom PRJ-2026-00013.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00013%3A3",
+      "linija": "05.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00013:0",
+      "naziv": "Otpremnica dobavljača — Termo Servis d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-04T14:43:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Termo Servis d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00013.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00013%3A0",
+      "linija": "04.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00013:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00013.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-04T12:24:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00013.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00013%3A1",
+      "linija": "04.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00013:2",
+      "naziv": "Certifikat kvaliteta — Termo Servis d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-04T07:21:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00013.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00013%3A2",
+      "linija": "04.09.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00014": [
+    {
+      "id": "bib-0006",
+      "naziv": "Otpremnica OTP-2026-1187 — Metal Trade.jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-19T09:12:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača fotografisana mobitelom na rampi skladišta pri prijemu robe. Stavke sa fotografije su automatski predložene u prijemnicu PRJ-2026-00014.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/bib-0006",
+      "linija": "19.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00014:2",
+      "naziv": "Faktura uz isporuku — Metal Trade d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-05-21T07:34:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Metal Trade d.o.o. za robu primljenu prijemnicom PRJ-2026-00014.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00014%3A2",
+      "linija": "21.05.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00014:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00014.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-05-20T11:41:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00014.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00014%3A1",
+      "linija": "20.05.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00014:0",
+      "naziv": "Otpremnica dobavljača — Metal Trade d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-05-20T07:57:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Metal Trade d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00014.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00014%3A0",
+      "linija": "20.05.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00101": [
+    {
+      "id": "gen:skl:prj-2026-00101:0",
+      "naziv": "Otpremnica dobavljača — Elektro d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-01-18T15:09:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Elektro d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00101.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00101%3A0",
+      "linija": "18.01.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00101:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00101.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-01-18T13:22:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00101.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00101%3A1",
+      "linija": "18.01.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00101:2",
+      "naziv": "Certifikat kvaliteta — Elektro d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-01-18T10:14:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00101.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00101%3A2",
+      "linija": "18.01.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00102": [
+    {
+      "id": "gen:skl:prj-2026-00102:2",
+      "naziv": "Faktura uz isporuku — Energo Plus d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-03-06T12:04:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Energo Plus d.o.o. za robu primljenu prijemnicom PRJ-2026-00102.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00102%3A2",
+      "linija": "06.03.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00102:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00102.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-03-05T15:23:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00102.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00102%3A1",
+      "linija": "05.03.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00102:0",
+      "naziv": "Otpremnica dobavljača — Energo Plus d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-03-05T15:22:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Energo Plus d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00102.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00102%3A0",
+      "linija": "05.03.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00103": [
+    {
+      "id": "gen:skl:prj-2026-00103:2",
+      "naziv": "Faktura uz isporuku — Gradnja Komerc d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-04-10T12:42:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Gradnja Komerc d.o.o. za robu primljenu prijemnicom PRJ-2026-00103.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00103%3A2",
+      "linija": "10.04.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00103:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00103.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-04-09T14:27:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00103.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00103%3A1",
+      "linija": "09.04.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00103:0",
+      "naziv": "Otpremnica dobavljača — Gradnja Komerc d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-04-09T07:17:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Gradnja Komerc d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00103.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00103%3A0",
+      "linija": "09.04.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00104": [
+    {
+      "id": "gen:skl:prj-2026-00104:3",
+      "naziv": "Faktura uz isporuku — Termo Servis d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-21T12:56:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Termo Servis d.o.o. za robu primljenu prijemnicom PRJ-2026-00104.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00104%3A3",
+      "linija": "21.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00104:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00104.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-20T13:02:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00104.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00104%3A1",
+      "linija": "20.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00104:2",
+      "naziv": "Certifikat kvaliteta — Termo Servis d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-20T12:05:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00104.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00104%3A2",
+      "linija": "20.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00104:0",
+      "naziv": "Otpremnica dobavljača — Termo Servis d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-20T08:21:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Termo Servis d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00104.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00104%3A0",
+      "linija": "20.08.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00105": [
+    {
+      "id": "gen:skl:prj-2026-00105:3",
+      "naziv": "Faktura uz isporuku — Metal Trade d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-05-17T12:58:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Metal Trade d.o.o. za robu primljenu prijemnicom PRJ-2026-00105.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00105%3A3",
+      "linija": "17.05.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00105:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00105.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-05-16T15:31:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00105.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00105%3A1",
+      "linija": "16.05.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00105:2",
+      "naziv": "Certifikat kvaliteta — Metal Trade d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-05-16T13:00:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00105.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00105%3A2",
+      "linija": "16.05.2026. · arhiviran · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00105:0",
+      "naziv": "Otpremnica dobavljača — Metal Trade d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "ARHIVIRAN",
+      "statusNaziv": "Arhiviran",
+      "kreirano": "2026-05-16T12:38:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Metal Trade d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00105.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00105%3A0",
+      "linija": "16.05.2026. · arhiviran · v1"
+    }
+  ],
+  "PRJ-2026-00106": [
+    {
+      "id": "gen:skl:prj-2026-00106:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00106.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-21T14:22:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00106.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00106%3A1",
+      "linija": "21.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00106:0",
+      "naziv": "Otpremnica dobavljača — Hidraulika BH d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-21T14:13:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Hidraulika BH d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00106.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00106%3A0",
+      "linija": "21.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00106:2",
+      "naziv": "Certifikat kvaliteta — Hidraulika BH d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-21T14:04:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00106.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00106%3A2",
+      "linija": "21.09.2026. · u obradi · v1"
+    }
+  ],
+  "PRJ-2026-00107": [
+    {
+      "id": "gen:skl:prj-2026-00107:2",
+      "naziv": "Faktura uz isporuku — Elektro d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-21T12:51:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Elektro d.o.o. za robu primljenu prijemnicom PRJ-2026-00107.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00107%3A2",
+      "linija": "21.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00107:0",
+      "naziv": "Otpremnica dobavljača — Elektro d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-20T13:54:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Elektro d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00107.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00107%3A0",
+      "linija": "20.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00107:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00107.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-20T10:18:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00107.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00107%3A1",
+      "linija": "20.09.2026. · u obradi · v1"
+    }
+  ],
+  "PRJ-2026-00108": [
+    {
+      "id": "gen:skl:prj-2026-00108:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00108.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-19T13:34:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00108.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00108%3A1",
+      "linija": "19.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00108:0",
+      "naziv": "Otpremnica dobavljača — Elektro d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-19T13:10:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Elektro d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00108.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00108%3A0",
+      "linija": "19.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00108:2",
+      "naziv": "Certifikat kvaliteta — Elektro d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-19T08:39:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00108.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00108%3A2",
+      "linija": "19.09.2026. · u obradi · v1"
+    }
+  ],
+  "PRJ-2026-00109": [
+    {
+      "id": "gen:skl:prj-2026-00109:3",
+      "naziv": "Faktura uz isporuku — Energo Plus d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-16T11:30:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Energo Plus d.o.o. za robu primljenu prijemnicom PRJ-2026-00109.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00109%3A3",
+      "linija": "16.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00109:2",
+      "naziv": "Certifikat kvaliteta — Energo Plus d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-15T12:58:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00109.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00109%3A2",
+      "linija": "15.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00109:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00109.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-15T09:52:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00109.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00109%3A1",
+      "linija": "15.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00109:0",
+      "naziv": "Otpremnica dobavljača — Energo Plus d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-15T08:44:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Energo Plus d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00109.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00109%3A0",
+      "linija": "15.09.2026. · u obradi · v1"
+    }
+  ],
+  "PRJ-2026-00110": [
+    {
+      "id": "gen:skl:prj-2026-00110:3",
+      "naziv": "Faktura uz isporuku — Termo Servis d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "U_OBRADI",
+      "statusNaziv": "U obradi",
+      "kreirano": "2026-09-15T14:09:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Termo Servis d.o.o. za robu primljenu prijemnicom PRJ-2026-00110.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00110%3A3",
+      "linija": "15.09.2026. · u obradi · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00110:2",
+      "naziv": "Certifikat kvaliteta — Termo Servis d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-14T14:14:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00110.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00110%3A2",
+      "linija": "14.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00110:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00110.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-14T11:22:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00110.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00110%3A1",
+      "linija": "14.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00110:0",
+      "naziv": "Otpremnica dobavljača — Termo Servis d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-14T07:09:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Termo Servis d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00110.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00110%3A0",
+      "linija": "14.09.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00111": [
+    {
+      "id": "gen:skl:prj-2026-00111:3",
+      "naziv": "Faktura uz isporuku — Gradnja Komerc d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-14T14:32:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Gradnja Komerc d.o.o. za robu primljenu prijemnicom PRJ-2026-00111.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00111%3A3",
+      "linija": "14.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00111:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00111.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-13T13:54:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00111.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00111%3A1",
+      "linija": "13.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00111:0",
+      "naziv": "Otpremnica dobavljača — Gradnja Komerc d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-13T09:37:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Gradnja Komerc d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00111.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00111%3A0",
+      "linija": "13.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00111:2",
+      "naziv": "Certifikat kvaliteta — Gradnja Komerc d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-13T09:27:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00111.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00111%3A2",
+      "linija": "13.09.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00112": [
+    {
+      "id": "gen:skl:prj-2026-00112:3",
+      "naziv": "Faktura uz isporuku — Hidraulika BH d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-09T07:38:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Hidraulika BH d.o.o. za robu primljenu prijemnicom PRJ-2026-00112.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00112%3A3",
+      "linija": "09.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00112:2",
+      "naziv": "Certifikat kvaliteta — Hidraulika BH d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-08T11:38:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00112.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00112%3A2",
+      "linija": "08.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00112:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00112.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-08T10:09:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00112.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00112%3A1",
+      "linija": "08.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00112:0",
+      "naziv": "Otpremnica dobavljača — Hidraulika BH d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-08T08:06:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Hidraulika BH d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00112.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00112%3A0",
+      "linija": "08.09.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00113": [
+    {
+      "id": "gen:skl:prj-2026-00113:3",
+      "naziv": "Faktura uz isporuku — Elektro d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-02T13:17:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Elektro d.o.o. za robu primljenu prijemnicom PRJ-2026-00113.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00113%3A3",
+      "linija": "02.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00113:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00113.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-01T11:39:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00113.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00113%3A1",
+      "linija": "01.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00113:2",
+      "naziv": "Certifikat kvaliteta — Elektro d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-01T10:24:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00113.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00113%3A2",
+      "linija": "01.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00113:0",
+      "naziv": "Otpremnica dobavljača — Elektro d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-01T07:04:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Elektro d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00113.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00113%3A0",
+      "linija": "01.09.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00114": [
+    {
+      "id": "gen:skl:prj-2026-00114:3",
+      "naziv": "Faktura uz isporuku — Metal Trade d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-09-01T07:02:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Metal Trade d.o.o. za robu primljenu prijemnicom PRJ-2026-00114.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00114%3A3",
+      "linija": "01.09.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00114:0",
+      "naziv": "Otpremnica dobavljača — Metal Trade d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-31T15:51:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Metal Trade d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00114.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00114%3A0",
+      "linija": "31.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00114:2",
+      "naziv": "Certifikat kvaliteta — Metal Trade d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-31T15:09:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00114.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00114%3A2",
+      "linija": "31.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00114:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00114.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-31T08:21:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00114.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00114%3A1",
+      "linija": "31.08.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00115": [
+    {
+      "id": "gen:skl:prj-2026-00115:3",
+      "naziv": "Faktura uz isporuku — Elektro d.o.o..pdf",
+      "vrsta": "FAKTURA",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-31T15:21:00",
+      "verzija": 1,
+      "kontekst": "Faktura dobavljača Elektro d.o.o. za robu primljenu prijemnicom PRJ-2026-00115.",
+      "autor": {
+        "ime": "Ajla Džafić",
+        "uloga": "Računovodstvo"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00115%3A3",
+      "linija": "31.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00115:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00115.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-30T15:13:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00115.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00115%3A1",
+      "linija": "30.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00115:0",
+      "naziv": "Otpremnica dobavljača — Elektro d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-30T07:18:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Elektro d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00115.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00115%3A0",
+      "linija": "30.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00115:2",
+      "naziv": "Certifikat kvaliteta — Elektro d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-30T07:06:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00115.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00115%3A2",
+      "linija": "30.08.2026. · obrađen · v1"
+    }
+  ],
+  "PRJ-2026-00116": [
+    {
+      "id": "gen:skl:prj-2026-00116:1",
+      "naziv": "Fotografija robe pri prijemu — PRJ-2026-00116.jpg",
+      "vrsta": "FOTOGRAFIJA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-25T14:37:00",
+      "verzija": 1,
+      "kontekst": "Fotografija robe pri kvalitativnom prijemu, PRJ-2026-00116.",
+      "autor": {
+        "ime": "Almir Pašić",
+        "uloga": "Skladište"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00116%3A1",
+      "linija": "25.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00116:0",
+      "naziv": "Otpremnica dobavljača — Energo Plus d.o.o..jpg",
+      "vrsta": "OTPREMNICA",
+      "format": "SLIKA",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-25T11:21:00",
+      "verzija": 1,
+      "kontekst": "Otpremnica dobavljača Energo Plus d.o.o. fotografisana na rampi uz prijemnicu PRJ-2026-00116.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00116%3A0",
+      "linija": "25.08.2026. · obrađen · v1"
+    },
+    {
+      "id": "gen:skl:prj-2026-00116:2",
+      "naziv": "Certifikat kvaliteta — Energo Plus d.o.o..pdf",
+      "vrsta": "UVJERENJE",
+      "format": "PDF",
+      "status": "OBRADJEN",
+      "statusNaziv": "Obrađen",
+      "kreirano": "2026-08-25T08:15:00",
+      "verzija": 1,
+      "kontekst": "Certifikat kvaliteta isporučene robe, prijemnica PRJ-2026-00116.",
+      "autor": {
+        "ime": "Sanel Hodžić",
+        "uloga": "Magacioner"
+      },
+      "putanja": "/upravljanje-dokumentima/dokument/gen%3Askl%3Aprj-2026-00116%3A2",
+      "linija": "25.08.2026. · obrađen · v1"
+    }
+  ]
+}
