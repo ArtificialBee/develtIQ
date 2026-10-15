@@ -3,7 +3,6 @@ import type { IconType } from "react-icons";
 import { LuX } from "react-icons/lu";
 import { ListRow } from "~/components/ListRow";
 import { StatusBadge, type StatusTone } from "~/components/StatusBadge";
-import { formatBroj } from "~/lib/ui";
 
 export interface FeedItem {
   id: string;
@@ -70,9 +69,7 @@ export function NotificationsDropdown({
       >
         <Icon aria-hidden className="size-[22px]" />
         {items.length > 0 && (
-          <span className="absolute -right-1 -top-1 flex h-5 min-w-5 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-semibold leading-none text-white ring-2 ring-slate-950">
-            {formatBroj(items.length)}
-          </span>
+          <span aria-hidden className="absolute right-1.5 top-1.5 size-2 rounded-full bg-rose-500" />
         )}
       </button>
       {open && (

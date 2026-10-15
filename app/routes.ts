@@ -6,6 +6,9 @@ export default [
   route("profile", "routes/profile.tsx"),
   route("home", "routes/home/layout.tsx", [
     index("routes/home/index.tsx"), // /home
+    route("ceka-na-mene", "routes/home/ceka-na-mene.tsx"), // /home/ceka-na-mene
+    route("ceka-na-mene/:akcijaId", "routes/home/ceka-na-mene.$akcijaId.tsx"), // /home/ceka-na-mene/:id
+    route("kartica/:kljuc", "routes/home/kartica.$kljuc.tsx"), // /home/kartica/<stat key>
     route("kpi", "routes/home/kpi.tsx"), // /home/kpi
     route("pokazatelji", "routes/home/pokazatelji.tsx"), // /home/pokazatelji
   ]),

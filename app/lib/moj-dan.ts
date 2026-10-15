@@ -97,6 +97,7 @@ const cekaNaMene = ({ akcije }: Kontekst): Stat => {
     label: "Čeka na mene",
     value: akcije.length,
     icon: LuInbox,
+    href: "/home/ceka-na-mene",
     badge: kasne.length > 0 ? { label: `${formatBroj(kasne.length)} kasni`, tone: "danger" } : undefined,
     highlight: prva && { label: "Prvo na redu", title: `${prva.akcija}: ${prva.naslov}` },
   };
@@ -116,6 +117,7 @@ const kasni = (k: Kontekst): Stat => {
     value: sve.length,
     icon: LuAlarmClock,
     tone: "danger",
+    href: "/home/kartica/kasni",
     highlight: najstarija && {
       label: "Najstarije",
       title: najstarija.broj ? `${najstarija.broj} · ${najstarija.naslov}` : najstarija.naslov,
@@ -134,6 +136,7 @@ const danas = (k: Kontekst): Stat => {
     label: "Danas",
     value: lista.length,
     icon: LuCalendarClock,
+    href: "/home/kartica/danas",
     highlight: sljedeca && {
       label: "Sljedeće",
       title: [vrijemeStavke(sljedeca), sljedeca.naslov].filter(Boolean).join(" · "),
@@ -149,6 +152,7 @@ const noviMailovi = ({ s, sada }: Kontekst): Stat => {
     label: `Novo od sinoć ${vrijemeIz(odSinoc.od)}`,
     value: odSinoc.ukupno,
     icon: LuMailOpen,
+    href: "/home/kartica/novo",
     highlight: prvi && { label: prvi.hitnost === "HITNO" ? "Hitno" : "Najvažnije", title: prvi.sazetak },
   };
 };
@@ -181,6 +185,7 @@ const radniNalozi = (k: Kontekst): Stat => {
     value: kasne.length,
     icon: LuWrench,
     tone: "danger",
+    href: "/home/kartica/radni-nalozi",
     badge: hitne.length > 0 ? { label: `${formatBroj(hitne.length)} hitna`, tone: "danger" } : undefined,
     highlight: najgori && {
       label: najgori.tip === "HITNI" ? "Hitni nalog kasni" : "Najstariji",
@@ -202,6 +207,7 @@ const timDanas = (k: Kontekst): Stat => {
     suffix: `/${formatBroj(clanovi.length)}`,
     icon: LuUsers,
     tone: "success",
+    href: "/home/kartica/tim",
     badge: odsutni.length > 0 ? { label: `${formatBroj(odsutni.length)} odsutno`, tone: "warning" } : undefined,
     highlight: odsutni.length > 0 ? { label: "Odsutni", title: odsutni.map(opis).join(" · ") } : undefined,
   };
@@ -216,6 +222,7 @@ const skladiste = ({ s }: Kontekst): Stat => {
     value: pokazatelji.ispodSignalne,
     icon: LuPackage,
     tone: "warning",
+    href: "/home/kartica/skladiste",
     highlight: prvi && {
       label: prvi.polozaj === "ISPOD_MINIMUMA" ? "Ispod minimuma" : "Ispod signalne",
       title: `${prvi.naziv} · na stanju ${prvi.raspolozivo}, minimum ${prvi.min}`,
@@ -232,6 +239,7 @@ const cekamOdDrugih = ({ s, akcije }: Kontekst): Stat => {
     value: cekamOd,
     icon: LuHourglass,
     tone: "warning",
+    href: "/home/kartica/cekam-od",
     badge: probijenRok > 0 ? { label: `${formatBroj(probijenRok)} probijen rok`, tone: "danger" } : undefined,
     highlight: prva && {
       label: prva.hitnost === "KASNI" ? "Probijen rok" : "Sljedeće",
